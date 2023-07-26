@@ -1,0 +1,7 @@
+load_automaton aut11
+load_automaton aut26
+load_automaton aut38
+load_automaton aut42
+load_automaton aut71
+aut75 = (inter aut11 aut26 aut38 aut42)
+incl aut75 aut71

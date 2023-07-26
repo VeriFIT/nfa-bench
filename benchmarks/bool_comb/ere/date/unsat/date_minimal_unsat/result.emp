@@ -1,0 +1,15 @@
+load_automaton aut1
+load_automaton aut2
+load_automaton aut3
+aut4 = (inter aut2 aut3)
+load_automaton aut5
+load_automaton aut6
+aut7 = (inter aut5 aut6)
+load_automaton aut8
+aut9 = (compl aut8)
+load_automaton aut10
+aut11 = (inter aut9 aut10)
+aut12 = (union aut7 aut11)
+aut13 = (inter aut4 aut12)
+aut14 = (inter aut1 aut13)
+is_empty aut14

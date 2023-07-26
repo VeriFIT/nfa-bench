@@ -1,0 +1,11 @@
+load_automaton aut1
+load_automaton aut2
+aut3 = (inter aut1 aut2)
+aut4 = (compl aut1)
+aut5 = (compl aut2)
+aut6 = (inter aut4 aut5)
+aut7 = (union aut3 aut6)
+aut8 = (compl aut7)
+load_automaton aut9
+aut10 = (inter aut8 aut9)
+is_empty aut10

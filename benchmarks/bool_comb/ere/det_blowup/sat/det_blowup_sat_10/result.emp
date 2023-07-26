@@ -1,0 +1,2 @@
+load_automaton aut1
+is_empty aut1
