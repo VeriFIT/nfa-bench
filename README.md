@@ -25,20 +25,20 @@ either of the formats.
 
 
  1. `b-smt` contains 330 string constraints from the Norn and SyGuS-qgen, collected in
-    SMT-LIB benchmark <a href="http://smtlib.cs.uiowa.edu/">[8]</a>, that fall in BRE.
+    <a href="http://smtlib.cs.uiowa.edu/">SMT-LIB benchmark</a>, that fall in BRE.
     This includes following directories:
      * `bool_comb/ere/QF_SLIA_Norn`
      * `bool_comb/ere/QF_S_sygus_qgen`
 
  2. `b-regex`contains 500 problems, obtained analogously as in
-    <a href="https://www.cs.princeton.edu/~zkincaid/pub/mfps17.pdf">[30]</a>  and
-    <a href="https://dl.acm.org/doi/10.1007/978-3-030-89051-3_14">[77]</a>,
-    from RegExLib <a href="https://regexlib.com/">[71]</a>.
+    <a href="https://www.cs.princeton.edu/~zkincaid/pub/mfps17.pdf">[MFPS'17]</a>  and
+    <a href="https://dl.acm.org/doi/10.1007/978-3-030-89051-3_14">[APLAS'21]</a>,
+    from <a href="https://regexlib.com/">RegExLib</a>.
     This includes following directories:
     * `email_filter`
 
  3. `b-hand-made` has 56 difficult handwritten problems from
-    <a href="https://web.cs.ucdavis.edu/~cdstanford/doc/2021/PLDI21.pdf">[73]</a>
+    <a href="https://web.cs.ucdavis.edu/~cdstanford/doc/2021/PLDI21.pdf">[PLDI'21]</a>
     containing membership
     in regular expressions extended with intersection and complement. They encode (1)
     date and password problems, (2) problems where Boolean operations interact with
@@ -51,13 +51,13 @@ either of the formats.
 
  4. `b-armc-incl` contains 171 language inclusion problems from runs of abstract regular
     model checking tools (verification of the bakery algorithm, bubble sort, and a producer-
-    consumer system) of <a href="http://www.lsv.fr/Publis/PAPERS/PDF/bhhtv-ciaa08.pdf">[12]</a>.
+    consumer system) of <a href="http://www.lsv.fr/Publis/PAPERS/PDF/bhhtv-ciaa08.pdf">[CIAA'08]</a>.
     This includes following directories:
     * `automata-inclusion`
 
  5. `b-param` has 8 parametric problems. Four are from
-<a href="https://jorgenavas.github.io/papers/regex-tacas13.pdf">[40]</a>.
-Another four are from <a href="https://arxiv.org/abs/1708.09073">[28]</a>.
+<a href="https://jorgenavas.github.io/papers/regex-tacas13.pdf">[TACAS'13]</a>.
+Another four are from <a href="https://arxiv.org/abs/1708.09073">[arXiv'17]</a>.
     This includes following directories:
       * `bool_comb/cox`
       * `bool_comb/intersect`
