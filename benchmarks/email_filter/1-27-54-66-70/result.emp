@@ -1,7 +1,0 @@
-load_automaton aut1
-load_automaton aut27
-load_automaton aut54
-load_automaton aut66
-load_automaton aut70
-aut75 = (inter aut1 aut27 aut54 aut66)
-incl aut75 aut70
