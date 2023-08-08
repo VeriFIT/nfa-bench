@@ -7,10 +7,6 @@ libraries accepting non-deterministic finite automata in .mata format.
 ## Usage
 
 
-Note that in order to use the `.emp` files you will need some kind 
-of interpreter of the file, since the files do not describe
-automata, but programs with automata operations.
-
 Similarly, to use `.mata` files you will need either some format converter or parser of
 either of the formats.
 
@@ -18,8 +14,6 @@ either of the formats.
 
   * `.mata` is our own format (see [AUTOMATAFORMAT.md](https://github.com/VeriFIT/mata/blob/devel/AUTOMATAFORMAT.md))
   for various types of automata (AFA, NFA, DFA ,etc.) 
-  * `.emp` is our own specification of simple programs, that contains automata operations.
-  * `gen_aut/` directory contains source automata for `.emp` files
 
 ## Benchmark description
 
