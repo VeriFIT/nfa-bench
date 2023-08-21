@@ -56,6 +56,11 @@ Another four are from <a href="https://arxiv.org/abs/1708.09073">[arXiv'17]</a>.
       * `bool_comb/cox`
       * `bool_comb/intersect`
 
+ 6. `z3-noodler` contains automata obtained from the <a href="https://github.com/VeriFIT/z3-noodler">z3-noodler</a> string solver together with the intended automata operations that are applied within the tool. 
+   The automata were generated during solving constraints from the `SMT Competition` and includes following directories: 
+      * `automatark`: (the underlying SMT benchmark <a href="https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/QF_S/-/tree/master/20230329-automatark-lu">QF_S/20230329-automatark-lu</a>)
+
+
 
 ## Contributing
 
