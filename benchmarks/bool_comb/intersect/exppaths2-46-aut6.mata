@@ -1,28 +1,28 @@
 @NFA-bits
 %Initial q142
 %Final q122 q156
-q70 true q37
-q69 true q98
+q70 \true q37
+q69 \true q98
 q34 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q87 true q2
+q87 \true q2
 q127 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q158 true q5
-q163 true q123
+q158 \true q5
+q163 \true q123
 q135 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q40 true q148
+q40 \true q148
 q95 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q59 true q134
+q59 \true q134
 q103 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q138 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q147 true q45
-q98 true q40
-q10 true q133
-q54 true q111
-q140 true q145
-q17 true q60
-q53 true q58
-q104 true q0
-q65 true q139
+q147 \true q45
+q98 \true q40
+q10 \true q133
+q54 \true q111
+q140 \true q145
+q17 \true q60
+q53 \true q58
+q104 \true q0
+q65 \true q139
 q38 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & a3 & a2 & !a1 & a0) q82
 q38 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & a2 & !a1 & !a0) q115
 q38 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & !a3 & !a2 & !a1 & a0) q102
@@ -67,97 +67,97 @@ q38 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 &
 q38 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & !a0) q75
 q38 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & a3 & a2 & !a1 & !a0) q51
 q38 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & !a0) q128
-q38 true q99
+q38 \true q99
 q38 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q130
-q110 true q35
+q110 \true q35
 q6 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q154 true q121
-q21 true q136
+q154 \true q121
+q21 \true q136
 q33 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q80 true q1
-q120 true q146
-q164 true q54
-q77 true q7
-q36 true q42
-q85 true q24
+q80 \true q1
+q120 \true q146
+q164 \true q54
+q77 \true q7
+q36 \true q42
+q85 \true q24
 q125 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q8 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q161 true q18
+q161 \true q18
 q72 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q108 true q81
-q133 true q43
+q108 \true q81
+q133 \true q43
 q46 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q93 true q55
-q149 true q97
-q43 true q39
-q96 true q12
-q136 true q36
-q142 true q38
-q48 true q32
-q15 true q44
+q93 \true q55
+q149 \true q97
+q43 \true q39
+q96 \true q12
+q136 \true q36
+q142 \true q38
+q48 \true q32
+q15 \true q44
 q51 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q106 true q71
-q89 true q84
-q112 true q67
+q106 \true q71
+q89 \true q84
+q112 \true q67
 q129 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q4 true q117
-q156 true q85
-q23 true q63
-q67 true q120
+q4 \true q117
+q156 \true q85
+q23 \true q63
+q67 \true q120
 q115 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q3 true q152
+q3 \true q152
 q151 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q24 true q100
-q79 true q25
-q60 true q143
+q24 \true q100
+q79 \true q25
+q60 \true q143
 q118 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q123 true q96
-q29 true q70
+q123 \true q96
+q29 \true q70
 q74 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q30 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q83 true q64
-q44 true q68
-q91 true q112
+q83 \true q64
+q44 \true q68
+q91 \true q112
 q19 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q131 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q41 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q94 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q58 true q101
-q134 true q13
-q13 true q4
-q57 true q154
-q100 true q28
+q58 \true q101
+q134 \true q13
+q13 \true q4
+q57 \true q154
+q100 \true q28
 q144 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q16 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q52 true q9
+q52 \true q9
 q105 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q141 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q1 true q109
+q1 \true q109
 q153 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q26 true q59
+q26 \true q59
 q62 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q117 true q158
-q165 true q164
-q76 true q93
-q32 true q107
-q81 true q163
-q121 true q166
-q162 true q106
-q71 true q48
-q68 true q56
-q35 true q132
-q86 true q140
-q126 true q137
+q117 \true q158
+q165 \true q164
+q76 \true q93
+q32 \true q107
+q81 \true q163
+q121 \true q166
+q162 \true q106
+q71 \true q48
+q68 \true q56
+q35 \true q132
+q86 \true q140
+q126 \true q137
 q159 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q47 true q156
-q92 true q89
-q109 true q161
-q132 true q22
+q47 \true q156
+q92 \true q89
+q109 \true q161
+q132 \true q22
 q11 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q55 true q126
+q55 \true q126
 q102 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q139 true q88
-q146 true q77
+q139 \true q88
+q146 \true q77
 q99 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & a3 & a2 & !a1 & a0) q82
 q99 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & a2 & !a1 & !a0) q115
 q99 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & !a3 & !a2 & !a1 & a0) q102
@@ -202,59 +202,59 @@ q99 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 &
 q99 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & !a0) q75
 q99 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & a3 & a2 & !a1 & !a0) q51
 q99 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & !a0) q128
-q99 true q99
+q99 \true q99
 q99 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q130
 q50 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q107 true q87
-q143 true q69
+q107 \true q87
+q143 \true q69
 q49 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q14 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q7 true q160
+q7 \true q160
 q155 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q20 true q86
-q64 true q57
-q39 true q23
-q111 true q90
-q25 true q119
-q78 true q83
+q20 \true q86
+q64 \true q57
+q39 \true q23
+q111 \true q90
+q25 \true q119
+q78 \true q83
 q61 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q114 true q108
-q2 true q17
+q114 \true q108
+q2 \true q17
 q150 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q73 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q37 true q26
-q84 true q79
-q124 true q76
-q9 true q149
-q160 true q10
+q37 \true q26
+q84 \true q79
+q124 \true q76
+q9 \true q149
+q160 \true q10
 q130 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q45 true q47
-q90 true q80
-q18 true q122
-q137 true q91
-q148 true q21
-q42 true q147
-q97 true q15
-q101 true q92
-q145 true q27
-q12 true q29
-q56 true q104
-q22 true q66
-q66 true q165
-q88 true q78
-q113 true q157
+q45 \true q47
+q90 \true q80
+q18 \true q122
+q137 \true q91
+q148 \true q21
+q42 \true q147
+q97 \true q15
+q101 \true q92
+q145 \true q27
+q12 \true q29
+q56 \true q104
+q22 \true q66
+q66 \true q165
+q88 \true q78
+q113 \true q157
 q128 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q5 true q53
-q157 true q65
-q27 true q113
-q63 true q162
+q5 \true q53
+q157 \true q65
+q27 \true q113
+q63 \true q162
 q116 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q0 true q3
-q152 true q110
+q0 \true q3
+q152 \true q110
 q75 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q31 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
 q82 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & !a1 & !a0) q20
-q119 true q52
-q122 true q85
-q166 true q124
-q28 true q114
+q119 \true q52
+q122 \true q85
+q166 \true q124
+q28 \true q114

@@ -1,48 +1,48 @@
 @NFA-bits
 %Initial q61
 %Final q13 q3 q40 q5 q68 q19 q36 q83 q29 q0 q78 q63 q16 q93 q4 q6 q87 q8 q55 q27 q95 q24 q77 q23 q12 q91 q105 q33 q86 q96 q62
-q70 true q44
-q69 true q43
-q34 true q11
-q59 true q106
-q103 true q84
-q98 true q41
-q10 true q2
-q54 true q47
-q17 true q75
-q53 true q66
-q104 true q30
-q65 true q74
-q38 true q70
-q21 true q73
-q80 true q25
-q85 true q20
-q72 true q34
-q46 true q59
-q43 true q22
-q48 true q82
-q15 true q94
-q51 true q21
-q106 true q98
-q89 true q67
-q67 true q100
-q79 true q60
-q60 true q1
-q74 true q9
-q30 true q31
-q44 true q88
-q41 true q90
-q94 true q80
-q58 true q42
-q57 true q85
-q100 true q72
-q52 true q71
-q1 true q35
-q26 true q7
-q76 true q28
-q32 true q17
-q81 true q52
-q71 true q64
+q70 \true q44
+q69 \true q43
+q34 \true q11
+q59 \true q106
+q103 \true q84
+q98 \true q41
+q10 \true q2
+q54 \true q47
+q17 \true q75
+q53 \true q66
+q104 \true q30
+q65 \true q74
+q38 \true q70
+q21 \true q73
+q80 \true q25
+q85 \true q20
+q72 \true q34
+q46 \true q59
+q43 \true q22
+q48 \true q82
+q15 \true q94
+q51 \true q21
+q106 \true q98
+q89 \true q67
+q67 \true q100
+q79 \true q60
+q60 \true q1
+q74 \true q9
+q30 \true q31
+q44 \true q88
+q41 \true q90
+q94 \true q80
+q58 \true q42
+q57 \true q85
+q100 \true q72
+q52 \true q71
+q1 \true q35
+q26 \true q7
+q76 \true q28
+q32 \true q17
+q81 \true q52
+q71 \true q64
 q35 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & a0) q40
 q35 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & a2 & !a1 & !a0) q77
 q35 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & !a3 & !a2 & !a1 & a0) q24
@@ -73,37 +73,37 @@ q35 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & 
 q35 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & !a1 & a0) q78
 q35 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & !a0) q55
 q35 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & !a0) q105
-q35 true q92
+q35 \true q92
 q35 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q83
-q47 true q32
-q92 true q45
-q11 true q69
-q102 true q89
-q99 true q37
-q50 true q49
-q49 true q56
-q14 true q51
-q14 true q14
-q7 true q104
-q20 true q26
-q64 true q38
-q39 true q46
-q25 true q39
-q61 true q51
-q61 true q14
-q2 true q79
-q73 true q54
-q37 true q76
-q84 true q15
-q9 true q48
-q45 true q97
-q90 true q101
-q18 true q99
-q42 true q18
-q97 true q102
-q101 true q53
-q56 true q58
-q22 true q81
+q47 \true q32
+q92 \true q45
+q11 \true q69
+q102 \true q89
+q99 \true q37
+q50 \true q49
+q49 \true q56
+q14 \true q51
+q14 \true q14
+q7 \true q104
+q20 \true q26
+q64 \true q38
+q39 \true q46
+q25 \true q39
+q61 \true q51
+q61 \true q14
+q2 \true q79
+q73 \true q54
+q37 \true q76
+q84 \true q15
+q9 \true q48
+q45 \true q97
+q90 \true q101
+q18 \true q99
+q42 \true q18
+q97 \true q102
+q101 \true q53
+q56 \true q58
+q22 \true q81
 q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & a0) q40
 q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & a2 & !a1 & !a0) q77
 q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & !a3 & !a2 & !a1 & a0) q24
@@ -134,10 +134,10 @@ q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & 
 q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & !a1 & a0) q78
 q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & !a0) q55
 q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & !a0) q105
-q66 true q92
+q66 \true q92
 q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q83
-q88 true q103
-q75 true q65
-q31 true q10
-q82 true q50
-q28 true q57
+q88 \true q103
+q75 \true q65
+q31 \true q10
+q82 \true q50
+q28 \true q57
