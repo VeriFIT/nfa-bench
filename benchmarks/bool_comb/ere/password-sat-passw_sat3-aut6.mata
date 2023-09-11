@@ -1,6 +1,6 @@
 @NFA-bits
 %Initial q17
-%Final !q0 & !q1 & !q4 & !q8 & !q11 & !q13 & !q17 & !q18
+%Final q7 q20 q12 q15 q2 q16 q6 q19 q10 q9 q5 q14 q3
 q17 true q11
 q6 true q2
 q8 true q4

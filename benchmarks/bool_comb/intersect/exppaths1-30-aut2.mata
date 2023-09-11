@@ -1,6 +1,6 @@
 @NFA-bits
 %Initial q60
-%Final !q0 & !q2 & !q3 & !q4 & !q5 & !q6 & !q9 & !q10 & !q11 & !q12 & !q13 & !q15 & !q16 & !q17 & !q18 & !q19 & !q20 & !q21 & !q22 & !q23 & !q24 & !q25 & !q26 & !q28 & !q29 & !q30 & !q32 & !q33 & !q34 & !q36 & !q37 & !q40 & !q41 & !q42 & !q44 & !q45 & !q49 & !q50 & !q52 & !q53 & !q55 & !q59 & !q60 & !q61 & !q62 & !q63 & !q64 & !q65 & !q66 & !q67 & !q68 & !q69 & !q70 & !q73 & !q74 & !q75 & !q76 & !q77 & !q80 & !q81 & !q82 & !q84 & !q85 & !q89 & !q90 & !q91 & !q92 & !q93 & !q94 & !q95 & !q96 & !q97 & !q98 & !q99 & !q100 & !q101 & !q102 & !q103 & !q104 & !q105 & !q106 & !q108 & !q110 & !q111
+%Final q8 q27 q43 q54 q72 q109 q47 q57 q79 q38 q78 q71 q46 q39 q1 q86 q83 q14 q88 q35 q7 q112 q87 q56 q58 q48 q51 q31 q107
 q70 true q101
 q69 true q6
 q34 true q93
@@ -62,7 +62,8 @@ q23 true q40
 q67 true q55
 q3 true q34
 q24 true q9
-q60 true (q63 | q18)
+q60 true q63
+q60 true q18
 q29 true q12
 q74 true q45
 q30 true q5
@@ -138,7 +139,8 @@ q12 true q4
 q22 true q111
 q66 true q37
 q5 true q25
-q63 true (q63 | q18)
+q63 true q63
+q63 true q18
 q0 true q2
 q75 true q66
 q82 true q52

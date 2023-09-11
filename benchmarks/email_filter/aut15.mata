@@ -1,6 +1,6 @@
 @NFA-bits
 %Initial q0
-%Final !q0
+%Final q11 q32 q8 q29 q17 q14 q30 q4 q24 q5 q31 q19 q27 q1 q18 q28 q15 q26 q25 q23 q20 q16 q9 q12 q22 q10 q13 q7 q2 q6 q21 q3
 q0 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & !a3 & !a2 & !a1 & !a0) q12
 q0 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & !a4 & !a3 & a2 & !a1 & !a0) q10
 q0 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & !a4 & !a3 & a2 & a1 & a0) q22

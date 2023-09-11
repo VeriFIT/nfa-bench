@@ -1,3 +1,3 @@
 @NFA-bits
 %Initial q0
-%Final true
+%Final q0

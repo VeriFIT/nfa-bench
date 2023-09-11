@@ -1,6 +1,6 @@
 @NFA-bits
 %Initial q53
-%Final !q0 & !q2 & !q3 & !q4 & !q8 & !q10 & !q11 & !q12 & !q13 & !q14 & !q16 & !q17 & !q18 & !q19 & !q20 & !q21 & !q23 & !q25 & !q26 & !q28 & !q30 & !q31 & !q33 & !q34 & !q35 & !q37 & !q38 & !q39 & !q41 & !q42 & !q43 & !q44 & !q45 & !q46 & !q47 & !q48 & !q49 & !q50 & !q51 & !q52 & !q53 & !q54 & !q55 & !q56 & !q57 & !q58 & !q59 & !q60 & !q61 & !q63 & !q64 & !q65 & !q66 & !q67 & !q68 & !q69 & !q70 & !q71 & !q72 & !q73 & !q74 & !q76 & !q77 & !q78 & !q79 & !q80 & !q81 & !q83 & !q84 & !q85 & !q86 & !q87 & !q88 & !q90 & !q91 & !q92 & !q93 & !q94 & !q95 & !q96 & !q97 & !q98 & !q99 & !q100
+%Final q22 q32 q27 q1 q62 q9 q15 q89 q7 q40 q29 q6 q24 q36 q75 q5 q82
 q70 true q63
 q69 true q44
 q34 true q12
@@ -28,7 +28,8 @@ q98 true q68
 q10 true q48
 q54 true q23
 q17 true q73
-q53 true (q47 | q17)
+q53 true q47
+q53 true q17
 q65 true q72
 q38 true q69
 q21 true q78
@@ -71,7 +72,8 @@ q71 true q34
 q68 true q43
 q35 true q86
 q86 true q45
-q47 true (q47 | q17)
+q47 true q47
+q47 true q17
 q92 true q37
 q11 true q4
 q55 true q98

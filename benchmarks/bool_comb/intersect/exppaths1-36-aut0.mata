@@ -1,6 +1,6 @@
 @NFA-bits
 %Initial q10
-%Final !q1 & !q4 & !q5 & !q6 & !q8 & !q10 & !q11 & !q14 & !q15 & !q16 & !q17 & !q19 & !q22 & !q23 & !q25 & !q26 & !q27 & !q29 & !q31 & !q33 & !q34 & !q35 & !q36 & !q37 & !q40 & !q42 & !q43 & !q44 & !q47 & !q48 & !q49 & !q50 & !q51 & !q52 & !q53 & !q54 & !q55 & !q56 & !q57 & !q59 & !q60 & !q64 & !q66 & !q67 & !q68 & !q69 & !q70 & !q71 & !q74 & !q75 & !q77 & !q78 & !q79 & !q80 & !q81 & !q82 & !q83 & !q84 & !q85 & !q87 & !q88 & !q92 & !q95 & !q97
+%Final q65 q20 q13 q89 q86 q39 q9 q91 q38 q96 q7 q41 q0 q58 q18 q98 q63 q3 q94 q93 q21 q61 q46 q72 q12 q76 q2 q28 q45 q90 q32 q73 q62 q24 q30
 q70 true q17
 q69 true q4
 q34 true q66
@@ -8,7 +8,8 @@ q87 true q88
 q40 true q22
 q95 true q44
 q59 true q92
-q10 true (q42 | q82)
+q10 true q82
+q10 true q42
 q54 true q64
 q17 true q8
 q53 true q84
@@ -124,7 +125,8 @@ q25 true q1
 q78 true q60
 q37 true q16
 q84 true q55
-q42 true (q42 | q82)
+q42 true q82
+q42 true q42
 q97 true q36
 q56 true q75
 q22 true q80
