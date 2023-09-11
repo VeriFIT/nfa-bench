@@ -1,25 +1,18 @@
 @NFA-bits
 %Initial q331
 %Final !q0 & !q1 & !q2 & !q3 & !q4 & !q5 & !q6 & !q7 & !q8 & !q9 & !q10 & !q11 & !q12 & !q13 & !q14 & !q15 & !q16 & !q17 & !q18 & !q19 & !q20 & !q21 & !q22 & !q23 & !q24 & !q25 & !q26 & !q27 & !q28 & !q29 & !q30 & !q31 & !q32 & !q33 & !q34 & !q35 & !q36 & !q37 & !q38 & !q39 & !q40 & !q41 & !q42 & !q43 & !q44 & !q45 & !q46 & !q47 & !q49 & !q50 & !q52 & !q53 & !q54 & !q55 & !q56 & !q57 & !q58 & !q59 & !q60 & !q61 & !q62 & !q63 & !q66 & !q68 & !q69 & !q71 & !q72 & !q73 & !q74 & !q75 & !q76 & !q78 & !q79 & !q80 & !q81 & !q82 & !q83 & !q84 & !q85 & !q86 & !q87 & !q88 & !q89 & !q90 & !q91 & !q92 & !q93 & !q94 & !q95 & !q96 & !q97 & !q98 & !q99 & !q100 & !q101 & !q102 & !q103 & !q104 & !q105 & !q106 & !q107 & !q108 & !q109 & !q112 & !q113 & !q115 & !q116 & !q117 & !q118 & !q119 & !q120 & !q121 & !q122 & !q123 & !q125 & !q126 & !q129 & !q130 & !q131 & !q132 & !q133 & !q134 & !q135 & !q137 & !q138 & !q139 & !q140 & !q142 & !q143 & !q144 & !q145 & !q146 & !q147 & !q148 & !q149 & !q150 & !q151 & !q152 & !q154 & !q155 & !q156 & !q157 & !q159 & !q161 & !q162 & !q163 & !q164 & !q165 & !q166 & !q167 & !q168 & !q170 & !q171 & !q173 & !q174 & !q176 & !q177 & !q178 & !q179 & !q180 & !q181 & !q182 & !q183 & !q184 & !q185 & !q186 & !q187 & !q188 & !q189 & !q190 & !q191 & !q192 & !q193 & !q195 & !q196 & !q197 & !q198 & !q199 & !q201 & !q202 & !q203 & !q204 & !q205 & !q206 & !q207 & !q208 & !q209 & !q210 & !q211 & !q213 & !q214 & !q215 & !q216 & !q217 & !q218 & !q219 & !q220 & !q221 & !q222 & !q223 & !q224 & !q225 & !q226 & !q227 & !q229 & !q230 & !q231 & !q232 & !q233 & !q234 & !q235 & !q236 & !q237 & !q238 & !q239 & !q240 & !q241 & !q242 & !q243 & !q244 & !q245 & !q246 & !q247 & !q248 & !q250 & !q251 & !q252 & !q253 & !q254 & !q255 & !q256 & !q257 & !q258 & !q259 & !q261 & !q262 & !q263 & !q264 & !q265 & !q266 & !q267 & !q268 & !q269 & !q270 & !q271 & !q273 & !q274 & !q275 & !q276 & !q277 & !q278 & !q279 & !q280 & !q281 & !q282 & !q283 & !q284 & !q285 & !q286 & !q287 & !q288 & !q289 & !q290 & !q291 & !q292 & !q293 & !q294 & !q295 & !q296 & !q297 & !q298 & !q299 & !q300 & !q301 & !q302 & !q303 & !q304 & !q306 & !q307 & !q308 & !q309 & !q310 & !q311 & !q312 & !q313 & !q314 & !q315 & !q316 & !q317 & !q318 & !q319 & !q320 & !q321 & !q322 & !q323 & !q324 & !q325 & !q327 & !q328 & !q329 & !q330 & !q331 & !q333 & !q334 & !q335 & !q336 & !q338 & !q339 & !q342 & !q343 & !q344 & !q345 & !q346 & !q347 & !q349 & !q350 & !q351 & !q352 & !q353 & !q354 & !q355 & !q356 & !q357 & !q358 & !q359 & !q360 & !q361 & !q362 & !q364 & !q365 & !q366 & !q367 & !q368 & !q369 & !q370 & !q372 & !q373 & !q374 & !q375 & !q376 & !q377 & !q378 & !q379 & !q380 & !q381 & !q382 & !q383 & !q384
-q70 false true
 q69 true q225
 q34 true q101
 q87 true q58
-q194 false true
-q127 false true
 q242 true q39
 q361 true q147
-q158 false true
 q206 true q68
 q325 true q12
 q163 true q61
-q337 false true
 q171 true q281
 q236 true q40
 q135 true q45
 q373 true q353
-q272 false true
-q348 false true
 q40 true q313
 q95 true q19
 q59 true q78
@@ -45,11 +38,9 @@ q17 true q185
 q53 true q345
 q306 true q207
 q104 true q23
-q65 false true
 q38 true q319
 q213 true q139
 q312 true q116
-q110 false true
 q198 true q120
 q383 true q76
 q181 true q316
@@ -72,14 +63,12 @@ q289 true q121
 q201 true q303
 q322 true q239
 q164 true q346
-q77 false true
 q36 true q80
 q85 true q34
 q196 true q254
 q125 true q354
 q240 true q130
 q8 true q71
-q363 false true
 q259 true q177
 q358 true q201
 q204 true q310
@@ -103,16 +92,11 @@ q149 true q82
 q43 true q273
 q96 true q256
 q334 true q263
-q172 false true
 q235 true q374
-q136 false true
-q340 false true
 q142 true q15
 q227 true q287
 q294 true q268
-q48 false true
 q15 true q44
-q51 false true
 q179 true q145
 q304 true q0
 q106 true q50
@@ -131,7 +115,6 @@ q156 true q269
 q280 true q214
 q208 true q24
 q23 true q277
-q67 false true
 q216 true q359
 q317 true q11
 q115 true q131
@@ -165,7 +148,6 @@ q44 true q20
 q91 true q327
 q19 true q195
 q333 true q189
-q175 false true
 q232 true q380
 q308 true q321
 q131 true q378
@@ -194,7 +176,6 @@ q16 true q203
 q52 true q83
 q307 true q94
 q105 true q10
-q260 false true
 q378 true q342
 q279 true q31
 q343 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & a0) q337
@@ -235,16 +216,13 @@ q343 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4
 q343 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & !a0) q228
 q343 true q26
 q343 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q111
-q141 false true
 q224 true q253
 q297 true q149
 q384 true q99
 q186 true q142
-q249 false true
 q1 true q262
 q250 true q258
 q351 true q204
-q153 false true
 q285 true q125
 q168 true q295
 q26 true q373
@@ -255,7 +233,6 @@ q117 true q132
 q244 true q223
 q367 true q152
 q288 true q302
-q200 false true
 q323 true q368
 q165 true q81
 q76 true q211
@@ -286,7 +263,6 @@ q109 true q318
 q132 true q55
 q374 true q171
 q275 true q92
-q228 false true
 q11 true q49
 q55 true q251
 q300 true q381
@@ -300,10 +276,8 @@ q290 true q205
 q99 true q178
 q50 true q41
 q178 true q265
-q305 false true
 q107 true q28
 q262 true q46
-q341 false true
 q143 true q229
 q226 true q2
 q295 true q242
@@ -316,11 +290,8 @@ q155 true q334
 q283 true q60
 q328 true q140
 q20 true q216
-q64 false true
 q39 true q4
-q212 false true
 q313 true q282
-q111 false true
 q199 true q88
 q382 true q226
 q180 true q362
@@ -329,7 +300,6 @@ q78 true q54
 q61 true q186
 q217 true q276
 q316 true q179
-q114 false true
 q185 true q278
 q2 true q232
 q369 true q323
@@ -341,16 +311,12 @@ q73 true q135
 q37 true q190
 q84 true q257
 q197 true q339
-q124 false true
 q241 true q234
 q9 true q357
 q362 true q267
 q258 true q312
 q359 true q248
 q205 true q299
-q326 false true
-q160 false true
-q332 false true
 q174 true q3
 q233 true q206
 q309 true q192
@@ -366,7 +332,6 @@ q173 true q261
 q234 true q193
 q137 true q219
 q269 true q384
-q371 false true
 q270 true q138
 q148 true q294
 q42 true q5
@@ -391,7 +356,6 @@ q311 true q7
 q113 true q217
 q380 true q264
 q182 true q52
-q128 false true
 q5 true q349
 q254 true q314
 q355 true q365
@@ -446,7 +410,6 @@ q251 true q360
 q350 true q237
 q152 true q215
 q284 true q118
-q169 false true
 q75 true q157
 q31 true q291
 q82 true q91

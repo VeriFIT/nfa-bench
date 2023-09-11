@@ -12,17 +12,13 @@ q95 true q97
 q59 true q153
 q103 true q38
 q138 true q66
-q147 false true
 q98 true (q98 | q74)
-q10 false true
 q54 true q109
 q140 true q25
 q17 true q69
 q53 true q63
 q104 true q148
-q65 false true
 q38 true q0
-q110 false true
 q6 true q35
 q154 true q105
 q21 true q92
@@ -40,7 +36,6 @@ q133 true q91
 q46 true q131
 q93 true q77
 q149 true q33
-q43 false true
 q96 true q9
 q136 true q140
 q142 true q126
@@ -50,16 +45,11 @@ q51 true q53
 q106 true q84
 q89 true q45
 q112 true q93
-q129 false true
-q4 false true
 q156 true q118
-q23 false true
 q67 true q36
 q115 true q141
 q3 true q101
 q151 true q51
-q24 false true
-q79 false true
 q60 true q127
 q118 true q72
 q123 true q111
@@ -67,20 +57,16 @@ q29 true q70
 q74 true q8
 q30 true q26
 q83 true q78
-q44 false true
 q91 true q121
 q19 true q55
 q131 true q12
 q41 true q122
-q94 false true
 q58 true q155
 q134 true q85
 q13 true q128
 q57 true q137
 q100 true q82
 q144 true q29
-q16 false true
-q52 false true
 q105 true q112
 q141 true q73
 q1 true q83
@@ -109,14 +95,12 @@ q26 true q39
 q26 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q10
 q62 true q134
 q117 true (q98 | q74)
-q76 false true
 q32 true q22
 q81 true q136
 q121 true q149
 q71 true q41
 q68 true q119
 q35 true q90
-q86 false true
 q126 true q144
 q47 true q1
 q92 true q81
@@ -131,7 +115,6 @@ q99 true q67
 q50 true q151
 q107 true q95
 q143 true q18
-q49 false true
 q14 true q146
 q7 true q150
 q155 true q40
@@ -185,17 +168,13 @@ q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 &
 q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & !a0) q43
 q66 true q39
 q66 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q10
-q88 false true
-q113 false true
 q128 true q34
-q5 false true
 q27 true q56
 q63 true q11
 q116 true q156
 q0 true q15
 q152 true q21
 q75 true q80
-q31 false true
 q82 true q2
 q119 true q17
 q122 true q124

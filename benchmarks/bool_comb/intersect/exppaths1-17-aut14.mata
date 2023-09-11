@@ -17,19 +17,16 @@ q95 true q191
 q59 true q161
 q103 true q67
 q138 true q13
-q147 false true
 q98 true q112
 q10 true q126
 q54 true q155
 q140 true q63
 q17 true q41
-q53 false true
 q104 true q73
 q65 true q151
 q38 true q174
 q110 true q15
 q198 true q85
-q181 false true
 q6 true q18
 q154 true q39
 q21 true q17
@@ -47,9 +44,7 @@ q125 true q30
 q8 true q104
 q204 true q143
 q161 true q54
-q72 false true
 q108 true q129
-q133 false true
 q46 true q101
 q93 true q136
 q177 true q106
@@ -90,7 +85,6 @@ q156 true q159
 q208 true q182
 q23 true q198
 q67 true q98
-q115 false true
 q184 true q197
 q3 true q135
 q151 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & a3 & a2 & !a1 & a0) q53
@@ -113,7 +107,6 @@ q151 true q121
 q24 true q141
 q79 true q111
 q60 true q26
-q118 false true
 q190 true q178
 q189 true q140
 q123 true q34
@@ -125,7 +118,6 @@ q30 true q76
 q83 true q108
 q44 true q184
 q91 true q70
-q19 false true
 q175 true q56
 q131 true q11
 q41 true q188
@@ -134,7 +126,6 @@ q58 true q153
 q170 true q20
 q134 true q4
 q13 true q117
-q57 false true
 q100 true q195
 q144 true q146
 q16 true q7
@@ -149,7 +140,6 @@ q26 true q32
 q62 true q10
 q117 true q80
 q200 true q211
-q165 false true
 q76 true q5
 q32 true q123
 q81 true q61
@@ -158,7 +148,6 @@ q121 true q44
 q207 true q122
 q162 true q157
 q71 true q66
-q68 false true
 q35 true q27
 q86 true q77
 q195 true q116
@@ -172,7 +161,6 @@ q132 true q200
 q11 true q168
 q55 true q14
 q102 true q23
-q139 false true
 q146 true q190
 q99 true q36
 q50 true q42
@@ -188,7 +176,6 @@ q64 true q114
 q39 true q65
 q111 true q91
 q199 true q173
-q180 false true
 q25 true q74
 q78 true q45
 q61 true q6
@@ -198,7 +185,6 @@ q2 true q24
 q150 true q51
 q73 true q94
 q37 true q166
-q84 false true
 q197 true q131
 q124 true q163
 q9 true q97
@@ -236,12 +222,10 @@ q0 true q1
 q152 true q50
 q169 true q79
 q75 true q209
-q31 false true
 q82 true q172
 q119 true q175
 q191 true q25
 q188 true q8
 q122 true q90
-q203 false true
 q166 true q0
 q28 true (q128 | q55)

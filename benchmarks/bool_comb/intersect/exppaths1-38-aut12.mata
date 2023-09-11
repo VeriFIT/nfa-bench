@@ -16,18 +16,15 @@ q95 true q2
 q59 true q159
 q103 true q69
 q138 true q88
-q147 false true
 q98 true q114
 q10 true q45
 q54 true q120
-q140 false true
 q17 true q13
 q53 true q42
 q104 true q113
 q65 true q117
 q38 true q194
 q110 true q134
-q198 false true
 q181 true q193
 q6 true q105
 q154 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & a0) q22
@@ -73,7 +70,6 @@ q33 true q25
 q80 true q112
 q193 true q130
 q120 true q43
-q201 false true
 q164 true q59
 q77 true q202
 q36 true q165
@@ -85,17 +81,10 @@ q204 true q82
 q161 true q173
 q72 true q68
 q108 true q169
-q133 false true
 q46 true q101
 q93 true q71
-q177 false true
-q149 false true
 q43 true q181
-q96 false true
 q172 true q148
-q136 false true
-q142 false true
-q48 false true
 q15 true q183
 q51 true q163
 q179 true q131
@@ -104,17 +93,13 @@ q89 true q52
 q112 true q93
 q183 true q9
 q129 true q190
-q4 false true
 q156 true q141
-q23 false true
 q67 true q49
 q115 true q84
 q184 true q125
 q3 true q191
 q151 true q154
-q24 false true
 q79 true q44
-q60 false true
 q118 true q168
 q190 true q187
 q189 true (q158 | q156)
@@ -122,8 +107,6 @@ q123 true q162
 q202 true q121
 q167 true q155
 q29 true q118
-q74 false true
-q30 false true
 q83 true q85
 q44 true q50
 q91 true q33
@@ -131,8 +114,6 @@ q19 true q92
 q175 true q146
 q131 true q3
 q41 true q185
-q94 false true
-q58 false true
 q170 true q15
 q134 true q139
 q13 true q41
@@ -143,7 +124,6 @@ q16 true q21
 q52 true q107
 q105 true q73
 q141 true q38
-q186 false true
 q1 true q192
 q153 true q200
 q168 true q157
@@ -167,7 +147,6 @@ q126 true q47
 q159 true q56
 q47 true q36
 q92 true q115
-q176 false true
 q109 true q184
 q132 true q40
 q11 true q65
@@ -186,9 +165,6 @@ q7 true q126
 q155 true q182
 q20 true q195
 q64 true q178
-q39 false true
-q111 false true
-q199 false true
 q180 true q89
 q25 true q166
 q78 true q204
@@ -198,43 +174,33 @@ q185 true q6
 q2 true q132
 q150 true q116
 q73 true q95
-q37 false true
 q84 true q16
 q197 true q57
-q124 false true
 q9 true q46
 q160 true q152
-q174 false true
 q130 true q8
 q45 true q99
 q90 true q26
 q18 true q10
 q173 true q143
-q137 false true
 q148 true q53
 q42 true q55
 q97 true q109
 q101 true q100
 q145 true q17
-q12 false true
 q56 true q150
-q22 false true
-q66 false true
 q88 true q144
 q113 true q138
 q182 true q32
 q128 true q197
 q5 true q14
 q157 true q104
-q27 false true
 q63 true q19
 q116 true q179
 q187 true q135
 q0 true q1
 q152 true q103
 q169 true q80
-q75 false true
-q31 false true
 q82 true q51
 q119 true q175
 q191 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & a0) q22
@@ -275,8 +241,5 @@ q191 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4
 q191 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & !a0) q39
 q191 true q62
 q191 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q66
-q188 false true
-q122 false true
 q203 true q87
 q166 true q108
-q28 false true

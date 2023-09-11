@@ -9,7 +9,6 @@ q4 true q0
 q3 true q9
 q1 true q5
 q11 true q10
-q7 false true
 q2 true q11
 q9 true q2
 q12 true q8

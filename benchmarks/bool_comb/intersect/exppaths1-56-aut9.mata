@@ -6,19 +6,13 @@ q69 true q92
 q34 true q66
 q87 true q139
 q194 true q64
-q127 false true
-q158 false true
 q163 true q0
 q171 true q146
 q135 true q79
 q40 true q93
-q95 false true
 q59 true q151
-q103 false true
 q138 true q36
 q147 true q152
-q98 false true
-q10 false true
 q54 true q9
 q140 true q174
 q17 true q114
@@ -27,11 +21,7 @@ q104 true q177
 q65 true q44
 q38 true q178
 q110 true q70
-q198 false true
-q181 false true
-q6 false true
 q154 true q97
-q21 false true
 q33 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & a3 & a2 & !a1 & a0) q25
 q33 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & a0) q188
 q33 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & a2 & !a1 & !a0) q76
@@ -88,24 +78,17 @@ q33 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 
 q33 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & !a0) q51
 q33 true q30
 q33 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q28
-q80 false true
 q193 true q24
-q120 false true
 q164 true q154
-q77 false true
 q36 true q187
-q85 false true
-q196 false true
 q125 true q190
 q8 true q99
 q161 true q153
 q72 true q52
 q108 true q100
-q133 false true
 q46 true q148
 q93 true q58
 q177 true q121
-q149 false true
 q43 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & a3 & a2 & !a1 & a0) q25
 q43 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & a0) q188
 q43 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & a2 & !a1 & !a0) q76
@@ -163,15 +146,11 @@ q43 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 &
 q43 true q30
 q43 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & !a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q28
 q96 true q94
-q172 false true
 q136 true q179
 q142 true q20
-q48 false true
 q15 true q38
-q51 false true
 q179 true q105
 q106 true q145
-q89 false true
 q112 true q170
 q183 true (q143 | q106)
 q129 true q4
@@ -179,8 +158,6 @@ q4 true q185
 q156 true q46
 q23 true q84
 q67 true q193
-q115 false true
-q184 false true
 q3 true q130
 q151 true q194
 q24 true q117
@@ -188,27 +165,20 @@ q79 true q141
 q60 true q59
 q118 true q164
 q190 true q47
-q189 false true
 q123 true q160
-q167 false true
 q29 true q125
-q74 false true
 q30 true q118
 q83 true q29
 q44 true q159
 q91 true q104
 q19 true q27
-q175 false true
-q131 false true
 q41 true q96
 q94 true q33
 q58 true q43
 q170 true q87
-q134 false true
 q13 true q56
 q57 true q102
 q100 true q123
-q144 false true
 q16 true q142
 q52 true q67
 q105 true q86
@@ -217,28 +187,22 @@ q186 true q165
 q1 true q186
 q153 true q75
 q168 true q140
-q26 false true
 q62 true q197
 q117 true q136
 q165 true q18
-q76 false true
 q32 true q68
 q81 true q112
-q192 false true
 q121 true q22
 q162 true q50
 q71 true q157
 q68 true q69
 q35 true q163
 q86 true q171
-q195 false true
-q126 false true
 q159 true q34
 q47 true q13
 q92 true q109
 q176 true q11
 q109 true q161
-q132 false true
 q11 true q41
 q55 true q23
 q102 true q17
@@ -249,33 +213,22 @@ q50 true q156
 q178 true q8
 q107 true q135
 q143 true (q143 | q106)
-q49 false true
-q14 false true
-q7 false true
 q155 true q147
 q20 true q15
 q64 true q53
-q39 false true
 q111 true q173
 q180 true q155
-q25 false true
-q78 false true
 q61 true q88
 q114 true q128
 q185 true q54
-q2 false true
-q150 false true
-q73 false true
 q37 true q162
 q84 true q110
 q197 true q65
-q124 false true
 q9 true q122
 q160 true q137
 q174 true q82
 q130 true q37
 q45 true q101
-q90 false true
 q18 true q176
 q173 true q129
 q137 true q182
@@ -295,18 +248,10 @@ q128 true q72
 q5 true q16
 q157 true q168
 q27 true q83
-q63 false true
-q116 false true
 q187 true q62
 q0 true q1
 q152 true q138
-q169 false true
 q75 true q81
 q31 true q108
 q82 true q45
-q119 false true
-q191 false true
-q188 false true
 q122 true q42
-q166 false true
-q28 false true

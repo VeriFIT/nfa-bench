@@ -34,7 +34,6 @@ q51 true q26
 q4 true q22
 q23 true q9
 q67 true q44
-q3 false true
 q24 true q75
 q79 true q47
 q60 true q24
@@ -59,7 +58,6 @@ q81 true q51
 q71 true q63
 q68 true q59
 q35 true q5
-q86 false true
 q47 true q85
 q11 true q53
 q55 true q64
@@ -90,9 +88,7 @@ q56 true q72
 q22 true q25
 q66 true q41
 q5 true q78
-q27 false true
 q63 true q62
-q0 false true
 q75 true q33
 q31 true q39
 q82 true q49

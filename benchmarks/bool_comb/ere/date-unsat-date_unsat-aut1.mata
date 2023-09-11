@@ -14,5 +14,3 @@ q7 true q12
 q2 true q11
 q9 true q8
 q12 true q9
-q5 false true
-q0 false true

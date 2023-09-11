@@ -3,16 +3,12 @@
 %Final !q0 & !q1 & !q2 & !q3 & !q4 & !q5 & !q7 & !q8 & !q9 & !q10 & !q11 & !q13 & !q14 & !q16 & !q17 & !q18 & !q20 & !q21 & !q22 & !q23 & !q24 & !q25 & !q26 & !q27 & !q28 & !q29 & !q30 & !q31 & !q32 & !q33 & !q36 & !q37 & !q39 & !q40 & !q41 & !q42 & !q43 & !q45 & !q46 & !q47 & !q48 & !q50 & !q51 & !q52 & !q54 & !q55 & !q56 & !q58 & !q60 & !q62 & !q64 & !q65 & !q66 & !q67 & !q68 & !q69 & !q70 & !q71 & !q73 & !q74 & !q76 & !q77 & !q78 & !q79 & !q81 & !q82 & !q84 & !q86 & !q87 & !q88 & !q89 & !q90 & !q91 & !q92 & !q93 & !q94 & !q95 & !q96 & !q97 & !q98 & !q99 & !q100 & !q101 & !q102 & !q103 & !q104 & !q105 & !q106 & !q107 & !q108 & !q110 & !q111 & !q112 & !q116 & !q118 & !q119 & !q120 & !q121 & !q122 & !q123 & !q124 & !q126 & !q128 & !q129 & !q130 & !q133 & !q134 & !q135 & !q136 & !q137 & !q138 & !q139 & !q140 & !q141 & !q142 & !q143 & !q144 & !q145 & !q146 & !q147 & !q148 & !q149 & !q150 & !q152 & !q153 & !q154 & !q155 & !q156 & !q159 & !q160 & !q161 & !q163 & !q164 & !q165 & !q167 & !q168 & !q169 & !q170 & !q171 & !q172 & !q173 & !q174 & !q177 & !q178
 q70 true q103
 q69 true q129
-q34 false true
 q87 true q121
-q127 false true
-q158 false true
 q163 true q32
 q171 true q8
 q135 true q14
 q40 true q159
 q95 true q116
-q59 false true
 q103 true q40
 q138 true q140
 q147 true q99
@@ -21,25 +17,18 @@ q10 true q28
 q54 true q58
 q140 true q172
 q17 true q62
-q53 false true
 q104 true q27
 q65 true q150
-q38 false true
 q110 true q73
-q6 false true
 q154 true q26
 q21 true q145
 q33 true q29
-q80 false true
 q120 true q126
 q164 true q130
 q77 true q139
 q36 true q42
-q85 false true
-q125 false true
 q8 true q142
 q161 true q16
-q72 false true
 q108 true q161
 q133 true q101
 q46 true q98
@@ -52,7 +41,6 @@ q172 true q20
 q136 true q146
 q142 true q43
 q48 true q31
-q15 false true
 q51 true q147
 q106 true q108
 q89 true q84
@@ -62,9 +50,7 @@ q4 true q46
 q156 true q45
 q23 true q104
 q67 true q56
-q115 false true
 q3 true q54
-q151 false true
 q24 true q128
 q79 true q97
 q60 true q143
@@ -74,19 +60,13 @@ q167 true q90
 q29 true q51
 q74 true q135
 q30 true q64
-q83 false true
-q44 false true
 q91 true q149
-q19 false true
-q175 false true
-q131 false true
 q41 true q30
 q94 true q89
 q58 true q105
 q170 true q41
 q134 true q79
 q13 true q2
-q57 false true
 q100 true q91
 q144 true q9
 q16 true q160
@@ -98,24 +78,18 @@ q153 true q74
 q168 true q68
 q26 true q118
 q62 true q152
-q117 false true
 q165 true q122
 q76 true q50
 q32 true q77
 q81 true q5
 q121 true q106
-q162 false true
 q71 true q37
 q68 true q148
-q35 false true
 q86 true q174
 q126 true q102
 q159 true q21
 q47 true q167
 q92 true q1
-q176 false true
-q109 false true
-q132 false true
 q11 true (q11 | q177)
 q55 true q136
 q102 true q87
@@ -126,7 +100,6 @@ q50 true q18
 q178 true q134
 q107 true q7
 q143 true q13
-q49 false true
 q14 true q76
 q7 true q33
 q155 true q81
@@ -136,8 +109,6 @@ q39 true q22
 q111 true q92
 q25 true q60
 q78 true q52
-q61 false true
-q114 false true
 q2 true q123
 q150 true q107
 q73 true q48
@@ -193,12 +164,10 @@ q97 true q55
 q97 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q19
 q101 true q10
 q145 true q36
-q12 false true
 q56 true q164
 q22 true q66
 q66 true q173
 q88 true q67
-q113 false true
 q128 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & a0) q125
 q128 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & a2 & !a1 & !a0) q176
 q128 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & !a5 & !a4 & !a3 & !a2 & !a1 & a0) q151
@@ -236,17 +205,13 @@ q128 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 
 q128 true q55
 q128 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 & !a3 & !a2 & a1 & a0) q19
 q5 true q171
-q157 false true
 q27 true q119
-q63 false true
 q116 true q69
 q0 true (q11 | q177)
 q152 true q70
 q169 true q3
-q75 false true
 q31 true q111
 q82 true q88
 q119 true q112
 q122 true q78
-q166 false true
 q28 true q71

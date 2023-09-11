@@ -33,12 +33,10 @@ q3 true q77
 q24 true q64
 q79 true q58
 q60 true q75
-q29 false true
 q74 true q11
 q30 true q52
 q83 true q8
 q44 true q0
-q19 false true
 q41 true q13
 q58 true q22
 q13 true q4

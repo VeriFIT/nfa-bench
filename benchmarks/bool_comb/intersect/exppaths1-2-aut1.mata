@@ -74,7 +74,6 @@ q56 true q57
 q22 true q7
 q66 true q54
 q5 true q62
-q27 false true
 q63 true q15
 q0 true q29
 q75 true q21

@@ -51,7 +51,6 @@ q20 true q15
 q64 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & !a2 & a1 & !a0) q25
 q64 true q51
 q39 true q4
-q25 false true
 q61 true q32
 q2 true q18
 q37 true q63

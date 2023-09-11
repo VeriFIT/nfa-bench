@@ -27,7 +27,6 @@ q8 true (q90 | q37)
 q72 true q62
 q46 true q44
 q43 true q89
-q48 false true
 q15 true q86
 q51 true q12
 q89 true q0
@@ -73,14 +72,12 @@ q7 true q43
 q20 true q30
 q64 true q78
 q39 true q47
-q25 false true
 q78 true q15
 q61 true q31
 q2 true q24
 q73 true q82
 q37 true q4
 q84 true q52
-q9 false true
 q45 true q17
 q90 true (q90 | q37)
 q18 true q81

@@ -4,12 +4,10 @@
 q70 true q172
 q69 true q154
 q34 true q31
-q87 false true
 q127 true q5
 q158 true q46
 q163 true q133
 q171 true q21
-q135 false true
 q40 true q24
 q95 true q25
 q59 true q114
@@ -23,22 +21,17 @@ q140 true q168
 q17 true q67
 q53 true q150
 q104 true q69
-q65 false true
 q38 true q43
 q110 true q127
 q6 true q56
 q154 true q113
 q21 true q106
 q33 true q117
-q80 false true
 q120 true q35
 q164 true q128
 q77 true q39
-q36 false true
-q85 false true
 q125 true q166
 q8 true q169
-q161 false true
 q72 true q151
 q108 true q16
 q133 true q176
@@ -52,7 +45,6 @@ q136 true q107
 q142 true q171
 q48 true q165
 q15 true (q15 | q52)
-q51 false true
 q106 true q96
 q89 true q1
 q112 true q102
@@ -65,7 +57,6 @@ q115 true q78
 q3 true q162
 q151 true q98
 q24 true q70
-q79 false true
 q60 true q163
 q118 true q91
 q123 true q74
@@ -102,7 +93,6 @@ q165 true q95
 q76 true q109
 q32 true q68
 q81 true q50
-q121 false true
 q162 true q120
 q71 true q60
 q68 true q147
@@ -111,7 +101,6 @@ q86 true q93
 q126 true q118
 q159 true q22
 q47 true q104
-q92 false true
 q176 true q137
 q109 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & a3 & a2 & !a1 & a0) q121
 q109 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & a0) q80
@@ -145,7 +134,6 @@ q49 true q33
 q14 true q4
 q7 true q47
 q155 true q76
-q20 false true
 q64 true q145
 q39 true q27
 q111 true q29
@@ -156,9 +144,7 @@ q114 true q0
 q2 true q17
 q150 true q105
 q73 true q175
-q37 false true
 q84 true q8
-q124 false true
 q9 true q34
 q160 true q108
 q174 true q57
@@ -181,7 +167,6 @@ q130 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & a4 &
 q130 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & a2 & a1 & !a0) q92
 q130 true q41
 q45 true q75
-q90 false true
 q18 true q134
 q173 true q136
 q137 true q83
@@ -200,8 +185,6 @@ q128 true q82
 q5 true q130
 q157 true q84
 q27 true q64
-q63 false true
-q116 false true
 q0 true q3
 q152 true q146
 q169 true q11

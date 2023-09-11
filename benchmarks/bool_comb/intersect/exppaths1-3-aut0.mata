@@ -60,7 +60,6 @@ q2 true q19
 q37 true q61
 q9 true q65
 q45 true q8
-q18 false true
 q42 true q63
 q12 true q49
 q56 true q0
@@ -69,5 +68,4 @@ q5 true q57
 q27 true q1
 q63 true q43
 q0 true q44
-q31 false true
 q28 true q5

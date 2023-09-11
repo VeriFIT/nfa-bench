@@ -65,7 +65,6 @@ q20 true q32
 q20 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & !a2 & a1 & a0) q18
 q64 true q14
 q39 true q69
-q25 false true
 q78 true q34
 q61 true q24
 q2 true q61
@@ -73,7 +72,6 @@ q73 true q38
 q37 true q66
 q9 true q48
 q45 true q46
-q18 false true
 q42 true q76
 q12 true q74
 q56 true q23
@@ -82,7 +80,6 @@ q66 true q17
 q5 true q63
 q27 true q67
 q63 true q54
-q0 false true
 q75 true q8
 q31 true q3
 q28 true q50

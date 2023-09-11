@@ -8,7 +8,6 @@ q10 true q2
 q54 true q0
 q17 true q8
 q53 true q23
-q65 false true
 q38 true q17
 q6 true q55
 q21 true q9
@@ -48,7 +47,6 @@ q62 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 &
 q62 true q33
 q62 (!a15 & !a14 & !a13 & !a12 & !a11 & !a10 & !a9 & !a8 & !a7 & a6 & a5 & !a4 & !a3 & !a2 & a1 & a0) q64
 q32 true q58
-q35 false true
 q47 true q39
 q11 true q44
 q55 true q48
@@ -57,10 +55,8 @@ q49 true q50
 q14 true q21
 q7 true q49
 q20 true q15
-q64 false true
 q39 true q66
 q25 true q1
-q61 false true
 q2 true q18
 q37 true q52
 q9 true q67
