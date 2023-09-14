@@ -60,6 +60,17 @@ Another four are from <a href="https://arxiv.org/abs/1708.09073">[arXiv'17]</a>.
    The automata were generated during solving constraints from the `SMT Competition` and includes following directories: 
       * `automatark`: (the underlying SMT benchmark <a href="https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/QF_S/-/tree/master/20230329-automatark-lu">QF_S/20230329-automatark-lu</a>)
 
+ 7. `presburger` contains automata derived from presburger formulae that were either (1) part of
+    solving bechmarks in SV-COMP software verification competition, in particular by Ultimate
+    Automizer tool (see <a
+    href="https://gitlab.com/sosy-lab/benchmarking/sv-benchmarks/-/tree/main/c?ref_type=heads">SV-COMP
+    repository</a>), or (2) part of the TPTP Problem Library for Automated Theorem Proving (see 
+    <a href="https://www.tptp.org/cgi-bin/SeeTPTP?Category=Problems">TPTP Problem Domains</a>).
+    This automata were in some part of the underlying decision procedures complemented and were
+    proven to be hard to complement.
+    This includes following directories:
+      * `presburger/complement`
+
 
 
 ## Contributing
