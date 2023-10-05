@@ -1,35 +1,9 @@
 @NFA-bits
-%Initial q0
-%Final q1 q2
-q0 a1 & a2 & !a3 q0
-q0 a1 & a2 & a3 q0
-q0 !a1 & a2 & !a3 q0
-q0 !a1 & a2 & a3 q0
-q0 !a1 & !a2 & !a3 q0
-q0 !a1 & !a2 & a3 q0
-q0 a1 & !a2 & !a3 q-1
-q0 a1 & !a2 & a3 q-1
-q0 a1 & a2 & !a3 q1
-q0 a1 & a2 & a3 q1
-q0 !a1 & a2 & !a3 q1
-q0 !a1 & a2 & a3 q1
-q0 !a1 & !a2 & !a3 q1
-q0 !a1 & !a2 & a3 q1
-q0 a1 & !a2 & !a3 q2
-q0 a1 & !a2 & a3 q2
-q-1 a1 & a2 & !a3 q-1
-q-1 a1 & a2 & a3 q-1
-q-1 a1 & !a2 & !a3 q-1
-q-1 a1 & !a2 & a3 q-1
-q-1 !a1 & !a2 & !a3 q-1
-q-1 !a1 & !a2 & a3 q-1
-q-1 !a1 & a2 & !a3 q0
-q-1 !a1 & a2 & a3 q0
-q-1 a1 & a2 & !a3 q1
-q-1 a1 & a2 & a3 q1
-q-1 a1 & !a2 & !a3 q1
-q-1 a1 & !a2 & a3 q1
-q-1 !a1 & !a2 & !a3 q1
-q-1 !a1 & !a2 & a3 q1
-q-1 !a1 & a2 & !a3 q2
-q-1 !a1 & a2 & a3 q2
+q0 (a1 & a2 & !a3) | (a1 & a2 & a3) | (!a1 & a2 & !a3) | (!a1 & a2 & a3) | (!a1 & !a2 & !a3) | (!a1 & !a2 & a3) q0
+q0 (a1 & !a2 & !a3) | (a1 & !a2 & a3) q-1
+q0 (a1 & a2 & !a3) | (a1 & a2 & a3) | (!a1 & a2 & !a3) | (!a1 & a2 & a3) | (!a1 & !a2 & !a3) | (!a1 & !a2 & a3) q1
+q0 (a1 & !a2 & !a3) | (a1 & !a2 & a3) q2
+q-1 (a1 & a2 & !a3) | (a1 & a2 & a3) | (a1 & !a2 & !a3) | (a1 & !a2 & a3) | (!a1 & !a2 & !a3) | (!a1 & !a2 & a3) q-1
+q-1 (!a1 & a2 & !a3) | (!a1 & a2 & a3) q0
+q-1 (a1 & a2 & !a3) | (a1 & a2 & a3) | (a1 & !a2 & !a3) | (a1 & !a2 & a3) | (!a1 & !a2 & !a3) | (!a1 & !a2 & a3) q1
+q-1 (!a1 & a2 & !a3) | (!a1 & a2 & a3) q2

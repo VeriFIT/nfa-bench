@@ -1,5255 +1,738 @@
 @NFA-bits
-%Initial q0
-%Final q6
-q0 !a1 & !a2 & !a3 & !a4 & !a5 q2
-q0 !a1 & !a2 & !a3 & !a4 & a5 q2
-q0 !a1 & !a2 & !a3 & a4 & !a5 q2
-q0 !a1 & !a2 & !a3 & a4 & a5 q2
-q0 !a1 & a2 & a3 & !a4 & !a5 q2
-q0 !a1 & a2 & a3 & !a4 & a5 q2
-q0 !a1 & a2 & a3 & a4 & !a5 q2
-q0 !a1 & a2 & a3 & a4 & a5 q2
-q0 !a1 & a2 & !a3 & !a4 & !a5 q2
-q0 !a1 & a2 & !a3 & !a4 & a5 q2
-q0 !a1 & a2 & !a3 & a4 & !a5 q2
-q0 !a1 & a2 & !a3 & a4 & a5 q2
-q0 !a1 & !a2 & a3 & !a4 & !a5 q2
-q0 !a1 & !a2 & a3 & !a4 & a5 q2
-q0 !a1 & !a2 & a3 & a4 & !a5 q2
-q0 !a1 & !a2 & a3 & a4 & a5 q2
-q0 !a1 & !a2 & !a3 & !a4 & !a5 q4
-q0 !a1 & !a2 & !a3 & !a4 & a5 q4
-q0 !a1 & !a2 & !a3 & a4 & !a5 q4
-q0 !a1 & !a2 & !a3 & a4 & a5 q4
-q0 !a1 & a2 & !a3 & !a4 & !a5 q4
-q0 !a1 & a2 & !a3 & !a4 & a5 q4
-q0 !a1 & a2 & !a3 & a4 & !a5 q4
-q0 !a1 & a2 & !a3 & a4 & a5 q4
-q0 a1 & a2 & !a3 & !a4 & !a5 q6
-q0 a1 & a2 & !a3 & !a4 & a5 q6
-q0 a1 & a2 & !a3 & a4 & !a5 q6
-q0 a1 & a2 & !a3 & a4 & a5 q6
-q0 a1 & a2 & a3 & !a4 & !a5 q6
-q0 a1 & a2 & a3 & !a4 & a5 q6
-q0 a1 & a2 & a3 & a4 & !a5 q6
-q0 a1 & a2 & a3 & a4 & a5 q6
-q0 !a1 & a2 & a3 & !a4 & !a5 q6
-q0 !a1 & a2 & a3 & !a4 & a5 q6
-q0 !a1 & a2 & a3 & a4 & !a5 q6
-q0 !a1 & a2 & a3 & a4 & a5 q6
-q0 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q0 !a1 & !a2 & !a3 & !a4 & a5 q6
-q0 !a1 & !a2 & !a3 & a4 & !a5 q6
-q0 !a1 & !a2 & !a3 & a4 & a5 q6
-q0 !a1 & a2 & !a3 & !a4 & !a5 q6
-q0 !a1 & a2 & !a3 & !a4 & a5 q6
-q0 !a1 & a2 & !a3 & a4 & !a5 q6
-q0 !a1 & a2 & !a3 & a4 & a5 q6
-q0 !a1 & a2 & a3 & !a4 & !a5 q8
-q0 !a1 & a2 & a3 & !a4 & a5 q8
-q0 !a1 & a2 & a3 & a4 & !a5 q8
-q0 !a1 & a2 & a3 & a4 & a5 q8
-q0 !a1 & !a2 & a3 & !a4 & !a5 q8
-q0 !a1 & !a2 & a3 & !a4 & a5 q8
-q0 !a1 & !a2 & a3 & a4 & !a5 q8
-q0 !a1 & !a2 & a3 & a4 & a5 q8
-q0 a1 & a2 & !a3 & !a4 & !a5 q10
-q0 a1 & a2 & !a3 & !a4 & a5 q10
-q0 a1 & a2 & !a3 & a4 & !a5 q10
-q0 a1 & a2 & !a3 & a4 & a5 q10
-q0 a1 & a2 & a3 & !a4 & !a5 q10
-q0 a1 & a2 & a3 & !a4 & a5 q10
-q0 a1 & a2 & a3 & a4 & !a5 q10
-q0 a1 & a2 & a3 & a4 & a5 q10
-q0 a1 & !a2 & a3 & !a4 & !a5 q10
-q0 a1 & !a2 & a3 & !a4 & a5 q10
-q0 a1 & !a2 & a3 & a4 & !a5 q10
-q0 a1 & !a2 & a3 & a4 & a5 q10
-q0 a1 & !a2 & !a3 & !a4 & !a5 q10
-q0 a1 & !a2 & !a3 & !a4 & a5 q10
-q0 a1 & !a2 & !a3 & a4 & !a5 q10
-q0 a1 & !a2 & !a3 & a4 & a5 q10
-q0 a1 & a2 & !a3 & !a4 & !a5 q12
-q0 a1 & a2 & !a3 & !a4 & a5 q12
-q0 a1 & a2 & !a3 & a4 & !a5 q12
-q0 a1 & a2 & !a3 & a4 & a5 q12
-q0 a1 & !a2 & !a3 & !a4 & !a5 q12
-q0 a1 & !a2 & !a3 & !a4 & a5 q12
-q0 a1 & !a2 & !a3 & a4 & !a5 q12
-q0 a1 & !a2 & !a3 & a4 & a5 q12
-q0 a1 & a2 & a3 & !a4 & !a5 q13
-q0 a1 & a2 & a3 & !a4 & a5 q13
-q0 a1 & a2 & a3 & a4 & !a5 q13
-q0 a1 & a2 & a3 & a4 & a5 q13
-q0 a1 & !a2 & a3 & !a4 & !a5 q13
-q0 a1 & !a2 & a3 & !a4 & a5 q13
-q0 a1 & !a2 & a3 & a4 & !a5 q13
-q0 a1 & !a2 & a3 & a4 & a5 q13
-q13 !a1 & !a2 & !a3 & !a4 & !a5 q14
-q13 !a1 & !a2 & !a3 & !a4 & a5 q14
-q13 !a1 & !a2 & !a3 & a4 & !a5 q14
-q13 !a1 & !a2 & !a3 & a4 & a5 q14
-q13 !a1 & a2 & a3 & !a4 & !a5 q14
-q13 !a1 & a2 & a3 & !a4 & a5 q14
-q13 !a1 & a2 & a3 & a4 & !a5 q14
-q13 !a1 & a2 & a3 & a4 & a5 q14
-q13 !a1 & a2 & !a3 & !a4 & !a5 q14
-q13 !a1 & a2 & !a3 & !a4 & a5 q14
-q13 !a1 & a2 & !a3 & a4 & !a5 q14
-q13 !a1 & a2 & !a3 & a4 & a5 q14
-q13 !a1 & !a2 & a3 & !a4 & !a5 q14
-q13 !a1 & !a2 & a3 & !a4 & a5 q14
-q13 !a1 & !a2 & a3 & a4 & !a5 q14
-q13 !a1 & !a2 & a3 & a4 & a5 q14
-q13 !a1 & !a2 & !a3 & !a4 & !a5 q15
-q13 !a1 & !a2 & !a3 & !a4 & a5 q15
-q13 !a1 & !a2 & !a3 & a4 & !a5 q15
-q13 !a1 & !a2 & !a3 & a4 & a5 q15
-q13 !a1 & a2 & !a3 & !a4 & !a5 q15
-q13 !a1 & a2 & !a3 & !a4 & a5 q15
-q13 !a1 & a2 & !a3 & a4 & !a5 q15
-q13 !a1 & a2 & !a3 & a4 & a5 q15
-q13 a1 & a2 & !a3 & !a4 & !a5 q6
-q13 a1 & a2 & !a3 & !a4 & a5 q6
-q13 a1 & a2 & !a3 & a4 & !a5 q6
-q13 a1 & a2 & !a3 & a4 & a5 q6
-q13 a1 & a2 & a3 & !a4 & !a5 q6
-q13 a1 & a2 & a3 & !a4 & a5 q6
-q13 a1 & a2 & a3 & a4 & !a5 q6
-q13 a1 & a2 & a3 & a4 & a5 q6
-q13 !a1 & a2 & a3 & !a4 & !a5 q6
-q13 !a1 & a2 & a3 & !a4 & a5 q6
-q13 !a1 & a2 & a3 & a4 & !a5 q6
-q13 !a1 & a2 & a3 & a4 & a5 q6
-q13 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q13 !a1 & !a2 & !a3 & !a4 & a5 q6
-q13 !a1 & !a2 & !a3 & a4 & !a5 q6
-q13 !a1 & !a2 & !a3 & a4 & a5 q6
-q13 !a1 & a2 & !a3 & !a4 & !a5 q6
-q13 !a1 & a2 & !a3 & !a4 & a5 q6
-q13 !a1 & a2 & !a3 & a4 & !a5 q6
-q13 !a1 & a2 & !a3 & a4 & a5 q6
-q13 !a1 & a2 & a3 & !a4 & !a5 q19
-q13 !a1 & a2 & a3 & !a4 & a5 q19
-q13 !a1 & a2 & a3 & a4 & !a5 q19
-q13 !a1 & a2 & a3 & a4 & a5 q19
-q13 !a1 & !a2 & a3 & !a4 & !a5 q19
-q13 !a1 & !a2 & a3 & !a4 & a5 q19
-q13 !a1 & !a2 & a3 & a4 & !a5 q19
-q13 !a1 & !a2 & a3 & a4 & a5 q19
-q13 a1 & a2 & !a3 & !a4 & !a5 q21
-q13 a1 & a2 & !a3 & !a4 & a5 q21
-q13 a1 & a2 & !a3 & a4 & !a5 q21
-q13 a1 & a2 & !a3 & a4 & a5 q21
-q13 a1 & a2 & a3 & !a4 & !a5 q21
-q13 a1 & a2 & a3 & !a4 & a5 q21
-q13 a1 & a2 & a3 & a4 & !a5 q21
-q13 a1 & a2 & a3 & a4 & a5 q21
-q13 a1 & !a2 & a3 & !a4 & !a5 q21
-q13 a1 & !a2 & a3 & !a4 & a5 q21
-q13 a1 & !a2 & a3 & a4 & !a5 q21
-q13 a1 & !a2 & a3 & a4 & a5 q21
-q13 a1 & !a2 & !a3 & !a4 & !a5 q21
-q13 a1 & !a2 & !a3 & !a4 & a5 q21
-q13 a1 & !a2 & !a3 & a4 & !a5 q21
-q13 a1 & !a2 & !a3 & a4 & a5 q21
-q13 a1 & a2 & !a3 & !a4 & !a5 q22
-q13 a1 & a2 & !a3 & !a4 & a5 q22
-q13 a1 & a2 & !a3 & a4 & !a5 q22
-q13 a1 & a2 & !a3 & a4 & a5 q22
-q13 a1 & !a2 & !a3 & !a4 & !a5 q22
-q13 a1 & !a2 & !a3 & !a4 & a5 q22
-q13 a1 & !a2 & !a3 & a4 & !a5 q22
-q13 a1 & !a2 & !a3 & a4 & a5 q22
-q13 a1 & a2 & a3 & !a4 & !a5 q24
-q13 a1 & a2 & a3 & !a4 & a5 q24
-q13 a1 & a2 & a3 & a4 & !a5 q24
-q13 a1 & a2 & a3 & a4 & a5 q24
-q13 a1 & !a2 & a3 & !a4 & !a5 q24
-q13 a1 & !a2 & a3 & !a4 & a5 q24
-q13 a1 & !a2 & a3 & a4 & !a5 q24
-q13 a1 & !a2 & a3 & a4 & a5 q24
-q24 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q24 !a1 & !a2 & !a3 & !a4 & a5 q25
-q24 !a1 & !a2 & !a3 & a4 & !a5 q25
-q24 !a1 & !a2 & !a3 & a4 & a5 q25
-q24 !a1 & a2 & !a3 & !a4 & !a5 q25
-q24 !a1 & a2 & !a3 & !a4 & a5 q25
-q24 !a1 & a2 & !a3 & a4 & !a5 q25
-q24 !a1 & a2 & !a3 & a4 & a5 q25
-q24 !a1 & !a2 & !a3 & !a4 & !a5 q14
-q24 !a1 & !a2 & !a3 & !a4 & a5 q14
-q24 !a1 & !a2 & !a3 & a4 & !a5 q14
-q24 !a1 & !a2 & !a3 & a4 & a5 q14
-q24 !a1 & a2 & a3 & !a4 & !a5 q14
-q24 !a1 & a2 & a3 & !a4 & a5 q14
-q24 !a1 & a2 & a3 & a4 & !a5 q14
-q24 !a1 & a2 & a3 & a4 & a5 q14
-q24 !a1 & a2 & !a3 & !a4 & !a5 q14
-q24 !a1 & a2 & !a3 & !a4 & a5 q14
-q24 !a1 & a2 & !a3 & a4 & !a5 q14
-q24 !a1 & a2 & !a3 & a4 & a5 q14
-q24 !a1 & !a2 & a3 & !a4 & !a5 q14
-q24 !a1 & !a2 & a3 & !a4 & a5 q14
-q24 !a1 & !a2 & a3 & a4 & !a5 q14
-q24 !a1 & !a2 & a3 & a4 & a5 q14
-q24 a1 & a2 & !a3 & !a4 & !a5 q6
-q24 a1 & a2 & !a3 & !a4 & a5 q6
-q24 a1 & a2 & !a3 & a4 & !a5 q6
-q24 a1 & a2 & !a3 & a4 & a5 q6
-q24 a1 & a2 & a3 & !a4 & !a5 q6
-q24 a1 & a2 & a3 & !a4 & a5 q6
-q24 a1 & a2 & a3 & a4 & !a5 q6
-q24 a1 & a2 & a3 & a4 & a5 q6
-q24 !a1 & a2 & a3 & !a4 & !a5 q6
-q24 !a1 & a2 & a3 & !a4 & a5 q6
-q24 !a1 & a2 & a3 & a4 & !a5 q6
-q24 !a1 & a2 & a3 & a4 & a5 q6
-q24 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q24 !a1 & !a2 & !a3 & !a4 & a5 q6
-q24 !a1 & !a2 & !a3 & a4 & !a5 q6
-q24 !a1 & !a2 & !a3 & a4 & a5 q6
-q24 !a1 & a2 & !a3 & !a4 & !a5 q6
-q24 !a1 & a2 & !a3 & !a4 & a5 q6
-q24 !a1 & a2 & !a3 & a4 & !a5 q6
-q24 !a1 & a2 & !a3 & a4 & a5 q6
-q24 !a1 & a2 & a3 & !a4 & !a5 q27
-q24 !a1 & a2 & a3 & !a4 & a5 q27
-q24 !a1 & a2 & a3 & a4 & !a5 q27
-q24 !a1 & a2 & a3 & a4 & a5 q27
-q24 !a1 & !a2 & a3 & !a4 & !a5 q27
-q24 !a1 & !a2 & a3 & !a4 & a5 q27
-q24 !a1 & !a2 & a3 & a4 & !a5 q27
-q24 !a1 & !a2 & a3 & a4 & a5 q27
-q24 a1 & a2 & !a3 & !a4 & !a5 q29
-q24 a1 & a2 & !a3 & !a4 & a5 q29
-q24 a1 & a2 & !a3 & a4 & !a5 q29
-q24 a1 & a2 & !a3 & a4 & a5 q29
-q24 a1 & !a2 & !a3 & !a4 & !a5 q29
-q24 a1 & !a2 & !a3 & !a4 & a5 q29
-q24 a1 & !a2 & !a3 & a4 & !a5 q29
-q24 a1 & !a2 & !a3 & a4 & a5 q29
-q24 a1 & a2 & !a3 & !a4 & !a5 q30
-q24 a1 & a2 & !a3 & !a4 & a5 q30
-q24 a1 & a2 & !a3 & a4 & !a5 q30
-q24 a1 & a2 & !a3 & a4 & a5 q30
-q24 a1 & a2 & a3 & !a4 & !a5 q30
-q24 a1 & a2 & a3 & !a4 & a5 q30
-q24 a1 & a2 & a3 & a4 & !a5 q30
-q24 a1 & a2 & a3 & a4 & a5 q30
-q24 a1 & !a2 & a3 & !a4 & !a5 q30
-q24 a1 & !a2 & a3 & !a4 & a5 q30
-q24 a1 & !a2 & a3 & a4 & !a5 q30
-q24 a1 & !a2 & a3 & a4 & a5 q30
-q24 a1 & !a2 & !a3 & !a4 & !a5 q30
-q24 a1 & !a2 & !a3 & !a4 & a5 q30
-q24 a1 & !a2 & !a3 & a4 & !a5 q30
-q24 a1 & !a2 & !a3 & a4 & a5 q30
-q24 a1 & a2 & a3 & !a4 & !a5 q32
-q24 a1 & a2 & a3 & !a4 & a5 q32
-q24 a1 & a2 & a3 & a4 & !a5 q32
-q24 a1 & a2 & a3 & a4 & a5 q32
-q24 a1 & !a2 & a3 & !a4 & !a5 q32
-q24 a1 & !a2 & a3 & !a4 & a5 q32
-q24 a1 & !a2 & a3 & a4 & !a5 q32
-q24 a1 & !a2 & a3 & a4 & a5 q32
-q32 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q32 !a1 & !a2 & !a3 & !a4 & a5 q33
-q32 !a1 & !a2 & !a3 & a4 & !a5 q33
-q32 !a1 & !a2 & !a3 & a4 & a5 q33
-q32 !a1 & a2 & !a3 & !a4 & !a5 q33
-q32 !a1 & a2 & !a3 & !a4 & a5 q33
-q32 !a1 & a2 & !a3 & a4 & !a5 q33
-q32 !a1 & a2 & !a3 & a4 & a5 q33
-q32 !a1 & !a2 & !a3 & !a4 & !a5 q34
-q32 !a1 & !a2 & !a3 & !a4 & a5 q34
-q32 !a1 & !a2 & !a3 & a4 & !a5 q34
-q32 !a1 & !a2 & !a3 & a4 & a5 q34
-q32 !a1 & a2 & a3 & !a4 & !a5 q34
-q32 !a1 & a2 & a3 & !a4 & a5 q34
-q32 !a1 & a2 & a3 & a4 & !a5 q34
-q32 !a1 & a2 & a3 & a4 & a5 q34
-q32 !a1 & a2 & !a3 & !a4 & !a5 q34
-q32 !a1 & a2 & !a3 & !a4 & a5 q34
-q32 !a1 & a2 & !a3 & a4 & !a5 q34
-q32 !a1 & a2 & !a3 & a4 & a5 q34
-q32 !a1 & !a2 & a3 & !a4 & !a5 q34
-q32 !a1 & !a2 & a3 & !a4 & a5 q34
-q32 !a1 & !a2 & a3 & a4 & !a5 q34
-q32 !a1 & !a2 & a3 & a4 & a5 q34
-q32 !a1 & a2 & a3 & !a4 & !a5 q35
-q32 !a1 & a2 & a3 & !a4 & a5 q35
-q32 !a1 & a2 & a3 & a4 & !a5 q35
-q32 !a1 & a2 & a3 & a4 & a5 q35
-q32 !a1 & !a2 & a3 & !a4 & !a5 q35
-q32 !a1 & !a2 & a3 & !a4 & a5 q35
-q32 !a1 & !a2 & a3 & a4 & !a5 q35
-q32 !a1 & !a2 & a3 & a4 & a5 q35
-q32 a1 & a2 & !a3 & !a4 & !a5 q29
-q32 a1 & a2 & !a3 & !a4 & a5 q29
-q32 a1 & a2 & !a3 & a4 & !a5 q29
-q32 a1 & a2 & !a3 & a4 & a5 q29
-q32 a1 & !a2 & !a3 & !a4 & !a5 q29
-q32 a1 & !a2 & !a3 & !a4 & a5 q29
-q32 a1 & !a2 & !a3 & a4 & !a5 q29
-q32 a1 & !a2 & !a3 & a4 & a5 q29
-q32 a1 & a2 & !a3 & !a4 & !a5 q37
-q32 a1 & a2 & !a3 & !a4 & a5 q37
-q32 a1 & a2 & !a3 & a4 & !a5 q37
-q32 a1 & a2 & !a3 & a4 & a5 q37
-q32 a1 & a2 & a3 & !a4 & !a5 q37
-q32 a1 & a2 & a3 & !a4 & a5 q37
-q32 a1 & a2 & a3 & a4 & !a5 q37
-q32 a1 & a2 & a3 & a4 & a5 q37
-q32 a1 & !a2 & a3 & !a4 & !a5 q37
-q32 a1 & !a2 & a3 & !a4 & a5 q37
-q32 a1 & !a2 & a3 & a4 & !a5 q37
-q32 a1 & !a2 & a3 & a4 & a5 q37
-q32 a1 & !a2 & !a3 & !a4 & !a5 q37
-q32 a1 & !a2 & !a3 & !a4 & a5 q37
-q32 a1 & !a2 & !a3 & a4 & !a5 q37
-q32 a1 & !a2 & !a3 & a4 & a5 q37
-q32 a1 & a2 & a3 & !a4 & !a5 q32
-q32 a1 & a2 & a3 & !a4 & a5 q32
-q32 a1 & a2 & a3 & a4 & !a5 q32
-q32 a1 & a2 & a3 & a4 & a5 q32
-q32 a1 & !a2 & a3 & !a4 & !a5 q32
-q32 a1 & !a2 & a3 & !a4 & a5 q32
-q32 a1 & !a2 & a3 & a4 & !a5 q32
-q32 a1 & !a2 & a3 & a4 & a5 q32
-q32 a1 & a2 & !a3 & !a4 & !a5 q6
-q32 a1 & a2 & !a3 & !a4 & a5 q6
-q32 a1 & a2 & !a3 & a4 & !a5 q6
-q32 a1 & a2 & !a3 & a4 & a5 q6
-q32 a1 & a2 & a3 & !a4 & !a5 q6
-q32 a1 & a2 & a3 & !a4 & a5 q6
-q32 a1 & a2 & a3 & a4 & !a5 q6
-q32 a1 & a2 & a3 & a4 & a5 q6
-q37 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q37 !a1 & !a2 & !a3 & !a4 & a5 q33
-q37 !a1 & !a2 & !a3 & a4 & !a5 q33
-q37 !a1 & !a2 & !a3 & a4 & a5 q33
-q37 !a1 & !a2 & !a3 & !a4 & !a5 q34
-q37 !a1 & !a2 & !a3 & !a4 & a5 q34
-q37 !a1 & !a2 & !a3 & a4 & !a5 q34
-q37 !a1 & !a2 & !a3 & a4 & a5 q34
-q37 !a1 & a2 & a3 & !a4 & !a5 q34
-q37 !a1 & a2 & a3 & !a4 & a5 q34
-q37 !a1 & a2 & a3 & a4 & !a5 q34
-q37 !a1 & a2 & a3 & a4 & a5 q34
-q37 !a1 & !a2 & a3 & !a4 & !a5 q34
-q37 !a1 & !a2 & a3 & !a4 & a5 q34
-q37 !a1 & !a2 & a3 & a4 & !a5 q34
-q37 !a1 & !a2 & a3 & a4 & a5 q34
-q37 !a1 & !a2 & a3 & !a4 & !a5 q35
-q37 !a1 & !a2 & a3 & !a4 & a5 q35
-q37 !a1 & !a2 & a3 & a4 & !a5 q35
-q37 !a1 & !a2 & a3 & a4 & a5 q35
-q37 !a1 & a2 & !a3 & !a4 & !a5 q39
-q37 !a1 & a2 & !a3 & !a4 & a5 q39
-q37 !a1 & a2 & !a3 & a4 & !a5 q39
-q37 !a1 & a2 & !a3 & a4 & a5 q39
-q37 !a1 & a2 & a3 & !a4 & !a5 q39
-q37 !a1 & a2 & a3 & !a4 & a5 q39
-q37 !a1 & a2 & a3 & a4 & !a5 q39
-q37 !a1 & a2 & a3 & a4 & a5 q39
-q37 !a1 & a2 & !a3 & !a4 & !a5 q40
-q37 !a1 & a2 & !a3 & !a4 & a5 q40
-q37 !a1 & a2 & !a3 & a4 & !a5 q40
-q37 !a1 & a2 & !a3 & a4 & a5 q40
-q37 a1 & !a2 & !a3 & !a4 & !a5 q29
-q37 a1 & !a2 & !a3 & !a4 & a5 q29
-q37 a1 & !a2 & !a3 & a4 & !a5 q29
-q37 a1 & !a2 & !a3 & a4 & a5 q29
-q37 a1 & a2 & a3 & !a4 & !a5 q37
-q37 a1 & a2 & a3 & !a4 & a5 q37
-q37 a1 & a2 & a3 & a4 & !a5 q37
-q37 a1 & a2 & a3 & a4 & a5 q37
-q37 a1 & !a2 & a3 & !a4 & !a5 q37
-q37 a1 & !a2 & a3 & !a4 & a5 q37
-q37 a1 & !a2 & a3 & a4 & !a5 q37
-q37 a1 & !a2 & a3 & a4 & a5 q37
-q37 a1 & !a2 & !a3 & !a4 & !a5 q37
-q37 a1 & !a2 & !a3 & !a4 & a5 q37
-q37 a1 & !a2 & !a3 & a4 & !a5 q37
-q37 a1 & !a2 & !a3 & a4 & a5 q37
-q37 a1 & !a2 & a3 & !a4 & !a5 q32
-q37 a1 & !a2 & a3 & !a4 & a5 q32
-q37 a1 & !a2 & a3 & a4 & !a5 q32
-q37 a1 & !a2 & a3 & a4 & a5 q32
-q37 a1 & a2 & !a3 & !a4 & !a5 q41
-q37 a1 & a2 & !a3 & !a4 & a5 q41
-q37 a1 & a2 & !a3 & a4 & !a5 q41
-q37 a1 & a2 & !a3 & a4 & a5 q41
-q37 a1 & a2 & a3 & !a4 & !a5 q41
-q37 a1 & a2 & a3 & !a4 & a5 q41
-q37 a1 & a2 & a3 & a4 & !a5 q41
-q37 a1 & a2 & a3 & a4 & a5 q41
-q37 a1 & a2 & !a3 & !a4 & !a5 q42
-q37 a1 & a2 & !a3 & !a4 & a5 q42
-q37 a1 & a2 & !a3 & a4 & !a5 q42
-q37 a1 & a2 & !a3 & a4 & a5 q42
-q42 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q42 !a1 & !a2 & !a3 & !a4 & a5 q33
-q42 !a1 & !a2 & !a3 & a4 & !a5 q33
-q42 !a1 & !a2 & !a3 & a4 & a5 q33
-q42 !a1 & !a2 & a3 & !a4 & !a5 q33
-q42 !a1 & !a2 & a3 & !a4 & a5 q33
-q42 !a1 & !a2 & a3 & a4 & !a5 q33
-q42 !a1 & !a2 & a3 & a4 & a5 q33
-q42 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q42 !a1 & !a2 & !a3 & !a4 & a5 q40
-q42 !a1 & !a2 & !a3 & a4 & !a5 q40
-q42 !a1 & !a2 & !a3 & a4 & a5 q40
-q42 !a1 & a2 & !a3 & !a4 & !a5 q40
-q42 !a1 & a2 & !a3 & !a4 & a5 q40
-q42 !a1 & a2 & !a3 & a4 & !a5 q40
-q42 !a1 & a2 & !a3 & a4 & a5 q40
-q42 !a1 & a2 & a3 & !a4 & !a5 q40
-q42 !a1 & a2 & a3 & !a4 & a5 q40
-q42 !a1 & a2 & a3 & a4 & !a5 q40
-q42 !a1 & a2 & a3 & a4 & a5 q40
-q42 !a1 & !a2 & a3 & !a4 & !a5 q34
-q42 !a1 & !a2 & a3 & !a4 & a5 q34
-q42 !a1 & !a2 & a3 & a4 & !a5 q34
-q42 !a1 & !a2 & a3 & a4 & a5 q34
-q42 !a1 & a2 & !a3 & !a4 & !a5 q45
-q42 !a1 & a2 & !a3 & !a4 & a5 q45
-q42 !a1 & a2 & !a3 & a4 & !a5 q45
-q42 !a1 & a2 & !a3 & a4 & a5 q45
-q42 !a1 & a2 & a3 & !a4 & !a5 q39
-q42 !a1 & a2 & a3 & !a4 & a5 q39
-q42 !a1 & a2 & a3 & a4 & !a5 q39
-q42 !a1 & a2 & a3 & a4 & a5 q39
-q42 a1 & !a2 & a3 & !a4 & !a5 q29
-q42 a1 & !a2 & a3 & !a4 & a5 q29
-q42 a1 & !a2 & a3 & a4 & !a5 q29
-q42 a1 & !a2 & a3 & a4 & a5 q29
-q42 a1 & !a2 & !a3 & !a4 & !a5 q29
-q42 a1 & !a2 & !a3 & !a4 & a5 q29
-q42 a1 & !a2 & !a3 & a4 & !a5 q29
-q42 a1 & !a2 & !a3 & a4 & a5 q29
-q42 a1 & a2 & !a3 & !a4 & !a5 q42
-q42 a1 & a2 & !a3 & !a4 & a5 q42
-q42 a1 & a2 & !a3 & a4 & !a5 q42
-q42 a1 & a2 & !a3 & a4 & a5 q42
-q42 a1 & a2 & a3 & !a4 & !a5 q42
-q42 a1 & a2 & a3 & !a4 & a5 q42
-q42 a1 & a2 & a3 & a4 & !a5 q42
-q42 a1 & a2 & a3 & a4 & a5 q42
-q42 a1 & !a2 & !a3 & !a4 & !a5 q42
-q42 a1 & !a2 & !a3 & !a4 & a5 q42
-q42 a1 & !a2 & !a3 & a4 & !a5 q42
-q42 a1 & !a2 & !a3 & a4 & a5 q42
-q42 a1 & !a2 & a3 & !a4 & !a5 q37
-q42 a1 & !a2 & a3 & !a4 & a5 q37
-q42 a1 & !a2 & a3 & a4 & !a5 q37
-q42 a1 & !a2 & a3 & a4 & a5 q37
-q42 a1 & a2 & !a3 & !a4 & !a5 q46
-q42 a1 & a2 & !a3 & !a4 & a5 q46
-q42 a1 & a2 & !a3 & a4 & !a5 q46
-q42 a1 & a2 & !a3 & a4 & a5 q46
-q42 a1 & a2 & a3 & !a4 & !a5 q41
-q42 a1 & a2 & a3 & !a4 & a5 q41
-q42 a1 & a2 & a3 & a4 & !a5 q41
-q42 a1 & a2 & a3 & a4 & a5 q41
-q46 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q46 !a1 & !a2 & !a3 & !a4 & a5 q40
-q46 !a1 & !a2 & !a3 & a4 & !a5 q40
-q46 !a1 & !a2 & !a3 & a4 & a5 q40
-q46 !a1 & a2 & a3 & !a4 & !a5 q40
-q46 !a1 & a2 & a3 & !a4 & a5 q40
-q46 !a1 & a2 & a3 & a4 & !a5 q40
-q46 !a1 & a2 & a3 & a4 & a5 q40
-q46 !a1 & a2 & !a3 & !a4 & !a5 q40
-q46 !a1 & a2 & !a3 & !a4 & a5 q40
-q46 !a1 & a2 & !a3 & a4 & !a5 q40
-q46 !a1 & a2 & !a3 & a4 & a5 q40
-q46 !a1 & !a2 & a3 & !a4 & !a5 q40
-q46 !a1 & !a2 & a3 & !a4 & a5 q40
-q46 !a1 & !a2 & a3 & a4 & !a5 q40
-q46 !a1 & !a2 & a3 & a4 & a5 q40
-q46 !a1 & !a2 & !a3 & !a4 & !a5 q45
-q46 !a1 & !a2 & !a3 & !a4 & a5 q45
-q46 !a1 & !a2 & !a3 & a4 & !a5 q45
-q46 !a1 & !a2 & !a3 & a4 & a5 q45
-q46 !a1 & a2 & !a3 & !a4 & !a5 q45
-q46 !a1 & a2 & !a3 & !a4 & a5 q45
-q46 !a1 & a2 & !a3 & a4 & !a5 q45
-q46 !a1 & a2 & !a3 & a4 & a5 q45
-q46 !a1 & a2 & a3 & !a4 & !a5 q39
-q46 !a1 & a2 & a3 & !a4 & a5 q39
-q46 !a1 & a2 & a3 & a4 & !a5 q39
-q46 !a1 & a2 & a3 & a4 & a5 q39
-q46 !a1 & !a2 & a3 & !a4 & !a5 q39
-q46 !a1 & !a2 & a3 & !a4 & a5 q39
-q46 !a1 & !a2 & a3 & a4 & !a5 q39
-q46 !a1 & !a2 & a3 & a4 & a5 q39
-q46 a1 & a2 & !a3 & !a4 & !a5 q42
-q46 a1 & a2 & !a3 & !a4 & a5 q42
-q46 a1 & a2 & !a3 & a4 & !a5 q42
-q46 a1 & a2 & !a3 & a4 & a5 q42
-q46 a1 & a2 & a3 & !a4 & !a5 q42
-q46 a1 & a2 & a3 & !a4 & a5 q42
-q46 a1 & a2 & a3 & a4 & !a5 q42
-q46 a1 & a2 & a3 & a4 & a5 q42
-q46 a1 & !a2 & a3 & !a4 & !a5 q42
-q46 a1 & !a2 & a3 & !a4 & a5 q42
-q46 a1 & !a2 & a3 & a4 & !a5 q42
-q46 a1 & !a2 & a3 & a4 & a5 q42
-q46 a1 & !a2 & !a3 & !a4 & !a5 q42
-q46 a1 & !a2 & !a3 & !a4 & a5 q42
-q46 a1 & !a2 & !a3 & a4 & !a5 q42
-q46 a1 & !a2 & !a3 & a4 & a5 q42
-q46 a1 & a2 & !a3 & !a4 & !a5 q46
-q46 a1 & a2 & !a3 & !a4 & a5 q46
-q46 a1 & a2 & !a3 & a4 & !a5 q46
-q46 a1 & a2 & !a3 & a4 & a5 q46
-q46 a1 & !a2 & !a3 & !a4 & !a5 q46
-q46 a1 & !a2 & !a3 & !a4 & a5 q46
-q46 a1 & !a2 & !a3 & a4 & !a5 q46
-q46 a1 & !a2 & !a3 & a4 & a5 q46
-q46 a1 & a2 & a3 & !a4 & !a5 q41
-q46 a1 & a2 & a3 & !a4 & a5 q41
-q46 a1 & a2 & a3 & a4 & !a5 q41
-q46 a1 & a2 & a3 & a4 & a5 q41
-q46 a1 & !a2 & a3 & !a4 & !a5 q41
-q46 a1 & !a2 & a3 & !a4 & a5 q41
-q46 a1 & !a2 & a3 & a4 & !a5 q41
-q46 a1 & !a2 & a3 & a4 & a5 q41
-q45 a1 & a2 & !a3 & !a4 & !a5 q40
-q45 a1 & a2 & !a3 & !a4 & a5 q40
-q45 a1 & a2 & !a3 & a4 & !a5 q40
-q45 a1 & a2 & !a3 & a4 & a5 q40
-q45 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q45 !a1 & !a2 & !a3 & !a4 & a5 q40
-q45 !a1 & !a2 & !a3 & a4 & !a5 q40
-q45 !a1 & !a2 & !a3 & a4 & a5 q40
-q45 a1 & a2 & a3 & !a4 & !a5 q40
-q45 a1 & a2 & a3 & !a4 & a5 q40
-q45 a1 & a2 & a3 & a4 & !a5 q40
-q45 a1 & a2 & a3 & a4 & a5 q40
-q45 !a1 & !a2 & a3 & !a4 & !a5 q40
-q45 !a1 & !a2 & a3 & !a4 & a5 q40
-q45 !a1 & !a2 & a3 & a4 & !a5 q40
-q45 !a1 & !a2 & a3 & a4 & a5 q40
-q45 a1 & a2 & !a3 & !a4 & !a5 q45
-q45 a1 & a2 & !a3 & !a4 & a5 q45
-q45 a1 & a2 & !a3 & a4 & !a5 q45
-q45 a1 & a2 & !a3 & a4 & a5 q45
-q45 !a1 & !a2 & !a3 & !a4 & !a5 q45
-q45 !a1 & !a2 & !a3 & !a4 & a5 q45
-q45 !a1 & !a2 & !a3 & a4 & !a5 q45
-q45 !a1 & !a2 & !a3 & a4 & a5 q45
-q45 a1 & a2 & a3 & !a4 & !a5 q39
-q45 a1 & a2 & a3 & !a4 & a5 q39
-q45 a1 & a2 & a3 & a4 & !a5 q39
-q45 a1 & a2 & a3 & a4 & a5 q39
-q45 !a1 & !a2 & a3 & !a4 & !a5 q39
-q45 !a1 & !a2 & a3 & !a4 & a5 q39
-q45 !a1 & !a2 & a3 & a4 & !a5 q39
-q45 !a1 & !a2 & a3 & a4 & a5 q39
-q45 !a1 & a2 & !a3 & !a4 & !a5 q48
-q45 !a1 & a2 & !a3 & !a4 & a5 q48
-q45 !a1 & a2 & !a3 & a4 & !a5 q48
-q45 !a1 & a2 & !a3 & a4 & a5 q48
-q45 !a1 & a2 & a3 & !a4 & !a5 q48
-q45 !a1 & a2 & a3 & !a4 & a5 q48
-q45 !a1 & a2 & a3 & a4 & !a5 q48
-q45 !a1 & a2 & a3 & a4 & a5 q48
-q45 !a1 & a2 & !a3 & !a4 & !a5 q49
-q45 !a1 & a2 & !a3 & !a4 & a5 q49
-q45 !a1 & a2 & !a3 & a4 & !a5 q49
-q45 !a1 & a2 & !a3 & a4 & a5 q49
-q45 !a1 & a2 & a3 & !a4 & !a5 q50
-q45 !a1 & a2 & a3 & !a4 & a5 q50
-q45 !a1 & a2 & a3 & a4 & !a5 q50
-q45 !a1 & a2 & a3 & a4 & a5 q50
-q45 a1 & !a2 & a3 & !a4 & !a5 q42
-q45 a1 & !a2 & a3 & !a4 & a5 q42
-q45 a1 & !a2 & a3 & a4 & !a5 q42
-q45 a1 & !a2 & a3 & a4 & a5 q42
-q45 a1 & !a2 & !a3 & !a4 & !a5 q42
-q45 a1 & !a2 & !a3 & !a4 & a5 q42
-q45 a1 & !a2 & !a3 & a4 & !a5 q42
-q45 a1 & !a2 & !a3 & a4 & a5 q42
-q45 a1 & !a2 & !a3 & !a4 & !a5 q46
-q45 a1 & !a2 & !a3 & !a4 & a5 q46
-q45 a1 & !a2 & !a3 & a4 & !a5 q46
-q45 a1 & !a2 & !a3 & a4 & a5 q46
-q45 a1 & !a2 & a3 & !a4 & !a5 q41
-q45 a1 & !a2 & a3 & !a4 & a5 q41
-q45 a1 & !a2 & a3 & a4 & !a5 q41
-q45 a1 & !a2 & a3 & a4 & a5 q41
-q50 !a1 & !a2 & !a3 & !a4 & !a5 q50
-q50 !a1 & !a2 & !a3 & !a4 & a5 q50
-q50 !a1 & !a2 & !a3 & a4 & !a5 q50
-q50 !a1 & !a2 & !a3 & a4 & a5 q50
-q50 !a1 & a2 & a3 & !a4 & !a5 q50
-q50 !a1 & a2 & a3 & !a4 & a5 q50
-q50 !a1 & a2 & a3 & a4 & !a5 q50
-q50 !a1 & a2 & a3 & a4 & a5 q50
-q50 !a1 & a2 & !a3 & !a4 & !a5 q50
-q50 !a1 & a2 & !a3 & !a4 & a5 q50
-q50 !a1 & a2 & !a3 & a4 & !a5 q50
-q50 !a1 & a2 & !a3 & a4 & a5 q50
-q50 !a1 & !a2 & a3 & !a4 & !a5 q50
-q50 !a1 & !a2 & a3 & !a4 & a5 q50
-q50 !a1 & !a2 & a3 & a4 & !a5 q50
-q50 !a1 & !a2 & a3 & a4 & a5 q50
-q50 !a1 & !a2 & !a3 & !a4 & !a5 q48
-q50 !a1 & !a2 & !a3 & !a4 & a5 q48
-q50 !a1 & !a2 & !a3 & a4 & !a5 q48
-q50 !a1 & !a2 & !a3 & a4 & a5 q48
-q50 !a1 & a2 & !a3 & !a4 & !a5 q48
-q50 !a1 & a2 & !a3 & !a4 & a5 q48
-q50 !a1 & a2 & !a3 & a4 & !a5 q48
-q50 !a1 & a2 & !a3 & a4 & a5 q48
-q50 !a1 & a2 & a3 & !a4 & !a5 q51
-q50 !a1 & a2 & a3 & !a4 & a5 q51
-q50 !a1 & a2 & a3 & a4 & !a5 q51
-q50 !a1 & a2 & a3 & a4 & a5 q51
-q50 !a1 & !a2 & a3 & !a4 & !a5 q51
-q50 !a1 & !a2 & a3 & !a4 & a5 q51
-q50 !a1 & !a2 & a3 & a4 & !a5 q51
-q50 !a1 & !a2 & a3 & a4 & a5 q51
-q50 a1 & a2 & !a3 & !a4 & !a5 q39
-q50 a1 & a2 & !a3 & !a4 & a5 q39
-q50 a1 & a2 & !a3 & a4 & !a5 q39
-q50 a1 & a2 & !a3 & a4 & a5 q39
-q50 a1 & a2 & a3 & !a4 & !a5 q39
-q50 a1 & a2 & a3 & !a4 & a5 q39
-q50 a1 & a2 & a3 & a4 & !a5 q39
-q50 a1 & a2 & a3 & a4 & a5 q39
-q50 a1 & !a2 & a3 & !a4 & !a5 q39
-q50 a1 & !a2 & a3 & !a4 & a5 q39
-q50 a1 & !a2 & a3 & a4 & !a5 q39
-q50 a1 & !a2 & a3 & a4 & a5 q39
-q50 a1 & !a2 & !a3 & !a4 & !a5 q39
-q50 a1 & !a2 & !a3 & !a4 & a5 q39
-q50 a1 & !a2 & !a3 & a4 & !a5 q39
-q50 a1 & !a2 & !a3 & a4 & a5 q39
-q50 a1 & a2 & !a3 & !a4 & !a5 q40
-q50 a1 & a2 & !a3 & !a4 & a5 q40
-q50 a1 & a2 & !a3 & a4 & !a5 q40
-q50 a1 & a2 & !a3 & a4 & a5 q40
-q50 a1 & !a2 & !a3 & !a4 & !a5 q40
-q50 a1 & !a2 & !a3 & !a4 & a5 q40
-q50 a1 & !a2 & !a3 & a4 & !a5 q40
-q50 a1 & !a2 & !a3 & a4 & a5 q40
-q50 a1 & a2 & a3 & !a4 & !a5 q34
-q50 a1 & a2 & a3 & !a4 & a5 q34
-q50 a1 & a2 & a3 & a4 & !a5 q34
-q50 a1 & a2 & a3 & a4 & a5 q34
-q50 a1 & !a2 & a3 & !a4 & !a5 q34
-q50 a1 & !a2 & a3 & !a4 & a5 q34
-q50 a1 & !a2 & a3 & a4 & !a5 q34
-q50 a1 & !a2 & a3 & a4 & a5 q34
-q51 !a1 & !a2 & !a3 & !a4 & !a5 q52
-q51 !a1 & !a2 & !a3 & !a4 & a5 q52
-q51 !a1 & !a2 & !a3 & a4 & !a5 q52
-q51 !a1 & !a2 & !a3 & a4 & a5 q52
-q51 !a1 & !a2 & !a3 & !a4 & !a5 q51
-q51 !a1 & !a2 & !a3 & !a4 & a5 q51
-q51 !a1 & !a2 & !a3 & a4 & !a5 q51
-q51 !a1 & !a2 & !a3 & a4 & a5 q51
-q51 !a1 & a2 & a3 & !a4 & !a5 q51
-q51 !a1 & a2 & a3 & !a4 & a5 q51
-q51 !a1 & a2 & a3 & a4 & !a5 q51
-q51 !a1 & a2 & a3 & a4 & a5 q51
-q51 !a1 & !a2 & a3 & !a4 & !a5 q51
-q51 !a1 & !a2 & a3 & !a4 & a5 q51
-q51 !a1 & !a2 & a3 & a4 & !a5 q51
-q51 !a1 & !a2 & a3 & a4 & a5 q51
-q51 !a1 & !a2 & a3 & !a4 & !a5 q53
-q51 !a1 & !a2 & a3 & !a4 & a5 q53
-q51 !a1 & !a2 & a3 & a4 & !a5 q53
-q51 !a1 & !a2 & a3 & a4 & a5 q53
-q51 !a1 & a2 & !a3 & !a4 & !a5 q50
-q51 !a1 & a2 & !a3 & !a4 & a5 q50
-q51 !a1 & a2 & !a3 & a4 & !a5 q50
-q51 !a1 & a2 & !a3 & a4 & a5 q50
-q51 !a1 & a2 & a3 & !a4 & !a5 q50
-q51 !a1 & a2 & a3 & !a4 & a5 q50
-q51 !a1 & a2 & a3 & a4 & !a5 q50
-q51 !a1 & a2 & a3 & a4 & a5 q50
-q51 !a1 & a2 & !a3 & !a4 & !a5 q48
-q51 !a1 & a2 & !a3 & !a4 & a5 q48
-q51 !a1 & a2 & !a3 & a4 & !a5 q48
-q51 !a1 & a2 & !a3 & a4 & a5 q48
-q51 a1 & !a2 & !a3 & !a4 & !a5 q33
-q51 a1 & !a2 & !a3 & !a4 & a5 q33
-q51 a1 & !a2 & !a3 & a4 & !a5 q33
-q51 a1 & !a2 & !a3 & a4 & a5 q33
-q51 a1 & a2 & a3 & !a4 & !a5 q34
-q51 a1 & a2 & a3 & !a4 & a5 q34
-q51 a1 & a2 & a3 & a4 & !a5 q34
-q51 a1 & a2 & a3 & a4 & a5 q34
-q51 a1 & !a2 & a3 & !a4 & !a5 q34
-q51 a1 & !a2 & a3 & !a4 & a5 q34
-q51 a1 & !a2 & a3 & a4 & !a5 q34
-q51 a1 & !a2 & a3 & a4 & a5 q34
-q51 a1 & !a2 & !a3 & !a4 & !a5 q34
-q51 a1 & !a2 & !a3 & !a4 & a5 q34
-q51 a1 & !a2 & !a3 & a4 & !a5 q34
-q51 a1 & !a2 & !a3 & a4 & a5 q34
-q51 a1 & !a2 & a3 & !a4 & !a5 q35
-q51 a1 & !a2 & a3 & !a4 & a5 q35
-q51 a1 & !a2 & a3 & a4 & !a5 q35
-q51 a1 & !a2 & a3 & a4 & a5 q35
-q51 a1 & a2 & !a3 & !a4 & !a5 q39
-q51 a1 & a2 & !a3 & !a4 & a5 q39
-q51 a1 & a2 & !a3 & a4 & !a5 q39
-q51 a1 & a2 & !a3 & a4 & a5 q39
-q51 a1 & a2 & a3 & !a4 & !a5 q39
-q51 a1 & a2 & a3 & !a4 & a5 q39
-q51 a1 & a2 & a3 & a4 & !a5 q39
-q51 a1 & a2 & a3 & a4 & a5 q39
-q51 a1 & a2 & !a3 & !a4 & !a5 q40
-q51 a1 & a2 & !a3 & !a4 & a5 q40
-q51 a1 & a2 & !a3 & a4 & !a5 q40
-q51 a1 & a2 & !a3 & a4 & a5 q40
-q53 !a1 & !a2 & !a3 & !a4 & !a5 q52
-q53 !a1 & !a2 & !a3 & !a4 & a5 q52
-q53 !a1 & !a2 & !a3 & a4 & !a5 q52
-q53 !a1 & !a2 & !a3 & a4 & a5 q52
-q53 !a1 & a2 & !a3 & !a4 & !a5 q52
-q53 !a1 & a2 & !a3 & !a4 & a5 q52
-q53 !a1 & a2 & !a3 & a4 & !a5 q52
-q53 !a1 & a2 & !a3 & a4 & a5 q52
-q53 !a1 & !a2 & !a3 & !a4 & !a5 q51
-q53 !a1 & !a2 & !a3 & !a4 & a5 q51
-q53 !a1 & !a2 & !a3 & a4 & !a5 q51
-q53 !a1 & !a2 & !a3 & a4 & a5 q51
-q53 !a1 & a2 & a3 & !a4 & !a5 q51
-q53 !a1 & a2 & a3 & !a4 & a5 q51
-q53 !a1 & a2 & a3 & a4 & !a5 q51
-q53 !a1 & a2 & a3 & a4 & a5 q51
-q53 !a1 & a2 & !a3 & !a4 & !a5 q51
-q53 !a1 & a2 & !a3 & !a4 & a5 q51
-q53 !a1 & a2 & !a3 & a4 & !a5 q51
-q53 !a1 & a2 & !a3 & a4 & a5 q51
-q53 !a1 & !a2 & a3 & !a4 & !a5 q51
-q53 !a1 & !a2 & a3 & !a4 & a5 q51
-q53 !a1 & !a2 & a3 & a4 & !a5 q51
-q53 !a1 & !a2 & a3 & a4 & a5 q51
-q53 !a1 & a2 & a3 & !a4 & !a5 q53
-q53 !a1 & a2 & a3 & !a4 & a5 q53
-q53 !a1 & a2 & a3 & a4 & !a5 q53
-q53 !a1 & a2 & a3 & a4 & a5 q53
-q53 !a1 & !a2 & a3 & !a4 & !a5 q53
-q53 !a1 & !a2 & a3 & !a4 & a5 q53
-q53 !a1 & !a2 & a3 & a4 & !a5 q53
-q53 !a1 & !a2 & a3 & a4 & a5 q53
-q53 a1 & a2 & !a3 & !a4 & !a5 q33
-q53 a1 & a2 & !a3 & !a4 & a5 q33
-q53 a1 & a2 & !a3 & a4 & !a5 q33
-q53 a1 & a2 & !a3 & a4 & a5 q33
-q53 a1 & !a2 & !a3 & !a4 & !a5 q33
-q53 a1 & !a2 & !a3 & !a4 & a5 q33
-q53 a1 & !a2 & !a3 & a4 & !a5 q33
-q53 a1 & !a2 & !a3 & a4 & a5 q33
-q53 a1 & a2 & !a3 & !a4 & !a5 q34
-q53 a1 & a2 & !a3 & !a4 & a5 q34
-q53 a1 & a2 & !a3 & a4 & !a5 q34
-q53 a1 & a2 & !a3 & a4 & a5 q34
-q53 a1 & a2 & a3 & !a4 & !a5 q34
-q53 a1 & a2 & a3 & !a4 & a5 q34
-q53 a1 & a2 & a3 & a4 & !a5 q34
-q53 a1 & a2 & a3 & a4 & a5 q34
-q53 a1 & !a2 & a3 & !a4 & !a5 q34
-q53 a1 & !a2 & a3 & !a4 & a5 q34
-q53 a1 & !a2 & a3 & a4 & !a5 q34
-q53 a1 & !a2 & a3 & a4 & a5 q34
-q53 a1 & !a2 & !a3 & !a4 & !a5 q34
-q53 a1 & !a2 & !a3 & !a4 & a5 q34
-q53 a1 & !a2 & !a3 & a4 & !a5 q34
-q53 a1 & !a2 & !a3 & a4 & a5 q34
-q53 a1 & a2 & a3 & !a4 & !a5 q35
-q53 a1 & a2 & a3 & !a4 & a5 q35
-q53 a1 & a2 & a3 & a4 & !a5 q35
-q53 a1 & a2 & a3 & a4 & a5 q35
-q53 a1 & !a2 & a3 & !a4 & !a5 q35
-q53 a1 & !a2 & a3 & !a4 & a5 q35
-q53 a1 & !a2 & a3 & a4 & !a5 q35
-q53 a1 & !a2 & a3 & a4 & a5 q35
-q52 !a1 & !a2 & !a3 & !a4 & !a5 q52
-q52 !a1 & !a2 & !a3 & !a4 & a5 q52
-q52 !a1 & !a2 & !a3 & a4 & !a5 q52
-q52 !a1 & !a2 & !a3 & a4 & a5 q52
-q52 !a1 & a2 & a3 & !a4 & !a5 q52
-q52 !a1 & a2 & a3 & !a4 & a5 q52
-q52 !a1 & a2 & a3 & a4 & !a5 q52
-q52 !a1 & a2 & a3 & a4 & a5 q52
-q52 !a1 & a2 & !a3 & !a4 & !a5 q52
-q52 !a1 & a2 & !a3 & !a4 & a5 q52
-q52 !a1 & a2 & !a3 & a4 & !a5 q52
-q52 !a1 & a2 & !a3 & a4 & a5 q52
-q52 !a1 & !a2 & a3 & !a4 & !a5 q52
-q52 !a1 & !a2 & a3 & !a4 & a5 q52
-q52 !a1 & !a2 & a3 & a4 & !a5 q52
-q52 !a1 & !a2 & a3 & a4 & a5 q52
-q52 !a1 & !a2 & !a3 & !a4 & !a5 q48
-q52 !a1 & !a2 & !a3 & !a4 & a5 q48
-q52 !a1 & !a2 & !a3 & a4 & !a5 q48
-q52 !a1 & !a2 & !a3 & a4 & a5 q48
-q52 !a1 & a2 & !a3 & !a4 & !a5 q48
-q52 !a1 & a2 & !a3 & !a4 & a5 q48
-q52 !a1 & a2 & !a3 & a4 & !a5 q48
-q52 !a1 & a2 & !a3 & a4 & a5 q48
-q52 !a1 & a2 & a3 & !a4 & !a5 q51
-q52 !a1 & a2 & a3 & !a4 & a5 q51
-q52 !a1 & a2 & a3 & a4 & !a5 q51
-q52 !a1 & a2 & a3 & a4 & a5 q51
-q52 !a1 & !a2 & a3 & !a4 & !a5 q51
-q52 !a1 & !a2 & a3 & !a4 & a5 q51
-q52 !a1 & !a2 & a3 & a4 & !a5 q51
-q52 !a1 & !a2 & a3 & a4 & a5 q51
-q52 a1 & a2 & !a3 & !a4 & !a5 q33
-q52 a1 & a2 & !a3 & !a4 & a5 q33
-q52 a1 & a2 & !a3 & a4 & !a5 q33
-q52 a1 & a2 & !a3 & a4 & a5 q33
-q52 a1 & a2 & a3 & !a4 & !a5 q33
-q52 a1 & a2 & a3 & !a4 & a5 q33
-q52 a1 & a2 & a3 & a4 & !a5 q33
-q52 a1 & a2 & a3 & a4 & a5 q33
-q52 a1 & !a2 & a3 & !a4 & !a5 q33
-q52 a1 & !a2 & a3 & !a4 & a5 q33
-q52 a1 & !a2 & a3 & a4 & !a5 q33
-q52 a1 & !a2 & a3 & a4 & a5 q33
-q52 a1 & !a2 & !a3 & !a4 & !a5 q33
-q52 a1 & !a2 & !a3 & !a4 & a5 q33
-q52 a1 & !a2 & !a3 & a4 & !a5 q33
-q52 a1 & !a2 & !a3 & a4 & a5 q33
-q52 a1 & a2 & !a3 & !a4 & !a5 q40
-q52 a1 & a2 & !a3 & !a4 & a5 q40
-q52 a1 & a2 & !a3 & a4 & !a5 q40
-q52 a1 & a2 & !a3 & a4 & a5 q40
-q52 a1 & !a2 & !a3 & !a4 & !a5 q40
-q52 a1 & !a2 & !a3 & !a4 & a5 q40
-q52 a1 & !a2 & !a3 & a4 & !a5 q40
-q52 a1 & !a2 & !a3 & a4 & a5 q40
-q52 a1 & a2 & a3 & !a4 & !a5 q34
-q52 a1 & a2 & a3 & !a4 & a5 q34
-q52 a1 & a2 & a3 & a4 & !a5 q34
-q52 a1 & a2 & a3 & a4 & a5 q34
-q52 a1 & !a2 & a3 & !a4 & !a5 q34
-q52 a1 & !a2 & a3 & !a4 & a5 q34
-q52 a1 & !a2 & a3 & a4 & !a5 q34
-q52 a1 & !a2 & a3 & a4 & a5 q34
-q49 !a1 & !a2 & !a3 & !a4 & !a5 q48
-q49 !a1 & !a2 & !a3 & !a4 & a5 q48
-q49 !a1 & !a2 & !a3 & a4 & !a5 q48
-q49 !a1 & !a2 & !a3 & a4 & a5 q48
-q49 !a1 & a2 & a3 & !a4 & !a5 q48
-q49 !a1 & a2 & a3 & !a4 & a5 q48
-q49 !a1 & a2 & a3 & a4 & !a5 q48
-q49 !a1 & a2 & a3 & a4 & a5 q48
-q49 !a1 & a2 & !a3 & !a4 & !a5 q48
-q49 !a1 & a2 & !a3 & !a4 & a5 q48
-q49 !a1 & a2 & !a3 & a4 & !a5 q48
-q49 !a1 & a2 & !a3 & a4 & a5 q48
-q49 !a1 & !a2 & a3 & !a4 & !a5 q48
-q49 !a1 & !a2 & a3 & !a4 & a5 q48
-q49 !a1 & !a2 & a3 & a4 & !a5 q48
-q49 !a1 & !a2 & a3 & a4 & a5 q48
-q49 !a1 & !a2 & !a3 & !a4 & !a5 q49
-q49 !a1 & !a2 & !a3 & !a4 & a5 q49
-q49 !a1 & !a2 & !a3 & a4 & !a5 q49
-q49 !a1 & !a2 & !a3 & a4 & a5 q49
-q49 !a1 & a2 & !a3 & !a4 & !a5 q49
-q49 !a1 & a2 & !a3 & !a4 & a5 q49
-q49 !a1 & a2 & !a3 & a4 & !a5 q49
-q49 !a1 & a2 & !a3 & a4 & a5 q49
-q49 !a1 & a2 & a3 & !a4 & !a5 q50
-q49 !a1 & a2 & a3 & !a4 & a5 q50
-q49 !a1 & a2 & a3 & a4 & !a5 q50
-q49 !a1 & a2 & a3 & a4 & a5 q50
-q49 !a1 & !a2 & a3 & !a4 & !a5 q50
-q49 !a1 & !a2 & a3 & !a4 & a5 q50
-q49 !a1 & !a2 & a3 & a4 & !a5 q50
-q49 !a1 & !a2 & a3 & a4 & a5 q50
-q49 a1 & a2 & !a3 & !a4 & !a5 q40
-q49 a1 & a2 & !a3 & !a4 & a5 q40
-q49 a1 & a2 & !a3 & a4 & !a5 q40
-q49 a1 & a2 & !a3 & a4 & a5 q40
-q49 a1 & a2 & a3 & !a4 & !a5 q40
-q49 a1 & a2 & a3 & !a4 & a5 q40
-q49 a1 & a2 & a3 & a4 & !a5 q40
-q49 a1 & a2 & a3 & a4 & a5 q40
-q49 a1 & !a2 & a3 & !a4 & !a5 q40
-q49 a1 & !a2 & a3 & !a4 & a5 q40
-q49 a1 & !a2 & a3 & a4 & !a5 q40
-q49 a1 & !a2 & a3 & a4 & a5 q40
-q49 a1 & !a2 & !a3 & !a4 & !a5 q40
-q49 a1 & !a2 & !a3 & !a4 & a5 q40
-q49 a1 & !a2 & !a3 & a4 & !a5 q40
-q49 a1 & !a2 & !a3 & a4 & a5 q40
-q49 a1 & a2 & !a3 & !a4 & !a5 q45
-q49 a1 & a2 & !a3 & !a4 & a5 q45
-q49 a1 & a2 & !a3 & a4 & !a5 q45
-q49 a1 & a2 & !a3 & a4 & a5 q45
-q49 a1 & !a2 & !a3 & !a4 & !a5 q45
-q49 a1 & !a2 & !a3 & !a4 & a5 q45
-q49 a1 & !a2 & !a3 & a4 & !a5 q45
-q49 a1 & !a2 & !a3 & a4 & a5 q45
-q49 a1 & a2 & a3 & !a4 & !a5 q39
-q49 a1 & a2 & a3 & !a4 & a5 q39
-q49 a1 & a2 & a3 & a4 & !a5 q39
-q49 a1 & a2 & a3 & a4 & a5 q39
-q49 a1 & !a2 & a3 & !a4 & !a5 q39
-q49 a1 & !a2 & a3 & !a4 & a5 q39
-q49 a1 & !a2 & a3 & a4 & !a5 q39
-q49 a1 & !a2 & a3 & a4 & a5 q39
-q48 !a1 & !a2 & !a3 & !a4 & !a5 q52
-q48 !a1 & !a2 & !a3 & !a4 & a5 q52
-q48 !a1 & !a2 & !a3 & a4 & !a5 q52
-q48 !a1 & !a2 & !a3 & a4 & a5 q52
-q48 !a1 & !a2 & a3 & !a4 & !a5 q52
-q48 !a1 & !a2 & a3 & !a4 & a5 q52
-q48 !a1 & !a2 & a3 & a4 & !a5 q52
-q48 !a1 & !a2 & a3 & a4 & a5 q52
-q48 !a1 & !a2 & !a3 & !a4 & !a5 q48
-q48 !a1 & !a2 & !a3 & !a4 & a5 q48
-q48 !a1 & !a2 & !a3 & a4 & !a5 q48
-q48 !a1 & !a2 & !a3 & a4 & a5 q48
-q48 !a1 & a2 & !a3 & !a4 & !a5 q48
-q48 !a1 & a2 & !a3 & !a4 & a5 q48
-q48 !a1 & a2 & !a3 & a4 & !a5 q48
-q48 !a1 & a2 & !a3 & a4 & a5 q48
-q48 !a1 & a2 & a3 & !a4 & !a5 q48
-q48 !a1 & a2 & a3 & !a4 & a5 q48
-q48 !a1 & a2 & a3 & a4 & !a5 q48
-q48 !a1 & a2 & a3 & a4 & a5 q48
-q48 !a1 & !a2 & a3 & !a4 & !a5 q51
-q48 !a1 & !a2 & a3 & !a4 & a5 q51
-q48 !a1 & !a2 & a3 & a4 & !a5 q51
-q48 !a1 & !a2 & a3 & a4 & a5 q51
-q48 !a1 & a2 & !a3 & !a4 & !a5 q49
-q48 !a1 & a2 & !a3 & !a4 & a5 q49
-q48 !a1 & a2 & !a3 & a4 & !a5 q49
-q48 !a1 & a2 & !a3 & a4 & a5 q49
-q48 !a1 & a2 & a3 & !a4 & !a5 q50
-q48 !a1 & a2 & a3 & !a4 & a5 q50
-q48 !a1 & a2 & a3 & a4 & !a5 q50
-q48 !a1 & a2 & a3 & a4 & a5 q50
-q48 a1 & !a2 & a3 & !a4 & !a5 q33
-q48 a1 & !a2 & a3 & !a4 & a5 q33
-q48 a1 & !a2 & a3 & a4 & !a5 q33
-q48 a1 & !a2 & a3 & a4 & a5 q33
-q48 a1 & !a2 & !a3 & !a4 & !a5 q33
-q48 a1 & !a2 & !a3 & !a4 & a5 q33
-q48 a1 & !a2 & !a3 & a4 & !a5 q33
-q48 a1 & !a2 & !a3 & a4 & a5 q33
-q48 a1 & a2 & !a3 & !a4 & !a5 q40
-q48 a1 & a2 & !a3 & !a4 & a5 q40
-q48 a1 & a2 & !a3 & a4 & !a5 q40
-q48 a1 & a2 & !a3 & a4 & a5 q40
-q48 a1 & a2 & a3 & !a4 & !a5 q40
-q48 a1 & a2 & a3 & !a4 & a5 q40
-q48 a1 & a2 & a3 & a4 & !a5 q40
-q48 a1 & a2 & a3 & a4 & a5 q40
-q48 a1 & !a2 & !a3 & !a4 & !a5 q40
-q48 a1 & !a2 & !a3 & !a4 & a5 q40
-q48 a1 & !a2 & !a3 & a4 & !a5 q40
-q48 a1 & !a2 & !a3 & a4 & a5 q40
-q48 a1 & !a2 & a3 & !a4 & !a5 q34
-q48 a1 & !a2 & a3 & !a4 & a5 q34
-q48 a1 & !a2 & a3 & a4 & !a5 q34
-q48 a1 & !a2 & a3 & a4 & a5 q34
-q48 a1 & a2 & !a3 & !a4 & !a5 q45
-q48 a1 & a2 & !a3 & !a4 & a5 q45
-q48 a1 & a2 & !a3 & a4 & !a5 q45
-q48 a1 & a2 & !a3 & a4 & a5 q45
-q48 a1 & a2 & a3 & !a4 & !a5 q39
-q48 a1 & a2 & a3 & !a4 & a5 q39
-q48 a1 & a2 & a3 & a4 & !a5 q39
-q48 a1 & a2 & a3 & a4 & a5 q39
-q41 !a1 & !a2 & !a3 & !a4 & !a5 q39
-q41 !a1 & !a2 & !a3 & !a4 & a5 q39
-q41 !a1 & !a2 & !a3 & a4 & !a5 q39
-q41 !a1 & !a2 & !a3 & a4 & a5 q39
-q41 !a1 & a2 & a3 & !a4 & !a5 q39
-q41 !a1 & a2 & a3 & !a4 & a5 q39
-q41 !a1 & a2 & a3 & a4 & !a5 q39
-q41 !a1 & a2 & a3 & a4 & a5 q39
-q41 !a1 & a2 & !a3 & !a4 & !a5 q39
-q41 !a1 & a2 & !a3 & !a4 & a5 q39
-q41 !a1 & a2 & !a3 & a4 & !a5 q39
-q41 !a1 & a2 & !a3 & a4 & a5 q39
-q41 !a1 & !a2 & a3 & !a4 & !a5 q39
-q41 !a1 & !a2 & a3 & !a4 & a5 q39
-q41 !a1 & !a2 & a3 & a4 & !a5 q39
-q41 !a1 & !a2 & a3 & a4 & a5 q39
-q41 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q41 !a1 & !a2 & !a3 & !a4 & a5 q40
-q41 !a1 & !a2 & !a3 & a4 & !a5 q40
-q41 !a1 & !a2 & !a3 & a4 & a5 q40
-q41 !a1 & a2 & !a3 & !a4 & !a5 q40
-q41 !a1 & a2 & !a3 & !a4 & a5 q40
-q41 !a1 & a2 & !a3 & a4 & !a5 q40
-q41 !a1 & a2 & !a3 & a4 & a5 q40
-q41 !a1 & a2 & a3 & !a4 & !a5 q34
-q41 !a1 & a2 & a3 & !a4 & a5 q34
-q41 !a1 & a2 & a3 & a4 & !a5 q34
-q41 !a1 & a2 & a3 & a4 & a5 q34
-q41 !a1 & !a2 & a3 & !a4 & !a5 q34
-q41 !a1 & !a2 & a3 & !a4 & a5 q34
-q41 !a1 & !a2 & a3 & a4 & !a5 q34
-q41 !a1 & !a2 & a3 & a4 & a5 q34
-q41 a1 & a2 & !a3 & !a4 & !a5 q41
-q41 a1 & a2 & !a3 & !a4 & a5 q41
-q41 a1 & a2 & !a3 & a4 & !a5 q41
-q41 a1 & a2 & !a3 & a4 & a5 q41
-q41 a1 & a2 & a3 & !a4 & !a5 q41
-q41 a1 & a2 & a3 & !a4 & a5 q41
-q41 a1 & a2 & a3 & a4 & !a5 q41
-q41 a1 & a2 & a3 & a4 & a5 q41
-q41 a1 & !a2 & a3 & !a4 & !a5 q41
-q41 a1 & !a2 & a3 & !a4 & a5 q41
-q41 a1 & !a2 & a3 & a4 & !a5 q41
-q41 a1 & !a2 & a3 & a4 & a5 q41
-q41 a1 & !a2 & !a3 & !a4 & !a5 q41
-q41 a1 & !a2 & !a3 & !a4 & a5 q41
-q41 a1 & !a2 & !a3 & a4 & !a5 q41
-q41 a1 & !a2 & !a3 & a4 & a5 q41
-q41 a1 & a2 & !a3 & !a4 & !a5 q42
-q41 a1 & a2 & !a3 & !a4 & a5 q42
-q41 a1 & a2 & !a3 & a4 & !a5 q42
-q41 a1 & a2 & !a3 & a4 & a5 q42
-q41 a1 & !a2 & !a3 & !a4 & !a5 q42
-q41 a1 & !a2 & !a3 & !a4 & a5 q42
-q41 a1 & !a2 & !a3 & a4 & !a5 q42
-q41 a1 & !a2 & !a3 & a4 & a5 q42
-q41 a1 & a2 & a3 & !a4 & !a5 q37
-q41 a1 & a2 & a3 & !a4 & a5 q37
-q41 a1 & a2 & a3 & a4 & !a5 q37
-q41 a1 & a2 & a3 & a4 & a5 q37
-q41 a1 & !a2 & a3 & !a4 & !a5 q37
-q41 a1 & !a2 & a3 & !a4 & a5 q37
-q41 a1 & !a2 & a3 & a4 & !a5 q37
-q41 a1 & !a2 & a3 & a4 & a5 q37
-q40 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q40 !a1 & !a2 & !a3 & !a4 & a5 q33
-q40 !a1 & !a2 & !a3 & a4 & !a5 q33
-q40 !a1 & !a2 & !a3 & a4 & a5 q33
-q40 !a1 & !a2 & a3 & !a4 & !a5 q33
-q40 !a1 & !a2 & a3 & !a4 & a5 q33
-q40 !a1 & !a2 & a3 & a4 & !a5 q33
-q40 !a1 & !a2 & a3 & a4 & a5 q33
-q40 a1 & a2 & !a3 & !a4 & !a5 q40
-q40 a1 & a2 & !a3 & !a4 & a5 q40
-q40 a1 & a2 & !a3 & a4 & !a5 q40
-q40 a1 & a2 & !a3 & a4 & a5 q40
-q40 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q40 !a1 & !a2 & !a3 & !a4 & a5 q40
-q40 !a1 & !a2 & !a3 & a4 & !a5 q40
-q40 !a1 & !a2 & !a3 & a4 & a5 q40
-q40 a1 & a2 & a3 & !a4 & !a5 q40
-q40 a1 & a2 & a3 & !a4 & a5 q40
-q40 a1 & a2 & a3 & a4 & !a5 q40
-q40 a1 & a2 & a3 & a4 & a5 q40
-q40 !a1 & !a2 & a3 & !a4 & !a5 q34
-q40 !a1 & !a2 & a3 & !a4 & a5 q34
-q40 !a1 & !a2 & a3 & a4 & !a5 q34
-q40 !a1 & !a2 & a3 & a4 & a5 q34
-q40 !a1 & a2 & !a3 & !a4 & !a5 q48
-q40 !a1 & a2 & !a3 & !a4 & a5 q48
-q40 !a1 & a2 & !a3 & a4 & !a5 q48
-q40 !a1 & a2 & !a3 & a4 & a5 q48
-q40 !a1 & a2 & a3 & !a4 & !a5 q48
-q40 !a1 & a2 & a3 & !a4 & a5 q48
-q40 !a1 & a2 & a3 & a4 & !a5 q48
-q40 !a1 & a2 & a3 & a4 & a5 q48
-q40 !a1 & a2 & !a3 & !a4 & !a5 q49
-q40 !a1 & a2 & !a3 & !a4 & a5 q49
-q40 !a1 & a2 & !a3 & a4 & !a5 q49
-q40 !a1 & a2 & !a3 & a4 & a5 q49
-q40 !a1 & a2 & a3 & !a4 & !a5 q50
-q40 !a1 & a2 & a3 & !a4 & a5 q50
-q40 !a1 & a2 & a3 & a4 & !a5 q50
-q40 !a1 & a2 & a3 & a4 & a5 q50
-q40 a1 & !a2 & a3 & !a4 & !a5 q29
-q40 a1 & !a2 & a3 & !a4 & a5 q29
-q40 a1 & !a2 & a3 & a4 & !a5 q29
-q40 a1 & !a2 & a3 & a4 & a5 q29
-q40 a1 & !a2 & !a3 & !a4 & !a5 q29
-q40 a1 & !a2 & !a3 & !a4 & a5 q29
-q40 a1 & !a2 & !a3 & a4 & !a5 q29
-q40 a1 & !a2 & !a3 & a4 & a5 q29
-q40 a1 & !a2 & !a3 & !a4 & !a5 q42
-q40 a1 & !a2 & !a3 & !a4 & a5 q42
-q40 a1 & !a2 & !a3 & a4 & !a5 q42
-q40 a1 & !a2 & !a3 & a4 & a5 q42
-q40 a1 & !a2 & a3 & !a4 & !a5 q37
-q40 a1 & !a2 & a3 & !a4 & a5 q37
-q40 a1 & !a2 & a3 & a4 & !a5 q37
-q40 a1 & !a2 & a3 & a4 & a5 q37
-q40 a1 & a2 & !a3 & !a4 & !a5 q45
-q40 a1 & a2 & !a3 & !a4 & a5 q45
-q40 a1 & a2 & !a3 & a4 & !a5 q45
-q40 a1 & a2 & !a3 & a4 & a5 q45
-q40 a1 & a2 & a3 & !a4 & !a5 q39
-q40 a1 & a2 & a3 & !a4 & a5 q39
-q40 a1 & a2 & a3 & a4 & !a5 q39
-q40 a1 & a2 & a3 & a4 & a5 q39
-q39 a1 & a2 & !a3 & !a4 & !a5 q39
-q39 a1 & a2 & !a3 & !a4 & a5 q39
-q39 a1 & a2 & !a3 & a4 & !a5 q39
-q39 a1 & a2 & !a3 & a4 & a5 q39
-q39 !a1 & !a2 & !a3 & !a4 & !a5 q39
-q39 !a1 & !a2 & !a3 & !a4 & a5 q39
-q39 !a1 & !a2 & !a3 & a4 & !a5 q39
-q39 !a1 & !a2 & !a3 & a4 & a5 q39
-q39 a1 & a2 & a3 & !a4 & !a5 q39
-q39 a1 & a2 & a3 & !a4 & a5 q39
-q39 a1 & a2 & a3 & a4 & !a5 q39
-q39 a1 & a2 & a3 & a4 & a5 q39
-q39 !a1 & !a2 & a3 & !a4 & !a5 q39
-q39 !a1 & !a2 & a3 & !a4 & a5 q39
-q39 !a1 & !a2 & a3 & a4 & !a5 q39
-q39 !a1 & !a2 & a3 & a4 & a5 q39
-q39 a1 & a2 & !a3 & !a4 & !a5 q40
-q39 a1 & a2 & !a3 & !a4 & a5 q40
-q39 a1 & a2 & !a3 & a4 & !a5 q40
-q39 a1 & a2 & !a3 & a4 & a5 q40
-q39 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q39 !a1 & !a2 & !a3 & !a4 & a5 q40
-q39 !a1 & !a2 & !a3 & a4 & !a5 q40
-q39 !a1 & !a2 & !a3 & a4 & a5 q40
-q39 a1 & a2 & a3 & !a4 & !a5 q34
-q39 a1 & a2 & a3 & !a4 & a5 q34
-q39 a1 & a2 & a3 & a4 & !a5 q34
-q39 a1 & a2 & a3 & a4 & a5 q34
-q39 !a1 & !a2 & a3 & !a4 & !a5 q34
-q39 !a1 & !a2 & a3 & !a4 & a5 q34
-q39 !a1 & !a2 & a3 & a4 & !a5 q34
-q39 !a1 & !a2 & a3 & a4 & a5 q34
-q39 !a1 & a2 & !a3 & !a4 & !a5 q50
-q39 !a1 & a2 & !a3 & !a4 & a5 q50
-q39 !a1 & a2 & !a3 & a4 & !a5 q50
-q39 !a1 & a2 & !a3 & a4 & a5 q50
-q39 !a1 & a2 & a3 & !a4 & !a5 q50
-q39 !a1 & a2 & a3 & !a4 & a5 q50
-q39 !a1 & a2 & a3 & a4 & !a5 q50
-q39 !a1 & a2 & a3 & a4 & a5 q50
-q39 !a1 & a2 & !a3 & !a4 & !a5 q48
-q39 !a1 & a2 & !a3 & !a4 & a5 q48
-q39 !a1 & a2 & !a3 & a4 & !a5 q48
-q39 !a1 & a2 & !a3 & a4 & a5 q48
-q39 !a1 & a2 & a3 & !a4 & !a5 q51
-q39 !a1 & a2 & a3 & !a4 & a5 q51
-q39 !a1 & a2 & a3 & a4 & !a5 q51
-q39 !a1 & a2 & a3 & a4 & a5 q51
-q39 a1 & !a2 & a3 & !a4 & !a5 q41
-q39 a1 & !a2 & a3 & !a4 & a5 q41
-q39 a1 & !a2 & a3 & a4 & !a5 q41
-q39 a1 & !a2 & a3 & a4 & a5 q41
-q39 a1 & !a2 & !a3 & !a4 & !a5 q41
-q39 a1 & !a2 & !a3 & !a4 & a5 q41
-q39 a1 & !a2 & !a3 & a4 & !a5 q41
-q39 a1 & !a2 & !a3 & a4 & a5 q41
-q39 a1 & !a2 & !a3 & !a4 & !a5 q42
-q39 a1 & !a2 & !a3 & !a4 & a5 q42
-q39 a1 & !a2 & !a3 & a4 & !a5 q42
-q39 a1 & !a2 & !a3 & a4 & a5 q42
-q39 a1 & !a2 & a3 & !a4 & !a5 q37
-q39 a1 & !a2 & a3 & !a4 & a5 q37
-q39 a1 & !a2 & a3 & a4 & !a5 q37
-q39 a1 & !a2 & a3 & a4 & a5 q37
-q35 a1 & a2 & !a3 & !a4 & !a5 q33
-q35 a1 & a2 & !a3 & !a4 & a5 q33
-q35 a1 & a2 & !a3 & a4 & !a5 q33
-q35 a1 & a2 & !a3 & a4 & a5 q33
-q35 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q35 !a1 & !a2 & !a3 & !a4 & a5 q33
-q35 !a1 & !a2 & !a3 & a4 & !a5 q33
-q35 !a1 & !a2 & !a3 & a4 & a5 q33
-q35 a1 & a2 & !a3 & !a4 & !a5 q34
-q35 a1 & a2 & !a3 & !a4 & a5 q34
-q35 a1 & a2 & !a3 & a4 & !a5 q34
-q35 a1 & a2 & !a3 & a4 & a5 q34
-q35 !a1 & !a2 & !a3 & !a4 & !a5 q34
-q35 !a1 & !a2 & !a3 & !a4 & a5 q34
-q35 !a1 & !a2 & !a3 & a4 & !a5 q34
-q35 !a1 & !a2 & !a3 & a4 & a5 q34
-q35 a1 & a2 & a3 & !a4 & !a5 q34
-q35 a1 & a2 & a3 & !a4 & a5 q34
-q35 a1 & a2 & a3 & a4 & !a5 q34
-q35 a1 & a2 & a3 & a4 & a5 q34
-q35 !a1 & !a2 & a3 & !a4 & !a5 q34
-q35 !a1 & !a2 & a3 & !a4 & a5 q34
-q35 !a1 & !a2 & a3 & a4 & !a5 q34
-q35 !a1 & !a2 & a3 & a4 & a5 q34
-q35 a1 & a2 & a3 & !a4 & !a5 q35
-q35 a1 & a2 & a3 & !a4 & a5 q35
-q35 a1 & a2 & a3 & a4 & !a5 q35
-q35 a1 & a2 & a3 & a4 & a5 q35
-q35 !a1 & !a2 & a3 & !a4 & !a5 q35
-q35 !a1 & !a2 & a3 & !a4 & a5 q35
-q35 !a1 & !a2 & a3 & a4 & !a5 q35
-q35 !a1 & !a2 & a3 & a4 & a5 q35
-q35 !a1 & a2 & !a3 & !a4 & !a5 q52
-q35 !a1 & a2 & !a3 & !a4 & a5 q52
-q35 !a1 & a2 & !a3 & a4 & !a5 q52
-q35 !a1 & a2 & !a3 & a4 & a5 q52
-q35 !a1 & a2 & !a3 & !a4 & !a5 q51
-q35 !a1 & a2 & !a3 & !a4 & a5 q51
-q35 !a1 & a2 & !a3 & a4 & !a5 q51
-q35 !a1 & a2 & !a3 & a4 & a5 q51
-q35 !a1 & a2 & a3 & !a4 & !a5 q51
-q35 !a1 & a2 & a3 & !a4 & a5 q51
-q35 !a1 & a2 & a3 & a4 & !a5 q51
-q35 !a1 & a2 & a3 & a4 & a5 q51
-q35 !a1 & a2 & a3 & !a4 & !a5 q53
-q35 !a1 & a2 & a3 & !a4 & a5 q53
-q35 !a1 & a2 & a3 & a4 & !a5 q53
-q35 !a1 & a2 & a3 & a4 & a5 q53
-q35 a1 & !a2 & !a3 & !a4 & !a5 q29
-q35 a1 & !a2 & !a3 & !a4 & a5 q29
-q35 a1 & !a2 & !a3 & a4 & !a5 q29
-q35 a1 & !a2 & !a3 & a4 & a5 q29
-q35 a1 & !a2 & a3 & !a4 & !a5 q37
-q35 a1 & !a2 & a3 & !a4 & a5 q37
-q35 a1 & !a2 & a3 & a4 & !a5 q37
-q35 a1 & !a2 & a3 & a4 & a5 q37
-q35 a1 & !a2 & !a3 & !a4 & !a5 q37
-q35 a1 & !a2 & !a3 & !a4 & a5 q37
-q35 a1 & !a2 & !a3 & a4 & !a5 q37
-q35 a1 & !a2 & !a3 & a4 & a5 q37
-q35 a1 & !a2 & a3 & !a4 & !a5 q32
-q35 a1 & !a2 & a3 & !a4 & a5 q32
-q35 a1 & !a2 & a3 & a4 & !a5 q32
-q35 a1 & !a2 & a3 & a4 & a5 q32
-q34 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q34 !a1 & !a2 & !a3 & !a4 & a5 q33
-q34 !a1 & !a2 & !a3 & a4 & !a5 q33
-q34 !a1 & !a2 & !a3 & a4 & a5 q33
-q34 !a1 & !a2 & !a3 & !a4 & !a5 q34
-q34 !a1 & !a2 & !a3 & !a4 & a5 q34
-q34 !a1 & !a2 & !a3 & a4 & !a5 q34
-q34 !a1 & !a2 & !a3 & a4 & a5 q34
-q34 a1 & a2 & a3 & !a4 & !a5 q34
-q34 a1 & a2 & a3 & !a4 & a5 q34
-q34 a1 & a2 & a3 & a4 & !a5 q34
-q34 a1 & a2 & a3 & a4 & a5 q34
-q34 !a1 & !a2 & a3 & !a4 & !a5 q34
-q34 !a1 & !a2 & a3 & !a4 & a5 q34
-q34 !a1 & !a2 & a3 & a4 & !a5 q34
-q34 !a1 & !a2 & a3 & a4 & a5 q34
-q34 !a1 & !a2 & a3 & !a4 & !a5 q35
-q34 !a1 & !a2 & a3 & !a4 & a5 q35
-q34 !a1 & !a2 & a3 & a4 & !a5 q35
-q34 !a1 & !a2 & a3 & a4 & a5 q35
-q34 !a1 & a2 & !a3 & !a4 & !a5 q50
-q34 !a1 & a2 & !a3 & !a4 & a5 q50
-q34 !a1 & a2 & !a3 & a4 & !a5 q50
-q34 !a1 & a2 & !a3 & a4 & a5 q50
-q34 !a1 & a2 & a3 & !a4 & !a5 q50
-q34 !a1 & a2 & a3 & !a4 & a5 q50
-q34 !a1 & a2 & a3 & a4 & !a5 q50
-q34 !a1 & a2 & a3 & a4 & a5 q50
-q34 !a1 & a2 & !a3 & !a4 & !a5 q48
-q34 !a1 & a2 & !a3 & !a4 & a5 q48
-q34 !a1 & a2 & !a3 & a4 & !a5 q48
-q34 !a1 & a2 & !a3 & a4 & a5 q48
-q34 !a1 & a2 & a3 & !a4 & !a5 q51
-q34 !a1 & a2 & a3 & !a4 & a5 q51
-q34 !a1 & a2 & a3 & a4 & !a5 q51
-q34 !a1 & a2 & a3 & a4 & a5 q51
-q34 a1 & !a2 & !a3 & !a4 & !a5 q29
-q34 a1 & !a2 & !a3 & !a4 & a5 q29
-q34 a1 & !a2 & !a3 & a4 & !a5 q29
-q34 a1 & !a2 & !a3 & a4 & a5 q29
-q34 a1 & !a2 & a3 & !a4 & !a5 q37
-q34 a1 & !a2 & a3 & !a4 & a5 q37
-q34 a1 & !a2 & a3 & a4 & !a5 q37
-q34 a1 & !a2 & a3 & a4 & a5 q37
-q34 a1 & !a2 & !a3 & !a4 & !a5 q37
-q34 a1 & !a2 & !a3 & !a4 & a5 q37
-q34 a1 & !a2 & !a3 & a4 & !a5 q37
-q34 a1 & !a2 & !a3 & a4 & a5 q37
-q34 a1 & !a2 & a3 & !a4 & !a5 q32
-q34 a1 & !a2 & a3 & !a4 & a5 q32
-q34 a1 & !a2 & a3 & a4 & !a5 q32
-q34 a1 & !a2 & a3 & a4 & a5 q32
-q34 a1 & a2 & !a3 & !a4 & !a5 q39
-q34 a1 & a2 & !a3 & !a4 & a5 q39
-q34 a1 & a2 & !a3 & a4 & !a5 q39
-q34 a1 & a2 & !a3 & a4 & a5 q39
-q34 a1 & a2 & a3 & !a4 & !a5 q39
-q34 a1 & a2 & a3 & !a4 & a5 q39
-q34 a1 & a2 & a3 & a4 & !a5 q39
-q34 a1 & a2 & a3 & a4 & a5 q39
-q34 a1 & a2 & !a3 & !a4 & !a5 q40
-q34 a1 & a2 & !a3 & !a4 & a5 q40
-q34 a1 & a2 & !a3 & a4 & !a5 q40
-q34 a1 & a2 & !a3 & a4 & a5 q40
-q33 a1 & a2 & !a3 & !a4 & !a5 q33
-q33 a1 & a2 & !a3 & !a4 & a5 q33
-q33 a1 & a2 & !a3 & a4 & !a5 q33
-q33 a1 & a2 & !a3 & a4 & a5 q33
-q33 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q33 !a1 & !a2 & !a3 & !a4 & a5 q33
-q33 !a1 & !a2 & !a3 & a4 & !a5 q33
-q33 !a1 & !a2 & !a3 & a4 & a5 q33
-q33 a1 & a2 & a3 & !a4 & !a5 q33
-q33 a1 & a2 & a3 & !a4 & a5 q33
-q33 a1 & a2 & a3 & a4 & !a5 q33
-q33 a1 & a2 & a3 & a4 & a5 q33
-q33 !a1 & !a2 & a3 & !a4 & !a5 q33
-q33 !a1 & !a2 & a3 & !a4 & a5 q33
-q33 !a1 & !a2 & a3 & a4 & !a5 q33
-q33 !a1 & !a2 & a3 & a4 & a5 q33
-q33 a1 & a2 & !a3 & !a4 & !a5 q40
-q33 a1 & a2 & !a3 & !a4 & a5 q40
-q33 a1 & a2 & !a3 & a4 & !a5 q40
-q33 a1 & a2 & !a3 & a4 & a5 q40
-q33 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q33 !a1 & !a2 & !a3 & !a4 & a5 q40
-q33 !a1 & !a2 & !a3 & a4 & !a5 q40
-q33 !a1 & !a2 & !a3 & a4 & a5 q40
-q33 a1 & a2 & a3 & !a4 & !a5 q34
-q33 a1 & a2 & a3 & !a4 & a5 q34
-q33 a1 & a2 & a3 & a4 & !a5 q34
-q33 a1 & a2 & a3 & a4 & a5 q34
-q33 !a1 & !a2 & a3 & !a4 & !a5 q34
-q33 !a1 & !a2 & a3 & !a4 & a5 q34
-q33 !a1 & !a2 & a3 & a4 & !a5 q34
-q33 !a1 & !a2 & a3 & a4 & a5 q34
-q33 !a1 & a2 & !a3 & !a4 & !a5 q52
-q33 !a1 & a2 & !a3 & !a4 & a5 q52
-q33 !a1 & a2 & !a3 & a4 & !a5 q52
-q33 !a1 & a2 & !a3 & a4 & a5 q52
-q33 !a1 & a2 & a3 & !a4 & !a5 q52
-q33 !a1 & a2 & a3 & !a4 & a5 q52
-q33 !a1 & a2 & a3 & a4 & !a5 q52
-q33 !a1 & a2 & a3 & a4 & a5 q52
-q33 !a1 & a2 & !a3 & !a4 & !a5 q48
-q33 !a1 & a2 & !a3 & !a4 & a5 q48
-q33 !a1 & a2 & !a3 & a4 & !a5 q48
-q33 !a1 & a2 & !a3 & a4 & a5 q48
-q33 !a1 & a2 & a3 & !a4 & !a5 q51
-q33 !a1 & a2 & a3 & !a4 & a5 q51
-q33 !a1 & a2 & a3 & a4 & !a5 q51
-q33 !a1 & a2 & a3 & a4 & a5 q51
-q33 a1 & !a2 & a3 & !a4 & !a5 q29
-q33 a1 & !a2 & a3 & !a4 & a5 q29
-q33 a1 & !a2 & a3 & a4 & !a5 q29
-q33 a1 & !a2 & a3 & a4 & a5 q29
-q33 a1 & !a2 & !a3 & !a4 & !a5 q29
-q33 a1 & !a2 & !a3 & !a4 & a5 q29
-q33 a1 & !a2 & !a3 & a4 & !a5 q29
-q33 a1 & !a2 & !a3 & a4 & a5 q29
-q33 a1 & !a2 & !a3 & !a4 & !a5 q42
-q33 a1 & !a2 & !a3 & !a4 & a5 q42
-q33 a1 & !a2 & !a3 & a4 & !a5 q42
-q33 a1 & !a2 & !a3 & a4 & a5 q42
-q33 a1 & !a2 & a3 & !a4 & !a5 q37
-q33 a1 & !a2 & a3 & !a4 & a5 q37
-q33 a1 & !a2 & a3 & a4 & !a5 q37
-q33 a1 & !a2 & a3 & a4 & a5 q37
-q30 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q30 !a1 & !a2 & !a3 & !a4 & a5 q33
-q30 !a1 & !a2 & !a3 & a4 & !a5 q33
-q30 !a1 & !a2 & !a3 & a4 & a5 q33
-q30 !a1 & !a2 & !a3 & !a4 & !a5 q55
-q30 !a1 & !a2 & !a3 & !a4 & a5 q55
-q30 !a1 & !a2 & !a3 & a4 & !a5 q55
-q30 !a1 & !a2 & !a3 & a4 & a5 q55
-q30 !a1 & !a2 & a3 & !a4 & !a5 q55
-q30 !a1 & !a2 & a3 & !a4 & a5 q55
-q30 !a1 & !a2 & a3 & a4 & !a5 q55
-q30 !a1 & !a2 & a3 & a4 & a5 q55
-q30 !a1 & !a2 & a3 & !a4 & !a5 q35
-q30 !a1 & !a2 & a3 & !a4 & a5 q35
-q30 !a1 & !a2 & a3 & a4 & !a5 q35
-q30 !a1 & !a2 & a3 & a4 & a5 q35
-q30 !a1 & a2 & !a3 & !a4 & !a5 q56
-q30 !a1 & a2 & !a3 & !a4 & a5 q56
-q30 !a1 & a2 & !a3 & a4 & !a5 q56
-q30 !a1 & a2 & !a3 & a4 & a5 q56
-q30 !a1 & a2 & a3 & !a4 & !a5 q56
-q30 !a1 & a2 & a3 & !a4 & a5 q56
-q30 !a1 & a2 & a3 & a4 & !a5 q56
-q30 !a1 & a2 & a3 & a4 & a5 q56
-q30 !a1 & a2 & !a3 & !a4 & !a5 q40
-q30 !a1 & a2 & !a3 & !a4 & a5 q40
-q30 !a1 & a2 & !a3 & a4 & !a5 q40
-q30 !a1 & a2 & !a3 & a4 & a5 q40
-q30 !a1 & a2 & a3 & !a4 & !a5 q34
-q30 !a1 & a2 & a3 & !a4 & a5 q34
-q30 !a1 & a2 & a3 & a4 & !a5 q34
-q30 !a1 & a2 & a3 & a4 & a5 q34
-q30 a1 & !a2 & !a3 & !a4 & !a5 q29
-q30 a1 & !a2 & !a3 & !a4 & a5 q29
-q30 a1 & !a2 & !a3 & a4 & !a5 q29
-q30 a1 & !a2 & !a3 & a4 & a5 q29
-q30 a1 & !a2 & a3 & !a4 & !a5 q30
-q30 a1 & !a2 & a3 & !a4 & a5 q30
-q30 a1 & !a2 & a3 & a4 & !a5 q30
-q30 a1 & !a2 & a3 & a4 & a5 q30
-q30 a1 & !a2 & !a3 & !a4 & !a5 q30
-q30 a1 & !a2 & !a3 & !a4 & a5 q30
-q30 a1 & !a2 & !a3 & a4 & !a5 q30
-q30 a1 & !a2 & !a3 & a4 & a5 q30
-q30 a1 & !a2 & a3 & !a4 & !a5 q32
-q30 a1 & !a2 & a3 & !a4 & a5 q32
-q30 a1 & !a2 & a3 & a4 & !a5 q32
-q30 a1 & !a2 & a3 & a4 & a5 q32
-q30 a1 & a2 & !a3 & !a4 & !a5 q57
-q30 a1 & a2 & !a3 & !a4 & a5 q57
-q30 a1 & a2 & !a3 & a4 & !a5 q57
-q30 a1 & a2 & !a3 & a4 & a5 q57
-q30 a1 & a2 & a3 & !a4 & !a5 q57
-q30 a1 & a2 & a3 & !a4 & a5 q57
-q30 a1 & a2 & a3 & a4 & !a5 q57
-q30 a1 & a2 & a3 & a4 & a5 q57
-q30 a1 & a2 & !a3 & !a4 & !a5 q42
-q30 a1 & a2 & !a3 & !a4 & a5 q42
-q30 a1 & a2 & !a3 & a4 & !a5 q42
-q30 a1 & a2 & !a3 & a4 & a5 q42
-q30 a1 & a2 & !a3 & !a4 & !a5 q6
-q30 a1 & a2 & !a3 & !a4 & a5 q6
-q30 a1 & a2 & !a3 & a4 & !a5 q6
-q30 a1 & a2 & !a3 & a4 & a5 q6
-q30 a1 & a2 & a3 & !a4 & !a5 q37
-q30 a1 & a2 & a3 & !a4 & a5 q37
-q30 a1 & a2 & a3 & a4 & !a5 q37
-q30 a1 & a2 & a3 & a4 & a5 q37
-q57 !a1 & !a2 & !a3 & !a4 & !a5 q56
-q57 !a1 & !a2 & !a3 & !a4 & a5 q56
-q57 !a1 & !a2 & !a3 & a4 & !a5 q56
-q57 !a1 & !a2 & !a3 & a4 & a5 q56
-q57 !a1 & a2 & a3 & !a4 & !a5 q56
-q57 !a1 & a2 & a3 & !a4 & a5 q56
-q57 !a1 & a2 & a3 & a4 & !a5 q56
-q57 !a1 & a2 & a3 & a4 & a5 q56
-q57 !a1 & a2 & !a3 & !a4 & !a5 q56
-q57 !a1 & a2 & !a3 & !a4 & a5 q56
-q57 !a1 & a2 & !a3 & a4 & !a5 q56
-q57 !a1 & a2 & !a3 & a4 & a5 q56
-q57 !a1 & !a2 & a3 & !a4 & !a5 q56
-q57 !a1 & !a2 & a3 & !a4 & a5 q56
-q57 !a1 & !a2 & a3 & a4 & !a5 q56
-q57 !a1 & !a2 & a3 & a4 & a5 q56
-q57 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q57 !a1 & !a2 & !a3 & !a4 & a5 q40
-q57 !a1 & !a2 & !a3 & a4 & !a5 q40
-q57 !a1 & !a2 & !a3 & a4 & a5 q40
-q57 !a1 & a2 & !a3 & !a4 & !a5 q40
-q57 !a1 & a2 & !a3 & !a4 & a5 q40
-q57 !a1 & a2 & !a3 & a4 & !a5 q40
-q57 !a1 & a2 & !a3 & a4 & a5 q40
-q57 !a1 & a2 & a3 & !a4 & !a5 q34
-q57 !a1 & a2 & a3 & !a4 & a5 q34
-q57 !a1 & a2 & a3 & a4 & !a5 q34
-q57 !a1 & a2 & a3 & a4 & a5 q34
-q57 !a1 & !a2 & a3 & !a4 & !a5 q34
-q57 !a1 & !a2 & a3 & !a4 & a5 q34
-q57 !a1 & !a2 & a3 & a4 & !a5 q34
-q57 !a1 & !a2 & a3 & a4 & a5 q34
-q57 a1 & a2 & !a3 & !a4 & !a5 q57
-q57 a1 & a2 & !a3 & !a4 & a5 q57
-q57 a1 & a2 & !a3 & a4 & !a5 q57
-q57 a1 & a2 & !a3 & a4 & a5 q57
-q57 a1 & a2 & a3 & !a4 & !a5 q57
-q57 a1 & a2 & a3 & !a4 & a5 q57
-q57 a1 & a2 & a3 & a4 & !a5 q57
-q57 a1 & a2 & a3 & a4 & a5 q57
-q57 a1 & !a2 & a3 & !a4 & !a5 q57
-q57 a1 & !a2 & a3 & !a4 & a5 q57
-q57 a1 & !a2 & a3 & a4 & !a5 q57
-q57 a1 & !a2 & a3 & a4 & a5 q57
-q57 a1 & !a2 & !a3 & !a4 & !a5 q57
-q57 a1 & !a2 & !a3 & !a4 & a5 q57
-q57 a1 & !a2 & !a3 & a4 & !a5 q57
-q57 a1 & !a2 & !a3 & a4 & a5 q57
-q57 a1 & a2 & !a3 & !a4 & !a5 q42
-q57 a1 & a2 & !a3 & !a4 & a5 q42
-q57 a1 & a2 & !a3 & a4 & !a5 q42
-q57 a1 & a2 & !a3 & a4 & a5 q42
-q57 a1 & !a2 & !a3 & !a4 & !a5 q42
-q57 a1 & !a2 & !a3 & !a4 & a5 q42
-q57 a1 & !a2 & !a3 & a4 & !a5 q42
-q57 a1 & !a2 & !a3 & a4 & a5 q42
-q57 a1 & a2 & a3 & !a4 & !a5 q37
-q57 a1 & a2 & a3 & !a4 & a5 q37
-q57 a1 & a2 & a3 & a4 & !a5 q37
-q57 a1 & a2 & a3 & a4 & a5 q37
-q57 a1 & !a2 & a3 & !a4 & !a5 q37
-q57 a1 & !a2 & a3 & !a4 & a5 q37
-q57 a1 & !a2 & a3 & a4 & !a5 q37
-q57 a1 & !a2 & a3 & a4 & a5 q37
-q57 a1 & a2 & !a3 & !a4 & !a5 q6
-q57 a1 & a2 & !a3 & !a4 & a5 q6
-q57 a1 & a2 & !a3 & a4 & !a5 q6
-q57 a1 & a2 & !a3 & a4 & a5 q6
-q56 a1 & a2 & !a3 & !a4 & !a5 q56
-q56 a1 & a2 & !a3 & !a4 & a5 q56
-q56 a1 & a2 & !a3 & a4 & !a5 q56
-q56 a1 & a2 & !a3 & a4 & a5 q56
-q56 !a1 & !a2 & !a3 & !a4 & !a5 q56
-q56 !a1 & !a2 & !a3 & !a4 & a5 q56
-q56 !a1 & !a2 & !a3 & a4 & !a5 q56
-q56 !a1 & !a2 & !a3 & a4 & a5 q56
-q56 a1 & a2 & a3 & !a4 & !a5 q56
-q56 a1 & a2 & a3 & !a4 & a5 q56
-q56 a1 & a2 & a3 & a4 & !a5 q56
-q56 a1 & a2 & a3 & a4 & a5 q56
-q56 !a1 & !a2 & a3 & !a4 & !a5 q56
-q56 !a1 & !a2 & a3 & !a4 & a5 q56
-q56 !a1 & !a2 & a3 & a4 & !a5 q56
-q56 !a1 & !a2 & a3 & a4 & a5 q56
-q56 a1 & a2 & !a3 & !a4 & !a5 q40
-q56 a1 & a2 & !a3 & !a4 & a5 q40
-q56 a1 & a2 & !a3 & a4 & !a5 q40
-q56 a1 & a2 & !a3 & a4 & a5 q40
-q56 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q56 !a1 & !a2 & !a3 & !a4 & a5 q40
-q56 !a1 & !a2 & !a3 & a4 & !a5 q40
-q56 !a1 & !a2 & !a3 & a4 & a5 q40
-q56 a1 & a2 & a3 & !a4 & !a5 q34
-q56 a1 & a2 & a3 & !a4 & a5 q34
-q56 a1 & a2 & a3 & a4 & !a5 q34
-q56 a1 & a2 & a3 & a4 & a5 q34
-q56 !a1 & !a2 & a3 & !a4 & !a5 q34
-q56 !a1 & !a2 & a3 & !a4 & a5 q34
-q56 !a1 & !a2 & a3 & a4 & !a5 q34
-q56 !a1 & !a2 & a3 & a4 & a5 q34
-q56 !a1 & a2 & !a3 & !a4 & !a5 q59
-q56 !a1 & a2 & !a3 & !a4 & a5 q59
-q56 !a1 & a2 & !a3 & a4 & !a5 q59
-q56 !a1 & a2 & !a3 & a4 & a5 q59
-q56 !a1 & a2 & a3 & !a4 & !a5 q59
-q56 !a1 & a2 & a3 & !a4 & a5 q59
-q56 !a1 & a2 & a3 & a4 & !a5 q59
-q56 !a1 & a2 & a3 & a4 & a5 q59
-q56 !a1 & a2 & !a3 & !a4 & !a5 q48
-q56 !a1 & a2 & !a3 & !a4 & a5 q48
-q56 !a1 & a2 & !a3 & a4 & !a5 q48
-q56 !a1 & a2 & !a3 & a4 & a5 q48
-q56 !a1 & a2 & a3 & !a4 & !a5 q51
-q56 !a1 & a2 & a3 & !a4 & a5 q51
-q56 !a1 & a2 & a3 & a4 & !a5 q51
-q56 !a1 & a2 & a3 & a4 & a5 q51
-q56 a1 & !a2 & a3 & !a4 & !a5 q57
-q56 a1 & !a2 & a3 & !a4 & a5 q57
-q56 a1 & !a2 & a3 & a4 & !a5 q57
-q56 a1 & !a2 & a3 & a4 & a5 q57
-q56 a1 & !a2 & !a3 & !a4 & !a5 q57
-q56 a1 & !a2 & !a3 & !a4 & a5 q57
-q56 a1 & !a2 & !a3 & a4 & !a5 q57
-q56 a1 & !a2 & !a3 & a4 & a5 q57
-q56 a1 & !a2 & !a3 & !a4 & !a5 q42
-q56 a1 & !a2 & !a3 & !a4 & a5 q42
-q56 a1 & !a2 & !a3 & a4 & !a5 q42
-q56 a1 & !a2 & !a3 & a4 & a5 q42
-q56 a1 & !a2 & a3 & !a4 & !a5 q37
-q56 a1 & !a2 & a3 & !a4 & a5 q37
-q56 a1 & !a2 & a3 & a4 & !a5 q37
-q56 a1 & !a2 & a3 & a4 & a5 q37
-q59 !a1 & !a2 & !a3 & !a4 & !a5 q59
-q59 !a1 & !a2 & !a3 & !a4 & a5 q59
-q59 !a1 & !a2 & !a3 & a4 & !a5 q59
-q59 !a1 & !a2 & !a3 & a4 & a5 q59
-q59 !a1 & a2 & a3 & !a4 & !a5 q59
-q59 !a1 & a2 & a3 & !a4 & a5 q59
-q59 !a1 & a2 & a3 & a4 & !a5 q59
-q59 !a1 & a2 & a3 & a4 & a5 q59
-q59 !a1 & a2 & !a3 & !a4 & !a5 q59
-q59 !a1 & a2 & !a3 & !a4 & a5 q59
-q59 !a1 & a2 & !a3 & a4 & !a5 q59
-q59 !a1 & a2 & !a3 & a4 & a5 q59
-q59 !a1 & !a2 & a3 & !a4 & !a5 q59
-q59 !a1 & !a2 & a3 & !a4 & a5 q59
-q59 !a1 & !a2 & a3 & a4 & !a5 q59
-q59 !a1 & !a2 & a3 & a4 & a5 q59
-q59 !a1 & !a2 & !a3 & !a4 & !a5 q48
-q59 !a1 & !a2 & !a3 & !a4 & a5 q48
-q59 !a1 & !a2 & !a3 & a4 & !a5 q48
-q59 !a1 & !a2 & !a3 & a4 & a5 q48
-q59 !a1 & a2 & !a3 & !a4 & !a5 q48
-q59 !a1 & a2 & !a3 & !a4 & a5 q48
-q59 !a1 & a2 & !a3 & a4 & !a5 q48
-q59 !a1 & a2 & !a3 & a4 & a5 q48
-q59 !a1 & a2 & a3 & !a4 & !a5 q51
-q59 !a1 & a2 & a3 & !a4 & a5 q51
-q59 !a1 & a2 & a3 & a4 & !a5 q51
-q59 !a1 & a2 & a3 & a4 & a5 q51
-q59 !a1 & !a2 & a3 & !a4 & !a5 q51
-q59 !a1 & !a2 & a3 & !a4 & a5 q51
-q59 !a1 & !a2 & a3 & a4 & !a5 q51
-q59 !a1 & !a2 & a3 & a4 & a5 q51
-q59 a1 & a2 & !a3 & !a4 & !a5 q56
-q59 a1 & a2 & !a3 & !a4 & a5 q56
-q59 a1 & a2 & !a3 & a4 & !a5 q56
-q59 a1 & a2 & !a3 & a4 & a5 q56
-q59 a1 & a2 & a3 & !a4 & !a5 q56
-q59 a1 & a2 & a3 & !a4 & a5 q56
-q59 a1 & a2 & a3 & a4 & !a5 q56
-q59 a1 & a2 & a3 & a4 & a5 q56
-q59 a1 & !a2 & a3 & !a4 & !a5 q56
-q59 a1 & !a2 & a3 & !a4 & a5 q56
-q59 a1 & !a2 & a3 & a4 & !a5 q56
-q59 a1 & !a2 & a3 & a4 & a5 q56
-q59 a1 & !a2 & !a3 & !a4 & !a5 q56
-q59 a1 & !a2 & !a3 & !a4 & a5 q56
-q59 a1 & !a2 & !a3 & a4 & !a5 q56
-q59 a1 & !a2 & !a3 & a4 & a5 q56
-q59 a1 & a2 & !a3 & !a4 & !a5 q40
-q59 a1 & a2 & !a3 & !a4 & a5 q40
-q59 a1 & a2 & !a3 & a4 & !a5 q40
-q59 a1 & a2 & !a3 & a4 & a5 q40
-q59 a1 & !a2 & !a3 & !a4 & !a5 q40
-q59 a1 & !a2 & !a3 & !a4 & a5 q40
-q59 a1 & !a2 & !a3 & a4 & !a5 q40
-q59 a1 & !a2 & !a3 & a4 & a5 q40
-q59 a1 & a2 & a3 & !a4 & !a5 q34
-q59 a1 & a2 & a3 & !a4 & a5 q34
-q59 a1 & a2 & a3 & a4 & !a5 q34
-q59 a1 & a2 & a3 & a4 & a5 q34
-q59 a1 & !a2 & a3 & !a4 & !a5 q34
-q59 a1 & !a2 & a3 & !a4 & a5 q34
-q59 a1 & !a2 & a3 & a4 & !a5 q34
-q59 a1 & !a2 & a3 & a4 & a5 q34
-q55 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q55 !a1 & !a2 & !a3 & !a4 & a5 q33
-q55 !a1 & !a2 & !a3 & a4 & !a5 q33
-q55 !a1 & !a2 & !a3 & a4 & a5 q33
-q55 !a1 & !a2 & !a3 & !a4 & !a5 q55
-q55 !a1 & !a2 & !a3 & !a4 & a5 q55
-q55 !a1 & !a2 & !a3 & a4 & !a5 q55
-q55 !a1 & !a2 & !a3 & a4 & a5 q55
-q55 !a1 & !a2 & a3 & !a4 & !a5 q55
-q55 !a1 & !a2 & a3 & !a4 & a5 q55
-q55 !a1 & !a2 & a3 & a4 & !a5 q55
-q55 !a1 & !a2 & a3 & a4 & a5 q55
-q55 !a1 & !a2 & a3 & !a4 & !a5 q35
-q55 !a1 & !a2 & a3 & !a4 & a5 q35
-q55 !a1 & !a2 & a3 & a4 & !a5 q35
-q55 !a1 & !a2 & a3 & a4 & a5 q35
-q55 !a1 & a2 & !a3 & !a4 & !a5 q59
-q55 !a1 & a2 & !a3 & !a4 & a5 q59
-q55 !a1 & a2 & !a3 & a4 & !a5 q59
-q55 !a1 & a2 & !a3 & a4 & a5 q59
-q55 !a1 & a2 & a3 & !a4 & !a5 q59
-q55 !a1 & a2 & a3 & !a4 & a5 q59
-q55 !a1 & a2 & a3 & a4 & !a5 q59
-q55 !a1 & a2 & a3 & a4 & a5 q59
-q55 !a1 & a2 & !a3 & !a4 & !a5 q48
-q55 !a1 & a2 & !a3 & !a4 & a5 q48
-q55 !a1 & a2 & !a3 & a4 & !a5 q48
-q55 !a1 & a2 & !a3 & a4 & a5 q48
-q55 !a1 & a2 & a3 & !a4 & !a5 q51
-q55 !a1 & a2 & a3 & !a4 & a5 q51
-q55 !a1 & a2 & a3 & a4 & !a5 q51
-q55 !a1 & a2 & a3 & a4 & a5 q51
-q55 a1 & !a2 & !a3 & !a4 & !a5 q29
-q55 a1 & !a2 & !a3 & !a4 & a5 q29
-q55 a1 & !a2 & !a3 & a4 & !a5 q29
-q55 a1 & !a2 & !a3 & a4 & a5 q29
-q55 a1 & !a2 & a3 & !a4 & !a5 q30
-q55 a1 & !a2 & a3 & !a4 & a5 q30
-q55 a1 & !a2 & a3 & a4 & !a5 q30
-q55 a1 & !a2 & a3 & a4 & a5 q30
-q55 a1 & !a2 & !a3 & !a4 & !a5 q30
-q55 a1 & !a2 & !a3 & !a4 & a5 q30
-q55 a1 & !a2 & !a3 & a4 & !a5 q30
-q55 a1 & !a2 & !a3 & a4 & a5 q30
-q55 a1 & !a2 & a3 & !a4 & !a5 q32
-q55 a1 & !a2 & a3 & !a4 & a5 q32
-q55 a1 & !a2 & a3 & a4 & !a5 q32
-q55 a1 & !a2 & a3 & a4 & a5 q32
-q55 a1 & a2 & !a3 & !a4 & !a5 q56
-q55 a1 & a2 & !a3 & !a4 & a5 q56
-q55 a1 & a2 & !a3 & a4 & !a5 q56
-q55 a1 & a2 & !a3 & a4 & a5 q56
-q55 a1 & a2 & a3 & !a4 & !a5 q56
-q55 a1 & a2 & a3 & !a4 & a5 q56
-q55 a1 & a2 & a3 & a4 & !a5 q56
-q55 a1 & a2 & a3 & a4 & a5 q56
-q55 a1 & a2 & !a3 & !a4 & !a5 q40
-q55 a1 & a2 & !a3 & !a4 & a5 q40
-q55 a1 & a2 & !a3 & a4 & !a5 q40
-q55 a1 & a2 & !a3 & a4 & a5 q40
-q55 a1 & a2 & a3 & !a4 & !a5 q34
-q55 a1 & a2 & a3 & !a4 & a5 q34
-q55 a1 & a2 & a3 & a4 & !a5 q34
-q55 a1 & a2 & a3 & a4 & a5 q34
-q29 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q29 !a1 & !a2 & !a3 & !a4 & a5 q33
-q29 !a1 & !a2 & !a3 & a4 & !a5 q33
-q29 !a1 & !a2 & !a3 & a4 & a5 q33
-q29 !a1 & a2 & a3 & !a4 & !a5 q33
-q29 !a1 & a2 & a3 & !a4 & a5 q33
-q29 !a1 & a2 & a3 & a4 & !a5 q33
-q29 !a1 & a2 & a3 & a4 & a5 q33
-q29 !a1 & a2 & !a3 & !a4 & !a5 q33
-q29 !a1 & a2 & !a3 & !a4 & a5 q33
-q29 !a1 & a2 & !a3 & a4 & !a5 q33
-q29 !a1 & a2 & !a3 & a4 & a5 q33
-q29 !a1 & !a2 & a3 & !a4 & !a5 q33
-q29 !a1 & !a2 & a3 & !a4 & a5 q33
-q29 !a1 & !a2 & a3 & a4 & !a5 q33
-q29 !a1 & !a2 & a3 & a4 & a5 q33
-q29 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q29 !a1 & !a2 & !a3 & !a4 & a5 q40
-q29 !a1 & !a2 & !a3 & a4 & !a5 q40
-q29 !a1 & !a2 & !a3 & a4 & a5 q40
-q29 !a1 & a2 & !a3 & !a4 & !a5 q40
-q29 !a1 & a2 & !a3 & !a4 & a5 q40
-q29 !a1 & a2 & !a3 & a4 & !a5 q40
-q29 !a1 & a2 & !a3 & a4 & a5 q40
-q29 !a1 & a2 & a3 & !a4 & !a5 q34
-q29 !a1 & a2 & a3 & !a4 & a5 q34
-q29 !a1 & a2 & a3 & a4 & !a5 q34
-q29 !a1 & a2 & a3 & a4 & a5 q34
-q29 !a1 & !a2 & a3 & !a4 & !a5 q34
-q29 !a1 & !a2 & a3 & !a4 & a5 q34
-q29 !a1 & !a2 & a3 & a4 & !a5 q34
-q29 !a1 & !a2 & a3 & a4 & a5 q34
-q29 a1 & a2 & !a3 & !a4 & !a5 q29
-q29 a1 & a2 & !a3 & !a4 & a5 q29
-q29 a1 & a2 & !a3 & a4 & !a5 q29
-q29 a1 & a2 & !a3 & a4 & a5 q29
-q29 a1 & a2 & a3 & !a4 & !a5 q29
-q29 a1 & a2 & a3 & !a4 & a5 q29
-q29 a1 & a2 & a3 & a4 & !a5 q29
-q29 a1 & a2 & a3 & a4 & a5 q29
-q29 a1 & !a2 & a3 & !a4 & !a5 q29
-q29 a1 & !a2 & a3 & !a4 & a5 q29
-q29 a1 & !a2 & a3 & a4 & !a5 q29
-q29 a1 & !a2 & a3 & a4 & a5 q29
-q29 a1 & !a2 & !a3 & !a4 & !a5 q29
-q29 a1 & !a2 & !a3 & !a4 & a5 q29
-q29 a1 & !a2 & !a3 & a4 & !a5 q29
-q29 a1 & !a2 & !a3 & a4 & a5 q29
-q29 a1 & a2 & !a3 & !a4 & !a5 q42
-q29 a1 & a2 & !a3 & !a4 & a5 q42
-q29 a1 & a2 & !a3 & a4 & !a5 q42
-q29 a1 & a2 & !a3 & a4 & a5 q42
-q29 a1 & !a2 & !a3 & !a4 & !a5 q42
-q29 a1 & !a2 & !a3 & !a4 & a5 q42
-q29 a1 & !a2 & !a3 & a4 & !a5 q42
-q29 a1 & !a2 & !a3 & a4 & a5 q42
-q29 a1 & a2 & a3 & !a4 & !a5 q37
-q29 a1 & a2 & a3 & !a4 & a5 q37
-q29 a1 & a2 & a3 & a4 & !a5 q37
-q29 a1 & a2 & a3 & a4 & a5 q37
-q29 a1 & !a2 & a3 & !a4 & !a5 q37
-q29 a1 & !a2 & a3 & !a4 & a5 q37
-q29 a1 & !a2 & a3 & a4 & !a5 q37
-q29 a1 & !a2 & a3 & a4 & a5 q37
-q29 a1 & a2 & !a3 & !a4 & !a5 q6
-q29 a1 & a2 & !a3 & !a4 & a5 q6
-q29 a1 & a2 & !a3 & a4 & !a5 q6
-q29 a1 & a2 & !a3 & a4 & a5 q6
-q27 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q27 !a1 & !a2 & !a3 & !a4 & a5 q25
-q27 !a1 & !a2 & !a3 & a4 & !a5 q25
-q27 !a1 & !a2 & !a3 & a4 & a5 q25
-q27 !a1 & !a2 & !a3 & !a4 & !a5 q60
-q27 !a1 & !a2 & !a3 & !a4 & a5 q60
-q27 !a1 & !a2 & !a3 & a4 & !a5 q60
-q27 !a1 & !a2 & !a3 & a4 & a5 q60
-q27 !a1 & !a2 & a3 & !a4 & !a5 q60
-q27 !a1 & !a2 & a3 & !a4 & a5 q60
-q27 !a1 & !a2 & a3 & a4 & !a5 q60
-q27 !a1 & !a2 & a3 & a4 & a5 q60
-q27 !a1 & !a2 & a3 & !a4 & !a5 q27
-q27 !a1 & !a2 & a3 & !a4 & a5 q27
-q27 !a1 & !a2 & a3 & a4 & !a5 q27
-q27 !a1 & !a2 & a3 & a4 & a5 q27
-q27 !a1 & a2 & !a3 & !a4 & !a5 q61
-q27 !a1 & a2 & !a3 & !a4 & a5 q61
-q27 !a1 & a2 & !a3 & a4 & !a5 q61
-q27 !a1 & a2 & !a3 & a4 & a5 q61
-q27 !a1 & a2 & !a3 & !a4 & !a5 q62
-q27 !a1 & a2 & !a3 & !a4 & a5 q62
-q27 !a1 & a2 & !a3 & a4 & !a5 q62
-q27 !a1 & a2 & !a3 & a4 & a5 q62
-q27 !a1 & a2 & a3 & !a4 & !a5 q62
-q27 !a1 & a2 & a3 & !a4 & a5 q62
-q27 !a1 & a2 & a3 & a4 & !a5 q62
-q27 !a1 & a2 & a3 & a4 & a5 q62
-q27 !a1 & a2 & !a3 & !a4 & !a5 q6
-q27 !a1 & a2 & !a3 & !a4 & a5 q6
-q27 !a1 & a2 & !a3 & a4 & !a5 q6
-q27 !a1 & a2 & !a3 & a4 & a5 q6
-q27 !a1 & a2 & a3 & !a4 & !a5 q6
-q27 !a1 & a2 & a3 & !a4 & a5 q6
-q27 !a1 & a2 & a3 & a4 & !a5 q6
-q27 !a1 & a2 & a3 & a4 & a5 q6
-q27 !a1 & a2 & a3 & !a4 & !a5 q64
-q27 !a1 & a2 & a3 & !a4 & a5 q64
-q27 !a1 & a2 & a3 & a4 & !a5 q64
-q27 !a1 & a2 & a3 & a4 & a5 q64
-q27 a1 & !a2 & !a3 & !a4 & !a5 q29
-q27 a1 & !a2 & !a3 & !a4 & a5 q29
-q27 a1 & !a2 & !a3 & a4 & !a5 q29
-q27 a1 & !a2 & !a3 & a4 & a5 q29
-q27 a1 & !a2 & a3 & !a4 & !a5 q37
-q27 a1 & !a2 & a3 & !a4 & a5 q37
-q27 a1 & !a2 & a3 & a4 & !a5 q37
-q27 a1 & !a2 & a3 & a4 & a5 q37
-q27 a1 & !a2 & !a3 & !a4 & !a5 q37
-q27 a1 & !a2 & !a3 & !a4 & a5 q37
-q27 a1 & !a2 & !a3 & a4 & !a5 q37
-q27 a1 & !a2 & !a3 & a4 & a5 q37
-q27 a1 & !a2 & a3 & !a4 & !a5 q32
-q27 a1 & !a2 & a3 & !a4 & a5 q32
-q27 a1 & !a2 & a3 & a4 & !a5 q32
-q27 a1 & !a2 & a3 & a4 & a5 q32
-q27 a1 & a2 & !a3 & !a4 & !a5 q33
-q27 a1 & a2 & !a3 & !a4 & a5 q33
-q27 a1 & a2 & !a3 & a4 & !a5 q33
-q27 a1 & a2 & !a3 & a4 & a5 q33
-q27 a1 & a2 & !a3 & !a4 & !a5 q34
-q27 a1 & a2 & !a3 & !a4 & a5 q34
-q27 a1 & a2 & !a3 & a4 & !a5 q34
-q27 a1 & a2 & !a3 & a4 & a5 q34
-q27 a1 & a2 & a3 & !a4 & !a5 q34
-q27 a1 & a2 & a3 & !a4 & a5 q34
-q27 a1 & a2 & a3 & a4 & !a5 q34
-q27 a1 & a2 & a3 & a4 & a5 q34
-q27 a1 & a2 & a3 & !a4 & !a5 q35
-q27 a1 & a2 & a3 & !a4 & a5 q35
-q27 a1 & a2 & a3 & a4 & !a5 q35
-q27 a1 & a2 & a3 & a4 & a5 q35
-q64 !a1 & !a2 & !a3 & !a4 & !a5 q61
-q64 !a1 & !a2 & !a3 & !a4 & a5 q61
-q64 !a1 & !a2 & !a3 & a4 & !a5 q61
-q64 !a1 & !a2 & !a3 & a4 & a5 q61
-q64 !a1 & a2 & !a3 & !a4 & !a5 q61
-q64 !a1 & a2 & !a3 & !a4 & a5 q61
-q64 !a1 & a2 & !a3 & a4 & !a5 q61
-q64 !a1 & a2 & !a3 & a4 & a5 q61
-q64 !a1 & !a2 & !a3 & !a4 & !a5 q62
-q64 !a1 & !a2 & !a3 & !a4 & a5 q62
-q64 !a1 & !a2 & !a3 & a4 & !a5 q62
-q64 !a1 & !a2 & !a3 & a4 & a5 q62
-q64 !a1 & a2 & a3 & !a4 & !a5 q62
-q64 !a1 & a2 & a3 & !a4 & a5 q62
-q64 !a1 & a2 & a3 & a4 & !a5 q62
-q64 !a1 & a2 & a3 & a4 & a5 q62
-q64 !a1 & a2 & !a3 & !a4 & !a5 q62
-q64 !a1 & a2 & !a3 & !a4 & a5 q62
-q64 !a1 & a2 & !a3 & a4 & !a5 q62
-q64 !a1 & a2 & !a3 & a4 & a5 q62
-q64 !a1 & !a2 & a3 & !a4 & !a5 q62
-q64 !a1 & !a2 & a3 & !a4 & a5 q62
-q64 !a1 & !a2 & a3 & a4 & !a5 q62
-q64 !a1 & !a2 & a3 & a4 & a5 q62
-q64 !a1 & a2 & a3 & !a4 & !a5 q64
-q64 !a1 & a2 & a3 & !a4 & a5 q64
-q64 !a1 & a2 & a3 & a4 & !a5 q64
-q64 !a1 & a2 & a3 & a4 & a5 q64
-q64 !a1 & !a2 & a3 & !a4 & !a5 q64
-q64 !a1 & !a2 & a3 & !a4 & a5 q64
-q64 !a1 & !a2 & a3 & a4 & !a5 q64
-q64 !a1 & !a2 & a3 & a4 & a5 q64
-q64 !a1 & a2 & !a3 & !a4 & !a5 q6
-q64 !a1 & a2 & !a3 & !a4 & a5 q6
-q64 !a1 & a2 & !a3 & a4 & !a5 q6
-q64 !a1 & a2 & !a3 & a4 & a5 q6
-q64 !a1 & a2 & a3 & !a4 & !a5 q6
-q64 !a1 & a2 & a3 & !a4 & a5 q6
-q64 !a1 & a2 & a3 & a4 & !a5 q6
-q64 !a1 & a2 & a3 & a4 & a5 q6
-q64 a1 & a2 & !a3 & !a4 & !a5 q33
-q64 a1 & a2 & !a3 & !a4 & a5 q33
-q64 a1 & a2 & !a3 & a4 & !a5 q33
-q64 a1 & a2 & !a3 & a4 & a5 q33
-q64 a1 & !a2 & !a3 & !a4 & !a5 q33
-q64 a1 & !a2 & !a3 & !a4 & a5 q33
-q64 a1 & !a2 & !a3 & a4 & !a5 q33
-q64 a1 & !a2 & !a3 & a4 & a5 q33
-q64 a1 & a2 & !a3 & !a4 & !a5 q34
-q64 a1 & a2 & !a3 & !a4 & a5 q34
-q64 a1 & a2 & !a3 & a4 & !a5 q34
-q64 a1 & a2 & !a3 & a4 & a5 q34
-q64 a1 & a2 & a3 & !a4 & !a5 q34
-q64 a1 & a2 & a3 & !a4 & a5 q34
-q64 a1 & a2 & a3 & a4 & !a5 q34
-q64 a1 & a2 & a3 & a4 & a5 q34
-q64 a1 & !a2 & a3 & !a4 & !a5 q34
-q64 a1 & !a2 & a3 & !a4 & a5 q34
-q64 a1 & !a2 & a3 & a4 & !a5 q34
-q64 a1 & !a2 & a3 & a4 & a5 q34
-q64 a1 & !a2 & !a3 & !a4 & !a5 q34
-q64 a1 & !a2 & !a3 & !a4 & a5 q34
-q64 a1 & !a2 & !a3 & a4 & !a5 q34
-q64 a1 & !a2 & !a3 & a4 & a5 q34
-q64 a1 & a2 & a3 & !a4 & !a5 q35
-q64 a1 & a2 & a3 & !a4 & a5 q35
-q64 a1 & a2 & a3 & a4 & !a5 q35
-q64 a1 & a2 & a3 & a4 & a5 q35
-q64 a1 & !a2 & a3 & !a4 & !a5 q35
-q64 a1 & !a2 & a3 & !a4 & a5 q35
-q64 a1 & !a2 & a3 & a4 & !a5 q35
-q64 a1 & !a2 & a3 & a4 & a5 q35
-q62 !a1 & !a2 & !a3 & !a4 & !a5 q61
-q62 !a1 & !a2 & !a3 & !a4 & a5 q61
-q62 !a1 & !a2 & !a3 & a4 & !a5 q61
-q62 !a1 & !a2 & !a3 & a4 & a5 q61
-q62 !a1 & !a2 & !a3 & !a4 & !a5 q62
-q62 !a1 & !a2 & !a3 & !a4 & a5 q62
-q62 !a1 & !a2 & !a3 & a4 & !a5 q62
-q62 !a1 & !a2 & !a3 & a4 & a5 q62
-q62 !a1 & a2 & a3 & !a4 & !a5 q62
-q62 !a1 & a2 & a3 & !a4 & a5 q62
-q62 !a1 & a2 & a3 & a4 & !a5 q62
-q62 !a1 & a2 & a3 & a4 & a5 q62
-q62 !a1 & !a2 & a3 & !a4 & !a5 q62
-q62 !a1 & !a2 & a3 & !a4 & a5 q62
-q62 !a1 & !a2 & a3 & a4 & !a5 q62
-q62 !a1 & !a2 & a3 & a4 & a5 q62
-q62 !a1 & !a2 & a3 & !a4 & !a5 q64
-q62 !a1 & !a2 & a3 & !a4 & a5 q64
-q62 !a1 & !a2 & a3 & a4 & !a5 q64
-q62 !a1 & !a2 & a3 & a4 & a5 q64
-q62 !a1 & a2 & !a3 & !a4 & !a5 q65
-q62 !a1 & a2 & !a3 & !a4 & a5 q65
-q62 !a1 & a2 & !a3 & a4 & !a5 q65
-q62 !a1 & a2 & !a3 & a4 & a5 q65
-q62 !a1 & a2 & a3 & !a4 & !a5 q65
-q62 !a1 & a2 & a3 & !a4 & a5 q65
-q62 !a1 & a2 & a3 & a4 & !a5 q65
-q62 !a1 & a2 & a3 & a4 & a5 q65
-q62 !a1 & a2 & !a3 & !a4 & !a5 q66
-q62 !a1 & a2 & !a3 & !a4 & a5 q66
-q62 !a1 & a2 & !a3 & a4 & !a5 q66
-q62 !a1 & a2 & !a3 & a4 & a5 q66
-q62 a1 & !a2 & !a3 & !a4 & !a5 q33
-q62 a1 & !a2 & !a3 & !a4 & a5 q33
-q62 a1 & !a2 & !a3 & a4 & !a5 q33
-q62 a1 & !a2 & !a3 & a4 & a5 q33
-q62 a1 & a2 & a3 & !a4 & !a5 q34
-q62 a1 & a2 & a3 & !a4 & a5 q34
-q62 a1 & a2 & a3 & a4 & !a5 q34
-q62 a1 & a2 & a3 & a4 & a5 q34
-q62 a1 & !a2 & a3 & !a4 & !a5 q34
-q62 a1 & !a2 & a3 & !a4 & a5 q34
-q62 a1 & !a2 & a3 & a4 & !a5 q34
-q62 a1 & !a2 & a3 & a4 & a5 q34
-q62 a1 & !a2 & !a3 & !a4 & !a5 q34
-q62 a1 & !a2 & !a3 & !a4 & a5 q34
-q62 a1 & !a2 & !a3 & a4 & !a5 q34
-q62 a1 & !a2 & !a3 & a4 & a5 q34
-q62 a1 & !a2 & a3 & !a4 & !a5 q35
-q62 a1 & !a2 & a3 & !a4 & a5 q35
-q62 a1 & !a2 & a3 & a4 & !a5 q35
-q62 a1 & !a2 & a3 & a4 & a5 q35
-q62 a1 & a2 & !a3 & !a4 & !a5 q39
-q62 a1 & a2 & !a3 & !a4 & a5 q39
-q62 a1 & a2 & !a3 & a4 & !a5 q39
-q62 a1 & a2 & !a3 & a4 & a5 q39
-q62 a1 & a2 & a3 & !a4 & !a5 q39
-q62 a1 & a2 & a3 & !a4 & a5 q39
-q62 a1 & a2 & a3 & a4 & !a5 q39
-q62 a1 & a2 & a3 & a4 & a5 q39
-q62 a1 & a2 & !a3 & !a4 & !a5 q40
-q62 a1 & a2 & !a3 & !a4 & a5 q40
-q62 a1 & a2 & !a3 & a4 & !a5 q40
-q62 a1 & a2 & !a3 & a4 & a5 q40
-q66 !a1 & !a2 & !a3 & !a4 & !a5 q61
-q66 !a1 & !a2 & !a3 & !a4 & a5 q61
-q66 !a1 & !a2 & !a3 & a4 & !a5 q61
-q66 !a1 & !a2 & !a3 & a4 & a5 q61
-q66 !a1 & !a2 & a3 & !a4 & !a5 q61
-q66 !a1 & !a2 & a3 & !a4 & a5 q61
-q66 !a1 & !a2 & a3 & a4 & !a5 q61
-q66 !a1 & !a2 & a3 & a4 & a5 q61
-q66 !a1 & !a2 & !a3 & !a4 & !a5 q66
-q66 !a1 & !a2 & !a3 & !a4 & a5 q66
-q66 !a1 & !a2 & !a3 & a4 & !a5 q66
-q66 !a1 & !a2 & !a3 & a4 & a5 q66
-q66 !a1 & a2 & !a3 & !a4 & !a5 q66
-q66 !a1 & a2 & !a3 & !a4 & a5 q66
-q66 !a1 & a2 & !a3 & a4 & !a5 q66
-q66 !a1 & a2 & !a3 & a4 & a5 q66
-q66 !a1 & a2 & a3 & !a4 & !a5 q66
-q66 !a1 & a2 & a3 & !a4 & a5 q66
-q66 !a1 & a2 & a3 & a4 & !a5 q66
-q66 !a1 & a2 & a3 & a4 & a5 q66
-q66 !a1 & !a2 & a3 & !a4 & !a5 q62
-q66 !a1 & !a2 & a3 & !a4 & a5 q62
-q66 !a1 & !a2 & a3 & a4 & !a5 q62
-q66 !a1 & !a2 & a3 & a4 & a5 q62
-q66 !a1 & a2 & !a3 & !a4 & !a5 q67
-q66 !a1 & a2 & !a3 & !a4 & a5 q67
-q66 !a1 & a2 & !a3 & a4 & !a5 q67
-q66 !a1 & a2 & !a3 & a4 & a5 q67
-q66 !a1 & a2 & a3 & !a4 & !a5 q65
-q66 !a1 & a2 & a3 & !a4 & a5 q65
-q66 !a1 & a2 & a3 & a4 & !a5 q65
-q66 !a1 & a2 & a3 & a4 & a5 q65
-q66 a1 & !a2 & a3 & !a4 & !a5 q33
-q66 a1 & !a2 & a3 & !a4 & a5 q33
-q66 a1 & !a2 & a3 & a4 & !a5 q33
-q66 a1 & !a2 & a3 & a4 & a5 q33
-q66 a1 & !a2 & !a3 & !a4 & !a5 q33
-q66 a1 & !a2 & !a3 & !a4 & a5 q33
-q66 a1 & !a2 & !a3 & a4 & !a5 q33
-q66 a1 & !a2 & !a3 & a4 & a5 q33
-q66 a1 & a2 & !a3 & !a4 & !a5 q40
-q66 a1 & a2 & !a3 & !a4 & a5 q40
-q66 a1 & a2 & !a3 & a4 & !a5 q40
-q66 a1 & a2 & !a3 & a4 & a5 q40
-q66 a1 & a2 & a3 & !a4 & !a5 q40
-q66 a1 & a2 & a3 & !a4 & a5 q40
-q66 a1 & a2 & a3 & a4 & !a5 q40
-q66 a1 & a2 & a3 & a4 & a5 q40
-q66 a1 & !a2 & !a3 & !a4 & !a5 q40
-q66 a1 & !a2 & !a3 & !a4 & a5 q40
-q66 a1 & !a2 & !a3 & a4 & !a5 q40
-q66 a1 & !a2 & !a3 & a4 & a5 q40
-q66 a1 & !a2 & a3 & !a4 & !a5 q34
-q66 a1 & !a2 & a3 & !a4 & a5 q34
-q66 a1 & !a2 & a3 & a4 & !a5 q34
-q66 a1 & !a2 & a3 & a4 & a5 q34
-q66 a1 & a2 & !a3 & !a4 & !a5 q45
-q66 a1 & a2 & !a3 & !a4 & a5 q45
-q66 a1 & a2 & !a3 & a4 & !a5 q45
-q66 a1 & a2 & !a3 & a4 & a5 q45
-q66 a1 & a2 & a3 & !a4 & !a5 q39
-q66 a1 & a2 & a3 & !a4 & a5 q39
-q66 a1 & a2 & a3 & a4 & !a5 q39
-q66 a1 & a2 & a3 & a4 & a5 q39
-q67 !a1 & !a2 & !a3 & !a4 & !a5 q66
-q67 !a1 & !a2 & !a3 & !a4 & a5 q66
-q67 !a1 & !a2 & !a3 & a4 & !a5 q66
-q67 !a1 & !a2 & !a3 & a4 & a5 q66
-q67 !a1 & a2 & a3 & !a4 & !a5 q66
-q67 !a1 & a2 & a3 & !a4 & a5 q66
-q67 !a1 & a2 & a3 & a4 & !a5 q66
-q67 !a1 & a2 & a3 & a4 & a5 q66
-q67 !a1 & a2 & !a3 & !a4 & !a5 q66
-q67 !a1 & a2 & !a3 & !a4 & a5 q66
-q67 !a1 & a2 & !a3 & a4 & !a5 q66
-q67 !a1 & a2 & !a3 & a4 & a5 q66
-q67 !a1 & !a2 & a3 & !a4 & !a5 q66
-q67 !a1 & !a2 & a3 & !a4 & a5 q66
-q67 !a1 & !a2 & a3 & a4 & !a5 q66
-q67 !a1 & !a2 & a3 & a4 & a5 q66
-q67 !a1 & !a2 & !a3 & !a4 & !a5 q67
-q67 !a1 & !a2 & !a3 & !a4 & a5 q67
-q67 !a1 & !a2 & !a3 & a4 & !a5 q67
-q67 !a1 & !a2 & !a3 & a4 & a5 q67
-q67 !a1 & a2 & !a3 & !a4 & !a5 q67
-q67 !a1 & a2 & !a3 & !a4 & a5 q67
-q67 !a1 & a2 & !a3 & a4 & !a5 q67
-q67 !a1 & a2 & !a3 & a4 & a5 q67
-q67 !a1 & a2 & a3 & !a4 & !a5 q65
-q67 !a1 & a2 & a3 & !a4 & a5 q65
-q67 !a1 & a2 & a3 & a4 & !a5 q65
-q67 !a1 & a2 & a3 & a4 & a5 q65
-q67 !a1 & !a2 & a3 & !a4 & !a5 q65
-q67 !a1 & !a2 & a3 & !a4 & a5 q65
-q67 !a1 & !a2 & a3 & a4 & !a5 q65
-q67 !a1 & !a2 & a3 & a4 & a5 q65
-q67 a1 & a2 & !a3 & !a4 & !a5 q40
-q67 a1 & a2 & !a3 & !a4 & a5 q40
-q67 a1 & a2 & !a3 & a4 & !a5 q40
-q67 a1 & a2 & !a3 & a4 & a5 q40
-q67 a1 & a2 & a3 & !a4 & !a5 q40
-q67 a1 & a2 & a3 & !a4 & a5 q40
-q67 a1 & a2 & a3 & a4 & !a5 q40
-q67 a1 & a2 & a3 & a4 & a5 q40
-q67 a1 & !a2 & a3 & !a4 & !a5 q40
-q67 a1 & !a2 & a3 & !a4 & a5 q40
-q67 a1 & !a2 & a3 & a4 & !a5 q40
-q67 a1 & !a2 & a3 & a4 & a5 q40
-q67 a1 & !a2 & !a3 & !a4 & !a5 q40
-q67 a1 & !a2 & !a3 & !a4 & a5 q40
-q67 a1 & !a2 & !a3 & a4 & !a5 q40
-q67 a1 & !a2 & !a3 & a4 & a5 q40
-q67 a1 & a2 & !a3 & !a4 & !a5 q45
-q67 a1 & a2 & !a3 & !a4 & a5 q45
-q67 a1 & a2 & !a3 & a4 & !a5 q45
-q67 a1 & a2 & !a3 & a4 & a5 q45
-q67 a1 & !a2 & !a3 & !a4 & !a5 q45
-q67 a1 & !a2 & !a3 & !a4 & a5 q45
-q67 a1 & !a2 & !a3 & a4 & !a5 q45
-q67 a1 & !a2 & !a3 & a4 & a5 q45
-q67 a1 & a2 & a3 & !a4 & !a5 q39
-q67 a1 & a2 & a3 & !a4 & a5 q39
-q67 a1 & a2 & a3 & a4 & !a5 q39
-q67 a1 & a2 & a3 & a4 & a5 q39
-q67 a1 & !a2 & a3 & !a4 & !a5 q39
-q67 a1 & !a2 & a3 & !a4 & a5 q39
-q67 a1 & !a2 & a3 & a4 & !a5 q39
-q67 a1 & !a2 & a3 & a4 & a5 q39
-q65 !a1 & !a2 & !a3 & !a4 & !a5 q65
-q65 !a1 & !a2 & !a3 & !a4 & a5 q65
-q65 !a1 & !a2 & !a3 & a4 & !a5 q65
-q65 !a1 & !a2 & !a3 & a4 & a5 q65
-q65 !a1 & a2 & a3 & !a4 & !a5 q65
-q65 !a1 & a2 & a3 & !a4 & a5 q65
-q65 !a1 & a2 & a3 & a4 & !a5 q65
-q65 !a1 & a2 & a3 & a4 & a5 q65
-q65 !a1 & a2 & !a3 & !a4 & !a5 q65
-q65 !a1 & a2 & !a3 & !a4 & a5 q65
-q65 !a1 & a2 & !a3 & a4 & !a5 q65
-q65 !a1 & a2 & !a3 & a4 & a5 q65
-q65 !a1 & !a2 & a3 & !a4 & !a5 q65
-q65 !a1 & !a2 & a3 & !a4 & a5 q65
-q65 !a1 & !a2 & a3 & a4 & !a5 q65
-q65 !a1 & !a2 & a3 & a4 & a5 q65
-q65 !a1 & !a2 & !a3 & !a4 & !a5 q66
-q65 !a1 & !a2 & !a3 & !a4 & a5 q66
-q65 !a1 & !a2 & !a3 & a4 & !a5 q66
-q65 !a1 & !a2 & !a3 & a4 & a5 q66
-q65 !a1 & a2 & !a3 & !a4 & !a5 q66
-q65 !a1 & a2 & !a3 & !a4 & a5 q66
-q65 !a1 & a2 & !a3 & a4 & !a5 q66
-q65 !a1 & a2 & !a3 & a4 & a5 q66
-q65 !a1 & a2 & a3 & !a4 & !a5 q62
-q65 !a1 & a2 & a3 & !a4 & a5 q62
-q65 !a1 & a2 & a3 & a4 & !a5 q62
-q65 !a1 & a2 & a3 & a4 & a5 q62
-q65 !a1 & !a2 & a3 & !a4 & !a5 q62
-q65 !a1 & !a2 & a3 & !a4 & a5 q62
-q65 !a1 & !a2 & a3 & a4 & !a5 q62
-q65 !a1 & !a2 & a3 & a4 & a5 q62
-q65 a1 & a2 & !a3 & !a4 & !a5 q39
-q65 a1 & a2 & !a3 & !a4 & a5 q39
-q65 a1 & a2 & !a3 & a4 & !a5 q39
-q65 a1 & a2 & !a3 & a4 & a5 q39
-q65 a1 & a2 & a3 & !a4 & !a5 q39
-q65 a1 & a2 & a3 & !a4 & a5 q39
-q65 a1 & a2 & a3 & a4 & !a5 q39
-q65 a1 & a2 & a3 & a4 & a5 q39
-q65 a1 & !a2 & a3 & !a4 & !a5 q39
-q65 a1 & !a2 & a3 & !a4 & a5 q39
-q65 a1 & !a2 & a3 & a4 & !a5 q39
-q65 a1 & !a2 & a3 & a4 & a5 q39
-q65 a1 & !a2 & !a3 & !a4 & !a5 q39
-q65 a1 & !a2 & !a3 & !a4 & a5 q39
-q65 a1 & !a2 & !a3 & a4 & !a5 q39
-q65 a1 & !a2 & !a3 & a4 & a5 q39
-q65 a1 & a2 & !a3 & !a4 & !a5 q40
-q65 a1 & a2 & !a3 & !a4 & a5 q40
-q65 a1 & a2 & !a3 & a4 & !a5 q40
-q65 a1 & a2 & !a3 & a4 & a5 q40
-q65 a1 & !a2 & !a3 & !a4 & !a5 q40
-q65 a1 & !a2 & !a3 & !a4 & a5 q40
-q65 a1 & !a2 & !a3 & a4 & !a5 q40
-q65 a1 & !a2 & !a3 & a4 & a5 q40
-q65 a1 & a2 & a3 & !a4 & !a5 q34
-q65 a1 & a2 & a3 & !a4 & a5 q34
-q65 a1 & a2 & a3 & a4 & !a5 q34
-q65 a1 & a2 & a3 & a4 & a5 q34
-q65 a1 & !a2 & a3 & !a4 & !a5 q34
-q65 a1 & !a2 & a3 & !a4 & a5 q34
-q65 a1 & !a2 & a3 & a4 & !a5 q34
-q65 a1 & !a2 & a3 & a4 & a5 q34
-q61 !a1 & !a2 & !a3 & !a4 & !a5 q61
-q61 !a1 & !a2 & !a3 & !a4 & a5 q61
-q61 !a1 & !a2 & !a3 & a4 & !a5 q61
-q61 !a1 & !a2 & !a3 & a4 & a5 q61
-q61 !a1 & a2 & a3 & !a4 & !a5 q61
-q61 !a1 & a2 & a3 & !a4 & a5 q61
-q61 !a1 & a2 & a3 & a4 & !a5 q61
-q61 !a1 & a2 & a3 & a4 & a5 q61
-q61 !a1 & a2 & !a3 & !a4 & !a5 q61
-q61 !a1 & a2 & !a3 & !a4 & a5 q61
-q61 !a1 & a2 & !a3 & a4 & !a5 q61
-q61 !a1 & a2 & !a3 & a4 & a5 q61
-q61 !a1 & !a2 & a3 & !a4 & !a5 q61
-q61 !a1 & !a2 & a3 & !a4 & a5 q61
-q61 !a1 & !a2 & a3 & a4 & !a5 q61
-q61 !a1 & !a2 & a3 & a4 & a5 q61
-q61 !a1 & !a2 & !a3 & !a4 & !a5 q66
-q61 !a1 & !a2 & !a3 & !a4 & a5 q66
-q61 !a1 & !a2 & !a3 & a4 & !a5 q66
-q61 !a1 & !a2 & !a3 & a4 & a5 q66
-q61 !a1 & a2 & !a3 & !a4 & !a5 q66
-q61 !a1 & a2 & !a3 & !a4 & a5 q66
-q61 !a1 & a2 & !a3 & a4 & !a5 q66
-q61 !a1 & a2 & !a3 & a4 & a5 q66
-q61 !a1 & a2 & a3 & !a4 & !a5 q62
-q61 !a1 & a2 & a3 & !a4 & a5 q62
-q61 !a1 & a2 & a3 & a4 & !a5 q62
-q61 !a1 & a2 & a3 & a4 & a5 q62
-q61 !a1 & !a2 & a3 & !a4 & !a5 q62
-q61 !a1 & !a2 & a3 & !a4 & a5 q62
-q61 !a1 & !a2 & a3 & a4 & !a5 q62
-q61 !a1 & !a2 & a3 & a4 & a5 q62
-q61 !a1 & a2 & !a3 & !a4 & !a5 q6
-q61 !a1 & a2 & !a3 & !a4 & a5 q6
-q61 !a1 & a2 & !a3 & a4 & !a5 q6
-q61 !a1 & a2 & !a3 & a4 & a5 q6
-q61 a1 & a2 & !a3 & !a4 & !a5 q33
-q61 a1 & a2 & !a3 & !a4 & a5 q33
-q61 a1 & a2 & !a3 & a4 & !a5 q33
-q61 a1 & a2 & !a3 & a4 & a5 q33
-q61 a1 & a2 & a3 & !a4 & !a5 q33
-q61 a1 & a2 & a3 & !a4 & a5 q33
-q61 a1 & a2 & a3 & a4 & !a5 q33
-q61 a1 & a2 & a3 & a4 & a5 q33
-q61 a1 & !a2 & a3 & !a4 & !a5 q33
-q61 a1 & !a2 & a3 & !a4 & a5 q33
-q61 a1 & !a2 & a3 & a4 & !a5 q33
-q61 a1 & !a2 & a3 & a4 & a5 q33
-q61 a1 & !a2 & !a3 & !a4 & !a5 q33
-q61 a1 & !a2 & !a3 & !a4 & a5 q33
-q61 a1 & !a2 & !a3 & a4 & !a5 q33
-q61 a1 & !a2 & !a3 & a4 & a5 q33
-q61 a1 & a2 & !a3 & !a4 & !a5 q40
-q61 a1 & a2 & !a3 & !a4 & a5 q40
-q61 a1 & a2 & !a3 & a4 & !a5 q40
-q61 a1 & a2 & !a3 & a4 & a5 q40
-q61 a1 & !a2 & !a3 & !a4 & !a5 q40
-q61 a1 & !a2 & !a3 & !a4 & a5 q40
-q61 a1 & !a2 & !a3 & a4 & !a5 q40
-q61 a1 & !a2 & !a3 & a4 & a5 q40
-q61 a1 & a2 & a3 & !a4 & !a5 q34
-q61 a1 & a2 & a3 & !a4 & a5 q34
-q61 a1 & a2 & a3 & a4 & !a5 q34
-q61 a1 & a2 & a3 & a4 & a5 q34
-q61 a1 & !a2 & a3 & !a4 & !a5 q34
-q61 a1 & !a2 & a3 & !a4 & a5 q34
-q61 a1 & !a2 & a3 & a4 & !a5 q34
-q61 a1 & !a2 & a3 & a4 & a5 q34
-q60 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q60 !a1 & !a2 & !a3 & !a4 & a5 q25
-q60 !a1 & !a2 & !a3 & a4 & !a5 q25
-q60 !a1 & !a2 & !a3 & a4 & a5 q25
-q60 !a1 & !a2 & !a3 & !a4 & !a5 q60
-q60 !a1 & !a2 & !a3 & !a4 & a5 q60
-q60 !a1 & !a2 & !a3 & a4 & !a5 q60
-q60 !a1 & !a2 & !a3 & a4 & a5 q60
-q60 !a1 & !a2 & a3 & !a4 & !a5 q60
-q60 !a1 & !a2 & a3 & !a4 & a5 q60
-q60 !a1 & !a2 & a3 & a4 & !a5 q60
-q60 !a1 & !a2 & a3 & a4 & a5 q60
-q60 !a1 & !a2 & a3 & !a4 & !a5 q27
-q60 !a1 & !a2 & a3 & !a4 & a5 q27
-q60 !a1 & !a2 & a3 & a4 & !a5 q27
-q60 !a1 & !a2 & a3 & a4 & a5 q27
-q60 !a1 & a2 & !a3 & !a4 & !a5 q65
-q60 !a1 & a2 & !a3 & !a4 & a5 q65
-q60 !a1 & a2 & !a3 & a4 & !a5 q65
-q60 !a1 & a2 & !a3 & a4 & a5 q65
-q60 !a1 & a2 & a3 & !a4 & !a5 q65
-q60 !a1 & a2 & a3 & !a4 & a5 q65
-q60 !a1 & a2 & a3 & a4 & !a5 q65
-q60 !a1 & a2 & a3 & a4 & a5 q65
-q60 !a1 & a2 & !a3 & !a4 & !a5 q66
-q60 !a1 & a2 & !a3 & !a4 & a5 q66
-q60 !a1 & a2 & !a3 & a4 & !a5 q66
-q60 !a1 & a2 & !a3 & a4 & a5 q66
-q60 !a1 & a2 & a3 & !a4 & !a5 q62
-q60 !a1 & a2 & a3 & !a4 & a5 q62
-q60 !a1 & a2 & a3 & a4 & !a5 q62
-q60 !a1 & a2 & a3 & a4 & a5 q62
-q60 a1 & !a2 & !a3 & !a4 & !a5 q29
-q60 a1 & !a2 & !a3 & !a4 & a5 q29
-q60 a1 & !a2 & !a3 & a4 & !a5 q29
-q60 a1 & !a2 & !a3 & a4 & a5 q29
-q60 a1 & !a2 & a3 & !a4 & !a5 q37
-q60 a1 & !a2 & a3 & !a4 & a5 q37
-q60 a1 & !a2 & a3 & a4 & !a5 q37
-q60 a1 & !a2 & a3 & a4 & a5 q37
-q60 a1 & !a2 & !a3 & !a4 & !a5 q37
-q60 a1 & !a2 & !a3 & !a4 & a5 q37
-q60 a1 & !a2 & !a3 & a4 & !a5 q37
-q60 a1 & !a2 & !a3 & a4 & a5 q37
-q60 a1 & !a2 & a3 & !a4 & !a5 q32
-q60 a1 & !a2 & a3 & !a4 & a5 q32
-q60 a1 & !a2 & a3 & a4 & !a5 q32
-q60 a1 & !a2 & a3 & a4 & a5 q32
-q60 a1 & a2 & !a3 & !a4 & !a5 q39
-q60 a1 & a2 & !a3 & !a4 & a5 q39
-q60 a1 & a2 & !a3 & a4 & !a5 q39
-q60 a1 & a2 & !a3 & a4 & a5 q39
-q60 a1 & a2 & a3 & !a4 & !a5 q39
-q60 a1 & a2 & a3 & !a4 & a5 q39
-q60 a1 & a2 & a3 & a4 & !a5 q39
-q60 a1 & a2 & a3 & a4 & a5 q39
-q60 a1 & a2 & !a3 & !a4 & !a5 q40
-q60 a1 & a2 & !a3 & !a4 & a5 q40
-q60 a1 & a2 & !a3 & a4 & !a5 q40
-q60 a1 & a2 & !a3 & a4 & a5 q40
-q60 a1 & a2 & a3 & !a4 & !a5 q34
-q60 a1 & a2 & a3 & !a4 & a5 q34
-q60 a1 & a2 & a3 & a4 & !a5 q34
-q60 a1 & a2 & a3 & a4 & a5 q34
-q25 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q25 !a1 & !a2 & !a3 & !a4 & a5 q25
-q25 !a1 & !a2 & !a3 & a4 & !a5 q25
-q25 !a1 & !a2 & !a3 & a4 & a5 q25
-q25 !a1 & !a2 & a3 & !a4 & !a5 q25
-q25 !a1 & !a2 & a3 & !a4 & a5 q25
-q25 !a1 & !a2 & a3 & a4 & !a5 q25
-q25 !a1 & !a2 & a3 & a4 & a5 q25
-q25 !a1 & !a2 & !a3 & !a4 & !a5 q68
-q25 !a1 & !a2 & !a3 & !a4 & a5 q68
-q25 !a1 & !a2 & !a3 & a4 & !a5 q68
-q25 !a1 & !a2 & !a3 & a4 & a5 q68
-q25 !a1 & !a2 & a3 & !a4 & !a5 q60
-q25 !a1 & !a2 & a3 & !a4 & a5 q60
-q25 !a1 & !a2 & a3 & a4 & !a5 q60
-q25 !a1 & !a2 & a3 & a4 & a5 q60
-q25 !a1 & a2 & !a3 & !a4 & !a5 q61
-q25 !a1 & a2 & !a3 & !a4 & a5 q61
-q25 !a1 & a2 & !a3 & a4 & !a5 q61
-q25 !a1 & a2 & !a3 & a4 & a5 q61
-q25 !a1 & a2 & a3 & !a4 & !a5 q61
-q25 !a1 & a2 & a3 & !a4 & a5 q61
-q25 !a1 & a2 & a3 & a4 & !a5 q61
-q25 !a1 & a2 & a3 & a4 & a5 q61
-q25 !a1 & a2 & !a3 & !a4 & !a5 q66
-q25 !a1 & a2 & !a3 & !a4 & a5 q66
-q25 !a1 & a2 & !a3 & a4 & !a5 q66
-q25 !a1 & a2 & !a3 & a4 & a5 q66
-q25 !a1 & a2 & !a3 & !a4 & !a5 q6
-q25 !a1 & a2 & !a3 & !a4 & a5 q6
-q25 !a1 & a2 & !a3 & a4 & !a5 q6
-q25 !a1 & a2 & !a3 & a4 & a5 q6
-q25 !a1 & a2 & a3 & !a4 & !a5 q62
-q25 !a1 & a2 & a3 & !a4 & a5 q62
-q25 !a1 & a2 & a3 & a4 & !a5 q62
-q25 !a1 & a2 & a3 & a4 & a5 q62
-q25 a1 & !a2 & a3 & !a4 & !a5 q29
-q25 a1 & !a2 & a3 & !a4 & a5 q29
-q25 a1 & !a2 & a3 & a4 & !a5 q29
-q25 a1 & !a2 & a3 & a4 & a5 q29
-q25 a1 & !a2 & !a3 & !a4 & !a5 q29
-q25 a1 & !a2 & !a3 & !a4 & a5 q29
-q25 a1 & !a2 & !a3 & a4 & !a5 q29
-q25 a1 & !a2 & !a3 & a4 & a5 q29
-q25 a1 & !a2 & !a3 & !a4 & !a5 q42
-q25 a1 & !a2 & !a3 & !a4 & a5 q42
-q25 a1 & !a2 & !a3 & a4 & !a5 q42
-q25 a1 & !a2 & !a3 & a4 & a5 q42
-q25 a1 & !a2 & a3 & !a4 & !a5 q37
-q25 a1 & !a2 & a3 & !a4 & a5 q37
-q25 a1 & !a2 & a3 & a4 & !a5 q37
-q25 a1 & !a2 & a3 & a4 & a5 q37
-q25 a1 & a2 & !a3 & !a4 & !a5 q33
-q25 a1 & a2 & !a3 & !a4 & a5 q33
-q25 a1 & a2 & !a3 & a4 & !a5 q33
-q25 a1 & a2 & !a3 & a4 & a5 q33
-q25 a1 & a2 & a3 & !a4 & !a5 q33
-q25 a1 & a2 & a3 & !a4 & a5 q33
-q25 a1 & a2 & a3 & a4 & !a5 q33
-q25 a1 & a2 & a3 & a4 & a5 q33
-q25 a1 & a2 & !a3 & !a4 & !a5 q40
-q25 a1 & a2 & !a3 & !a4 & a5 q40
-q25 a1 & a2 & !a3 & a4 & !a5 q40
-q25 a1 & a2 & !a3 & a4 & a5 q40
-q25 a1 & a2 & a3 & !a4 & !a5 q34
-q25 a1 & a2 & a3 & !a4 & a5 q34
-q25 a1 & a2 & a3 & a4 & !a5 q34
-q25 a1 & a2 & a3 & a4 & a5 q34
-q68 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q68 !a1 & !a2 & !a3 & !a4 & a5 q25
-q68 !a1 & !a2 & !a3 & a4 & !a5 q25
-q68 !a1 & !a2 & !a3 & a4 & a5 q25
-q68 !a1 & !a2 & a3 & !a4 & !a5 q25
-q68 !a1 & !a2 & a3 & !a4 & a5 q25
-q68 !a1 & !a2 & a3 & a4 & !a5 q25
-q68 !a1 & !a2 & a3 & a4 & a5 q25
-q68 !a1 & !a2 & !a3 & !a4 & !a5 q68
-q68 !a1 & !a2 & !a3 & !a4 & a5 q68
-q68 !a1 & !a2 & !a3 & a4 & !a5 q68
-q68 !a1 & !a2 & !a3 & a4 & a5 q68
-q68 !a1 & !a2 & a3 & !a4 & !a5 q60
-q68 !a1 & !a2 & a3 & !a4 & a5 q60
-q68 !a1 & !a2 & a3 & a4 & !a5 q60
-q68 !a1 & !a2 & a3 & a4 & a5 q60
-q68 !a1 & a2 & !a3 & !a4 & !a5 q66
-q68 !a1 & a2 & !a3 & !a4 & a5 q66
-q68 !a1 & a2 & !a3 & a4 & !a5 q66
-q68 !a1 & a2 & !a3 & a4 & a5 q66
-q68 !a1 & a2 & a3 & !a4 & !a5 q66
-q68 !a1 & a2 & a3 & !a4 & a5 q66
-q68 !a1 & a2 & a3 & a4 & !a5 q66
-q68 !a1 & a2 & a3 & a4 & a5 q66
-q68 !a1 & a2 & !a3 & !a4 & !a5 q67
-q68 !a1 & a2 & !a3 & !a4 & a5 q67
-q68 !a1 & a2 & !a3 & a4 & !a5 q67
-q68 !a1 & a2 & !a3 & a4 & a5 q67
-q68 !a1 & a2 & a3 & !a4 & !a5 q65
-q68 !a1 & a2 & a3 & !a4 & a5 q65
-q68 !a1 & a2 & a3 & a4 & !a5 q65
-q68 !a1 & a2 & a3 & a4 & a5 q65
-q68 a1 & !a2 & a3 & !a4 & !a5 q29
-q68 a1 & !a2 & a3 & !a4 & a5 q29
-q68 a1 & !a2 & a3 & a4 & !a5 q29
-q68 a1 & !a2 & a3 & a4 & a5 q29
-q68 a1 & !a2 & !a3 & !a4 & !a5 q29
-q68 a1 & !a2 & !a3 & !a4 & a5 q29
-q68 a1 & !a2 & !a3 & a4 & !a5 q29
-q68 a1 & !a2 & !a3 & a4 & a5 q29
-q68 a1 & !a2 & !a3 & !a4 & !a5 q42
-q68 a1 & !a2 & !a3 & !a4 & a5 q42
-q68 a1 & !a2 & !a3 & a4 & !a5 q42
-q68 a1 & !a2 & !a3 & a4 & a5 q42
-q68 a1 & !a2 & a3 & !a4 & !a5 q37
-q68 a1 & !a2 & a3 & !a4 & a5 q37
-q68 a1 & !a2 & a3 & a4 & !a5 q37
-q68 a1 & !a2 & a3 & a4 & a5 q37
-q68 a1 & a2 & !a3 & !a4 & !a5 q40
-q68 a1 & a2 & !a3 & !a4 & a5 q40
-q68 a1 & a2 & !a3 & a4 & !a5 q40
-q68 a1 & a2 & !a3 & a4 & a5 q40
-q68 a1 & a2 & a3 & !a4 & !a5 q40
-q68 a1 & a2 & a3 & !a4 & a5 q40
-q68 a1 & a2 & a3 & a4 & !a5 q40
-q68 a1 & a2 & a3 & a4 & a5 q40
-q68 a1 & a2 & !a3 & !a4 & !a5 q45
-q68 a1 & a2 & !a3 & !a4 & a5 q45
-q68 a1 & a2 & !a3 & a4 & !a5 q45
-q68 a1 & a2 & !a3 & a4 & a5 q45
-q68 a1 & a2 & a3 & !a4 & !a5 q39
-q68 a1 & a2 & a3 & !a4 & a5 q39
-q68 a1 & a2 & a3 & a4 & !a5 q39
-q68 a1 & a2 & a3 & a4 & a5 q39
-q22 !a1 & !a2 & !a3 & !a4 & !a5 q69
-q22 !a1 & !a2 & !a3 & !a4 & a5 q69
-q22 !a1 & !a2 & !a3 & a4 & !a5 q69
-q22 !a1 & !a2 & !a3 & a4 & a5 q69
-q22 !a1 & a2 & !a3 & !a4 & !a5 q69
-q22 !a1 & a2 & !a3 & !a4 & a5 q69
-q22 !a1 & a2 & !a3 & a4 & !a5 q69
-q22 !a1 & a2 & !a3 & a4 & a5 q69
-q22 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q22 !a1 & !a2 & !a3 & !a4 & a5 q25
-q22 !a1 & !a2 & !a3 & a4 & !a5 q25
-q22 !a1 & !a2 & !a3 & a4 & a5 q25
-q22 !a1 & a2 & a3 & !a4 & !a5 q25
-q22 !a1 & a2 & a3 & !a4 & a5 q25
-q22 !a1 & a2 & a3 & a4 & !a5 q25
-q22 !a1 & a2 & a3 & a4 & a5 q25
-q22 !a1 & a2 & !a3 & !a4 & !a5 q25
-q22 !a1 & a2 & !a3 & !a4 & a5 q25
-q22 !a1 & a2 & !a3 & a4 & !a5 q25
-q22 !a1 & a2 & !a3 & a4 & a5 q25
-q22 !a1 & !a2 & a3 & !a4 & !a5 q25
-q22 !a1 & !a2 & a3 & !a4 & a5 q25
-q22 !a1 & !a2 & a3 & a4 & !a5 q25
-q22 !a1 & !a2 & a3 & a4 & a5 q25
-q22 !a1 & a2 & a3 & !a4 & !a5 q14
-q22 !a1 & a2 & a3 & !a4 & a5 q14
-q22 !a1 & a2 & a3 & a4 & !a5 q14
-q22 !a1 & a2 & a3 & a4 & a5 q14
-q22 !a1 & !a2 & a3 & !a4 & !a5 q14
-q22 !a1 & !a2 & a3 & !a4 & a5 q14
-q22 !a1 & !a2 & a3 & a4 & !a5 q14
-q22 !a1 & !a2 & a3 & a4 & a5 q14
-q22 a1 & a2 & !a3 & !a4 & !a5 q6
-q22 a1 & a2 & !a3 & !a4 & a5 q6
-q22 a1 & a2 & !a3 & a4 & !a5 q6
-q22 a1 & a2 & !a3 & a4 & a5 q6
-q22 !a1 & a2 & !a3 & !a4 & !a5 q6
-q22 !a1 & a2 & !a3 & !a4 & a5 q6
-q22 !a1 & a2 & !a3 & a4 & !a5 q6
-q22 !a1 & a2 & !a3 & a4 & a5 q6
-q22 a1 & a2 & !a3 & !a4 & !a5 q71
-q22 a1 & a2 & !a3 & !a4 & a5 q71
-q22 a1 & a2 & !a3 & a4 & !a5 q71
-q22 a1 & a2 & !a3 & a4 & a5 q71
-q22 a1 & !a2 & !a3 & !a4 & !a5 q71
-q22 a1 & !a2 & !a3 & !a4 & a5 q71
-q22 a1 & !a2 & !a3 & a4 & !a5 q71
-q22 a1 & !a2 & !a3 & a4 & a5 q71
-q22 a1 & a2 & !a3 & !a4 & !a5 q29
-q22 a1 & a2 & !a3 & !a4 & a5 q29
-q22 a1 & a2 & !a3 & a4 & !a5 q29
-q22 a1 & a2 & !a3 & a4 & a5 q29
-q22 a1 & a2 & a3 & !a4 & !a5 q29
-q22 a1 & a2 & a3 & !a4 & a5 q29
-q22 a1 & a2 & a3 & a4 & !a5 q29
-q22 a1 & a2 & a3 & a4 & a5 q29
-q22 a1 & !a2 & a3 & !a4 & !a5 q29
-q22 a1 & !a2 & a3 & !a4 & a5 q29
-q22 a1 & !a2 & a3 & a4 & !a5 q29
-q22 a1 & !a2 & a3 & a4 & a5 q29
-q22 a1 & !a2 & !a3 & !a4 & !a5 q29
-q22 a1 & !a2 & !a3 & !a4 & a5 q29
-q22 a1 & !a2 & !a3 & a4 & !a5 q29
-q22 a1 & !a2 & !a3 & a4 & a5 q29
-q22 a1 & a2 & a3 & !a4 & !a5 q30
-q22 a1 & a2 & a3 & !a4 & a5 q30
-q22 a1 & a2 & a3 & a4 & !a5 q30
-q22 a1 & a2 & a3 & a4 & a5 q30
-q22 a1 & !a2 & a3 & !a4 & !a5 q30
-q22 a1 & !a2 & a3 & !a4 & a5 q30
-q22 a1 & !a2 & a3 & a4 & !a5 q30
-q22 a1 & !a2 & a3 & a4 & a5 q30
-q71 !a1 & !a2 & !a3 & !a4 & !a5 q72
-q71 !a1 & !a2 & !a3 & !a4 & a5 q72
-q71 !a1 & !a2 & !a3 & a4 & !a5 q72
-q71 !a1 & !a2 & !a3 & a4 & a5 q72
-q71 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q71 !a1 & !a2 & !a3 & !a4 & a5 q33
-q71 !a1 & !a2 & !a3 & a4 & !a5 q33
-q71 !a1 & !a2 & !a3 & a4 & a5 q33
-q71 !a1 & !a2 & a3 & !a4 & !a5 q33
-q71 !a1 & !a2 & a3 & !a4 & a5 q33
-q71 !a1 & !a2 & a3 & a4 & !a5 q33
-q71 !a1 & !a2 & a3 & a4 & a5 q33
-q71 !a1 & !a2 & a3 & !a4 & !a5 q55
-q71 !a1 & !a2 & a3 & !a4 & a5 q55
-q71 !a1 & !a2 & a3 & a4 & !a5 q55
-q71 !a1 & !a2 & a3 & a4 & a5 q55
-q71 !a1 & a2 & !a3 & !a4 & !a5 q73
-q71 !a1 & a2 & !a3 & !a4 & a5 q73
-q71 !a1 & a2 & !a3 & a4 & !a5 q73
-q71 !a1 & a2 & !a3 & a4 & a5 q73
-q71 !a1 & a2 & !a3 & !a4 & !a5 q40
-q71 !a1 & a2 & !a3 & !a4 & a5 q40
-q71 !a1 & a2 & !a3 & a4 & !a5 q40
-q71 !a1 & a2 & !a3 & a4 & a5 q40
-q71 !a1 & a2 & a3 & !a4 & !a5 q40
-q71 !a1 & a2 & a3 & !a4 & a5 q40
-q71 !a1 & a2 & a3 & a4 & !a5 q40
-q71 !a1 & a2 & a3 & a4 & a5 q40
-q71 !a1 & a2 & a3 & !a4 & !a5 q56
-q71 !a1 & a2 & a3 & !a4 & a5 q56
-q71 !a1 & a2 & a3 & a4 & !a5 q56
-q71 !a1 & a2 & a3 & a4 & a5 q56
-q71 a1 & !a2 & !a3 & !a4 & !a5 q71
-q71 a1 & !a2 & !a3 & !a4 & a5 q71
-q71 a1 & !a2 & !a3 & a4 & !a5 q71
-q71 a1 & !a2 & !a3 & a4 & a5 q71
-q71 a1 & !a2 & a3 & !a4 & !a5 q29
-q71 a1 & !a2 & a3 & !a4 & a5 q29
-q71 a1 & !a2 & a3 & a4 & !a5 q29
-q71 a1 & !a2 & a3 & a4 & a5 q29
-q71 a1 & !a2 & !a3 & !a4 & !a5 q29
-q71 a1 & !a2 & !a3 & !a4 & a5 q29
-q71 a1 & !a2 & !a3 & a4 & !a5 q29
-q71 a1 & !a2 & !a3 & a4 & a5 q29
-q71 a1 & !a2 & a3 & !a4 & !a5 q30
-q71 a1 & !a2 & a3 & !a4 & a5 q30
-q71 a1 & !a2 & a3 & a4 & !a5 q30
-q71 a1 & !a2 & a3 & a4 & a5 q30
-q71 a1 & a2 & !a3 & !a4 & !a5 q74
-q71 a1 & a2 & !a3 & !a4 & a5 q74
-q71 a1 & a2 & !a3 & a4 & !a5 q74
-q71 a1 & a2 & !a3 & a4 & a5 q74
-q71 a1 & a2 & !a3 & !a4 & !a5 q42
-q71 a1 & a2 & !a3 & !a4 & a5 q42
-q71 a1 & a2 & !a3 & a4 & !a5 q42
-q71 a1 & a2 & !a3 & a4 & a5 q42
-q71 a1 & a2 & a3 & !a4 & !a5 q42
-q71 a1 & a2 & a3 & !a4 & a5 q42
-q71 a1 & a2 & a3 & a4 & !a5 q42
-q71 a1 & a2 & a3 & a4 & a5 q42
-q71 a1 & a2 & a3 & !a4 & !a5 q57
-q71 a1 & a2 & a3 & !a4 & a5 q57
-q71 a1 & a2 & a3 & a4 & !a5 q57
-q71 a1 & a2 & a3 & a4 & a5 q57
-q74 !a1 & !a2 & !a3 & !a4 & !a5 q73
-q74 !a1 & !a2 & !a3 & !a4 & a5 q73
-q74 !a1 & !a2 & !a3 & a4 & !a5 q73
-q74 !a1 & !a2 & !a3 & a4 & a5 q73
-q74 !a1 & a2 & !a3 & !a4 & !a5 q73
-q74 !a1 & a2 & !a3 & !a4 & a5 q73
-q74 !a1 & a2 & !a3 & a4 & !a5 q73
-q74 !a1 & a2 & !a3 & a4 & a5 q73
-q74 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q74 !a1 & !a2 & !a3 & !a4 & a5 q40
-q74 !a1 & !a2 & !a3 & a4 & !a5 q40
-q74 !a1 & !a2 & !a3 & a4 & a5 q40
-q74 !a1 & a2 & a3 & !a4 & !a5 q40
-q74 !a1 & a2 & a3 & !a4 & a5 q40
-q74 !a1 & a2 & a3 & a4 & !a5 q40
-q74 !a1 & a2 & a3 & a4 & a5 q40
-q74 !a1 & a2 & !a3 & !a4 & !a5 q40
-q74 !a1 & a2 & !a3 & !a4 & a5 q40
-q74 !a1 & a2 & !a3 & a4 & !a5 q40
-q74 !a1 & a2 & !a3 & a4 & a5 q40
-q74 !a1 & !a2 & a3 & !a4 & !a5 q40
-q74 !a1 & !a2 & a3 & !a4 & a5 q40
-q74 !a1 & !a2 & a3 & a4 & !a5 q40
-q74 !a1 & !a2 & a3 & a4 & a5 q40
-q74 !a1 & a2 & a3 & !a4 & !a5 q56
-q74 !a1 & a2 & a3 & !a4 & a5 q56
-q74 !a1 & a2 & a3 & a4 & !a5 q56
-q74 !a1 & a2 & a3 & a4 & a5 q56
-q74 !a1 & !a2 & a3 & !a4 & !a5 q56
-q74 !a1 & !a2 & a3 & !a4 & a5 q56
-q74 !a1 & !a2 & a3 & a4 & !a5 q56
-q74 !a1 & !a2 & a3 & a4 & a5 q56
-q74 a1 & a2 & !a3 & !a4 & !a5 q74
-q74 a1 & a2 & !a3 & !a4 & a5 q74
-q74 a1 & a2 & !a3 & a4 & !a5 q74
-q74 a1 & a2 & !a3 & a4 & a5 q74
-q74 a1 & !a2 & !a3 & !a4 & !a5 q74
-q74 a1 & !a2 & !a3 & !a4 & a5 q74
-q74 a1 & !a2 & !a3 & a4 & !a5 q74
-q74 a1 & !a2 & !a3 & a4 & a5 q74
-q74 a1 & a2 & !a3 & !a4 & !a5 q42
-q74 a1 & a2 & !a3 & !a4 & a5 q42
-q74 a1 & a2 & !a3 & a4 & !a5 q42
-q74 a1 & a2 & !a3 & a4 & a5 q42
-q74 a1 & a2 & a3 & !a4 & !a5 q42
-q74 a1 & a2 & a3 & !a4 & a5 q42
-q74 a1 & a2 & a3 & a4 & !a5 q42
-q74 a1 & a2 & a3 & a4 & a5 q42
-q74 a1 & !a2 & a3 & !a4 & !a5 q42
-q74 a1 & !a2 & a3 & !a4 & a5 q42
-q74 a1 & !a2 & a3 & a4 & !a5 q42
-q74 a1 & !a2 & a3 & a4 & a5 q42
-q74 a1 & !a2 & !a3 & !a4 & !a5 q42
-q74 a1 & !a2 & !a3 & !a4 & a5 q42
-q74 a1 & !a2 & !a3 & a4 & !a5 q42
-q74 a1 & !a2 & !a3 & a4 & a5 q42
-q74 a1 & a2 & a3 & !a4 & !a5 q57
-q74 a1 & a2 & a3 & !a4 & a5 q57
-q74 a1 & a2 & a3 & a4 & !a5 q57
-q74 a1 & a2 & a3 & a4 & a5 q57
-q74 a1 & !a2 & a3 & !a4 & !a5 q57
-q74 a1 & !a2 & a3 & !a4 & a5 q57
-q74 a1 & !a2 & a3 & a4 & !a5 q57
-q74 a1 & !a2 & a3 & a4 & a5 q57
-q73 a1 & a2 & !a3 & !a4 & !a5 q73
-q73 a1 & a2 & !a3 & !a4 & a5 q73
-q73 a1 & a2 & !a3 & a4 & !a5 q73
-q73 a1 & a2 & !a3 & a4 & a5 q73
-q73 !a1 & !a2 & !a3 & !a4 & !a5 q73
-q73 !a1 & !a2 & !a3 & !a4 & a5 q73
-q73 !a1 & !a2 & !a3 & a4 & !a5 q73
-q73 !a1 & !a2 & !a3 & a4 & a5 q73
-q73 a1 & a2 & !a3 & !a4 & !a5 q40
-q73 a1 & a2 & !a3 & !a4 & a5 q40
-q73 a1 & a2 & !a3 & a4 & !a5 q40
-q73 a1 & a2 & !a3 & a4 & a5 q40
-q73 !a1 & !a2 & !a3 & !a4 & !a5 q40
-q73 !a1 & !a2 & !a3 & !a4 & a5 q40
-q73 !a1 & !a2 & !a3 & a4 & !a5 q40
-q73 !a1 & !a2 & !a3 & a4 & a5 q40
-q73 a1 & a2 & a3 & !a4 & !a5 q40
-q73 a1 & a2 & a3 & !a4 & a5 q40
-q73 a1 & a2 & a3 & a4 & !a5 q40
-q73 a1 & a2 & a3 & a4 & a5 q40
-q73 !a1 & !a2 & a3 & !a4 & !a5 q40
-q73 !a1 & !a2 & a3 & !a4 & a5 q40
-q73 !a1 & !a2 & a3 & a4 & !a5 q40
-q73 !a1 & !a2 & a3 & a4 & a5 q40
-q73 a1 & a2 & a3 & !a4 & !a5 q56
-q73 a1 & a2 & a3 & !a4 & a5 q56
-q73 a1 & a2 & a3 & a4 & !a5 q56
-q73 a1 & a2 & a3 & a4 & a5 q56
-q73 !a1 & !a2 & a3 & !a4 & !a5 q56
-q73 !a1 & !a2 & a3 & !a4 & a5 q56
-q73 !a1 & !a2 & a3 & a4 & !a5 q56
-q73 !a1 & !a2 & a3 & a4 & a5 q56
-q73 !a1 & a2 & !a3 & !a4 & !a5 q76
-q73 !a1 & a2 & !a3 & !a4 & a5 q76
-q73 !a1 & a2 & !a3 & a4 & !a5 q76
-q73 !a1 & a2 & !a3 & a4 & a5 q76
-q73 !a1 & a2 & !a3 & !a4 & !a5 q48
-q73 !a1 & a2 & !a3 & !a4 & a5 q48
-q73 !a1 & a2 & !a3 & a4 & !a5 q48
-q73 !a1 & a2 & !a3 & a4 & a5 q48
-q73 !a1 & a2 & a3 & !a4 & !a5 q48
-q73 !a1 & a2 & a3 & !a4 & a5 q48
-q73 !a1 & a2 & a3 & a4 & !a5 q48
-q73 !a1 & a2 & a3 & a4 & a5 q48
-q73 !a1 & a2 & a3 & !a4 & !a5 q59
-q73 !a1 & a2 & a3 & !a4 & a5 q59
-q73 !a1 & a2 & a3 & a4 & !a5 q59
-q73 !a1 & a2 & a3 & a4 & a5 q59
-q73 a1 & !a2 & !a3 & !a4 & !a5 q74
-q73 a1 & !a2 & !a3 & !a4 & a5 q74
-q73 a1 & !a2 & !a3 & a4 & !a5 q74
-q73 a1 & !a2 & !a3 & a4 & a5 q74
-q73 a1 & !a2 & a3 & !a4 & !a5 q42
-q73 a1 & !a2 & a3 & !a4 & a5 q42
-q73 a1 & !a2 & a3 & a4 & !a5 q42
-q73 a1 & !a2 & a3 & a4 & a5 q42
-q73 a1 & !a2 & !a3 & !a4 & !a5 q42
-q73 a1 & !a2 & !a3 & !a4 & a5 q42
-q73 a1 & !a2 & !a3 & a4 & !a5 q42
-q73 a1 & !a2 & !a3 & a4 & a5 q42
-q73 a1 & !a2 & a3 & !a4 & !a5 q57
-q73 a1 & !a2 & a3 & !a4 & a5 q57
-q73 a1 & !a2 & a3 & a4 & !a5 q57
-q73 a1 & !a2 & a3 & a4 & a5 q57
-q76 !a1 & !a2 & !a3 & !a4 & !a5 q76
-q76 !a1 & !a2 & !a3 & !a4 & a5 q76
-q76 !a1 & !a2 & !a3 & a4 & !a5 q76
-q76 !a1 & !a2 & !a3 & a4 & a5 q76
-q76 !a1 & a2 & !a3 & !a4 & !a5 q76
-q76 !a1 & a2 & !a3 & !a4 & a5 q76
-q76 !a1 & a2 & !a3 & a4 & !a5 q76
-q76 !a1 & a2 & !a3 & a4 & a5 q76
-q76 !a1 & !a2 & !a3 & !a4 & !a5 q48
-q76 !a1 & !a2 & !a3 & !a4 & a5 q48
-q76 !a1 & !a2 & !a3 & a4 & !a5 q48
-q76 !a1 & !a2 & !a3 & a4 & a5 q48
-q76 !a1 & a2 & a3 & !a4 & !a5 q48
-q76 !a1 & a2 & a3 & !a4 & a5 q48
-q76 !a1 & a2 & a3 & a4 & !a5 q48
-q76 !a1 & a2 & a3 & a4 & a5 q48
-q76 !a1 & a2 & !a3 & !a4 & !a5 q48
-q76 !a1 & a2 & !a3 & !a4 & a5 q48
-q76 !a1 & a2 & !a3 & a4 & !a5 q48
-q76 !a1 & a2 & !a3 & a4 & a5 q48
-q76 !a1 & !a2 & a3 & !a4 & !a5 q48
-q76 !a1 & !a2 & a3 & !a4 & a5 q48
-q76 !a1 & !a2 & a3 & a4 & !a5 q48
-q76 !a1 & !a2 & a3 & a4 & a5 q48
-q76 !a1 & a2 & a3 & !a4 & !a5 q59
-q76 !a1 & a2 & a3 & !a4 & a5 q59
-q76 !a1 & a2 & a3 & a4 & !a5 q59
-q76 !a1 & a2 & a3 & a4 & a5 q59
-q76 !a1 & !a2 & a3 & !a4 & !a5 q59
-q76 !a1 & !a2 & a3 & !a4 & a5 q59
-q76 !a1 & !a2 & a3 & a4 & !a5 q59
-q76 !a1 & !a2 & a3 & a4 & a5 q59
-q76 a1 & a2 & !a3 & !a4 & !a5 q73
-q76 a1 & a2 & !a3 & !a4 & a5 q73
-q76 a1 & a2 & !a3 & a4 & !a5 q73
-q76 a1 & a2 & !a3 & a4 & a5 q73
-q76 a1 & !a2 & !a3 & !a4 & !a5 q73
-q76 a1 & !a2 & !a3 & !a4 & a5 q73
-q76 a1 & !a2 & !a3 & a4 & !a5 q73
-q76 a1 & !a2 & !a3 & a4 & a5 q73
-q76 a1 & a2 & !a3 & !a4 & !a5 q40
-q76 a1 & a2 & !a3 & !a4 & a5 q40
-q76 a1 & a2 & !a3 & a4 & !a5 q40
-q76 a1 & a2 & !a3 & a4 & a5 q40
-q76 a1 & a2 & a3 & !a4 & !a5 q40
-q76 a1 & a2 & a3 & !a4 & a5 q40
-q76 a1 & a2 & a3 & a4 & !a5 q40
-q76 a1 & a2 & a3 & a4 & a5 q40
-q76 a1 & !a2 & a3 & !a4 & !a5 q40
-q76 a1 & !a2 & a3 & !a4 & a5 q40
-q76 a1 & !a2 & a3 & a4 & !a5 q40
-q76 a1 & !a2 & a3 & a4 & a5 q40
-q76 a1 & !a2 & !a3 & !a4 & !a5 q40
-q76 a1 & !a2 & !a3 & !a4 & a5 q40
-q76 a1 & !a2 & !a3 & a4 & !a5 q40
-q76 a1 & !a2 & !a3 & a4 & a5 q40
-q76 a1 & a2 & a3 & !a4 & !a5 q56
-q76 a1 & a2 & a3 & !a4 & a5 q56
-q76 a1 & a2 & a3 & a4 & !a5 q56
-q76 a1 & a2 & a3 & a4 & a5 q56
-q76 a1 & !a2 & a3 & !a4 & !a5 q56
-q76 a1 & !a2 & a3 & !a4 & a5 q56
-q76 a1 & !a2 & a3 & a4 & !a5 q56
-q76 a1 & !a2 & a3 & a4 & a5 q56
-q72 !a1 & !a2 & !a3 & !a4 & !a5 q72
-q72 !a1 & !a2 & !a3 & !a4 & a5 q72
-q72 !a1 & !a2 & !a3 & a4 & !a5 q72
-q72 !a1 & !a2 & !a3 & a4 & a5 q72
-q72 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q72 !a1 & !a2 & !a3 & !a4 & a5 q33
-q72 !a1 & !a2 & !a3 & a4 & !a5 q33
-q72 !a1 & !a2 & !a3 & a4 & a5 q33
-q72 !a1 & !a2 & a3 & !a4 & !a5 q33
-q72 !a1 & !a2 & a3 & !a4 & a5 q33
-q72 !a1 & !a2 & a3 & a4 & !a5 q33
-q72 !a1 & !a2 & a3 & a4 & a5 q33
-q72 !a1 & !a2 & a3 & !a4 & !a5 q55
-q72 !a1 & !a2 & a3 & !a4 & a5 q55
-q72 !a1 & !a2 & a3 & a4 & !a5 q55
-q72 !a1 & !a2 & a3 & a4 & a5 q55
-q72 !a1 & a2 & !a3 & !a4 & !a5 q76
-q72 !a1 & a2 & !a3 & !a4 & a5 q76
-q72 !a1 & a2 & !a3 & a4 & !a5 q76
-q72 !a1 & a2 & !a3 & a4 & a5 q76
-q72 !a1 & a2 & !a3 & !a4 & !a5 q48
-q72 !a1 & a2 & !a3 & !a4 & a5 q48
-q72 !a1 & a2 & !a3 & a4 & !a5 q48
-q72 !a1 & a2 & !a3 & a4 & a5 q48
-q72 !a1 & a2 & a3 & !a4 & !a5 q48
-q72 !a1 & a2 & a3 & !a4 & a5 q48
-q72 !a1 & a2 & a3 & a4 & !a5 q48
-q72 !a1 & a2 & a3 & a4 & a5 q48
-q72 !a1 & a2 & a3 & !a4 & !a5 q59
-q72 !a1 & a2 & a3 & !a4 & a5 q59
-q72 !a1 & a2 & a3 & a4 & !a5 q59
-q72 !a1 & a2 & a3 & a4 & a5 q59
-q72 a1 & !a2 & !a3 & !a4 & !a5 q71
-q72 a1 & !a2 & !a3 & !a4 & a5 q71
-q72 a1 & !a2 & !a3 & a4 & !a5 q71
-q72 a1 & !a2 & !a3 & a4 & a5 q71
-q72 a1 & !a2 & a3 & !a4 & !a5 q29
-q72 a1 & !a2 & a3 & !a4 & a5 q29
-q72 a1 & !a2 & a3 & a4 & !a5 q29
-q72 a1 & !a2 & a3 & a4 & a5 q29
-q72 a1 & !a2 & !a3 & !a4 & !a5 q29
-q72 a1 & !a2 & !a3 & !a4 & a5 q29
-q72 a1 & !a2 & !a3 & a4 & !a5 q29
-q72 a1 & !a2 & !a3 & a4 & a5 q29
-q72 a1 & !a2 & a3 & !a4 & !a5 q30
-q72 a1 & !a2 & a3 & !a4 & a5 q30
-q72 a1 & !a2 & a3 & a4 & !a5 q30
-q72 a1 & !a2 & a3 & a4 & a5 q30
-q72 a1 & a2 & !a3 & !a4 & !a5 q73
-q72 a1 & a2 & !a3 & !a4 & a5 q73
-q72 a1 & a2 & !a3 & a4 & !a5 q73
-q72 a1 & a2 & !a3 & a4 & a5 q73
-q72 a1 & a2 & !a3 & !a4 & !a5 q40
-q72 a1 & a2 & !a3 & !a4 & a5 q40
-q72 a1 & a2 & !a3 & a4 & !a5 q40
-q72 a1 & a2 & !a3 & a4 & a5 q40
-q72 a1 & a2 & a3 & !a4 & !a5 q40
-q72 a1 & a2 & a3 & !a4 & a5 q40
-q72 a1 & a2 & a3 & a4 & !a5 q40
-q72 a1 & a2 & a3 & a4 & a5 q40
-q72 a1 & a2 & a3 & !a4 & !a5 q56
-q72 a1 & a2 & a3 & !a4 & a5 q56
-q72 a1 & a2 & a3 & a4 & !a5 q56
-q72 a1 & a2 & a3 & a4 & a5 q56
-q69 !a1 & !a2 & !a3 & !a4 & !a5 q69
-q69 !a1 & !a2 & !a3 & !a4 & a5 q69
-q69 !a1 & !a2 & !a3 & a4 & !a5 q69
-q69 !a1 & !a2 & !a3 & a4 & a5 q69
-q69 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q69 !a1 & !a2 & !a3 & !a4 & a5 q25
-q69 !a1 & !a2 & !a3 & a4 & !a5 q25
-q69 !a1 & !a2 & !a3 & a4 & a5 q25
-q69 !a1 & !a2 & a3 & !a4 & !a5 q25
-q69 !a1 & !a2 & a3 & !a4 & a5 q25
-q69 !a1 & !a2 & a3 & a4 & !a5 q25
-q69 !a1 & !a2 & a3 & a4 & a5 q25
-q69 !a1 & !a2 & a3 & !a4 & !a5 q14
-q69 !a1 & !a2 & a3 & !a4 & a5 q14
-q69 !a1 & !a2 & a3 & a4 & !a5 q14
-q69 !a1 & !a2 & a3 & a4 & a5 q14
-q69 !a1 & a2 & !a3 & !a4 & !a5 q77
-q69 !a1 & a2 & !a3 & !a4 & a5 q77
-q69 !a1 & a2 & !a3 & a4 & !a5 q77
-q69 !a1 & a2 & !a3 & a4 & a5 q77
-q69 !a1 & a2 & !a3 & !a4 & !a5 q66
-q69 !a1 & a2 & !a3 & !a4 & a5 q66
-q69 !a1 & a2 & !a3 & a4 & !a5 q66
-q69 !a1 & a2 & !a3 & a4 & a5 q66
-q69 !a1 & a2 & a3 & !a4 & !a5 q66
-q69 !a1 & a2 & a3 & !a4 & a5 q66
-q69 !a1 & a2 & a3 & a4 & !a5 q66
-q69 !a1 & a2 & a3 & a4 & a5 q66
-q69 !a1 & a2 & a3 & !a4 & !a5 q78
-q69 !a1 & a2 & a3 & !a4 & a5 q78
-q69 !a1 & a2 & a3 & a4 & !a5 q78
-q69 !a1 & a2 & a3 & a4 & a5 q78
-q69 a1 & !a2 & !a3 & !a4 & !a5 q71
-q69 a1 & !a2 & !a3 & !a4 & a5 q71
-q69 a1 & !a2 & !a3 & a4 & !a5 q71
-q69 a1 & !a2 & !a3 & a4 & a5 q71
-q69 a1 & !a2 & a3 & !a4 & !a5 q29
-q69 a1 & !a2 & a3 & !a4 & a5 q29
-q69 a1 & !a2 & a3 & a4 & !a5 q29
-q69 a1 & !a2 & a3 & a4 & a5 q29
-q69 a1 & !a2 & !a3 & !a4 & !a5 q29
-q69 a1 & !a2 & !a3 & !a4 & a5 q29
-q69 a1 & !a2 & !a3 & a4 & !a5 q29
-q69 a1 & !a2 & !a3 & a4 & a5 q29
-q69 a1 & !a2 & a3 & !a4 & !a5 q30
-q69 a1 & !a2 & a3 & !a4 & a5 q30
-q69 a1 & !a2 & a3 & a4 & !a5 q30
-q69 a1 & !a2 & a3 & a4 & a5 q30
-q69 a1 & a2 & !a3 & !a4 & !a5 q73
-q69 a1 & a2 & !a3 & !a4 & a5 q73
-q69 a1 & a2 & !a3 & a4 & !a5 q73
-q69 a1 & a2 & !a3 & a4 & a5 q73
-q69 a1 & a2 & !a3 & !a4 & !a5 q40
-q69 a1 & a2 & !a3 & !a4 & a5 q40
-q69 a1 & a2 & !a3 & a4 & !a5 q40
-q69 a1 & a2 & !a3 & a4 & a5 q40
-q69 a1 & a2 & a3 & !a4 & !a5 q40
-q69 a1 & a2 & a3 & !a4 & a5 q40
-q69 a1 & a2 & a3 & a4 & !a5 q40
-q69 a1 & a2 & a3 & a4 & a5 q40
-q69 a1 & a2 & a3 & !a4 & !a5 q56
-q69 a1 & a2 & a3 & !a4 & a5 q56
-q69 a1 & a2 & a3 & a4 & !a5 q56
-q69 a1 & a2 & a3 & a4 & a5 q56
-q78 !a1 & !a2 & !a3 & !a4 & !a5 q78
-q78 !a1 & !a2 & !a3 & !a4 & a5 q78
-q78 !a1 & !a2 & !a3 & a4 & !a5 q78
-q78 !a1 & !a2 & !a3 & a4 & a5 q78
-q78 !a1 & a2 & a3 & !a4 & !a5 q78
-q78 !a1 & a2 & a3 & !a4 & a5 q78
-q78 !a1 & a2 & a3 & a4 & !a5 q78
-q78 !a1 & a2 & a3 & a4 & a5 q78
-q78 !a1 & a2 & !a3 & !a4 & !a5 q78
-q78 !a1 & a2 & !a3 & !a4 & a5 q78
-q78 !a1 & a2 & !a3 & a4 & !a5 q78
-q78 !a1 & a2 & !a3 & a4 & a5 q78
-q78 !a1 & !a2 & a3 & !a4 & !a5 q78
-q78 !a1 & !a2 & a3 & !a4 & a5 q78
-q78 !a1 & !a2 & a3 & a4 & !a5 q78
-q78 !a1 & !a2 & a3 & a4 & a5 q78
-q78 !a1 & !a2 & !a3 & !a4 & !a5 q66
-q78 !a1 & !a2 & !a3 & !a4 & a5 q66
-q78 !a1 & !a2 & !a3 & a4 & !a5 q66
-q78 !a1 & !a2 & !a3 & a4 & a5 q66
-q78 !a1 & a2 & !a3 & !a4 & !a5 q66
-q78 !a1 & a2 & !a3 & !a4 & a5 q66
-q78 !a1 & a2 & !a3 & a4 & !a5 q66
-q78 !a1 & a2 & !a3 & a4 & a5 q66
-q78 !a1 & a2 & a3 & !a4 & !a5 q62
-q78 !a1 & a2 & a3 & !a4 & a5 q62
-q78 !a1 & a2 & a3 & a4 & !a5 q62
-q78 !a1 & a2 & a3 & a4 & a5 q62
-q78 !a1 & !a2 & a3 & !a4 & !a5 q62
-q78 !a1 & !a2 & a3 & !a4 & a5 q62
-q78 !a1 & !a2 & a3 & a4 & !a5 q62
-q78 !a1 & !a2 & a3 & a4 & a5 q62
-q78 !a1 & a2 & !a3 & !a4 & !a5 q6
-q78 !a1 & a2 & !a3 & !a4 & a5 q6
-q78 !a1 & a2 & !a3 & a4 & !a5 q6
-q78 !a1 & a2 & !a3 & a4 & a5 q6
-q78 a1 & a2 & !a3 & !a4 & !a5 q56
-q78 a1 & a2 & !a3 & !a4 & a5 q56
-q78 a1 & a2 & !a3 & a4 & !a5 q56
-q78 a1 & a2 & !a3 & a4 & a5 q56
-q78 a1 & a2 & a3 & !a4 & !a5 q56
-q78 a1 & a2 & a3 & !a4 & a5 q56
-q78 a1 & a2 & a3 & a4 & !a5 q56
-q78 a1 & a2 & a3 & a4 & a5 q56
-q78 a1 & !a2 & a3 & !a4 & !a5 q56
-q78 a1 & !a2 & a3 & !a4 & a5 q56
-q78 a1 & !a2 & a3 & a4 & !a5 q56
-q78 a1 & !a2 & a3 & a4 & a5 q56
-q78 a1 & !a2 & !a3 & !a4 & !a5 q56
-q78 a1 & !a2 & !a3 & !a4 & a5 q56
-q78 a1 & !a2 & !a3 & a4 & !a5 q56
-q78 a1 & !a2 & !a3 & a4 & a5 q56
-q78 a1 & a2 & !a3 & !a4 & !a5 q40
-q78 a1 & a2 & !a3 & !a4 & a5 q40
-q78 a1 & a2 & !a3 & a4 & !a5 q40
-q78 a1 & a2 & !a3 & a4 & a5 q40
-q78 a1 & !a2 & !a3 & !a4 & !a5 q40
-q78 a1 & !a2 & !a3 & !a4 & a5 q40
-q78 a1 & !a2 & !a3 & a4 & !a5 q40
-q78 a1 & !a2 & !a3 & a4 & a5 q40
-q78 a1 & a2 & a3 & !a4 & !a5 q34
-q78 a1 & a2 & a3 & !a4 & a5 q34
-q78 a1 & a2 & a3 & a4 & !a5 q34
-q78 a1 & a2 & a3 & a4 & a5 q34
-q78 a1 & !a2 & a3 & !a4 & !a5 q34
-q78 a1 & !a2 & a3 & !a4 & a5 q34
-q78 a1 & !a2 & a3 & a4 & !a5 q34
-q78 a1 & !a2 & a3 & a4 & a5 q34
-q77 !a1 & !a2 & !a3 & !a4 & !a5 q77
-q77 !a1 & !a2 & !a3 & !a4 & a5 q77
-q77 !a1 & !a2 & !a3 & a4 & !a5 q77
-q77 !a1 & !a2 & !a3 & a4 & a5 q77
-q77 !a1 & a2 & !a3 & !a4 & !a5 q77
-q77 !a1 & a2 & !a3 & !a4 & a5 q77
-q77 !a1 & a2 & !a3 & a4 & !a5 q77
-q77 !a1 & a2 & !a3 & a4 & a5 q77
-q77 !a1 & !a2 & !a3 & !a4 & !a5 q66
-q77 !a1 & !a2 & !a3 & !a4 & a5 q66
-q77 !a1 & !a2 & !a3 & a4 & !a5 q66
-q77 !a1 & !a2 & !a3 & a4 & a5 q66
-q77 !a1 & a2 & a3 & !a4 & !a5 q66
-q77 !a1 & a2 & a3 & !a4 & a5 q66
-q77 !a1 & a2 & a3 & a4 & !a5 q66
-q77 !a1 & a2 & a3 & a4 & a5 q66
-q77 !a1 & a2 & !a3 & !a4 & !a5 q66
-q77 !a1 & a2 & !a3 & !a4 & a5 q66
-q77 !a1 & a2 & !a3 & a4 & !a5 q66
-q77 !a1 & a2 & !a3 & a4 & a5 q66
-q77 !a1 & !a2 & a3 & !a4 & !a5 q66
-q77 !a1 & !a2 & a3 & !a4 & a5 q66
-q77 !a1 & !a2 & a3 & a4 & !a5 q66
-q77 !a1 & !a2 & a3 & a4 & a5 q66
-q77 !a1 & a2 & a3 & !a4 & !a5 q78
-q77 !a1 & a2 & a3 & !a4 & a5 q78
-q77 !a1 & a2 & a3 & a4 & !a5 q78
-q77 !a1 & a2 & a3 & a4 & a5 q78
-q77 !a1 & !a2 & a3 & !a4 & !a5 q78
-q77 !a1 & !a2 & a3 & !a4 & a5 q78
-q77 !a1 & !a2 & a3 & a4 & !a5 q78
-q77 !a1 & !a2 & a3 & a4 & a5 q78
-q77 a1 & a2 & !a3 & !a4 & !a5 q73
-q77 a1 & a2 & !a3 & !a4 & a5 q73
-q77 a1 & a2 & !a3 & a4 & !a5 q73
-q77 a1 & a2 & !a3 & a4 & a5 q73
-q77 a1 & !a2 & !a3 & !a4 & !a5 q73
-q77 a1 & !a2 & !a3 & !a4 & a5 q73
-q77 a1 & !a2 & !a3 & a4 & !a5 q73
-q77 a1 & !a2 & !a3 & a4 & a5 q73
-q77 a1 & a2 & !a3 & !a4 & !a5 q40
-q77 a1 & a2 & !a3 & !a4 & a5 q40
-q77 a1 & a2 & !a3 & a4 & !a5 q40
-q77 a1 & a2 & !a3 & a4 & a5 q40
-q77 a1 & a2 & a3 & !a4 & !a5 q40
-q77 a1 & a2 & a3 & !a4 & a5 q40
-q77 a1 & a2 & a3 & a4 & !a5 q40
-q77 a1 & a2 & a3 & a4 & a5 q40
-q77 a1 & !a2 & a3 & !a4 & !a5 q40
-q77 a1 & !a2 & a3 & !a4 & a5 q40
-q77 a1 & !a2 & a3 & a4 & !a5 q40
-q77 a1 & !a2 & a3 & a4 & a5 q40
-q77 a1 & !a2 & !a3 & !a4 & !a5 q40
-q77 a1 & !a2 & !a3 & !a4 & a5 q40
-q77 a1 & !a2 & !a3 & a4 & !a5 q40
-q77 a1 & !a2 & !a3 & a4 & a5 q40
-q77 a1 & a2 & a3 & !a4 & !a5 q56
-q77 a1 & a2 & a3 & !a4 & a5 q56
-q77 a1 & a2 & a3 & a4 & !a5 q56
-q77 a1 & a2 & a3 & a4 & a5 q56
-q77 a1 & !a2 & a3 & !a4 & !a5 q56
-q77 a1 & !a2 & a3 & !a4 & a5 q56
-q77 a1 & !a2 & a3 & a4 & !a5 q56
-q77 a1 & !a2 & a3 & a4 & a5 q56
-q21 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q21 !a1 & !a2 & !a3 & !a4 & a5 q25
-q21 !a1 & !a2 & !a3 & a4 & !a5 q25
-q21 !a1 & !a2 & !a3 & a4 & a5 q25
-q21 !a1 & !a2 & !a3 & !a4 & !a5 q14
-q21 !a1 & !a2 & !a3 & !a4 & a5 q14
-q21 !a1 & !a2 & !a3 & a4 & !a5 q14
-q21 !a1 & !a2 & !a3 & a4 & a5 q14
-q21 !a1 & !a2 & a3 & !a4 & !a5 q14
-q21 !a1 & !a2 & a3 & !a4 & a5 q14
-q21 !a1 & !a2 & a3 & a4 & !a5 q14
-q21 !a1 & !a2 & a3 & a4 & a5 q14
-q21 a1 & a2 & !a3 & !a4 & !a5 q6
-q21 a1 & a2 & !a3 & !a4 & a5 q6
-q21 a1 & a2 & !a3 & a4 & !a5 q6
-q21 a1 & a2 & !a3 & a4 & a5 q6
-q21 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q21 !a1 & !a2 & !a3 & !a4 & a5 q6
-q21 !a1 & !a2 & !a3 & a4 & !a5 q6
-q21 !a1 & !a2 & !a3 & a4 & a5 q6
-q21 !a1 & a2 & !a3 & !a4 & !a5 q6
-q21 !a1 & a2 & !a3 & !a4 & a5 q6
-q21 !a1 & a2 & !a3 & a4 & !a5 q6
-q21 !a1 & a2 & !a3 & a4 & a5 q6
-q21 !a1 & !a2 & a3 & !a4 & !a5 q27
-q21 !a1 & !a2 & a3 & !a4 & a5 q27
-q21 !a1 & !a2 & a3 & a4 & !a5 q27
-q21 !a1 & !a2 & a3 & a4 & a5 q27
-q21 !a1 & a2 & !a3 & !a4 & !a5 q79
-q21 !a1 & a2 & !a3 & !a4 & a5 q79
-q21 !a1 & a2 & !a3 & a4 & !a5 q79
-q21 !a1 & a2 & !a3 & a4 & a5 q79
-q21 !a1 & a2 & a3 & !a4 & !a5 q79
-q21 !a1 & a2 & a3 & !a4 & a5 q79
-q21 !a1 & a2 & a3 & a4 & !a5 q79
-q21 !a1 & a2 & a3 & a4 & a5 q79
-q21 !a1 & a2 & !a3 & !a4 & !a5 q68
-q21 !a1 & a2 & !a3 & !a4 & a5 q68
-q21 !a1 & a2 & !a3 & a4 & !a5 q68
-q21 !a1 & a2 & !a3 & a4 & a5 q68
-q21 !a1 & a2 & a3 & !a4 & !a5 q60
-q21 !a1 & a2 & a3 & !a4 & a5 q60
-q21 !a1 & a2 & a3 & a4 & !a5 q60
-q21 !a1 & a2 & a3 & a4 & a5 q60
-q21 a1 & !a2 & !a3 & !a4 & !a5 q29
-q21 a1 & !a2 & !a3 & !a4 & a5 q29
-q21 a1 & !a2 & !a3 & a4 & !a5 q29
-q21 a1 & !a2 & !a3 & a4 & a5 q29
-q21 a1 & !a2 & a3 & !a4 & !a5 q30
-q21 a1 & !a2 & a3 & !a4 & a5 q30
-q21 a1 & !a2 & a3 & a4 & !a5 q30
-q21 a1 & !a2 & a3 & a4 & a5 q30
-q21 a1 & !a2 & !a3 & !a4 & !a5 q30
-q21 a1 & !a2 & !a3 & !a4 & a5 q30
-q21 a1 & !a2 & !a3 & a4 & !a5 q30
-q21 a1 & !a2 & !a3 & a4 & a5 q30
-q21 a1 & !a2 & a3 & !a4 & !a5 q32
-q21 a1 & !a2 & a3 & !a4 & a5 q32
-q21 a1 & !a2 & a3 & a4 & !a5 q32
-q21 a1 & !a2 & a3 & a4 & a5 q32
-q21 a1 & a2 & !a3 & !a4 & !a5 q57
-q21 a1 & a2 & !a3 & !a4 & a5 q57
-q21 a1 & a2 & !a3 & a4 & !a5 q57
-q21 a1 & a2 & !a3 & a4 & a5 q57
-q21 a1 & a2 & a3 & !a4 & !a5 q57
-q21 a1 & a2 & a3 & !a4 & a5 q57
-q21 a1 & a2 & a3 & a4 & !a5 q57
-q21 a1 & a2 & a3 & a4 & a5 q57
-q21 a1 & a2 & !a3 & !a4 & !a5 q42
-q21 a1 & a2 & !a3 & !a4 & a5 q42
-q21 a1 & a2 & !a3 & a4 & !a5 q42
-q21 a1 & a2 & !a3 & a4 & a5 q42
-q21 a1 & a2 & a3 & !a4 & !a5 q37
-q21 a1 & a2 & a3 & !a4 & a5 q37
-q21 a1 & a2 & a3 & a4 & !a5 q37
-q21 a1 & a2 & a3 & a4 & a5 q37
-q79 !a1 & !a2 & !a3 & !a4 & !a5 q79
-q79 !a1 & !a2 & !a3 & !a4 & a5 q79
-q79 !a1 & !a2 & !a3 & a4 & !a5 q79
-q79 !a1 & !a2 & !a3 & a4 & a5 q79
-q79 !a1 & !a2 & a3 & !a4 & !a5 q79
-q79 !a1 & !a2 & a3 & !a4 & a5 q79
-q79 !a1 & !a2 & a3 & a4 & !a5 q79
-q79 !a1 & !a2 & a3 & a4 & a5 q79
-q79 !a1 & !a2 & !a3 & !a4 & !a5 q68
-q79 !a1 & !a2 & !a3 & !a4 & a5 q68
-q79 !a1 & !a2 & !a3 & a4 & !a5 q68
-q79 !a1 & !a2 & !a3 & a4 & a5 q68
-q79 !a1 & !a2 & a3 & !a4 & !a5 q60
-q79 !a1 & !a2 & a3 & !a4 & a5 q60
-q79 !a1 & !a2 & a3 & a4 & !a5 q60
-q79 !a1 & !a2 & a3 & a4 & a5 q60
-q79 !a1 & a2 & !a3 & !a4 & !a5 q78
-q79 !a1 & a2 & !a3 & !a4 & a5 q78
-q79 !a1 & a2 & !a3 & a4 & !a5 q78
-q79 !a1 & a2 & !a3 & a4 & a5 q78
-q79 !a1 & a2 & a3 & !a4 & !a5 q78
-q79 !a1 & a2 & a3 & !a4 & a5 q78
-q79 !a1 & a2 & a3 & a4 & !a5 q78
-q79 !a1 & a2 & a3 & a4 & a5 q78
-q79 !a1 & a2 & !a3 & !a4 & !a5 q66
-q79 !a1 & a2 & !a3 & !a4 & a5 q66
-q79 !a1 & a2 & !a3 & a4 & !a5 q66
-q79 !a1 & a2 & !a3 & a4 & a5 q66
-q79 !a1 & a2 & !a3 & !a4 & !a5 q6
-q79 !a1 & a2 & !a3 & !a4 & a5 q6
-q79 !a1 & a2 & !a3 & a4 & !a5 q6
-q79 !a1 & a2 & !a3 & a4 & a5 q6
-q79 !a1 & a2 & a3 & !a4 & !a5 q62
-q79 !a1 & a2 & a3 & !a4 & a5 q62
-q79 !a1 & a2 & a3 & a4 & !a5 q62
-q79 !a1 & a2 & a3 & a4 & a5 q62
-q79 a1 & !a2 & a3 & !a4 & !a5 q57
-q79 a1 & !a2 & a3 & !a4 & a5 q57
-q79 a1 & !a2 & a3 & a4 & !a5 q57
-q79 a1 & !a2 & a3 & a4 & a5 q57
-q79 a1 & !a2 & !a3 & !a4 & !a5 q57
-q79 a1 & !a2 & !a3 & !a4 & a5 q57
-q79 a1 & !a2 & !a3 & a4 & !a5 q57
-q79 a1 & !a2 & !a3 & a4 & a5 q57
-q79 a1 & !a2 & !a3 & !a4 & !a5 q42
-q79 a1 & !a2 & !a3 & !a4 & a5 q42
-q79 a1 & !a2 & !a3 & a4 & !a5 q42
-q79 a1 & !a2 & !a3 & a4 & a5 q42
-q79 a1 & !a2 & a3 & !a4 & !a5 q37
-q79 a1 & !a2 & a3 & !a4 & a5 q37
-q79 a1 & !a2 & a3 & a4 & !a5 q37
-q79 a1 & !a2 & a3 & a4 & a5 q37
-q79 a1 & a2 & !a3 & !a4 & !a5 q56
-q79 a1 & a2 & !a3 & !a4 & a5 q56
-q79 a1 & a2 & !a3 & a4 & !a5 q56
-q79 a1 & a2 & !a3 & a4 & a5 q56
-q79 a1 & a2 & a3 & !a4 & !a5 q56
-q79 a1 & a2 & a3 & !a4 & a5 q56
-q79 a1 & a2 & a3 & a4 & !a5 q56
-q79 a1 & a2 & a3 & a4 & a5 q56
-q79 a1 & a2 & !a3 & !a4 & !a5 q40
-q79 a1 & a2 & !a3 & !a4 & a5 q40
-q79 a1 & a2 & !a3 & a4 & !a5 q40
-q79 a1 & a2 & !a3 & a4 & a5 q40
-q79 a1 & a2 & a3 & !a4 & !a5 q34
-q79 a1 & a2 & a3 & !a4 & a5 q34
-q79 a1 & a2 & a3 & a4 & !a5 q34
-q79 a1 & a2 & a3 & a4 & a5 q34
-q19 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q19 !a1 & !a2 & !a3 & !a4 & a5 q25
-q19 !a1 & !a2 & !a3 & a4 & !a5 q25
-q19 !a1 & !a2 & !a3 & a4 & a5 q25
-q19 !a1 & !a2 & !a3 & !a4 & !a5 q14
-q19 !a1 & !a2 & !a3 & !a4 & a5 q14
-q19 !a1 & !a2 & !a3 & a4 & !a5 q14
-q19 !a1 & !a2 & !a3 & a4 & a5 q14
-q19 !a1 & !a2 & a3 & !a4 & !a5 q14
-q19 !a1 & !a2 & a3 & !a4 & a5 q14
-q19 !a1 & !a2 & a3 & a4 & !a5 q14
-q19 !a1 & !a2 & a3 & a4 & a5 q14
-q19 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q19 !a1 & !a2 & !a3 & !a4 & a5 q6
-q19 !a1 & !a2 & !a3 & a4 & !a5 q6
-q19 !a1 & !a2 & !a3 & a4 & a5 q6
-q19 !a1 & a2 & !a3 & !a4 & !a5 q6
-q19 !a1 & a2 & !a3 & !a4 & a5 q6
-q19 !a1 & a2 & !a3 & a4 & !a5 q6
-q19 !a1 & a2 & !a3 & a4 & a5 q6
-q19 !a1 & a2 & a3 & !a4 & !a5 q6
-q19 !a1 & a2 & a3 & !a4 & a5 q6
-q19 !a1 & a2 & a3 & a4 & !a5 q6
-q19 !a1 & a2 & a3 & a4 & a5 q6
-q19 !a1 & !a2 & a3 & !a4 & !a5 q27
-q19 !a1 & !a2 & a3 & !a4 & a5 q27
-q19 !a1 & !a2 & a3 & a4 & !a5 q27
-q19 !a1 & !a2 & a3 & a4 & a5 q27
-q19 !a1 & a2 & !a3 & !a4 & !a5 q61
-q19 !a1 & a2 & !a3 & !a4 & a5 q61
-q19 !a1 & a2 & !a3 & a4 & !a5 q61
-q19 !a1 & a2 & !a3 & a4 & a5 q61
-q19 !a1 & a2 & !a3 & !a4 & !a5 q80
-q19 !a1 & a2 & !a3 & !a4 & a5 q80
-q19 !a1 & a2 & !a3 & a4 & !a5 q80
-q19 !a1 & a2 & !a3 & a4 & a5 q80
-q19 !a1 & a2 & a3 & !a4 & !a5 q80
-q19 !a1 & a2 & a3 & !a4 & a5 q80
-q19 !a1 & a2 & a3 & a4 & !a5 q80
-q19 !a1 & a2 & a3 & a4 & a5 q80
-q19 !a1 & a2 & a3 & !a4 & !a5 q64
-q19 !a1 & a2 & a3 & !a4 & a5 q64
-q19 !a1 & a2 & a3 & a4 & !a5 q64
-q19 !a1 & a2 & a3 & a4 & a5 q64
-q19 a1 & !a2 & !a3 & !a4 & !a5 q29
-q19 a1 & !a2 & !a3 & !a4 & a5 q29
-q19 a1 & !a2 & !a3 & a4 & !a5 q29
-q19 a1 & !a2 & !a3 & a4 & a5 q29
-q19 a1 & !a2 & a3 & !a4 & !a5 q30
-q19 a1 & !a2 & a3 & !a4 & a5 q30
-q19 a1 & !a2 & a3 & a4 & !a5 q30
-q19 a1 & !a2 & a3 & a4 & a5 q30
-q19 a1 & !a2 & !a3 & !a4 & !a5 q30
-q19 a1 & !a2 & !a3 & !a4 & a5 q30
-q19 a1 & !a2 & !a3 & a4 & !a5 q30
-q19 a1 & !a2 & !a3 & a4 & a5 q30
-q19 a1 & !a2 & a3 & !a4 & !a5 q32
-q19 a1 & !a2 & a3 & !a4 & a5 q32
-q19 a1 & !a2 & a3 & a4 & !a5 q32
-q19 a1 & !a2 & a3 & a4 & a5 q32
-q19 a1 & a2 & !a3 & !a4 & !a5 q33
-q19 a1 & a2 & !a3 & !a4 & a5 q33
-q19 a1 & a2 & !a3 & a4 & !a5 q33
-q19 a1 & a2 & !a3 & a4 & a5 q33
-q19 a1 & a2 & !a3 & !a4 & !a5 q55
-q19 a1 & a2 & !a3 & !a4 & a5 q55
-q19 a1 & a2 & !a3 & a4 & !a5 q55
-q19 a1 & a2 & !a3 & a4 & a5 q55
-q19 a1 & a2 & a3 & !a4 & !a5 q55
-q19 a1 & a2 & a3 & !a4 & a5 q55
-q19 a1 & a2 & a3 & a4 & !a5 q55
-q19 a1 & a2 & a3 & a4 & a5 q55
-q19 a1 & a2 & a3 & !a4 & !a5 q35
-q19 a1 & a2 & a3 & !a4 & a5 q35
-q19 a1 & a2 & a3 & a4 & !a5 q35
-q19 a1 & a2 & a3 & a4 & a5 q35
-q80 !a1 & !a2 & !a3 & !a4 & !a5 q61
-q80 !a1 & !a2 & !a3 & !a4 & a5 q61
-q80 !a1 & !a2 & !a3 & a4 & !a5 q61
-q80 !a1 & !a2 & !a3 & a4 & a5 q61
-q80 !a1 & !a2 & !a3 & !a4 & !a5 q80
-q80 !a1 & !a2 & !a3 & !a4 & a5 q80
-q80 !a1 & !a2 & !a3 & a4 & !a5 q80
-q80 !a1 & !a2 & !a3 & a4 & a5 q80
-q80 !a1 & !a2 & a3 & !a4 & !a5 q80
-q80 !a1 & !a2 & a3 & !a4 & a5 q80
-q80 !a1 & !a2 & a3 & a4 & !a5 q80
-q80 !a1 & !a2 & a3 & a4 & a5 q80
-q80 !a1 & !a2 & a3 & !a4 & !a5 q64
-q80 !a1 & !a2 & a3 & !a4 & a5 q64
-q80 !a1 & !a2 & a3 & a4 & !a5 q64
-q80 !a1 & !a2 & a3 & a4 & a5 q64
-q80 !a1 & a2 & !a3 & !a4 & !a5 q78
-q80 !a1 & a2 & !a3 & !a4 & a5 q78
-q80 !a1 & a2 & !a3 & a4 & !a5 q78
-q80 !a1 & a2 & !a3 & a4 & a5 q78
-q80 !a1 & a2 & a3 & !a4 & !a5 q78
-q80 !a1 & a2 & a3 & !a4 & a5 q78
-q80 !a1 & a2 & a3 & a4 & !a5 q78
-q80 !a1 & a2 & a3 & a4 & a5 q78
-q80 !a1 & a2 & !a3 & !a4 & !a5 q66
-q80 !a1 & a2 & !a3 & !a4 & a5 q66
-q80 !a1 & a2 & !a3 & a4 & !a5 q66
-q80 !a1 & a2 & !a3 & a4 & a5 q66
-q80 !a1 & a2 & !a3 & !a4 & !a5 q6
-q80 !a1 & a2 & !a3 & !a4 & a5 q6
-q80 !a1 & a2 & !a3 & a4 & !a5 q6
-q80 !a1 & a2 & !a3 & a4 & a5 q6
-q80 !a1 & a2 & a3 & !a4 & !a5 q62
-q80 !a1 & a2 & a3 & !a4 & a5 q62
-q80 !a1 & a2 & a3 & a4 & !a5 q62
-q80 !a1 & a2 & a3 & a4 & a5 q62
-q80 a1 & !a2 & !a3 & !a4 & !a5 q33
-q80 a1 & !a2 & !a3 & !a4 & a5 q33
-q80 a1 & !a2 & !a3 & a4 & !a5 q33
-q80 a1 & !a2 & !a3 & a4 & a5 q33
-q80 a1 & !a2 & a3 & !a4 & !a5 q55
-q80 a1 & !a2 & a3 & !a4 & a5 q55
-q80 a1 & !a2 & a3 & a4 & !a5 q55
-q80 a1 & !a2 & a3 & a4 & a5 q55
-q80 a1 & !a2 & !a3 & !a4 & !a5 q55
-q80 a1 & !a2 & !a3 & !a4 & a5 q55
-q80 a1 & !a2 & !a3 & a4 & !a5 q55
-q80 a1 & !a2 & !a3 & a4 & a5 q55
-q80 a1 & !a2 & a3 & !a4 & !a5 q35
-q80 a1 & !a2 & a3 & !a4 & a5 q35
-q80 a1 & !a2 & a3 & a4 & !a5 q35
-q80 a1 & !a2 & a3 & a4 & a5 q35
-q80 a1 & a2 & !a3 & !a4 & !a5 q56
-q80 a1 & a2 & !a3 & !a4 & a5 q56
-q80 a1 & a2 & !a3 & a4 & !a5 q56
-q80 a1 & a2 & !a3 & a4 & a5 q56
-q80 a1 & a2 & a3 & !a4 & !a5 q56
-q80 a1 & a2 & a3 & !a4 & a5 q56
-q80 a1 & a2 & a3 & a4 & !a5 q56
-q80 a1 & a2 & a3 & a4 & a5 q56
-q80 a1 & a2 & !a3 & !a4 & !a5 q40
-q80 a1 & a2 & !a3 & !a4 & a5 q40
-q80 a1 & a2 & !a3 & a4 & !a5 q40
-q80 a1 & a2 & !a3 & a4 & a5 q40
-q80 a1 & a2 & a3 & !a4 & !a5 q34
-q80 a1 & a2 & a3 & !a4 & a5 q34
-q80 a1 & a2 & a3 & a4 & !a5 q34
-q80 a1 & a2 & a3 & a4 & a5 q34
-q15 !a1 & !a2 & !a3 & !a4 & !a5 q69
-q15 !a1 & !a2 & !a3 & !a4 & a5 q69
-q15 !a1 & !a2 & !a3 & a4 & !a5 q69
-q15 !a1 & !a2 & !a3 & a4 & a5 q69
-q15 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q15 !a1 & !a2 & !a3 & !a4 & a5 q25
-q15 !a1 & !a2 & !a3 & a4 & !a5 q25
-q15 !a1 & !a2 & !a3 & a4 & a5 q25
-q15 !a1 & !a2 & a3 & !a4 & !a5 q25
-q15 !a1 & !a2 & a3 & !a4 & a5 q25
-q15 !a1 & !a2 & a3 & a4 & !a5 q25
-q15 !a1 & !a2 & a3 & a4 & a5 q25
-q15 !a1 & !a2 & a3 & !a4 & !a5 q14
-q15 !a1 & !a2 & a3 & !a4 & a5 q14
-q15 !a1 & !a2 & a3 & a4 & !a5 q14
-q15 !a1 & !a2 & a3 & a4 & a5 q14
-q15 !a1 & a2 & !a3 & !a4 & !a5 q81
-q15 !a1 & a2 & !a3 & !a4 & a5 q81
-q15 !a1 & a2 & !a3 & a4 & !a5 q81
-q15 !a1 & a2 & !a3 & a4 & a5 q81
-q15 !a1 & a2 & !a3 & !a4 & !a5 q61
-q15 !a1 & a2 & !a3 & !a4 & a5 q61
-q15 !a1 & a2 & !a3 & a4 & !a5 q61
-q15 !a1 & a2 & !a3 & a4 & a5 q61
-q15 !a1 & a2 & a3 & !a4 & !a5 q61
-q15 !a1 & a2 & a3 & !a4 & a5 q61
-q15 !a1 & a2 & a3 & a4 & !a5 q61
-q15 !a1 & a2 & a3 & a4 & a5 q61
-q15 !a1 & a2 & !a3 & !a4 & !a5 q6
-q15 !a1 & a2 & !a3 & !a4 & a5 q6
-q15 !a1 & a2 & !a3 & a4 & !a5 q6
-q15 !a1 & a2 & !a3 & a4 & a5 q6
-q15 !a1 & a2 & a3 & !a4 & !a5 q80
-q15 !a1 & a2 & a3 & !a4 & a5 q80
-q15 !a1 & a2 & a3 & a4 & !a5 q80
-q15 !a1 & a2 & a3 & a4 & a5 q80
-q15 a1 & !a2 & !a3 & !a4 & !a5 q71
-q15 a1 & !a2 & !a3 & !a4 & a5 q71
-q15 a1 & !a2 & !a3 & a4 & !a5 q71
-q15 a1 & !a2 & !a3 & a4 & a5 q71
-q15 a1 & !a2 & a3 & !a4 & !a5 q29
-q15 a1 & !a2 & a3 & !a4 & a5 q29
-q15 a1 & !a2 & a3 & a4 & !a5 q29
-q15 a1 & !a2 & a3 & a4 & a5 q29
-q15 a1 & !a2 & !a3 & !a4 & !a5 q29
-q15 a1 & !a2 & !a3 & !a4 & a5 q29
-q15 a1 & !a2 & !a3 & a4 & !a5 q29
-q15 a1 & !a2 & !a3 & a4 & a5 q29
-q15 a1 & !a2 & a3 & !a4 & !a5 q30
-q15 a1 & !a2 & a3 & !a4 & a5 q30
-q15 a1 & !a2 & a3 & a4 & !a5 q30
-q15 a1 & !a2 & a3 & a4 & a5 q30
-q15 a1 & a2 & !a3 & !a4 & !a5 q72
-q15 a1 & a2 & !a3 & !a4 & a5 q72
-q15 a1 & a2 & !a3 & a4 & !a5 q72
-q15 a1 & a2 & !a3 & a4 & a5 q72
-q15 a1 & a2 & !a3 & !a4 & !a5 q33
-q15 a1 & a2 & !a3 & !a4 & a5 q33
-q15 a1 & a2 & !a3 & a4 & !a5 q33
-q15 a1 & a2 & !a3 & a4 & a5 q33
-q15 a1 & a2 & a3 & !a4 & !a5 q33
-q15 a1 & a2 & a3 & !a4 & a5 q33
-q15 a1 & a2 & a3 & a4 & !a5 q33
-q15 a1 & a2 & a3 & a4 & a5 q33
-q15 a1 & a2 & a3 & !a4 & !a5 q55
-q15 a1 & a2 & a3 & !a4 & a5 q55
-q15 a1 & a2 & a3 & a4 & !a5 q55
-q15 a1 & a2 & a3 & a4 & a5 q55
-q81 !a1 & !a2 & !a3 & !a4 & !a5 q81
-q81 !a1 & !a2 & !a3 & !a4 & a5 q81
-q81 !a1 & !a2 & !a3 & a4 & !a5 q81
-q81 !a1 & !a2 & !a3 & a4 & a5 q81
-q81 !a1 & !a2 & !a3 & !a4 & !a5 q61
-q81 !a1 & !a2 & !a3 & !a4 & a5 q61
-q81 !a1 & !a2 & !a3 & a4 & !a5 q61
-q81 !a1 & !a2 & !a3 & a4 & a5 q61
-q81 !a1 & !a2 & a3 & !a4 & !a5 q61
-q81 !a1 & !a2 & a3 & !a4 & a5 q61
-q81 !a1 & !a2 & a3 & a4 & !a5 q61
-q81 !a1 & !a2 & a3 & a4 & a5 q61
-q81 !a1 & !a2 & a3 & !a4 & !a5 q80
-q81 !a1 & !a2 & a3 & !a4 & a5 q80
-q81 !a1 & !a2 & a3 & a4 & !a5 q80
-q81 !a1 & !a2 & a3 & a4 & a5 q80
-q81 !a1 & a2 & !a3 & !a4 & !a5 q77
-q81 !a1 & a2 & !a3 & !a4 & a5 q77
-q81 !a1 & a2 & !a3 & a4 & !a5 q77
-q81 !a1 & a2 & !a3 & a4 & a5 q77
-q81 !a1 & a2 & !a3 & !a4 & !a5 q66
-q81 !a1 & a2 & !a3 & !a4 & a5 q66
-q81 !a1 & a2 & !a3 & a4 & !a5 q66
-q81 !a1 & a2 & !a3 & a4 & a5 q66
-q81 !a1 & a2 & a3 & !a4 & !a5 q66
-q81 !a1 & a2 & a3 & !a4 & a5 q66
-q81 !a1 & a2 & a3 & a4 & !a5 q66
-q81 !a1 & a2 & a3 & a4 & a5 q66
-q81 !a1 & a2 & a3 & !a4 & !a5 q78
-q81 !a1 & a2 & a3 & !a4 & a5 q78
-q81 !a1 & a2 & a3 & a4 & !a5 q78
-q81 !a1 & a2 & a3 & a4 & a5 q78
-q81 a1 & !a2 & !a3 & !a4 & !a5 q72
-q81 a1 & !a2 & !a3 & !a4 & a5 q72
-q81 a1 & !a2 & !a3 & a4 & !a5 q72
-q81 a1 & !a2 & !a3 & a4 & a5 q72
-q81 a1 & !a2 & a3 & !a4 & !a5 q33
-q81 a1 & !a2 & a3 & !a4 & a5 q33
-q81 a1 & !a2 & a3 & a4 & !a5 q33
-q81 a1 & !a2 & a3 & a4 & a5 q33
-q81 a1 & !a2 & !a3 & !a4 & !a5 q33
-q81 a1 & !a2 & !a3 & !a4 & a5 q33
-q81 a1 & !a2 & !a3 & a4 & !a5 q33
-q81 a1 & !a2 & !a3 & a4 & a5 q33
-q81 a1 & !a2 & a3 & !a4 & !a5 q55
-q81 a1 & !a2 & a3 & !a4 & a5 q55
-q81 a1 & !a2 & a3 & a4 & !a5 q55
-q81 a1 & !a2 & a3 & a4 & a5 q55
-q81 a1 & a2 & !a3 & !a4 & !a5 q73
-q81 a1 & a2 & !a3 & !a4 & a5 q73
-q81 a1 & a2 & !a3 & a4 & !a5 q73
-q81 a1 & a2 & !a3 & a4 & a5 q73
-q81 a1 & a2 & !a3 & !a4 & !a5 q40
-q81 a1 & a2 & !a3 & !a4 & a5 q40
-q81 a1 & a2 & !a3 & a4 & !a5 q40
-q81 a1 & a2 & !a3 & a4 & a5 q40
-q81 a1 & a2 & a3 & !a4 & !a5 q40
-q81 a1 & a2 & a3 & !a4 & a5 q40
-q81 a1 & a2 & a3 & a4 & !a5 q40
-q81 a1 & a2 & a3 & a4 & a5 q40
-q81 a1 & a2 & a3 & !a4 & !a5 q56
-q81 a1 & a2 & a3 & !a4 & a5 q56
-q81 a1 & a2 & a3 & a4 & !a5 q56
-q81 a1 & a2 & a3 & a4 & a5 q56
-q14 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q14 !a1 & !a2 & !a3 & !a4 & a5 q25
-q14 !a1 & !a2 & !a3 & a4 & !a5 q25
-q14 !a1 & !a2 & !a3 & a4 & a5 q25
-q14 !a1 & !a2 & !a3 & !a4 & !a5 q14
-q14 !a1 & !a2 & !a3 & !a4 & a5 q14
-q14 !a1 & !a2 & !a3 & a4 & !a5 q14
-q14 !a1 & !a2 & !a3 & a4 & a5 q14
-q14 !a1 & !a2 & a3 & !a4 & !a5 q14
-q14 !a1 & !a2 & a3 & !a4 & a5 q14
-q14 !a1 & !a2 & a3 & a4 & !a5 q14
-q14 !a1 & !a2 & a3 & a4 & a5 q14
-q14 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q14 !a1 & !a2 & !a3 & !a4 & a5 q6
-q14 !a1 & !a2 & !a3 & a4 & !a5 q6
-q14 !a1 & !a2 & !a3 & a4 & a5 q6
-q14 !a1 & a2 & !a3 & !a4 & !a5 q6
-q14 !a1 & a2 & !a3 & !a4 & a5 q6
-q14 !a1 & a2 & !a3 & a4 & !a5 q6
-q14 !a1 & a2 & !a3 & a4 & a5 q6
-q14 !a1 & !a2 & a3 & !a4 & !a5 q27
-q14 !a1 & !a2 & a3 & !a4 & a5 q27
-q14 !a1 & !a2 & a3 & a4 & !a5 q27
-q14 !a1 & !a2 & a3 & a4 & a5 q27
-q14 !a1 & a2 & !a3 & !a4 & !a5 q78
-q14 !a1 & a2 & !a3 & !a4 & a5 q78
-q14 !a1 & a2 & !a3 & a4 & !a5 q78
-q14 !a1 & a2 & !a3 & a4 & a5 q78
-q14 !a1 & a2 & a3 & !a4 & !a5 q78
-q14 !a1 & a2 & a3 & !a4 & a5 q78
-q14 !a1 & a2 & a3 & a4 & !a5 q78
-q14 !a1 & a2 & a3 & a4 & a5 q78
-q14 !a1 & a2 & !a3 & !a4 & !a5 q66
-q14 !a1 & a2 & !a3 & !a4 & a5 q66
-q14 !a1 & a2 & !a3 & a4 & !a5 q66
-q14 !a1 & a2 & !a3 & a4 & a5 q66
-q14 !a1 & a2 & a3 & !a4 & !a5 q62
-q14 !a1 & a2 & a3 & !a4 & a5 q62
-q14 !a1 & a2 & a3 & a4 & !a5 q62
-q14 !a1 & a2 & a3 & a4 & a5 q62
-q14 a1 & !a2 & !a3 & !a4 & !a5 q29
-q14 a1 & !a2 & !a3 & !a4 & a5 q29
-q14 a1 & !a2 & !a3 & a4 & !a5 q29
-q14 a1 & !a2 & !a3 & a4 & a5 q29
-q14 a1 & !a2 & a3 & !a4 & !a5 q30
-q14 a1 & !a2 & a3 & !a4 & a5 q30
-q14 a1 & !a2 & a3 & a4 & !a5 q30
-q14 a1 & !a2 & a3 & a4 & a5 q30
-q14 a1 & !a2 & !a3 & !a4 & !a5 q30
-q14 a1 & !a2 & !a3 & !a4 & a5 q30
-q14 a1 & !a2 & !a3 & a4 & !a5 q30
-q14 a1 & !a2 & !a3 & a4 & a5 q30
-q14 a1 & !a2 & a3 & !a4 & !a5 q32
-q14 a1 & !a2 & a3 & !a4 & a5 q32
-q14 a1 & !a2 & a3 & a4 & !a5 q32
-q14 a1 & !a2 & a3 & a4 & a5 q32
-q14 a1 & a2 & !a3 & !a4 & !a5 q56
-q14 a1 & a2 & !a3 & !a4 & a5 q56
-q14 a1 & a2 & !a3 & a4 & !a5 q56
-q14 a1 & a2 & !a3 & a4 & a5 q56
-q14 a1 & a2 & a3 & !a4 & !a5 q56
-q14 a1 & a2 & a3 & !a4 & a5 q56
-q14 a1 & a2 & a3 & a4 & !a5 q56
-q14 a1 & a2 & a3 & a4 & a5 q56
-q14 a1 & a2 & !a3 & !a4 & !a5 q40
-q14 a1 & a2 & !a3 & !a4 & a5 q40
-q14 a1 & a2 & !a3 & a4 & !a5 q40
-q14 a1 & a2 & !a3 & a4 & a5 q40
-q14 a1 & a2 & a3 & !a4 & !a5 q34
-q14 a1 & a2 & a3 & !a4 & a5 q34
-q14 a1 & a2 & a3 & a4 & !a5 q34
-q14 a1 & a2 & a3 & a4 & a5 q34
-q12 !a1 & !a2 & !a3 & !a4 & !a5 q69
-q12 !a1 & !a2 & !a3 & !a4 & a5 q69
-q12 !a1 & !a2 & !a3 & a4 & !a5 q69
-q12 !a1 & !a2 & !a3 & a4 & a5 q69
-q12 !a1 & a2 & !a3 & !a4 & !a5 q69
-q12 !a1 & a2 & !a3 & !a4 & a5 q69
-q12 !a1 & a2 & !a3 & a4 & !a5 q69
-q12 !a1 & a2 & !a3 & a4 & a5 q69
-q12 !a1 & !a2 & !a3 & !a4 & !a5 q15
-q12 !a1 & !a2 & !a3 & !a4 & a5 q15
-q12 !a1 & !a2 & !a3 & a4 & !a5 q15
-q12 !a1 & !a2 & !a3 & a4 & a5 q15
-q12 !a1 & a2 & a3 & !a4 & !a5 q15
-q12 !a1 & a2 & a3 & !a4 & a5 q15
-q12 !a1 & a2 & a3 & a4 & !a5 q15
-q12 !a1 & a2 & a3 & a4 & a5 q15
-q12 !a1 & a2 & !a3 & !a4 & !a5 q15
-q12 !a1 & a2 & !a3 & !a4 & a5 q15
-q12 !a1 & a2 & !a3 & a4 & !a5 q15
-q12 !a1 & a2 & !a3 & a4 & a5 q15
-q12 !a1 & !a2 & a3 & !a4 & !a5 q15
-q12 !a1 & !a2 & a3 & !a4 & a5 q15
-q12 !a1 & !a2 & a3 & a4 & !a5 q15
-q12 !a1 & !a2 & a3 & a4 & a5 q15
-q12 !a1 & a2 & a3 & !a4 & !a5 q14
-q12 !a1 & a2 & a3 & !a4 & a5 q14
-q12 !a1 & a2 & a3 & a4 & !a5 q14
-q12 !a1 & a2 & a3 & a4 & a5 q14
-q12 !a1 & !a2 & a3 & !a4 & !a5 q14
-q12 !a1 & !a2 & a3 & !a4 & a5 q14
-q12 !a1 & !a2 & a3 & a4 & !a5 q14
-q12 !a1 & !a2 & a3 & a4 & a5 q14
-q12 a1 & a2 & !a3 & !a4 & !a5 q6
-q12 a1 & a2 & !a3 & !a4 & a5 q6
-q12 a1 & a2 & !a3 & a4 & !a5 q6
-q12 a1 & a2 & !a3 & a4 & a5 q6
-q12 !a1 & a2 & !a3 & !a4 & !a5 q6
-q12 !a1 & a2 & !a3 & !a4 & a5 q6
-q12 !a1 & a2 & !a3 & a4 & !a5 q6
-q12 !a1 & a2 & !a3 & a4 & a5 q6
-q12 a1 & a2 & !a3 & !a4 & !a5 q82
-q12 a1 & a2 & !a3 & !a4 & a5 q82
-q12 a1 & a2 & !a3 & a4 & !a5 q82
-q12 a1 & a2 & !a3 & a4 & a5 q82
-q12 a1 & !a2 & !a3 & !a4 & !a5 q82
-q12 a1 & !a2 & !a3 & !a4 & a5 q82
-q12 a1 & !a2 & !a3 & a4 & !a5 q82
-q12 a1 & !a2 & !a3 & a4 & a5 q82
-q12 a1 & a2 & !a3 & !a4 & !a5 q22
-q12 a1 & a2 & !a3 & !a4 & a5 q22
-q12 a1 & a2 & !a3 & a4 & !a5 q22
-q12 a1 & a2 & !a3 & a4 & a5 q22
-q12 a1 & a2 & a3 & !a4 & !a5 q22
-q12 a1 & a2 & a3 & !a4 & a5 q22
-q12 a1 & a2 & a3 & a4 & !a5 q22
-q12 a1 & a2 & a3 & a4 & a5 q22
-q12 a1 & !a2 & a3 & !a4 & !a5 q22
-q12 a1 & !a2 & a3 & !a4 & a5 q22
-q12 a1 & !a2 & a3 & a4 & !a5 q22
-q12 a1 & !a2 & a3 & a4 & a5 q22
-q12 a1 & !a2 & !a3 & !a4 & !a5 q22
-q12 a1 & !a2 & !a3 & !a4 & a5 q22
-q12 a1 & !a2 & !a3 & a4 & !a5 q22
-q12 a1 & !a2 & !a3 & a4 & a5 q22
-q12 a1 & a2 & a3 & !a4 & !a5 q21
-q12 a1 & a2 & a3 & !a4 & a5 q21
-q12 a1 & a2 & a3 & a4 & !a5 q21
-q12 a1 & a2 & a3 & a4 & a5 q21
-q12 a1 & !a2 & a3 & !a4 & !a5 q21
-q12 a1 & !a2 & a3 & !a4 & a5 q21
-q12 a1 & !a2 & a3 & a4 & !a5 q21
-q12 a1 & !a2 & a3 & a4 & a5 q21
-q82 !a1 & !a2 & !a3 & !a4 & !a5 q69
-q82 !a1 & !a2 & !a3 & !a4 & a5 q69
-q82 !a1 & !a2 & !a3 & a4 & !a5 q69
-q82 !a1 & !a2 & !a3 & a4 & a5 q69
-q82 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q82 !a1 & !a2 & !a3 & !a4 & a5 q25
-q82 !a1 & !a2 & !a3 & a4 & !a5 q25
-q82 !a1 & !a2 & !a3 & a4 & a5 q25
-q82 !a1 & !a2 & a3 & !a4 & !a5 q25
-q82 !a1 & !a2 & a3 & !a4 & a5 q25
-q82 !a1 & !a2 & a3 & a4 & !a5 q25
-q82 !a1 & !a2 & a3 & a4 & a5 q25
-q82 !a1 & !a2 & a3 & !a4 & !a5 q14
-q82 !a1 & !a2 & a3 & !a4 & a5 q14
-q82 !a1 & !a2 & a3 & a4 & !a5 q14
-q82 !a1 & !a2 & a3 & a4 & a5 q14
-q82 !a1 & a2 & !a3 & !a4 & !a5 q83
-q82 !a1 & a2 & !a3 & !a4 & a5 q83
-q82 !a1 & a2 & !a3 & a4 & !a5 q83
-q82 !a1 & a2 & !a3 & a4 & a5 q83
-q82 !a1 & a2 & !a3 & !a4 & !a5 q68
-q82 !a1 & a2 & !a3 & !a4 & a5 q68
-q82 !a1 & a2 & !a3 & a4 & !a5 q68
-q82 !a1 & a2 & !a3 & a4 & a5 q68
-q82 !a1 & a2 & a3 & !a4 & !a5 q68
-q82 !a1 & a2 & a3 & !a4 & a5 q68
-q82 !a1 & a2 & a3 & a4 & !a5 q68
-q82 !a1 & a2 & a3 & a4 & a5 q68
-q82 !a1 & a2 & a3 & !a4 & !a5 q79
-q82 !a1 & a2 & a3 & !a4 & a5 q79
-q82 !a1 & a2 & a3 & a4 & !a5 q79
-q82 !a1 & a2 & a3 & a4 & a5 q79
-q82 a1 & !a2 & !a3 & !a4 & !a5 q71
-q82 a1 & !a2 & !a3 & !a4 & a5 q71
-q82 a1 & !a2 & !a3 & a4 & !a5 q71
-q82 a1 & !a2 & !a3 & a4 & a5 q71
-q82 a1 & !a2 & a3 & !a4 & !a5 q29
-q82 a1 & !a2 & a3 & !a4 & a5 q29
-q82 a1 & !a2 & a3 & a4 & !a5 q29
-q82 a1 & !a2 & a3 & a4 & a5 q29
-q82 a1 & !a2 & !a3 & !a4 & !a5 q29
-q82 a1 & !a2 & !a3 & !a4 & a5 q29
-q82 a1 & !a2 & !a3 & a4 & !a5 q29
-q82 a1 & !a2 & !a3 & a4 & a5 q29
-q82 a1 & !a2 & a3 & !a4 & !a5 q30
-q82 a1 & !a2 & a3 & !a4 & a5 q30
-q82 a1 & !a2 & a3 & a4 & !a5 q30
-q82 a1 & !a2 & a3 & a4 & a5 q30
-q82 a1 & a2 & !a3 & !a4 & !a5 q74
-q82 a1 & a2 & !a3 & !a4 & a5 q74
-q82 a1 & a2 & !a3 & a4 & !a5 q74
-q82 a1 & a2 & !a3 & a4 & a5 q74
-q82 a1 & a2 & !a3 & !a4 & !a5 q42
-q82 a1 & a2 & !a3 & !a4 & a5 q42
-q82 a1 & a2 & !a3 & a4 & !a5 q42
-q82 a1 & a2 & !a3 & a4 & a5 q42
-q82 a1 & a2 & a3 & !a4 & !a5 q42
-q82 a1 & a2 & a3 & !a4 & a5 q42
-q82 a1 & a2 & a3 & a4 & !a5 q42
-q82 a1 & a2 & a3 & a4 & a5 q42
-q82 a1 & a2 & a3 & !a4 & !a5 q57
-q82 a1 & a2 & a3 & !a4 & a5 q57
-q82 a1 & a2 & a3 & a4 & !a5 q57
-q82 a1 & a2 & a3 & a4 & a5 q57
-q83 !a1 & !a2 & !a3 & !a4 & !a5 q83
-q83 !a1 & !a2 & !a3 & !a4 & a5 q83
-q83 !a1 & !a2 & !a3 & a4 & !a5 q83
-q83 !a1 & !a2 & !a3 & a4 & a5 q83
-q83 !a1 & !a2 & !a3 & !a4 & !a5 q68
-q83 !a1 & !a2 & !a3 & !a4 & a5 q68
-q83 !a1 & !a2 & !a3 & a4 & !a5 q68
-q83 !a1 & !a2 & !a3 & a4 & a5 q68
-q83 !a1 & !a2 & a3 & !a4 & !a5 q68
-q83 !a1 & !a2 & a3 & !a4 & a5 q68
-q83 !a1 & !a2 & a3 & a4 & !a5 q68
-q83 !a1 & !a2 & a3 & a4 & a5 q68
-q83 !a1 & !a2 & a3 & !a4 & !a5 q79
-q83 !a1 & !a2 & a3 & !a4 & a5 q79
-q83 !a1 & !a2 & a3 & a4 & !a5 q79
-q83 !a1 & !a2 & a3 & a4 & a5 q79
-q83 !a1 & a2 & !a3 & !a4 & !a5 q77
-q83 !a1 & a2 & !a3 & !a4 & a5 q77
-q83 !a1 & a2 & !a3 & a4 & !a5 q77
-q83 !a1 & a2 & !a3 & a4 & a5 q77
-q83 !a1 & a2 & !a3 & !a4 & !a5 q66
-q83 !a1 & a2 & !a3 & !a4 & a5 q66
-q83 !a1 & a2 & !a3 & a4 & !a5 q66
-q83 !a1 & a2 & !a3 & a4 & a5 q66
-q83 !a1 & a2 & a3 & !a4 & !a5 q66
-q83 !a1 & a2 & a3 & !a4 & a5 q66
-q83 !a1 & a2 & a3 & a4 & !a5 q66
-q83 !a1 & a2 & a3 & a4 & a5 q66
-q83 !a1 & a2 & a3 & !a4 & !a5 q78
-q83 !a1 & a2 & a3 & !a4 & a5 q78
-q83 !a1 & a2 & a3 & a4 & !a5 q78
-q83 !a1 & a2 & a3 & a4 & a5 q78
-q83 a1 & !a2 & !a3 & !a4 & !a5 q74
-q83 a1 & !a2 & !a3 & !a4 & a5 q74
-q83 a1 & !a2 & !a3 & a4 & !a5 q74
-q83 a1 & !a2 & !a3 & a4 & a5 q74
-q83 a1 & !a2 & a3 & !a4 & !a5 q42
-q83 a1 & !a2 & a3 & !a4 & a5 q42
-q83 a1 & !a2 & a3 & a4 & !a5 q42
-q83 a1 & !a2 & a3 & a4 & a5 q42
-q83 a1 & !a2 & !a3 & !a4 & !a5 q42
-q83 a1 & !a2 & !a3 & !a4 & a5 q42
-q83 a1 & !a2 & !a3 & a4 & !a5 q42
-q83 a1 & !a2 & !a3 & a4 & a5 q42
-q83 a1 & !a2 & a3 & !a4 & !a5 q57
-q83 a1 & !a2 & a3 & !a4 & a5 q57
-q83 a1 & !a2 & a3 & a4 & !a5 q57
-q83 a1 & !a2 & a3 & a4 & a5 q57
-q83 a1 & a2 & !a3 & !a4 & !a5 q73
-q83 a1 & a2 & !a3 & !a4 & a5 q73
-q83 a1 & a2 & !a3 & a4 & !a5 q73
-q83 a1 & a2 & !a3 & a4 & a5 q73
-q83 a1 & a2 & !a3 & !a4 & !a5 q40
-q83 a1 & a2 & !a3 & !a4 & a5 q40
-q83 a1 & a2 & !a3 & a4 & !a5 q40
-q83 a1 & a2 & !a3 & a4 & a5 q40
-q83 a1 & a2 & a3 & !a4 & !a5 q40
-q83 a1 & a2 & a3 & !a4 & a5 q40
-q83 a1 & a2 & a3 & a4 & !a5 q40
-q83 a1 & a2 & a3 & a4 & a5 q40
-q83 a1 & a2 & a3 & !a4 & !a5 q56
-q83 a1 & a2 & a3 & !a4 & a5 q56
-q83 a1 & a2 & a3 & a4 & !a5 q56
-q83 a1 & a2 & a3 & a4 & a5 q56
-q10 !a1 & !a2 & !a3 & !a4 & !a5 q15
-q10 !a1 & !a2 & !a3 & !a4 & a5 q15
-q10 !a1 & !a2 & !a3 & a4 & !a5 q15
-q10 !a1 & !a2 & !a3 & a4 & a5 q15
-q10 !a1 & !a2 & !a3 & !a4 & !a5 q84
-q10 !a1 & !a2 & !a3 & !a4 & a5 q84
-q10 !a1 & !a2 & !a3 & a4 & !a5 q84
-q10 !a1 & !a2 & !a3 & a4 & a5 q84
-q10 !a1 & !a2 & a3 & !a4 & !a5 q84
-q10 !a1 & !a2 & a3 & !a4 & a5 q84
-q10 !a1 & !a2 & a3 & a4 & !a5 q84
-q10 !a1 & !a2 & a3 & a4 & a5 q84
-q10 a1 & a2 & !a3 & !a4 & !a5 q6
-q10 a1 & a2 & !a3 & !a4 & a5 q6
-q10 a1 & a2 & !a3 & a4 & !a5 q6
-q10 a1 & a2 & !a3 & a4 & a5 q6
-q10 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q10 !a1 & !a2 & !a3 & !a4 & a5 q6
-q10 !a1 & !a2 & !a3 & a4 & !a5 q6
-q10 !a1 & !a2 & !a3 & a4 & a5 q6
-q10 !a1 & a2 & !a3 & !a4 & !a5 q6
-q10 !a1 & a2 & !a3 & !a4 & a5 q6
-q10 !a1 & a2 & !a3 & a4 & !a5 q6
-q10 !a1 & a2 & !a3 & a4 & a5 q6
-q10 !a1 & !a2 & a3 & !a4 & !a5 q19
-q10 !a1 & !a2 & a3 & !a4 & a5 q19
-q10 !a1 & !a2 & a3 & a4 & !a5 q19
-q10 !a1 & !a2 & a3 & a4 & a5 q19
-q10 !a1 & a2 & !a3 & !a4 & !a5 q69
-q10 !a1 & a2 & !a3 & !a4 & a5 q69
-q10 !a1 & a2 & !a3 & a4 & !a5 q69
-q10 !a1 & a2 & !a3 & a4 & a5 q69
-q10 !a1 & a2 & !a3 & !a4 & !a5 q86
-q10 !a1 & a2 & !a3 & !a4 & a5 q86
-q10 !a1 & a2 & !a3 & a4 & !a5 q86
-q10 !a1 & a2 & !a3 & a4 & a5 q86
-q10 !a1 & a2 & a3 & !a4 & !a5 q86
-q10 !a1 & a2 & a3 & !a4 & a5 q86
-q10 !a1 & a2 & a3 & a4 & !a5 q86
-q10 !a1 & a2 & a3 & a4 & a5 q86
-q10 !a1 & a2 & a3 & !a4 & !a5 q14
-q10 !a1 & a2 & a3 & !a4 & a5 q14
-q10 !a1 & a2 & a3 & a4 & !a5 q14
-q10 !a1 & a2 & a3 & a4 & a5 q14
-q10 a1 & !a2 & !a3 & !a4 & !a5 q22
-q10 a1 & !a2 & !a3 & !a4 & a5 q22
-q10 a1 & !a2 & !a3 & a4 & !a5 q22
-q10 a1 & !a2 & !a3 & a4 & a5 q22
-q10 a1 & !a2 & a3 & !a4 & !a5 q88
-q10 a1 & !a2 & a3 & !a4 & a5 q88
-q10 a1 & !a2 & a3 & a4 & !a5 q88
-q10 a1 & !a2 & a3 & a4 & a5 q88
-q10 a1 & !a2 & !a3 & !a4 & !a5 q88
-q10 a1 & !a2 & !a3 & !a4 & a5 q88
-q10 a1 & !a2 & !a3 & a4 & !a5 q88
-q10 a1 & !a2 & !a3 & a4 & a5 q88
-q10 a1 & !a2 & a3 & !a4 & !a5 q24
-q10 a1 & !a2 & a3 & !a4 & a5 q24
-q10 a1 & !a2 & a3 & a4 & !a5 q24
-q10 a1 & !a2 & a3 & a4 & a5 q24
-q10 a1 & a2 & !a3 & !a4 & !a5 q82
-q10 a1 & a2 & !a3 & !a4 & a5 q82
-q10 a1 & a2 & !a3 & a4 & !a5 q82
-q10 a1 & a2 & !a3 & a4 & a5 q82
-q10 a1 & a2 & !a3 & !a4 & !a5 q89
-q10 a1 & a2 & !a3 & !a4 & a5 q89
-q10 a1 & a2 & !a3 & a4 & !a5 q89
-q10 a1 & a2 & !a3 & a4 & a5 q89
-q10 a1 & a2 & a3 & !a4 & !a5 q89
-q10 a1 & a2 & a3 & !a4 & a5 q89
-q10 a1 & a2 & a3 & a4 & !a5 q89
-q10 a1 & a2 & a3 & a4 & a5 q89
-q10 a1 & a2 & a3 & !a4 & !a5 q21
-q10 a1 & a2 & a3 & !a4 & a5 q21
-q10 a1 & a2 & a3 & a4 & !a5 q21
-q10 a1 & a2 & a3 & a4 & a5 q21
-q89 !a1 & !a2 & !a3 & !a4 & !a5 q69
-q89 !a1 & !a2 & !a3 & !a4 & a5 q69
-q89 !a1 & !a2 & !a3 & a4 & !a5 q69
-q89 !a1 & !a2 & !a3 & a4 & a5 q69
-q89 !a1 & a2 & !a3 & !a4 & !a5 q69
-q89 !a1 & a2 & !a3 & !a4 & a5 q69
-q89 !a1 & a2 & !a3 & a4 & !a5 q69
-q89 !a1 & a2 & !a3 & a4 & a5 q69
-q89 !a1 & !a2 & !a3 & !a4 & !a5 q79
-q89 !a1 & !a2 & !a3 & !a4 & a5 q79
-q89 !a1 & !a2 & !a3 & a4 & !a5 q79
-q89 !a1 & !a2 & !a3 & a4 & a5 q79
-q89 !a1 & a2 & a3 & !a4 & !a5 q79
-q89 !a1 & a2 & a3 & !a4 & a5 q79
-q89 !a1 & a2 & a3 & a4 & !a5 q79
-q89 !a1 & a2 & a3 & a4 & a5 q79
-q89 !a1 & a2 & !a3 & !a4 & !a5 q79
-q89 !a1 & a2 & !a3 & !a4 & a5 q79
-q89 !a1 & a2 & !a3 & a4 & !a5 q79
-q89 !a1 & a2 & !a3 & a4 & a5 q79
-q89 !a1 & !a2 & a3 & !a4 & !a5 q79
-q89 !a1 & !a2 & a3 & !a4 & a5 q79
-q89 !a1 & !a2 & a3 & a4 & !a5 q79
-q89 !a1 & !a2 & a3 & a4 & a5 q79
-q89 !a1 & a2 & a3 & !a4 & !a5 q14
-q89 !a1 & a2 & a3 & !a4 & a5 q14
-q89 !a1 & a2 & a3 & a4 & !a5 q14
-q89 !a1 & a2 & a3 & a4 & a5 q14
-q89 !a1 & !a2 & a3 & !a4 & !a5 q14
-q89 !a1 & !a2 & a3 & !a4 & a5 q14
-q89 !a1 & !a2 & a3 & a4 & !a5 q14
-q89 !a1 & !a2 & a3 & a4 & a5 q14
-q89 a1 & a2 & !a3 & !a4 & !a5 q6
-q89 a1 & a2 & !a3 & !a4 & a5 q6
-q89 a1 & a2 & !a3 & a4 & !a5 q6
-q89 a1 & a2 & !a3 & a4 & a5 q6
-q89 !a1 & a2 & !a3 & !a4 & !a5 q6
-q89 !a1 & a2 & !a3 & !a4 & a5 q6
-q89 !a1 & a2 & !a3 & a4 & !a5 q6
-q89 !a1 & a2 & !a3 & a4 & a5 q6
-q89 a1 & a2 & !a3 & !a4 & !a5 q71
-q89 a1 & a2 & !a3 & !a4 & a5 q71
-q89 a1 & a2 & !a3 & a4 & !a5 q71
-q89 a1 & a2 & !a3 & a4 & a5 q71
-q89 a1 & !a2 & !a3 & !a4 & !a5 q71
-q89 a1 & !a2 & !a3 & !a4 & a5 q71
-q89 a1 & !a2 & !a3 & a4 & !a5 q71
-q89 a1 & !a2 & !a3 & a4 & a5 q71
-q89 a1 & a2 & !a3 & !a4 & !a5 q57
-q89 a1 & a2 & !a3 & !a4 & a5 q57
-q89 a1 & a2 & !a3 & a4 & !a5 q57
-q89 a1 & a2 & !a3 & a4 & a5 q57
-q89 a1 & a2 & a3 & !a4 & !a5 q57
-q89 a1 & a2 & a3 & !a4 & a5 q57
-q89 a1 & a2 & a3 & a4 & !a5 q57
-q89 a1 & a2 & a3 & a4 & a5 q57
-q89 a1 & !a2 & a3 & !a4 & !a5 q57
-q89 a1 & !a2 & a3 & !a4 & a5 q57
-q89 a1 & !a2 & a3 & a4 & !a5 q57
-q89 a1 & !a2 & a3 & a4 & a5 q57
-q89 a1 & !a2 & !a3 & !a4 & !a5 q57
-q89 a1 & !a2 & !a3 & !a4 & a5 q57
-q89 a1 & !a2 & !a3 & a4 & !a5 q57
-q89 a1 & !a2 & !a3 & a4 & a5 q57
-q89 a1 & a2 & a3 & !a4 & !a5 q30
-q89 a1 & a2 & a3 & !a4 & a5 q30
-q89 a1 & a2 & a3 & a4 & !a5 q30
-q89 a1 & a2 & a3 & a4 & a5 q30
-q89 a1 & !a2 & a3 & !a4 & !a5 q30
-q89 a1 & !a2 & a3 & !a4 & a5 q30
-q89 a1 & !a2 & a3 & a4 & !a5 q30
-q89 a1 & !a2 & a3 & a4 & a5 q30
-q88 !a1 & !a2 & !a3 & !a4 & !a5 q14
-q88 !a1 & !a2 & !a3 & !a4 & a5 q14
-q88 !a1 & !a2 & !a3 & a4 & !a5 q14
-q88 !a1 & !a2 & !a3 & a4 & a5 q14
-q88 !a1 & a2 & a3 & !a4 & !a5 q14
-q88 !a1 & a2 & a3 & !a4 & a5 q14
-q88 !a1 & a2 & a3 & a4 & !a5 q14
-q88 !a1 & a2 & a3 & a4 & a5 q14
-q88 !a1 & !a2 & a3 & !a4 & !a5 q14
-q88 !a1 & !a2 & a3 & !a4 & a5 q14
-q88 !a1 & !a2 & a3 & a4 & !a5 q14
-q88 !a1 & !a2 & a3 & a4 & a5 q14
-q88 !a1 & !a2 & !a3 & !a4 & !a5 q15
-q88 !a1 & !a2 & !a3 & !a4 & a5 q15
-q88 !a1 & !a2 & !a3 & a4 & !a5 q15
-q88 !a1 & !a2 & !a3 & a4 & a5 q15
-q88 a1 & a2 & !a3 & !a4 & !a5 q6
-q88 a1 & a2 & !a3 & !a4 & a5 q6
-q88 a1 & a2 & !a3 & a4 & !a5 q6
-q88 a1 & a2 & !a3 & a4 & a5 q6
-q88 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q88 !a1 & !a2 & !a3 & !a4 & a5 q6
-q88 !a1 & !a2 & !a3 & a4 & !a5 q6
-q88 !a1 & !a2 & !a3 & a4 & a5 q6
-q88 !a1 & a2 & !a3 & !a4 & !a5 q6
-q88 !a1 & a2 & !a3 & !a4 & a5 q6
-q88 !a1 & a2 & !a3 & a4 & !a5 q6
-q88 !a1 & a2 & !a3 & a4 & a5 q6
-q88 !a1 & !a2 & a3 & !a4 & !a5 q19
-q88 !a1 & !a2 & a3 & !a4 & a5 q19
-q88 !a1 & !a2 & a3 & a4 & !a5 q19
-q88 !a1 & !a2 & a3 & a4 & a5 q19
-q88 !a1 & a2 & !a3 & !a4 & !a5 q69
-q88 !a1 & a2 & !a3 & !a4 & a5 q69
-q88 !a1 & a2 & !a3 & a4 & !a5 q69
-q88 !a1 & a2 & !a3 & a4 & a5 q69
-q88 !a1 & a2 & !a3 & !a4 & !a5 q79
-q88 !a1 & a2 & !a3 & !a4 & a5 q79
-q88 !a1 & a2 & !a3 & a4 & !a5 q79
-q88 !a1 & a2 & !a3 & a4 & a5 q79
-q88 !a1 & a2 & a3 & !a4 & !a5 q79
-q88 !a1 & a2 & a3 & !a4 & a5 q79
-q88 !a1 & a2 & a3 & a4 & !a5 q79
-q88 !a1 & a2 & a3 & a4 & a5 q79
-q88 a1 & a2 & a3 & !a4 & !a5 q30
-q88 a1 & a2 & a3 & !a4 & a5 q30
-q88 a1 & a2 & a3 & a4 & !a5 q30
-q88 a1 & a2 & a3 & a4 & a5 q30
-q88 a1 & !a2 & a3 & !a4 & !a5 q30
-q88 a1 & !a2 & a3 & !a4 & a5 q30
-q88 a1 & !a2 & a3 & a4 & !a5 q30
-q88 a1 & !a2 & a3 & a4 & a5 q30
-q88 a1 & !a2 & !a3 & !a4 & !a5 q30
-q88 a1 & !a2 & !a3 & !a4 & a5 q30
-q88 a1 & !a2 & !a3 & a4 & !a5 q30
-q88 a1 & !a2 & !a3 & a4 & a5 q30
-q88 a1 & !a2 & !a3 & !a4 & !a5 q90
-q88 a1 & !a2 & !a3 & !a4 & a5 q90
-q88 a1 & !a2 & !a3 & a4 & !a5 q90
-q88 a1 & !a2 & !a3 & a4 & a5 q90
-q88 a1 & !a2 & a3 & !a4 & !a5 q91
-q88 a1 & !a2 & a3 & !a4 & a5 q91
-q88 a1 & !a2 & a3 & a4 & !a5 q91
-q88 a1 & !a2 & a3 & a4 & a5 q91
-q88 a1 & a2 & !a3 & !a4 & !a5 q71
-q88 a1 & a2 & !a3 & !a4 & a5 q71
-q88 a1 & a2 & !a3 & a4 & !a5 q71
-q88 a1 & a2 & !a3 & a4 & a5 q71
-q88 a1 & a2 & !a3 & !a4 & !a5 q57
-q88 a1 & a2 & !a3 & !a4 & a5 q57
-q88 a1 & a2 & !a3 & a4 & !a5 q57
-q88 a1 & a2 & !a3 & a4 & a5 q57
-q88 a1 & a2 & a3 & !a4 & !a5 q57
-q88 a1 & a2 & a3 & !a4 & a5 q57
-q88 a1 & a2 & a3 & a4 & !a5 q57
-q88 a1 & a2 & a3 & a4 & a5 q57
-q91 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q91 !a1 & !a2 & !a3 & !a4 & a5 q33
-q91 !a1 & !a2 & !a3 & a4 & !a5 q33
-q91 !a1 & !a2 & !a3 & a4 & a5 q33
-q91 !a1 & a2 & !a3 & !a4 & !a5 q33
-q91 !a1 & a2 & !a3 & !a4 & a5 q33
-q91 !a1 & a2 & !a3 & a4 & !a5 q33
-q91 !a1 & a2 & !a3 & a4 & a5 q33
-q91 !a1 & !a2 & !a3 & !a4 & !a5 q55
-q91 !a1 & !a2 & !a3 & !a4 & a5 q55
-q91 !a1 & !a2 & !a3 & a4 & !a5 q55
-q91 !a1 & !a2 & !a3 & a4 & a5 q55
-q91 !a1 & a2 & a3 & !a4 & !a5 q55
-q91 !a1 & a2 & a3 & !a4 & a5 q55
-q91 !a1 & a2 & a3 & a4 & !a5 q55
-q91 !a1 & a2 & a3 & a4 & a5 q55
-q91 !a1 & a2 & !a3 & !a4 & !a5 q55
-q91 !a1 & a2 & !a3 & !a4 & a5 q55
-q91 !a1 & a2 & !a3 & a4 & !a5 q55
-q91 !a1 & a2 & !a3 & a4 & a5 q55
-q91 !a1 & !a2 & a3 & !a4 & !a5 q55
-q91 !a1 & !a2 & a3 & !a4 & a5 q55
-q91 !a1 & !a2 & a3 & a4 & !a5 q55
-q91 !a1 & !a2 & a3 & a4 & a5 q55
-q91 !a1 & a2 & a3 & !a4 & !a5 q35
-q91 !a1 & a2 & a3 & !a4 & a5 q35
-q91 !a1 & a2 & a3 & a4 & !a5 q35
-q91 !a1 & a2 & a3 & a4 & a5 q35
-q91 !a1 & !a2 & a3 & !a4 & !a5 q35
-q91 !a1 & !a2 & a3 & !a4 & a5 q35
-q91 !a1 & !a2 & a3 & a4 & !a5 q35
-q91 !a1 & !a2 & a3 & a4 & a5 q35
-q91 a1 & a2 & !a3 & !a4 & !a5 q29
-q91 a1 & a2 & !a3 & !a4 & a5 q29
-q91 a1 & a2 & !a3 & a4 & !a5 q29
-q91 a1 & a2 & !a3 & a4 & a5 q29
-q91 a1 & !a2 & !a3 & !a4 & !a5 q29
-q91 a1 & !a2 & !a3 & !a4 & a5 q29
-q91 a1 & !a2 & !a3 & a4 & !a5 q29
-q91 a1 & !a2 & !a3 & a4 & a5 q29
-q91 a1 & a2 & !a3 & !a4 & !a5 q30
-q91 a1 & a2 & !a3 & !a4 & a5 q30
-q91 a1 & a2 & !a3 & a4 & !a5 q30
-q91 a1 & a2 & !a3 & a4 & a5 q30
-q91 a1 & a2 & a3 & !a4 & !a5 q30
-q91 a1 & a2 & a3 & !a4 & a5 q30
-q91 a1 & a2 & a3 & a4 & !a5 q30
-q91 a1 & a2 & a3 & a4 & a5 q30
-q91 a1 & !a2 & a3 & !a4 & !a5 q30
-q91 a1 & !a2 & a3 & !a4 & a5 q30
-q91 a1 & !a2 & a3 & a4 & !a5 q30
-q91 a1 & !a2 & a3 & a4 & a5 q30
-q91 a1 & !a2 & !a3 & !a4 & !a5 q30
-q91 a1 & !a2 & !a3 & !a4 & a5 q30
-q91 a1 & !a2 & !a3 & a4 & !a5 q30
-q91 a1 & !a2 & !a3 & a4 & a5 q30
-q91 a1 & a2 & a3 & !a4 & !a5 q32
-q91 a1 & a2 & a3 & !a4 & a5 q32
-q91 a1 & a2 & a3 & a4 & !a5 q32
-q91 a1 & a2 & a3 & a4 & a5 q32
-q91 a1 & !a2 & a3 & !a4 & !a5 q32
-q91 a1 & !a2 & a3 & !a4 & a5 q32
-q91 a1 & !a2 & a3 & a4 & !a5 q32
-q91 a1 & !a2 & a3 & a4 & a5 q32
-q91 a1 & a2 & !a3 & !a4 & !a5 q6
-q91 a1 & a2 & !a3 & !a4 & a5 q6
-q91 a1 & a2 & !a3 & a4 & !a5 q6
-q91 a1 & a2 & !a3 & a4 & a5 q6
-q91 a1 & a2 & a3 & !a4 & !a5 q6
-q91 a1 & a2 & a3 & !a4 & a5 q6
-q91 a1 & a2 & a3 & a4 & !a5 q6
-q91 a1 & a2 & a3 & a4 & a5 q6
-q90 !a1 & !a2 & !a3 & !a4 & !a5 q72
-q90 !a1 & !a2 & !a3 & !a4 & a5 q72
-q90 !a1 & !a2 & !a3 & a4 & !a5 q72
-q90 !a1 & !a2 & !a3 & a4 & a5 q72
-q90 !a1 & a2 & !a3 & !a4 & !a5 q72
-q90 !a1 & a2 & !a3 & !a4 & a5 q72
-q90 !a1 & a2 & !a3 & a4 & !a5 q72
-q90 !a1 & a2 & !a3 & a4 & a5 q72
-q90 !a1 & !a2 & !a3 & !a4 & !a5 q33
-q90 !a1 & !a2 & !a3 & !a4 & a5 q33
-q90 !a1 & !a2 & !a3 & a4 & !a5 q33
-q90 !a1 & !a2 & !a3 & a4 & a5 q33
-q90 !a1 & a2 & a3 & !a4 & !a5 q33
-q90 !a1 & a2 & a3 & !a4 & a5 q33
-q90 !a1 & a2 & a3 & a4 & !a5 q33
-q90 !a1 & a2 & a3 & a4 & a5 q33
-q90 !a1 & a2 & !a3 & !a4 & !a5 q33
-q90 !a1 & a2 & !a3 & !a4 & a5 q33
-q90 !a1 & a2 & !a3 & a4 & !a5 q33
-q90 !a1 & a2 & !a3 & a4 & a5 q33
-q90 !a1 & !a2 & a3 & !a4 & !a5 q33
-q90 !a1 & !a2 & a3 & !a4 & a5 q33
-q90 !a1 & !a2 & a3 & a4 & !a5 q33
-q90 !a1 & !a2 & a3 & a4 & a5 q33
-q90 !a1 & a2 & a3 & !a4 & !a5 q55
-q90 !a1 & a2 & a3 & !a4 & a5 q55
-q90 !a1 & a2 & a3 & a4 & !a5 q55
-q90 !a1 & a2 & a3 & a4 & a5 q55
-q90 !a1 & !a2 & a3 & !a4 & !a5 q55
-q90 !a1 & !a2 & a3 & !a4 & a5 q55
-q90 !a1 & !a2 & a3 & a4 & !a5 q55
-q90 !a1 & !a2 & a3 & a4 & a5 q55
-q90 a1 & a2 & !a3 & !a4 & !a5 q71
-q90 a1 & a2 & !a3 & !a4 & a5 q71
-q90 a1 & a2 & !a3 & a4 & !a5 q71
-q90 a1 & a2 & !a3 & a4 & a5 q71
-q90 a1 & !a2 & !a3 & !a4 & !a5 q71
-q90 a1 & !a2 & !a3 & !a4 & a5 q71
-q90 a1 & !a2 & !a3 & a4 & !a5 q71
-q90 a1 & !a2 & !a3 & a4 & a5 q71
-q90 a1 & a2 & !a3 & !a4 & !a5 q29
-q90 a1 & a2 & !a3 & !a4 & a5 q29
-q90 a1 & a2 & !a3 & a4 & !a5 q29
-q90 a1 & a2 & !a3 & a4 & a5 q29
-q90 a1 & a2 & a3 & !a4 & !a5 q29
-q90 a1 & a2 & a3 & !a4 & a5 q29
-q90 a1 & a2 & a3 & a4 & !a5 q29
-q90 a1 & a2 & a3 & a4 & a5 q29
-q90 a1 & !a2 & a3 & !a4 & !a5 q29
-q90 a1 & !a2 & a3 & !a4 & a5 q29
-q90 a1 & !a2 & a3 & a4 & !a5 q29
-q90 a1 & !a2 & a3 & a4 & a5 q29
-q90 a1 & !a2 & !a3 & !a4 & !a5 q29
-q90 a1 & !a2 & !a3 & !a4 & a5 q29
-q90 a1 & !a2 & !a3 & a4 & !a5 q29
-q90 a1 & !a2 & !a3 & a4 & a5 q29
-q90 a1 & a2 & a3 & !a4 & !a5 q30
-q90 a1 & a2 & a3 & !a4 & a5 q30
-q90 a1 & a2 & a3 & a4 & !a5 q30
-q90 a1 & a2 & a3 & a4 & a5 q30
-q90 a1 & !a2 & a3 & !a4 & !a5 q30
-q90 a1 & !a2 & a3 & !a4 & a5 q30
-q90 a1 & !a2 & a3 & a4 & !a5 q30
-q90 a1 & !a2 & a3 & a4 & a5 q30
-q90 a1 & a2 & !a3 & !a4 & !a5 q6
-q90 a1 & a2 & !a3 & !a4 & a5 q6
-q90 a1 & a2 & !a3 & a4 & !a5 q6
-q90 a1 & a2 & !a3 & a4 & a5 q6
-q86 !a1 & !a2 & !a3 & !a4 & !a5 q69
-q86 !a1 & !a2 & !a3 & !a4 & a5 q69
-q86 !a1 & !a2 & !a3 & a4 & !a5 q69
-q86 !a1 & !a2 & !a3 & a4 & a5 q69
-q86 !a1 & !a2 & !a3 & !a4 & !a5 q79
-q86 !a1 & !a2 & !a3 & !a4 & a5 q79
-q86 !a1 & !a2 & !a3 & a4 & !a5 q79
-q86 !a1 & !a2 & !a3 & a4 & a5 q79
-q86 !a1 & !a2 & a3 & !a4 & !a5 q79
-q86 !a1 & !a2 & a3 & !a4 & a5 q79
-q86 !a1 & !a2 & a3 & a4 & !a5 q79
-q86 !a1 & !a2 & a3 & a4 & a5 q79
-q86 !a1 & !a2 & a3 & !a4 & !a5 q14
-q86 !a1 & !a2 & a3 & !a4 & a5 q14
-q86 !a1 & !a2 & a3 & a4 & !a5 q14
-q86 !a1 & !a2 & a3 & a4 & a5 q14
-q86 !a1 & a2 & !a3 & !a4 & !a5 q81
-q86 !a1 & a2 & !a3 & !a4 & a5 q81
-q86 !a1 & a2 & !a3 & a4 & !a5 q81
-q86 !a1 & a2 & !a3 & a4 & a5 q81
-q86 !a1 & a2 & !a3 & !a4 & !a5 q78
-q86 !a1 & a2 & !a3 & !a4 & a5 q78
-q86 !a1 & a2 & !a3 & a4 & !a5 q78
-q86 !a1 & a2 & !a3 & a4 & a5 q78
-q86 !a1 & a2 & a3 & !a4 & !a5 q78
-q86 !a1 & a2 & a3 & !a4 & a5 q78
-q86 !a1 & a2 & a3 & a4 & !a5 q78
-q86 !a1 & a2 & a3 & a4 & a5 q78
-q86 !a1 & a2 & !a3 & !a4 & !a5 q6
-q86 !a1 & a2 & !a3 & !a4 & a5 q6
-q86 !a1 & a2 & !a3 & a4 & !a5 q6
-q86 !a1 & a2 & !a3 & a4 & a5 q6
-q86 !a1 & a2 & a3 & !a4 & !a5 q80
-q86 !a1 & a2 & a3 & !a4 & a5 q80
-q86 !a1 & a2 & a3 & a4 & !a5 q80
-q86 !a1 & a2 & a3 & a4 & a5 q80
-q86 a1 & !a2 & !a3 & !a4 & !a5 q71
-q86 a1 & !a2 & !a3 & !a4 & a5 q71
-q86 a1 & !a2 & !a3 & a4 & !a5 q71
-q86 a1 & !a2 & !a3 & a4 & a5 q71
-q86 a1 & !a2 & a3 & !a4 & !a5 q57
-q86 a1 & !a2 & a3 & !a4 & a5 q57
-q86 a1 & !a2 & a3 & a4 & !a5 q57
-q86 a1 & !a2 & a3 & a4 & a5 q57
-q86 a1 & !a2 & !a3 & !a4 & !a5 q57
-q86 a1 & !a2 & !a3 & !a4 & a5 q57
-q86 a1 & !a2 & !a3 & a4 & !a5 q57
-q86 a1 & !a2 & !a3 & a4 & a5 q57
-q86 a1 & !a2 & a3 & !a4 & !a5 q30
-q86 a1 & !a2 & a3 & !a4 & a5 q30
-q86 a1 & !a2 & a3 & a4 & !a5 q30
-q86 a1 & !a2 & a3 & a4 & a5 q30
-q86 a1 & a2 & !a3 & !a4 & !a5 q72
-q86 a1 & a2 & !a3 & !a4 & a5 q72
-q86 a1 & a2 & !a3 & a4 & !a5 q72
-q86 a1 & a2 & !a3 & a4 & a5 q72
-q86 a1 & a2 & !a3 & !a4 & !a5 q56
-q86 a1 & a2 & !a3 & !a4 & a5 q56
-q86 a1 & a2 & !a3 & a4 & !a5 q56
-q86 a1 & a2 & !a3 & a4 & a5 q56
-q86 a1 & a2 & a3 & !a4 & !a5 q56
-q86 a1 & a2 & a3 & !a4 & a5 q56
-q86 a1 & a2 & a3 & a4 & !a5 q56
-q86 a1 & a2 & a3 & a4 & a5 q56
-q86 a1 & a2 & a3 & !a4 & !a5 q55
-q86 a1 & a2 & a3 & !a4 & a5 q55
-q86 a1 & a2 & a3 & a4 & !a5 q55
-q86 a1 & a2 & a3 & a4 & a5 q55
-q84 !a1 & !a2 & !a3 & !a4 & !a5 q14
-q84 !a1 & !a2 & !a3 & !a4 & a5 q14
-q84 !a1 & !a2 & !a3 & a4 & !a5 q14
-q84 !a1 & !a2 & !a3 & a4 & a5 q14
-q84 !a1 & !a2 & a3 & !a4 & !a5 q14
-q84 !a1 & !a2 & a3 & !a4 & a5 q14
-q84 !a1 & !a2 & a3 & a4 & !a5 q14
-q84 !a1 & !a2 & a3 & a4 & a5 q14
-q84 !a1 & !a2 & !a3 & !a4 & !a5 q15
-q84 !a1 & !a2 & !a3 & !a4 & a5 q15
-q84 !a1 & !a2 & !a3 & a4 & !a5 q15
-q84 !a1 & !a2 & !a3 & a4 & a5 q15
-q84 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q84 !a1 & !a2 & !a3 & !a4 & a5 q6
-q84 !a1 & !a2 & !a3 & a4 & !a5 q6
-q84 !a1 & !a2 & !a3 & a4 & a5 q6
-q84 !a1 & a2 & !a3 & !a4 & !a5 q6
-q84 !a1 & a2 & !a3 & !a4 & a5 q6
-q84 !a1 & a2 & !a3 & a4 & !a5 q6
-q84 !a1 & a2 & !a3 & a4 & a5 q6
-q84 !a1 & !a2 & a3 & !a4 & !a5 q19
-q84 !a1 & !a2 & a3 & !a4 & a5 q19
-q84 !a1 & !a2 & a3 & a4 & !a5 q19
-q84 !a1 & !a2 & a3 & a4 & a5 q19
-q84 !a1 & a2 & !a3 & !a4 & !a5 q81
-q84 !a1 & a2 & !a3 & !a4 & a5 q81
-q84 !a1 & a2 & !a3 & a4 & !a5 q81
-q84 !a1 & a2 & !a3 & a4 & a5 q81
-q84 !a1 & a2 & !a3 & !a4 & !a5 q78
-q84 !a1 & a2 & !a3 & !a4 & a5 q78
-q84 !a1 & a2 & !a3 & a4 & !a5 q78
-q84 !a1 & a2 & !a3 & a4 & a5 q78
-q84 !a1 & a2 & a3 & !a4 & !a5 q78
-q84 !a1 & a2 & a3 & !a4 & a5 q78
-q84 !a1 & a2 & a3 & a4 & !a5 q78
-q84 !a1 & a2 & a3 & a4 & a5 q78
-q84 !a1 & a2 & a3 & !a4 & !a5 q80
-q84 !a1 & a2 & a3 & !a4 & a5 q80
-q84 !a1 & a2 & a3 & a4 & !a5 q80
-q84 !a1 & a2 & a3 & a4 & a5 q80
-q84 a1 & !a2 & a3 & !a4 & !a5 q30
-q84 a1 & !a2 & a3 & !a4 & a5 q30
-q84 a1 & !a2 & a3 & a4 & !a5 q30
-q84 a1 & !a2 & a3 & a4 & a5 q30
-q84 a1 & !a2 & !a3 & !a4 & !a5 q30
-q84 a1 & !a2 & !a3 & !a4 & a5 q30
-q84 a1 & !a2 & !a3 & a4 & !a5 q30
-q84 a1 & !a2 & !a3 & a4 & a5 q30
-q84 a1 & !a2 & !a3 & !a4 & !a5 q90
-q84 a1 & !a2 & !a3 & !a4 & a5 q90
-q84 a1 & !a2 & !a3 & a4 & !a5 q90
-q84 a1 & !a2 & !a3 & a4 & a5 q90
-q84 a1 & !a2 & a3 & !a4 & !a5 q91
-q84 a1 & !a2 & a3 & !a4 & a5 q91
-q84 a1 & !a2 & a3 & a4 & !a5 q91
-q84 a1 & !a2 & a3 & a4 & a5 q91
-q84 a1 & a2 & !a3 & !a4 & !a5 q72
-q84 a1 & a2 & !a3 & !a4 & a5 q72
-q84 a1 & a2 & !a3 & a4 & !a5 q72
-q84 a1 & a2 & !a3 & a4 & a5 q72
-q84 a1 & a2 & !a3 & !a4 & !a5 q56
-q84 a1 & a2 & !a3 & !a4 & a5 q56
-q84 a1 & a2 & !a3 & a4 & !a5 q56
-q84 a1 & a2 & !a3 & a4 & a5 q56
-q84 a1 & a2 & a3 & !a4 & !a5 q56
-q84 a1 & a2 & a3 & !a4 & a5 q56
-q84 a1 & a2 & a3 & a4 & !a5 q56
-q84 a1 & a2 & a3 & a4 & a5 q56
-q84 a1 & a2 & a3 & !a4 & !a5 q55
-q84 a1 & a2 & a3 & !a4 & a5 q55
-q84 a1 & a2 & a3 & a4 & !a5 q55
-q84 a1 & a2 & a3 & a4 & a5 q55
-q8 !a1 & !a2 & !a3 & !a4 & !a5 q92
-q8 !a1 & !a2 & !a3 & !a4 & a5 q92
-q8 !a1 & !a2 & !a3 & a4 & !a5 q92
-q8 !a1 & !a2 & !a3 & a4 & a5 q92
-q8 !a1 & !a2 & a3 & !a4 & !a5 q92
-q8 !a1 & !a2 & a3 & !a4 & a5 q92
-q8 !a1 & !a2 & a3 & a4 & !a5 q92
-q8 !a1 & !a2 & a3 & a4 & a5 q92
-q8 !a1 & !a2 & !a3 & !a4 & !a5 q93
-q8 !a1 & !a2 & !a3 & !a4 & a5 q93
-q8 !a1 & !a2 & !a3 & a4 & !a5 q93
-q8 !a1 & !a2 & !a3 & a4 & a5 q93
-q8 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q8 !a1 & !a2 & !a3 & !a4 & a5 q6
-q8 !a1 & !a2 & !a3 & a4 & !a5 q6
-q8 !a1 & !a2 & !a3 & a4 & a5 q6
-q8 !a1 & a2 & !a3 & !a4 & !a5 q6
-q8 !a1 & a2 & !a3 & !a4 & a5 q6
-q8 !a1 & a2 & !a3 & a4 & !a5 q6
-q8 !a1 & a2 & !a3 & a4 & a5 q6
-q8 !a1 & a2 & a3 & !a4 & !a5 q6
-q8 !a1 & a2 & a3 & !a4 & a5 q6
-q8 !a1 & a2 & a3 & a4 & !a5 q6
-q8 !a1 & a2 & a3 & a4 & a5 q6
-q8 !a1 & !a2 & a3 & !a4 & !a5 q95
-q8 !a1 & !a2 & a3 & !a4 & a5 q95
-q8 !a1 & !a2 & a3 & a4 & !a5 q95
-q8 !a1 & !a2 & a3 & a4 & a5 q95
-q8 !a1 & a2 & !a3 & !a4 & !a5 q96
-q8 !a1 & a2 & !a3 & !a4 & a5 q96
-q8 !a1 & a2 & !a3 & a4 & !a5 q96
-q8 !a1 & a2 & !a3 & a4 & a5 q96
-q8 !a1 & a2 & a3 & !a4 & !a5 q96
-q8 !a1 & a2 & a3 & !a4 & a5 q96
-q8 !a1 & a2 & a3 & a4 & !a5 q96
-q8 !a1 & a2 & a3 & a4 & a5 q96
-q8 !a1 & a2 & !a3 & !a4 & !a5 q97
-q8 !a1 & a2 & !a3 & !a4 & a5 q97
-q8 !a1 & a2 & !a3 & a4 & !a5 q97
-q8 !a1 & a2 & !a3 & a4 & a5 q97
-q8 !a1 & a2 & a3 & !a4 & !a5 q99
-q8 !a1 & a2 & a3 & !a4 & a5 q99
-q8 !a1 & a2 & a3 & a4 & !a5 q99
-q8 !a1 & a2 & a3 & a4 & a5 q99
-q8 a1 & !a2 & a3 & !a4 & !a5 q21
-q8 a1 & !a2 & a3 & !a4 & a5 q21
-q8 a1 & !a2 & a3 & a4 & !a5 q21
-q8 a1 & !a2 & a3 & a4 & a5 q21
-q8 a1 & !a2 & !a3 & !a4 & !a5 q21
-q8 a1 & !a2 & !a3 & !a4 & a5 q21
-q8 a1 & !a2 & !a3 & a4 & !a5 q21
-q8 a1 & !a2 & !a3 & a4 & a5 q21
-q8 a1 & !a2 & !a3 & !a4 & !a5 q22
-q8 a1 & !a2 & !a3 & !a4 & a5 q22
-q8 a1 & !a2 & !a3 & a4 & !a5 q22
-q8 a1 & !a2 & !a3 & a4 & a5 q22
-q8 a1 & !a2 & a3 & !a4 & !a5 q24
-q8 a1 & !a2 & a3 & !a4 & a5 q24
-q8 a1 & !a2 & a3 & a4 & !a5 q24
-q8 a1 & !a2 & a3 & a4 & a5 q24
-q8 a1 & a2 & !a3 & !a4 & !a5 q14
-q8 a1 & a2 & !a3 & !a4 & a5 q14
-q8 a1 & a2 & !a3 & a4 & !a5 q14
-q8 a1 & a2 & !a3 & a4 & a5 q14
-q8 a1 & a2 & a3 & !a4 & !a5 q14
-q8 a1 & a2 & a3 & !a4 & a5 q14
-q8 a1 & a2 & a3 & a4 & !a5 q14
-q8 a1 & a2 & a3 & a4 & a5 q14
-q8 a1 & a2 & !a3 & !a4 & !a5 q15
-q8 a1 & a2 & !a3 & !a4 & a5 q15
-q8 a1 & a2 & !a3 & a4 & !a5 q15
-q8 a1 & a2 & !a3 & a4 & a5 q15
-q8 a1 & a2 & a3 & !a4 & !a5 q19
-q8 a1 & a2 & a3 & !a4 & a5 q19
-q8 a1 & a2 & a3 & a4 & !a5 q19
-q8 a1 & a2 & a3 & a4 & a5 q19
-q99 !a1 & !a2 & !a3 & !a4 & !a5 q61
-q99 !a1 & !a2 & !a3 & !a4 & a5 q61
-q99 !a1 & !a2 & !a3 & a4 & !a5 q61
-q99 !a1 & !a2 & !a3 & a4 & a5 q61
-q99 !a1 & a2 & !a3 & !a4 & !a5 q61
-q99 !a1 & a2 & !a3 & !a4 & a5 q61
-q99 !a1 & a2 & !a3 & a4 & !a5 q61
-q99 !a1 & a2 & !a3 & a4 & a5 q61
-q99 !a1 & !a2 & !a3 & !a4 & !a5 q80
-q99 !a1 & !a2 & !a3 & !a4 & a5 q80
-q99 !a1 & !a2 & !a3 & a4 & !a5 q80
-q99 !a1 & !a2 & !a3 & a4 & a5 q80
-q99 !a1 & a2 & a3 & !a4 & !a5 q80
-q99 !a1 & a2 & a3 & !a4 & a5 q80
-q99 !a1 & a2 & a3 & a4 & !a5 q80
-q99 !a1 & a2 & a3 & a4 & a5 q80
-q99 !a1 & a2 & !a3 & !a4 & !a5 q80
-q99 !a1 & a2 & !a3 & !a4 & a5 q80
-q99 !a1 & a2 & !a3 & a4 & !a5 q80
-q99 !a1 & a2 & !a3 & a4 & a5 q80
-q99 !a1 & !a2 & a3 & !a4 & !a5 q80
-q99 !a1 & !a2 & a3 & !a4 & a5 q80
-q99 !a1 & !a2 & a3 & a4 & !a5 q80
-q99 !a1 & !a2 & a3 & a4 & a5 q80
-q99 !a1 & a2 & a3 & !a4 & !a5 q64
-q99 !a1 & a2 & a3 & !a4 & a5 q64
-q99 !a1 & a2 & a3 & a4 & !a5 q64
-q99 !a1 & a2 & a3 & a4 & a5 q64
-q99 !a1 & !a2 & a3 & !a4 & !a5 q64
-q99 !a1 & !a2 & a3 & !a4 & a5 q64
-q99 !a1 & !a2 & a3 & a4 & !a5 q64
-q99 !a1 & !a2 & a3 & a4 & a5 q64
-q99 !a1 & a2 & !a3 & !a4 & !a5 q6
-q99 !a1 & a2 & !a3 & !a4 & a5 q6
-q99 !a1 & a2 & !a3 & a4 & !a5 q6
-q99 !a1 & a2 & !a3 & a4 & a5 q6
-q99 !a1 & a2 & a3 & !a4 & !a5 q6
-q99 !a1 & a2 & a3 & !a4 & a5 q6
-q99 !a1 & a2 & a3 & a4 & !a5 q6
-q99 !a1 & a2 & a3 & a4 & a5 q6
-q99 a1 & a2 & !a3 & !a4 & !a5 q25
-q99 a1 & a2 & !a3 & !a4 & a5 q25
-q99 a1 & a2 & !a3 & a4 & !a5 q25
-q99 a1 & a2 & !a3 & a4 & a5 q25
-q99 a1 & !a2 & !a3 & !a4 & !a5 q25
-q99 a1 & !a2 & !a3 & !a4 & a5 q25
-q99 a1 & !a2 & !a3 & a4 & !a5 q25
-q99 a1 & !a2 & !a3 & a4 & a5 q25
-q99 a1 & a2 & !a3 & !a4 & !a5 q14
-q99 a1 & a2 & !a3 & !a4 & a5 q14
-q99 a1 & a2 & !a3 & a4 & !a5 q14
-q99 a1 & a2 & !a3 & a4 & a5 q14
-q99 a1 & a2 & a3 & !a4 & !a5 q14
-q99 a1 & a2 & a3 & !a4 & a5 q14
-q99 a1 & a2 & a3 & a4 & !a5 q14
-q99 a1 & a2 & a3 & a4 & a5 q14
-q99 a1 & !a2 & a3 & !a4 & !a5 q14
-q99 a1 & !a2 & a3 & !a4 & a5 q14
-q99 a1 & !a2 & a3 & a4 & !a5 q14
-q99 a1 & !a2 & a3 & a4 & a5 q14
-q99 a1 & !a2 & !a3 & !a4 & !a5 q14
-q99 a1 & !a2 & !a3 & !a4 & a5 q14
-q99 a1 & !a2 & !a3 & a4 & !a5 q14
-q99 a1 & !a2 & !a3 & a4 & a5 q14
-q99 a1 & a2 & a3 & !a4 & !a5 q27
-q99 a1 & a2 & a3 & !a4 & a5 q27
-q99 a1 & a2 & a3 & a4 & !a5 q27
-q99 a1 & a2 & a3 & a4 & a5 q27
-q99 a1 & !a2 & a3 & !a4 & !a5 q27
-q99 a1 & !a2 & a3 & !a4 & a5 q27
-q99 a1 & !a2 & a3 & a4 & !a5 q27
-q99 a1 & !a2 & a3 & a4 & a5 q27
-q97 !a1 & !a2 & !a3 & !a4 & !a5 q81
-q97 !a1 & !a2 & !a3 & !a4 & a5 q81
-q97 !a1 & !a2 & !a3 & a4 & !a5 q81
-q97 !a1 & !a2 & !a3 & a4 & a5 q81
-q97 !a1 & a2 & !a3 & !a4 & !a5 q81
-q97 !a1 & a2 & !a3 & !a4 & a5 q81
-q97 !a1 & a2 & !a3 & a4 & !a5 q81
-q97 !a1 & a2 & !a3 & a4 & a5 q81
-q97 !a1 & !a2 & !a3 & !a4 & !a5 q61
-q97 !a1 & !a2 & !a3 & !a4 & a5 q61
-q97 !a1 & !a2 & !a3 & a4 & !a5 q61
-q97 !a1 & !a2 & !a3 & a4 & a5 q61
-q97 !a1 & a2 & a3 & !a4 & !a5 q61
-q97 !a1 & a2 & a3 & !a4 & a5 q61
-q97 !a1 & a2 & a3 & a4 & !a5 q61
-q97 !a1 & a2 & a3 & a4 & a5 q61
-q97 !a1 & a2 & !a3 & !a4 & !a5 q61
-q97 !a1 & a2 & !a3 & !a4 & a5 q61
-q97 !a1 & a2 & !a3 & a4 & !a5 q61
-q97 !a1 & a2 & !a3 & a4 & a5 q61
-q97 !a1 & !a2 & a3 & !a4 & !a5 q61
-q97 !a1 & !a2 & a3 & !a4 & a5 q61
-q97 !a1 & !a2 & a3 & a4 & !a5 q61
-q97 !a1 & !a2 & a3 & a4 & a5 q61
-q97 !a1 & a2 & a3 & !a4 & !a5 q80
-q97 !a1 & a2 & a3 & !a4 & a5 q80
-q97 !a1 & a2 & a3 & a4 & !a5 q80
-q97 !a1 & a2 & a3 & a4 & a5 q80
-q97 !a1 & !a2 & a3 & !a4 & !a5 q80
-q97 !a1 & !a2 & a3 & !a4 & a5 q80
-q97 !a1 & !a2 & a3 & a4 & !a5 q80
-q97 !a1 & !a2 & a3 & a4 & a5 q80
-q97 !a1 & a2 & !a3 & !a4 & !a5 q6
-q97 !a1 & a2 & !a3 & !a4 & a5 q6
-q97 !a1 & a2 & !a3 & a4 & !a5 q6
-q97 !a1 & a2 & !a3 & a4 & a5 q6
-q97 a1 & a2 & !a3 & !a4 & !a5 q69
-q97 a1 & a2 & !a3 & !a4 & a5 q69
-q97 a1 & a2 & !a3 & a4 & !a5 q69
-q97 a1 & a2 & !a3 & a4 & a5 q69
-q97 a1 & !a2 & !a3 & !a4 & !a5 q69
-q97 a1 & !a2 & !a3 & !a4 & a5 q69
-q97 a1 & !a2 & !a3 & a4 & !a5 q69
-q97 a1 & !a2 & !a3 & a4 & a5 q69
-q97 a1 & a2 & !a3 & !a4 & !a5 q25
-q97 a1 & a2 & !a3 & !a4 & a5 q25
-q97 a1 & a2 & !a3 & a4 & !a5 q25
-q97 a1 & a2 & !a3 & a4 & a5 q25
-q97 a1 & a2 & a3 & !a4 & !a5 q25
-q97 a1 & a2 & a3 & !a4 & a5 q25
-q97 a1 & a2 & a3 & a4 & !a5 q25
-q97 a1 & a2 & a3 & a4 & a5 q25
-q97 a1 & !a2 & a3 & !a4 & !a5 q25
-q97 a1 & !a2 & a3 & !a4 & a5 q25
-q97 a1 & !a2 & a3 & a4 & !a5 q25
-q97 a1 & !a2 & a3 & a4 & a5 q25
-q97 a1 & !a2 & !a3 & !a4 & !a5 q25
-q97 a1 & !a2 & !a3 & !a4 & a5 q25
-q97 a1 & !a2 & !a3 & a4 & !a5 q25
-q97 a1 & !a2 & !a3 & a4 & a5 q25
-q97 a1 & a2 & a3 & !a4 & !a5 q14
-q97 a1 & a2 & a3 & !a4 & a5 q14
-q97 a1 & a2 & a3 & a4 & !a5 q14
-q97 a1 & a2 & a3 & a4 & a5 q14
-q97 a1 & !a2 & a3 & !a4 & !a5 q14
-q97 a1 & !a2 & a3 & !a4 & a5 q14
-q97 a1 & !a2 & a3 & a4 & !a5 q14
-q97 a1 & !a2 & a3 & a4 & a5 q14
-q96 !a1 & !a2 & !a3 & !a4 & !a5 q61
-q96 !a1 & !a2 & !a3 & !a4 & a5 q61
-q96 !a1 & !a2 & !a3 & a4 & !a5 q61
-q96 !a1 & !a2 & !a3 & a4 & a5 q61
-q96 !a1 & !a2 & !a3 & !a4 & !a5 q80
-q96 !a1 & !a2 & !a3 & !a4 & a5 q80
-q96 !a1 & !a2 & !a3 & a4 & !a5 q80
-q96 !a1 & !a2 & !a3 & a4 & a5 q80
-q96 !a1 & !a2 & a3 & !a4 & !a5 q80
-q96 !a1 & !a2 & a3 & !a4 & a5 q80
-q96 !a1 & !a2 & a3 & a4 & !a5 q80
-q96 !a1 & !a2 & a3 & a4 & a5 q80
-q96 !a1 & !a2 & a3 & !a4 & !a5 q64
-q96 !a1 & !a2 & a3 & !a4 & a5 q64
-q96 !a1 & !a2 & a3 & a4 & !a5 q64
-q96 !a1 & !a2 & a3 & a4 & a5 q64
-q96 !a1 & a2 & !a3 & !a4 & !a5 q78
-q96 !a1 & a2 & !a3 & !a4 & a5 q78
-q96 !a1 & a2 & !a3 & a4 & !a5 q78
-q96 !a1 & a2 & !a3 & a4 & a5 q78
-q96 !a1 & a2 & a3 & !a4 & !a5 q78
-q96 !a1 & a2 & a3 & !a4 & a5 q78
-q96 !a1 & a2 & a3 & a4 & !a5 q78
-q96 !a1 & a2 & a3 & a4 & a5 q78
-q96 !a1 & a2 & !a3 & !a4 & !a5 q66
-q96 !a1 & a2 & !a3 & !a4 & a5 q66
-q96 !a1 & a2 & !a3 & a4 & !a5 q66
-q96 !a1 & a2 & !a3 & a4 & a5 q66
-q96 !a1 & a2 & !a3 & !a4 & !a5 q6
-q96 !a1 & a2 & !a3 & !a4 & a5 q6
-q96 !a1 & a2 & !a3 & a4 & !a5 q6
-q96 !a1 & a2 & !a3 & a4 & a5 q6
-q96 !a1 & a2 & a3 & !a4 & !a5 q62
-q96 !a1 & a2 & a3 & !a4 & a5 q62
-q96 !a1 & a2 & a3 & a4 & !a5 q62
-q96 !a1 & a2 & a3 & a4 & a5 q62
-q96 a1 & !a2 & !a3 & !a4 & !a5 q25
-q96 a1 & !a2 & !a3 & !a4 & a5 q25
-q96 a1 & !a2 & !a3 & a4 & !a5 q25
-q96 a1 & !a2 & !a3 & a4 & a5 q25
-q96 a1 & !a2 & a3 & !a4 & !a5 q14
-q96 a1 & !a2 & a3 & !a4 & a5 q14
-q96 a1 & !a2 & a3 & a4 & !a5 q14
-q96 a1 & !a2 & a3 & a4 & a5 q14
-q96 a1 & !a2 & !a3 & !a4 & !a5 q14
-q96 a1 & !a2 & !a3 & !a4 & a5 q14
-q96 a1 & !a2 & !a3 & a4 & !a5 q14
-q96 a1 & !a2 & !a3 & a4 & a5 q14
-q96 a1 & !a2 & a3 & !a4 & !a5 q27
-q96 a1 & !a2 & a3 & !a4 & a5 q27
-q96 a1 & !a2 & a3 & a4 & !a5 q27
-q96 a1 & !a2 & a3 & a4 & a5 q27
-q96 a1 & a2 & !a3 & !a4 & !a5 q79
-q96 a1 & a2 & !a3 & !a4 & a5 q79
-q96 a1 & a2 & !a3 & a4 & !a5 q79
-q96 a1 & a2 & !a3 & a4 & a5 q79
-q96 a1 & a2 & a3 & !a4 & !a5 q79
-q96 a1 & a2 & a3 & !a4 & a5 q79
-q96 a1 & a2 & a3 & a4 & !a5 q79
-q96 a1 & a2 & a3 & a4 & a5 q79
-q96 a1 & a2 & !a3 & !a4 & !a5 q68
-q96 a1 & a2 & !a3 & !a4 & a5 q68
-q96 a1 & a2 & !a3 & a4 & !a5 q68
-q96 a1 & a2 & !a3 & a4 & a5 q68
-q96 a1 & a2 & a3 & !a4 & !a5 q60
-q96 a1 & a2 & a3 & !a4 & a5 q60
-q96 a1 & a2 & a3 & a4 & !a5 q60
-q96 a1 & a2 & a3 & a4 & a5 q60
-q95 a1 & a2 & !a3 & !a4 & !a5 q25
-q95 a1 & a2 & !a3 & !a4 & a5 q25
-q95 a1 & a2 & !a3 & a4 & !a5 q25
-q95 a1 & a2 & !a3 & a4 & a5 q25
-q95 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q95 !a1 & !a2 & !a3 & !a4 & a5 q25
-q95 !a1 & !a2 & !a3 & a4 & !a5 q25
-q95 !a1 & !a2 & !a3 & a4 & a5 q25
-q95 a1 & a2 & !a3 & !a4 & !a5 q14
-q95 a1 & a2 & !a3 & !a4 & a5 q14
-q95 a1 & a2 & !a3 & a4 & !a5 q14
-q95 a1 & a2 & !a3 & a4 & a5 q14
-q95 !a1 & !a2 & !a3 & !a4 & !a5 q14
-q95 !a1 & !a2 & !a3 & !a4 & a5 q14
-q95 !a1 & !a2 & !a3 & a4 & !a5 q14
-q95 !a1 & !a2 & !a3 & a4 & a5 q14
-q95 a1 & a2 & a3 & !a4 & !a5 q14
-q95 a1 & a2 & a3 & !a4 & a5 q14
-q95 a1 & a2 & a3 & a4 & !a5 q14
-q95 a1 & a2 & a3 & a4 & a5 q14
-q95 !a1 & !a2 & a3 & !a4 & !a5 q14
-q95 !a1 & !a2 & a3 & !a4 & a5 q14
-q95 !a1 & !a2 & a3 & a4 & !a5 q14
-q95 !a1 & !a2 & a3 & a4 & a5 q14
-q95 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q95 !a1 & !a2 & !a3 & !a4 & a5 q6
-q95 !a1 & !a2 & !a3 & a4 & !a5 q6
-q95 !a1 & !a2 & !a3 & a4 & a5 q6
-q95 !a1 & a2 & !a3 & !a4 & !a5 q6
-q95 !a1 & a2 & !a3 & !a4 & a5 q6
-q95 !a1 & a2 & !a3 & a4 & !a5 q6
-q95 !a1 & a2 & !a3 & a4 & a5 q6
-q95 !a1 & a2 & a3 & !a4 & !a5 q6
-q95 !a1 & a2 & a3 & !a4 & a5 q6
-q95 !a1 & a2 & a3 & a4 & !a5 q6
-q95 !a1 & a2 & a3 & a4 & a5 q6
-q95 a1 & a2 & a3 & !a4 & !a5 q27
-q95 a1 & a2 & a3 & !a4 & a5 q27
-q95 a1 & a2 & a3 & a4 & !a5 q27
-q95 a1 & a2 & a3 & a4 & a5 q27
-q95 !a1 & !a2 & a3 & !a4 & !a5 q27
-q95 !a1 & !a2 & a3 & !a4 & a5 q27
-q95 !a1 & !a2 & a3 & a4 & !a5 q27
-q95 !a1 & !a2 & a3 & a4 & a5 q27
-q95 !a1 & a2 & !a3 & !a4 & !a5 q61
-q95 !a1 & a2 & !a3 & !a4 & a5 q61
-q95 !a1 & a2 & !a3 & a4 & !a5 q61
-q95 !a1 & a2 & !a3 & a4 & a5 q61
-q95 !a1 & a2 & !a3 & !a4 & !a5 q80
-q95 !a1 & a2 & !a3 & !a4 & a5 q80
-q95 !a1 & a2 & !a3 & a4 & !a5 q80
-q95 !a1 & a2 & !a3 & a4 & a5 q80
-q95 !a1 & a2 & a3 & !a4 & !a5 q80
-q95 !a1 & a2 & a3 & !a4 & a5 q80
-q95 !a1 & a2 & a3 & a4 & !a5 q80
-q95 !a1 & a2 & a3 & a4 & a5 q80
-q95 !a1 & a2 & a3 & !a4 & !a5 q64
-q95 !a1 & a2 & a3 & !a4 & a5 q64
-q95 !a1 & a2 & a3 & a4 & !a5 q64
-q95 !a1 & a2 & a3 & a4 & a5 q64
-q95 a1 & !a2 & !a3 & !a4 & !a5 q100
-q95 a1 & !a2 & !a3 & !a4 & a5 q100
-q95 a1 & !a2 & !a3 & a4 & !a5 q100
-q95 a1 & !a2 & !a3 & a4 & a5 q100
-q95 a1 & !a2 & a3 & !a4 & !a5 q21
-q95 a1 & !a2 & a3 & !a4 & a5 q21
-q95 a1 & !a2 & a3 & a4 & !a5 q21
-q95 a1 & !a2 & a3 & a4 & a5 q21
-q95 a1 & !a2 & !a3 & !a4 & !a5 q21
-q95 a1 & !a2 & !a3 & !a4 & a5 q21
-q95 a1 & !a2 & !a3 & a4 & !a5 q21
-q95 a1 & !a2 & !a3 & a4 & a5 q21
-q95 a1 & !a2 & a3 & !a4 & !a5 q101
-q95 a1 & !a2 & a3 & !a4 & a5 q101
-q95 a1 & !a2 & a3 & a4 & !a5 q101
-q95 a1 & !a2 & a3 & a4 & a5 q101
-q101 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q101 !a1 & !a2 & !a3 & !a4 & a5 q25
-q101 !a1 & !a2 & !a3 & a4 & !a5 q25
-q101 !a1 & !a2 & !a3 & a4 & a5 q25
-q101 !a1 & a2 & !a3 & !a4 & !a5 q25
-q101 !a1 & a2 & !a3 & !a4 & a5 q25
-q101 !a1 & a2 & !a3 & a4 & !a5 q25
-q101 !a1 & a2 & !a3 & a4 & a5 q25
-q101 !a1 & !a2 & !a3 & !a4 & !a5 q60
-q101 !a1 & !a2 & !a3 & !a4 & a5 q60
-q101 !a1 & !a2 & !a3 & a4 & !a5 q60
-q101 !a1 & !a2 & !a3 & a4 & a5 q60
-q101 !a1 & a2 & a3 & !a4 & !a5 q60
-q101 !a1 & a2 & a3 & !a4 & a5 q60
-q101 !a1 & a2 & a3 & a4 & !a5 q60
-q101 !a1 & a2 & a3 & a4 & a5 q60
-q101 !a1 & a2 & !a3 & !a4 & !a5 q60
-q101 !a1 & a2 & !a3 & !a4 & a5 q60
-q101 !a1 & a2 & !a3 & a4 & !a5 q60
-q101 !a1 & a2 & !a3 & a4 & a5 q60
-q101 !a1 & !a2 & a3 & !a4 & !a5 q60
-q101 !a1 & !a2 & a3 & !a4 & a5 q60
-q101 !a1 & !a2 & a3 & a4 & !a5 q60
-q101 !a1 & !a2 & a3 & a4 & a5 q60
-q101 !a1 & a2 & a3 & !a4 & !a5 q27
-q101 !a1 & a2 & a3 & !a4 & a5 q27
-q101 !a1 & a2 & a3 & a4 & !a5 q27
-q101 !a1 & a2 & a3 & a4 & a5 q27
-q101 !a1 & !a2 & a3 & !a4 & !a5 q27
-q101 !a1 & !a2 & a3 & !a4 & a5 q27
-q101 !a1 & !a2 & a3 & a4 & !a5 q27
-q101 !a1 & !a2 & a3 & a4 & a5 q27
-q101 a1 & a2 & !a3 & !a4 & !a5 q6
-q101 a1 & a2 & !a3 & !a4 & a5 q6
-q101 a1 & a2 & !a3 & a4 & !a5 q6
-q101 a1 & a2 & !a3 & a4 & a5 q6
-q101 a1 & a2 & a3 & !a4 & !a5 q6
-q101 a1 & a2 & a3 & !a4 & a5 q6
-q101 a1 & a2 & a3 & a4 & !a5 q6
-q101 a1 & a2 & a3 & a4 & a5 q6
-q101 !a1 & a2 & !a3 & !a4 & !a5 q6
-q101 !a1 & a2 & !a3 & !a4 & a5 q6
-q101 !a1 & a2 & !a3 & a4 & !a5 q6
-q101 !a1 & a2 & !a3 & a4 & a5 q6
-q101 !a1 & a2 & a3 & !a4 & !a5 q6
-q101 !a1 & a2 & a3 & !a4 & a5 q6
-q101 !a1 & a2 & a3 & a4 & !a5 q6
-q101 !a1 & a2 & a3 & a4 & a5 q6
-q101 a1 & a2 & !a3 & !a4 & !a5 q29
-q101 a1 & a2 & !a3 & !a4 & a5 q29
-q101 a1 & a2 & !a3 & a4 & !a5 q29
-q101 a1 & a2 & !a3 & a4 & a5 q29
-q101 a1 & !a2 & !a3 & !a4 & !a5 q29
-q101 a1 & !a2 & !a3 & !a4 & a5 q29
-q101 a1 & !a2 & !a3 & a4 & !a5 q29
-q101 a1 & !a2 & !a3 & a4 & a5 q29
-q101 a1 & a2 & !a3 & !a4 & !a5 q37
-q101 a1 & a2 & !a3 & !a4 & a5 q37
-q101 a1 & a2 & !a3 & a4 & !a5 q37
-q101 a1 & a2 & !a3 & a4 & a5 q37
-q101 a1 & a2 & a3 & !a4 & !a5 q37
-q101 a1 & a2 & a3 & !a4 & a5 q37
-q101 a1 & a2 & a3 & a4 & !a5 q37
-q101 a1 & a2 & a3 & a4 & a5 q37
-q101 a1 & !a2 & a3 & !a4 & !a5 q37
-q101 a1 & !a2 & a3 & !a4 & a5 q37
-q101 a1 & !a2 & a3 & a4 & !a5 q37
-q101 a1 & !a2 & a3 & a4 & a5 q37
-q101 a1 & !a2 & !a3 & !a4 & !a5 q37
-q101 a1 & !a2 & !a3 & !a4 & a5 q37
-q101 a1 & !a2 & !a3 & a4 & !a5 q37
-q101 a1 & !a2 & !a3 & a4 & a5 q37
-q101 a1 & a2 & a3 & !a4 & !a5 q32
-q101 a1 & a2 & a3 & !a4 & a5 q32
-q101 a1 & a2 & a3 & a4 & !a5 q32
-q101 a1 & a2 & a3 & a4 & a5 q32
-q101 a1 & !a2 & a3 & !a4 & !a5 q32
-q101 a1 & !a2 & a3 & !a4 & a5 q32
-q101 a1 & !a2 & a3 & a4 & !a5 q32
-q101 a1 & !a2 & a3 & a4 & a5 q32
-q100 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q100 !a1 & !a2 & !a3 & !a4 & a5 q25
-q100 !a1 & !a2 & !a3 & a4 & !a5 q25
-q100 !a1 & !a2 & !a3 & a4 & a5 q25
-q100 !a1 & a2 & a3 & !a4 & !a5 q25
-q100 !a1 & a2 & a3 & !a4 & a5 q25
-q100 !a1 & a2 & a3 & a4 & !a5 q25
-q100 !a1 & a2 & a3 & a4 & a5 q25
-q100 !a1 & a2 & !a3 & !a4 & !a5 q25
-q100 !a1 & a2 & !a3 & !a4 & a5 q25
-q100 !a1 & a2 & !a3 & a4 & !a5 q25
-q100 !a1 & a2 & !a3 & a4 & a5 q25
-q100 !a1 & !a2 & a3 & !a4 & !a5 q25
-q100 !a1 & !a2 & a3 & !a4 & a5 q25
-q100 !a1 & !a2 & a3 & a4 & !a5 q25
-q100 !a1 & !a2 & a3 & a4 & a5 q25
-q100 !a1 & !a2 & !a3 & !a4 & !a5 q68
-q100 !a1 & !a2 & !a3 & !a4 & a5 q68
-q100 !a1 & !a2 & !a3 & a4 & !a5 q68
-q100 !a1 & !a2 & !a3 & a4 & a5 q68
-q100 !a1 & a2 & !a3 & !a4 & !a5 q68
-q100 !a1 & a2 & !a3 & !a4 & a5 q68
-q100 !a1 & a2 & !a3 & a4 & !a5 q68
-q100 !a1 & a2 & !a3 & a4 & a5 q68
-q100 !a1 & a2 & a3 & !a4 & !a5 q60
-q100 !a1 & a2 & a3 & !a4 & a5 q60
-q100 !a1 & a2 & a3 & a4 & !a5 q60
-q100 !a1 & a2 & a3 & a4 & a5 q60
-q100 !a1 & !a2 & a3 & !a4 & !a5 q60
-q100 !a1 & !a2 & a3 & !a4 & a5 q60
-q100 !a1 & !a2 & a3 & a4 & !a5 q60
-q100 !a1 & !a2 & a3 & a4 & a5 q60
-q100 a1 & a2 & !a3 & !a4 & !a5 q6
-q100 a1 & a2 & !a3 & !a4 & a5 q6
-q100 a1 & a2 & !a3 & a4 & !a5 q6
-q100 a1 & a2 & !a3 & a4 & a5 q6
-q100 !a1 & a2 & !a3 & !a4 & !a5 q6
-q100 !a1 & a2 & !a3 & !a4 & a5 q6
-q100 !a1 & a2 & !a3 & a4 & !a5 q6
-q100 !a1 & a2 & !a3 & a4 & a5 q6
-q100 a1 & a2 & !a3 & !a4 & !a5 q29
-q100 a1 & a2 & !a3 & !a4 & a5 q29
-q100 a1 & a2 & !a3 & a4 & !a5 q29
-q100 a1 & a2 & !a3 & a4 & a5 q29
-q100 a1 & a2 & a3 & !a4 & !a5 q29
-q100 a1 & a2 & a3 & !a4 & a5 q29
-q100 a1 & a2 & a3 & a4 & !a5 q29
-q100 a1 & a2 & a3 & a4 & a5 q29
-q100 a1 & !a2 & a3 & !a4 & !a5 q29
-q100 a1 & !a2 & a3 & !a4 & a5 q29
-q100 a1 & !a2 & a3 & a4 & !a5 q29
-q100 a1 & !a2 & a3 & a4 & a5 q29
-q100 a1 & !a2 & !a3 & !a4 & !a5 q29
-q100 a1 & !a2 & !a3 & !a4 & a5 q29
-q100 a1 & !a2 & !a3 & a4 & !a5 q29
-q100 a1 & !a2 & !a3 & a4 & a5 q29
-q100 a1 & a2 & !a3 & !a4 & !a5 q42
-q100 a1 & a2 & !a3 & !a4 & a5 q42
-q100 a1 & a2 & !a3 & a4 & !a5 q42
-q100 a1 & a2 & !a3 & a4 & a5 q42
-q100 a1 & !a2 & !a3 & !a4 & !a5 q42
-q100 a1 & !a2 & !a3 & !a4 & a5 q42
-q100 a1 & !a2 & !a3 & a4 & !a5 q42
-q100 a1 & !a2 & !a3 & a4 & a5 q42
-q100 a1 & a2 & a3 & !a4 & !a5 q37
-q100 a1 & a2 & a3 & !a4 & a5 q37
-q100 a1 & a2 & a3 & a4 & !a5 q37
-q100 a1 & a2 & a3 & a4 & a5 q37
-q100 a1 & !a2 & a3 & !a4 & !a5 q37
-q100 a1 & !a2 & a3 & !a4 & a5 q37
-q100 a1 & !a2 & a3 & a4 & !a5 q37
-q100 a1 & !a2 & a3 & a4 & a5 q37
-q93 a1 & a2 & !a3 & !a4 & !a5 q69
-q93 a1 & a2 & !a3 & !a4 & a5 q69
-q93 a1 & a2 & !a3 & a4 & !a5 q69
-q93 a1 & a2 & !a3 & a4 & a5 q69
-q93 !a1 & !a2 & !a3 & !a4 & !a5 q69
-q93 !a1 & !a2 & !a3 & !a4 & a5 q69
-q93 !a1 & !a2 & !a3 & a4 & !a5 q69
-q93 !a1 & !a2 & !a3 & a4 & a5 q69
-q93 a1 & a2 & !a3 & !a4 & !a5 q25
-q93 a1 & a2 & !a3 & !a4 & a5 q25
-q93 a1 & a2 & !a3 & a4 & !a5 q25
-q93 a1 & a2 & !a3 & a4 & a5 q25
-q93 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q93 !a1 & !a2 & !a3 & !a4 & a5 q25
-q93 !a1 & !a2 & !a3 & a4 & !a5 q25
-q93 !a1 & !a2 & !a3 & a4 & a5 q25
-q93 a1 & a2 & a3 & !a4 & !a5 q25
-q93 a1 & a2 & a3 & !a4 & a5 q25
-q93 a1 & a2 & a3 & a4 & !a5 q25
-q93 a1 & a2 & a3 & a4 & a5 q25
-q93 !a1 & !a2 & a3 & !a4 & !a5 q25
-q93 !a1 & !a2 & a3 & !a4 & a5 q25
-q93 !a1 & !a2 & a3 & a4 & !a5 q25
-q93 !a1 & !a2 & a3 & a4 & a5 q25
-q93 a1 & a2 & a3 & !a4 & !a5 q14
-q93 a1 & a2 & a3 & !a4 & a5 q14
-q93 a1 & a2 & a3 & a4 & !a5 q14
-q93 a1 & a2 & a3 & a4 & a5 q14
-q93 !a1 & !a2 & a3 & !a4 & !a5 q14
-q93 !a1 & !a2 & a3 & !a4 & a5 q14
-q93 !a1 & !a2 & a3 & a4 & !a5 q14
-q93 !a1 & !a2 & a3 & a4 & a5 q14
-q93 !a1 & a2 & !a3 & !a4 & !a5 q81
-q93 !a1 & a2 & !a3 & !a4 & a5 q81
-q93 !a1 & a2 & !a3 & a4 & !a5 q81
-q93 !a1 & a2 & !a3 & a4 & a5 q81
-q93 !a1 & a2 & !a3 & !a4 & !a5 q61
-q93 !a1 & a2 & !a3 & !a4 & a5 q61
-q93 !a1 & a2 & !a3 & a4 & !a5 q61
-q93 !a1 & a2 & !a3 & a4 & a5 q61
-q93 !a1 & a2 & a3 & !a4 & !a5 q61
-q93 !a1 & a2 & a3 & !a4 & a5 q61
-q93 !a1 & a2 & a3 & a4 & !a5 q61
-q93 !a1 & a2 & a3 & a4 & a5 q61
-q93 !a1 & a2 & !a3 & !a4 & !a5 q6
-q93 !a1 & a2 & !a3 & !a4 & a5 q6
-q93 !a1 & a2 & !a3 & a4 & !a5 q6
-q93 !a1 & a2 & !a3 & a4 & a5 q6
-q93 !a1 & a2 & a3 & !a4 & !a5 q80
-q93 !a1 & a2 & a3 & !a4 & a5 q80
-q93 !a1 & a2 & a3 & a4 & !a5 q80
-q93 !a1 & a2 & a3 & a4 & a5 q80
-q93 a1 & !a2 & !a3 & !a4 & !a5 q82
-q93 a1 & !a2 & !a3 & !a4 & a5 q82
-q93 a1 & !a2 & !a3 & a4 & !a5 q82
-q93 a1 & !a2 & !a3 & a4 & a5 q82
-q93 a1 & !a2 & a3 & !a4 & !a5 q100
-q93 a1 & !a2 & a3 & !a4 & a5 q100
-q93 a1 & !a2 & a3 & a4 & !a5 q100
-q93 a1 & !a2 & a3 & a4 & a5 q100
-q93 a1 & !a2 & !a3 & !a4 & !a5 q100
-q93 a1 & !a2 & !a3 & !a4 & a5 q100
-q93 a1 & !a2 & !a3 & a4 & !a5 q100
-q93 a1 & !a2 & !a3 & a4 & a5 q100
-q93 a1 & !a2 & a3 & !a4 & !a5 q21
-q93 a1 & !a2 & a3 & !a4 & a5 q21
-q93 a1 & !a2 & a3 & a4 & !a5 q21
-q93 a1 & !a2 & a3 & a4 & a5 q21
-q92 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q92 !a1 & !a2 & !a3 & !a4 & a5 q25
-q92 !a1 & !a2 & !a3 & a4 & !a5 q25
-q92 !a1 & !a2 & !a3 & a4 & a5 q25
-q92 !a1 & !a2 & !a3 & !a4 & !a5 q14
-q92 !a1 & !a2 & !a3 & !a4 & a5 q14
-q92 !a1 & !a2 & !a3 & a4 & !a5 q14
-q92 !a1 & !a2 & !a3 & a4 & a5 q14
-q92 !a1 & !a2 & a3 & !a4 & !a5 q14
-q92 !a1 & !a2 & a3 & !a4 & a5 q14
-q92 !a1 & !a2 & a3 & a4 & !a5 q14
-q92 !a1 & !a2 & a3 & a4 & a5 q14
-q92 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q92 !a1 & !a2 & !a3 & !a4 & a5 q6
-q92 !a1 & !a2 & !a3 & a4 & !a5 q6
-q92 !a1 & !a2 & !a3 & a4 & a5 q6
-q92 !a1 & a2 & !a3 & !a4 & !a5 q6
-q92 !a1 & a2 & !a3 & !a4 & a5 q6
-q92 !a1 & a2 & !a3 & a4 & !a5 q6
-q92 !a1 & a2 & !a3 & a4 & a5 q6
-q92 !a1 & !a2 & a3 & !a4 & !a5 q27
-q92 !a1 & !a2 & a3 & !a4 & a5 q27
-q92 !a1 & !a2 & a3 & a4 & !a5 q27
-q92 !a1 & !a2 & a3 & a4 & a5 q27
-q92 !a1 & a2 & !a3 & !a4 & !a5 q78
-q92 !a1 & a2 & !a3 & !a4 & a5 q78
-q92 !a1 & a2 & !a3 & a4 & !a5 q78
-q92 !a1 & a2 & !a3 & a4 & a5 q78
-q92 !a1 & a2 & a3 & !a4 & !a5 q78
-q92 !a1 & a2 & a3 & !a4 & a5 q78
-q92 !a1 & a2 & a3 & a4 & !a5 q78
-q92 !a1 & a2 & a3 & a4 & a5 q78
-q92 !a1 & a2 & !a3 & !a4 & !a5 q66
-q92 !a1 & a2 & !a3 & !a4 & a5 q66
-q92 !a1 & a2 & !a3 & a4 & !a5 q66
-q92 !a1 & a2 & !a3 & a4 & a5 q66
-q92 !a1 & a2 & a3 & !a4 & !a5 q62
-q92 !a1 & a2 & a3 & !a4 & a5 q62
-q92 !a1 & a2 & a3 & a4 & !a5 q62
-q92 !a1 & a2 & a3 & a4 & a5 q62
-q92 a1 & !a2 & !a3 & !a4 & !a5 q100
-q92 a1 & !a2 & !a3 & !a4 & a5 q100
-q92 a1 & !a2 & !a3 & a4 & !a5 q100
-q92 a1 & !a2 & !a3 & a4 & a5 q100
-q92 a1 & !a2 & a3 & !a4 & !a5 q21
-q92 a1 & !a2 & a3 & !a4 & a5 q21
-q92 a1 & !a2 & a3 & a4 & !a5 q21
-q92 a1 & !a2 & a3 & a4 & a5 q21
-q92 a1 & !a2 & !a3 & !a4 & !a5 q21
-q92 a1 & !a2 & !a3 & !a4 & a5 q21
-q92 a1 & !a2 & !a3 & a4 & !a5 q21
-q92 a1 & !a2 & !a3 & a4 & a5 q21
-q92 a1 & !a2 & a3 & !a4 & !a5 q101
-q92 a1 & !a2 & a3 & !a4 & a5 q101
-q92 a1 & !a2 & a3 & a4 & !a5 q101
-q92 a1 & !a2 & a3 & a4 & a5 q101
-q92 a1 & a2 & !a3 & !a4 & !a5 q79
-q92 a1 & a2 & !a3 & !a4 & a5 q79
-q92 a1 & a2 & !a3 & a4 & !a5 q79
-q92 a1 & a2 & !a3 & a4 & a5 q79
-q92 a1 & a2 & a3 & !a4 & !a5 q79
-q92 a1 & a2 & a3 & !a4 & a5 q79
-q92 a1 & a2 & a3 & a4 & !a5 q79
-q92 a1 & a2 & a3 & a4 & a5 q79
-q92 a1 & a2 & !a3 & !a4 & !a5 q68
-q92 a1 & a2 & !a3 & !a4 & a5 q68
-q92 a1 & a2 & !a3 & a4 & !a5 q68
-q92 a1 & a2 & !a3 & a4 & a5 q68
-q92 a1 & a2 & a3 & !a4 & !a5 q60
-q92 a1 & a2 & a3 & !a4 & a5 q60
-q92 a1 & a2 & a3 & a4 & !a5 q60
-q92 a1 & a2 & a3 & a4 & a5 q60
-q4 !a1 & !a2 & !a3 & !a4 & !a5 q102
-q4 !a1 & !a2 & !a3 & !a4 & a5 q102
-q4 !a1 & !a2 & !a3 & a4 & !a5 q102
-q4 !a1 & !a2 & !a3 & a4 & a5 q102
-q4 !a1 & !a2 & !a3 & !a4 & !a5 q93
-q4 !a1 & !a2 & !a3 & !a4 & a5 q93
-q4 !a1 & !a2 & !a3 & a4 & !a5 q93
-q4 !a1 & !a2 & !a3 & a4 & a5 q93
-q4 !a1 & !a2 & a3 & !a4 & !a5 q93
-q4 !a1 & !a2 & a3 & !a4 & a5 q93
-q4 !a1 & !a2 & a3 & a4 & !a5 q93
-q4 !a1 & !a2 & a3 & a4 & a5 q93
-q4 !a1 & !a2 & a3 & !a4 & !a5 q92
-q4 !a1 & !a2 & a3 & !a4 & a5 q92
-q4 !a1 & !a2 & a3 & a4 & !a5 q92
-q4 !a1 & !a2 & a3 & a4 & a5 q92
-q4 !a1 & a2 & !a3 & !a4 & !a5 q103
-q4 !a1 & a2 & !a3 & !a4 & a5 q103
-q4 !a1 & a2 & !a3 & a4 & !a5 q103
-q4 !a1 & a2 & !a3 & a4 & a5 q103
-q4 !a1 & a2 & !a3 & !a4 & !a5 q97
-q4 !a1 & a2 & !a3 & !a4 & a5 q97
-q4 !a1 & a2 & !a3 & a4 & !a5 q97
-q4 !a1 & a2 & !a3 & a4 & a5 q97
-q4 !a1 & a2 & a3 & !a4 & !a5 q97
-q4 !a1 & a2 & a3 & !a4 & a5 q97
-q4 !a1 & a2 & a3 & a4 & !a5 q97
-q4 !a1 & a2 & a3 & a4 & a5 q97
-q4 !a1 & a2 & !a3 & !a4 & !a5 q6
-q4 !a1 & a2 & !a3 & !a4 & a5 q6
-q4 !a1 & a2 & !a3 & a4 & !a5 q6
-q4 !a1 & a2 & !a3 & a4 & a5 q6
-q4 !a1 & a2 & a3 & !a4 & !a5 q96
-q4 !a1 & a2 & a3 & !a4 & a5 q96
-q4 !a1 & a2 & a3 & a4 & !a5 q96
-q4 !a1 & a2 & a3 & a4 & a5 q96
-q4 a1 & !a2 & !a3 & !a4 & !a5 q82
-q4 a1 & !a2 & !a3 & !a4 & a5 q82
-q4 a1 & !a2 & !a3 & a4 & !a5 q82
-q4 a1 & !a2 & !a3 & a4 & a5 q82
-q4 a1 & !a2 & a3 & !a4 & !a5 q22
-q4 a1 & !a2 & a3 & !a4 & a5 q22
-q4 a1 & !a2 & a3 & a4 & !a5 q22
-q4 a1 & !a2 & a3 & a4 & a5 q22
-q4 a1 & !a2 & !a3 & !a4 & !a5 q22
-q4 a1 & !a2 & !a3 & !a4 & a5 q22
-q4 a1 & !a2 & !a3 & a4 & !a5 q22
-q4 a1 & !a2 & !a3 & a4 & a5 q22
-q4 a1 & !a2 & a3 & !a4 & !a5 q21
-q4 a1 & !a2 & a3 & !a4 & a5 q21
-q4 a1 & !a2 & a3 & a4 & !a5 q21
-q4 a1 & !a2 & a3 & a4 & a5 q21
-q4 a1 & a2 & !a3 & !a4 & !a5 q69
-q4 a1 & a2 & !a3 & !a4 & a5 q69
-q4 a1 & a2 & !a3 & a4 & !a5 q69
-q4 a1 & a2 & !a3 & a4 & a5 q69
-q4 a1 & a2 & !a3 & !a4 & !a5 q15
-q4 a1 & a2 & !a3 & !a4 & a5 q15
-q4 a1 & a2 & !a3 & a4 & !a5 q15
-q4 a1 & a2 & !a3 & a4 & a5 q15
-q4 a1 & a2 & a3 & !a4 & !a5 q15
-q4 a1 & a2 & a3 & !a4 & a5 q15
-q4 a1 & a2 & a3 & a4 & !a5 q15
-q4 a1 & a2 & a3 & a4 & a5 q15
-q4 a1 & a2 & a3 & !a4 & !a5 q14
-q4 a1 & a2 & a3 & !a4 & a5 q14
-q4 a1 & a2 & a3 & a4 & !a5 q14
-q4 a1 & a2 & a3 & a4 & a5 q14
-q103 !a1 & !a2 & !a3 & !a4 & !a5 q81
-q103 !a1 & !a2 & !a3 & !a4 & a5 q81
-q103 !a1 & !a2 & !a3 & a4 & !a5 q81
-q103 !a1 & !a2 & !a3 & a4 & a5 q81
-q103 !a1 & !a2 & !a3 & !a4 & !a5 q61
-q103 !a1 & !a2 & !a3 & !a4 & a5 q61
-q103 !a1 & !a2 & !a3 & a4 & !a5 q61
-q103 !a1 & !a2 & !a3 & a4 & a5 q61
-q103 !a1 & !a2 & a3 & !a4 & !a5 q61
-q103 !a1 & !a2 & a3 & !a4 & a5 q61
-q103 !a1 & !a2 & a3 & a4 & !a5 q61
-q103 !a1 & !a2 & a3 & a4 & a5 q61
-q103 !a1 & !a2 & a3 & !a4 & !a5 q80
-q103 !a1 & !a2 & a3 & !a4 & a5 q80
-q103 !a1 & !a2 & a3 & a4 & !a5 q80
-q103 !a1 & !a2 & a3 & a4 & a5 q80
-q103 !a1 & a2 & !a3 & !a4 & !a5 q77
-q103 !a1 & a2 & !a3 & !a4 & a5 q77
-q103 !a1 & a2 & !a3 & a4 & !a5 q77
-q103 !a1 & a2 & !a3 & a4 & a5 q77
-q103 !a1 & a2 & !a3 & !a4 & !a5 q66
-q103 !a1 & a2 & !a3 & !a4 & a5 q66
-q103 !a1 & a2 & !a3 & a4 & !a5 q66
-q103 !a1 & a2 & !a3 & a4 & a5 q66
-q103 !a1 & a2 & a3 & !a4 & !a5 q66
-q103 !a1 & a2 & a3 & !a4 & a5 q66
-q103 !a1 & a2 & a3 & a4 & !a5 q66
-q103 !a1 & a2 & a3 & a4 & a5 q66
-q103 !a1 & a2 & a3 & !a4 & !a5 q78
-q103 !a1 & a2 & a3 & !a4 & a5 q78
-q103 !a1 & a2 & a3 & a4 & !a5 q78
-q103 !a1 & a2 & a3 & a4 & a5 q78
-q103 a1 & !a2 & !a3 & !a4 & !a5 q69
-q103 a1 & !a2 & !a3 & !a4 & a5 q69
-q103 a1 & !a2 & !a3 & a4 & !a5 q69
-q103 a1 & !a2 & !a3 & a4 & a5 q69
-q103 a1 & !a2 & a3 & !a4 & !a5 q25
-q103 a1 & !a2 & a3 & !a4 & a5 q25
-q103 a1 & !a2 & a3 & a4 & !a5 q25
-q103 a1 & !a2 & a3 & a4 & a5 q25
-q103 a1 & !a2 & !a3 & !a4 & !a5 q25
-q103 a1 & !a2 & !a3 & !a4 & a5 q25
-q103 a1 & !a2 & !a3 & a4 & !a5 q25
-q103 a1 & !a2 & !a3 & a4 & a5 q25
-q103 a1 & !a2 & a3 & !a4 & !a5 q14
-q103 a1 & !a2 & a3 & !a4 & a5 q14
-q103 a1 & !a2 & a3 & a4 & !a5 q14
-q103 a1 & !a2 & a3 & a4 & a5 q14
-q103 a1 & a2 & !a3 & !a4 & !a5 q83
-q103 a1 & a2 & !a3 & !a4 & a5 q83
-q103 a1 & a2 & !a3 & a4 & !a5 q83
-q103 a1 & a2 & !a3 & a4 & a5 q83
-q103 a1 & a2 & !a3 & !a4 & !a5 q68
-q103 a1 & a2 & !a3 & !a4 & a5 q68
-q103 a1 & a2 & !a3 & a4 & !a5 q68
-q103 a1 & a2 & !a3 & a4 & a5 q68
-q103 a1 & a2 & a3 & !a4 & !a5 q68
-q103 a1 & a2 & a3 & !a4 & a5 q68
-q103 a1 & a2 & a3 & a4 & !a5 q68
-q103 a1 & a2 & a3 & a4 & a5 q68
-q103 a1 & a2 & a3 & !a4 & !a5 q79
-q103 a1 & a2 & a3 & !a4 & a5 q79
-q103 a1 & a2 & a3 & a4 & !a5 q79
-q103 a1 & a2 & a3 & a4 & a5 q79
-q102 !a1 & !a2 & !a3 & !a4 & !a5 q69
-q102 !a1 & !a2 & !a3 & !a4 & a5 q69
-q102 !a1 & !a2 & !a3 & a4 & !a5 q69
-q102 !a1 & !a2 & !a3 & a4 & a5 q69
-q102 !a1 & !a2 & !a3 & !a4 & !a5 q25
-q102 !a1 & !a2 & !a3 & !a4 & a5 q25
-q102 !a1 & !a2 & !a3 & a4 & !a5 q25
-q102 !a1 & !a2 & !a3 & a4 & a5 q25
-q102 !a1 & !a2 & a3 & !a4 & !a5 q25
-q102 !a1 & !a2 & a3 & !a4 & a5 q25
-q102 !a1 & !a2 & a3 & a4 & !a5 q25
-q102 !a1 & !a2 & a3 & a4 & a5 q25
-q102 !a1 & !a2 & a3 & !a4 & !a5 q14
-q102 !a1 & !a2 & a3 & !a4 & a5 q14
-q102 !a1 & !a2 & a3 & a4 & !a5 q14
-q102 !a1 & !a2 & a3 & a4 & a5 q14
-q102 !a1 & a2 & !a3 & !a4 & !a5 q77
-q102 !a1 & a2 & !a3 & !a4 & a5 q77
-q102 !a1 & a2 & !a3 & a4 & !a5 q77
-q102 !a1 & a2 & !a3 & a4 & a5 q77
-q102 !a1 & a2 & !a3 & !a4 & !a5 q66
-q102 !a1 & a2 & !a3 & !a4 & a5 q66
-q102 !a1 & a2 & !a3 & a4 & !a5 q66
-q102 !a1 & a2 & !a3 & a4 & a5 q66
-q102 !a1 & a2 & a3 & !a4 & !a5 q66
-q102 !a1 & a2 & a3 & !a4 & a5 q66
-q102 !a1 & a2 & a3 & a4 & !a5 q66
-q102 !a1 & a2 & a3 & a4 & a5 q66
-q102 !a1 & a2 & a3 & !a4 & !a5 q78
-q102 !a1 & a2 & a3 & !a4 & a5 q78
-q102 !a1 & a2 & a3 & a4 & !a5 q78
-q102 !a1 & a2 & a3 & a4 & a5 q78
-q102 a1 & !a2 & !a3 & !a4 & !a5 q82
-q102 a1 & !a2 & !a3 & !a4 & a5 q82
-q102 a1 & !a2 & !a3 & a4 & !a5 q82
-q102 a1 & !a2 & !a3 & a4 & a5 q82
-q102 a1 & !a2 & a3 & !a4 & !a5 q100
-q102 a1 & !a2 & a3 & !a4 & a5 q100
-q102 a1 & !a2 & a3 & a4 & !a5 q100
-q102 a1 & !a2 & a3 & a4 & a5 q100
-q102 a1 & !a2 & !a3 & !a4 & !a5 q100
-q102 a1 & !a2 & !a3 & !a4 & a5 q100
-q102 a1 & !a2 & !a3 & a4 & !a5 q100
-q102 a1 & !a2 & !a3 & a4 & a5 q100
-q102 a1 & !a2 & a3 & !a4 & !a5 q21
-q102 a1 & !a2 & a3 & !a4 & a5 q21
-q102 a1 & !a2 & a3 & a4 & !a5 q21
-q102 a1 & !a2 & a3 & a4 & a5 q21
-q102 a1 & a2 & !a3 & !a4 & !a5 q83
-q102 a1 & a2 & !a3 & !a4 & a5 q83
-q102 a1 & a2 & !a3 & a4 & !a5 q83
-q102 a1 & a2 & !a3 & a4 & a5 q83
-q102 a1 & a2 & !a3 & !a4 & !a5 q68
-q102 a1 & a2 & !a3 & !a4 & a5 q68
-q102 a1 & a2 & !a3 & a4 & !a5 q68
-q102 a1 & a2 & !a3 & a4 & a5 q68
-q102 a1 & a2 & a3 & !a4 & !a5 q68
-q102 a1 & a2 & a3 & !a4 & a5 q68
-q102 a1 & a2 & a3 & a4 & !a5 q68
-q102 a1 & a2 & a3 & a4 & a5 q68
-q102 a1 & a2 & a3 & !a4 & !a5 q79
-q102 a1 & a2 & a3 & !a4 & a5 q79
-q102 a1 & a2 & a3 & a4 & !a5 q79
-q102 a1 & a2 & a3 & a4 & a5 q79
-q2 !a1 & !a2 & !a3 & !a4 & !a5 q93
-q2 !a1 & !a2 & !a3 & !a4 & a5 q93
-q2 !a1 & !a2 & !a3 & a4 & !a5 q93
-q2 !a1 & !a2 & !a3 & a4 & a5 q93
-q2 !a1 & !a2 & !a3 & !a4 & !a5 q104
-q2 !a1 & !a2 & !a3 & !a4 & a5 q104
-q2 !a1 & !a2 & !a3 & a4 & !a5 q104
-q2 !a1 & !a2 & !a3 & a4 & a5 q104
-q2 !a1 & !a2 & a3 & !a4 & !a5 q104
-q2 !a1 & !a2 & a3 & !a4 & a5 q104
-q2 !a1 & !a2 & a3 & a4 & !a5 q104
-q2 !a1 & !a2 & a3 & a4 & a5 q104
-q2 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q2 !a1 & !a2 & !a3 & !a4 & a5 q6
-q2 !a1 & !a2 & !a3 & a4 & !a5 q6
-q2 !a1 & !a2 & !a3 & a4 & a5 q6
-q2 !a1 & a2 & !a3 & !a4 & !a5 q6
-q2 !a1 & a2 & !a3 & !a4 & a5 q6
-q2 !a1 & a2 & !a3 & a4 & !a5 q6
-q2 !a1 & a2 & !a3 & a4 & a5 q6
-q2 !a1 & !a2 & a3 & !a4 & !a5 q95
-q2 !a1 & !a2 & a3 & !a4 & a5 q95
-q2 !a1 & !a2 & a3 & a4 & !a5 q95
-q2 !a1 & !a2 & a3 & a4 & a5 q95
-q2 !a1 & a2 & !a3 & !a4 & !a5 q103
-q2 !a1 & a2 & !a3 & !a4 & a5 q103
-q2 !a1 & a2 & !a3 & a4 & !a5 q103
-q2 !a1 & a2 & !a3 & a4 & a5 q103
-q2 !a1 & a2 & !a3 & !a4 & !a5 q105
-q2 !a1 & a2 & !a3 & !a4 & a5 q105
-q2 !a1 & a2 & !a3 & a4 & !a5 q105
-q2 !a1 & a2 & !a3 & a4 & a5 q105
-q2 !a1 & a2 & a3 & !a4 & !a5 q105
-q2 !a1 & a2 & a3 & !a4 & a5 q105
-q2 !a1 & a2 & a3 & a4 & !a5 q105
-q2 !a1 & a2 & a3 & a4 & a5 q105
-q2 !a1 & a2 & a3 & !a4 & !a5 q96
-q2 !a1 & a2 & a3 & !a4 & a5 q96
-q2 !a1 & a2 & a3 & a4 & !a5 q96
-q2 !a1 & a2 & a3 & a4 & a5 q96
-q2 a1 & !a2 & !a3 & !a4 & !a5 q22
-q2 a1 & !a2 & !a3 & !a4 & a5 q22
-q2 a1 & !a2 & !a3 & a4 & !a5 q22
-q2 a1 & !a2 & !a3 & a4 & a5 q22
-q2 a1 & !a2 & a3 & !a4 & !a5 q88
-q2 a1 & !a2 & a3 & !a4 & a5 q88
-q2 a1 & !a2 & a3 & a4 & !a5 q88
-q2 a1 & !a2 & a3 & a4 & a5 q88
-q2 a1 & !a2 & !a3 & !a4 & !a5 q88
-q2 a1 & !a2 & !a3 & !a4 & a5 q88
-q2 a1 & !a2 & !a3 & a4 & !a5 q88
-q2 a1 & !a2 & !a3 & a4 & a5 q88
-q2 a1 & !a2 & a3 & !a4 & !a5 q24
-q2 a1 & !a2 & a3 & !a4 & a5 q24
-q2 a1 & !a2 & a3 & a4 & !a5 q24
-q2 a1 & !a2 & a3 & a4 & a5 q24
-q2 a1 & a2 & !a3 & !a4 & !a5 q69
-q2 a1 & a2 & !a3 & !a4 & a5 q69
-q2 a1 & a2 & !a3 & a4 & !a5 q69
-q2 a1 & a2 & !a3 & a4 & a5 q69
-q2 a1 & a2 & !a3 & !a4 & !a5 q86
-q2 a1 & a2 & !a3 & !a4 & a5 q86
-q2 a1 & a2 & !a3 & a4 & !a5 q86
-q2 a1 & a2 & !a3 & a4 & a5 q86
-q2 a1 & a2 & a3 & !a4 & !a5 q86
-q2 a1 & a2 & a3 & !a4 & a5 q86
-q2 a1 & a2 & a3 & a4 & !a5 q86
-q2 a1 & a2 & a3 & a4 & a5 q86
-q2 a1 & a2 & a3 & !a4 & !a5 q14
-q2 a1 & a2 & a3 & !a4 & a5 q14
-q2 a1 & a2 & a3 & a4 & !a5 q14
-q2 a1 & a2 & a3 & a4 & a5 q14
-q105 !a1 & !a2 & !a3 & !a4 & !a5 q81
-q105 !a1 & !a2 & !a3 & !a4 & a5 q81
-q105 !a1 & !a2 & !a3 & a4 & !a5 q81
-q105 !a1 & !a2 & !a3 & a4 & a5 q81
-q105 !a1 & a2 & !a3 & !a4 & !a5 q81
-q105 !a1 & a2 & !a3 & !a4 & a5 q81
-q105 !a1 & a2 & !a3 & a4 & !a5 q81
-q105 !a1 & a2 & !a3 & a4 & a5 q81
-q105 !a1 & !a2 & !a3 & !a4 & !a5 q78
-q105 !a1 & !a2 & !a3 & !a4 & a5 q78
-q105 !a1 & !a2 & !a3 & a4 & !a5 q78
-q105 !a1 & !a2 & !a3 & a4 & a5 q78
-q105 !a1 & a2 & a3 & !a4 & !a5 q78
-q105 !a1 & a2 & a3 & !a4 & a5 q78
-q105 !a1 & a2 & a3 & a4 & !a5 q78
-q105 !a1 & a2 & a3 & a4 & a5 q78
-q105 !a1 & a2 & !a3 & !a4 & !a5 q78
-q105 !a1 & a2 & !a3 & !a4 & a5 q78
-q105 !a1 & a2 & !a3 & a4 & !a5 q78
-q105 !a1 & a2 & !a3 & a4 & a5 q78
-q105 !a1 & !a2 & a3 & !a4 & !a5 q78
-q105 !a1 & !a2 & a3 & !a4 & a5 q78
-q105 !a1 & !a2 & a3 & a4 & !a5 q78
-q105 !a1 & !a2 & a3 & a4 & a5 q78
-q105 !a1 & a2 & a3 & !a4 & !a5 q80
-q105 !a1 & a2 & a3 & !a4 & a5 q80
-q105 !a1 & a2 & a3 & a4 & !a5 q80
-q105 !a1 & a2 & a3 & a4 & a5 q80
-q105 !a1 & !a2 & a3 & !a4 & !a5 q80
-q105 !a1 & !a2 & a3 & !a4 & a5 q80
-q105 !a1 & !a2 & a3 & a4 & !a5 q80
-q105 !a1 & !a2 & a3 & a4 & a5 q80
-q105 !a1 & a2 & !a3 & !a4 & !a5 q6
-q105 !a1 & a2 & !a3 & !a4 & a5 q6
-q105 !a1 & a2 & !a3 & a4 & !a5 q6
-q105 !a1 & a2 & !a3 & a4 & a5 q6
-q105 a1 & a2 & !a3 & !a4 & !a5 q69
-q105 a1 & a2 & !a3 & !a4 & a5 q69
-q105 a1 & a2 & !a3 & a4 & !a5 q69
-q105 a1 & a2 & !a3 & a4 & a5 q69
-q105 a1 & !a2 & !a3 & !a4 & !a5 q69
-q105 a1 & !a2 & !a3 & !a4 & a5 q69
-q105 a1 & !a2 & !a3 & a4 & !a5 q69
-q105 a1 & !a2 & !a3 & a4 & a5 q69
-q105 a1 & a2 & !a3 & !a4 & !a5 q79
-q105 a1 & a2 & !a3 & !a4 & a5 q79
-q105 a1 & a2 & !a3 & a4 & !a5 q79
-q105 a1 & a2 & !a3 & a4 & a5 q79
-q105 a1 & a2 & a3 & !a4 & !a5 q79
-q105 a1 & a2 & a3 & !a4 & a5 q79
-q105 a1 & a2 & a3 & a4 & !a5 q79
-q105 a1 & a2 & a3 & a4 & a5 q79
-q105 a1 & !a2 & a3 & !a4 & !a5 q79
-q105 a1 & !a2 & a3 & !a4 & a5 q79
-q105 a1 & !a2 & a3 & a4 & !a5 q79
-q105 a1 & !a2 & a3 & a4 & a5 q79
-q105 a1 & !a2 & !a3 & !a4 & !a5 q79
-q105 a1 & !a2 & !a3 & !a4 & a5 q79
-q105 a1 & !a2 & !a3 & a4 & !a5 q79
-q105 a1 & !a2 & !a3 & a4 & a5 q79
-q105 a1 & a2 & a3 & !a4 & !a5 q14
-q105 a1 & a2 & a3 & !a4 & a5 q14
-q105 a1 & a2 & a3 & a4 & !a5 q14
-q105 a1 & a2 & a3 & a4 & a5 q14
-q105 a1 & !a2 & a3 & !a4 & !a5 q14
-q105 a1 & !a2 & a3 & !a4 & a5 q14
-q105 a1 & !a2 & a3 & a4 & !a5 q14
-q105 a1 & !a2 & a3 & a4 & a5 q14
-q104 !a1 & !a2 & !a3 & !a4 & !a5 q14
-q104 !a1 & !a2 & !a3 & !a4 & a5 q14
-q104 !a1 & !a2 & !a3 & a4 & !a5 q14
-q104 !a1 & !a2 & !a3 & a4 & a5 q14
-q104 a1 & a2 & a3 & !a4 & !a5 q14
-q104 a1 & a2 & a3 & !a4 & a5 q14
-q104 a1 & a2 & a3 & a4 & !a5 q14
-q104 a1 & a2 & a3 & a4 & a5 q14
-q104 !a1 & !a2 & a3 & !a4 & !a5 q14
-q104 !a1 & !a2 & a3 & !a4 & a5 q14
-q104 !a1 & !a2 & a3 & a4 & !a5 q14
-q104 !a1 & !a2 & a3 & a4 & a5 q14
-q104 !a1 & !a2 & !a3 & !a4 & !a5 q15
-q104 !a1 & !a2 & !a3 & !a4 & a5 q15
-q104 !a1 & !a2 & !a3 & a4 & !a5 q15
-q104 !a1 & !a2 & !a3 & a4 & a5 q15
-q104 !a1 & !a2 & !a3 & !a4 & !a5 q6
-q104 !a1 & !a2 & !a3 & !a4 & a5 q6
-q104 !a1 & !a2 & !a3 & a4 & !a5 q6
-q104 !a1 & !a2 & !a3 & a4 & a5 q6
-q104 !a1 & a2 & !a3 & !a4 & !a5 q6
-q104 !a1 & a2 & !a3 & !a4 & a5 q6
-q104 !a1 & a2 & !a3 & a4 & !a5 q6
-q104 !a1 & a2 & !a3 & a4 & a5 q6
-q104 !a1 & !a2 & a3 & !a4 & !a5 q19
-q104 !a1 & !a2 & a3 & !a4 & a5 q19
-q104 !a1 & !a2 & a3 & a4 & !a5 q19
-q104 !a1 & !a2 & a3 & a4 & a5 q19
-q104 !a1 & a2 & !a3 & !a4 & !a5 q81
-q104 !a1 & a2 & !a3 & !a4 & a5 q81
-q104 !a1 & a2 & !a3 & a4 & !a5 q81
-q104 !a1 & a2 & !a3 & a4 & a5 q81
-q104 !a1 & a2 & !a3 & !a4 & !a5 q78
-q104 !a1 & a2 & !a3 & !a4 & a5 q78
-q104 !a1 & a2 & !a3 & a4 & !a5 q78
-q104 !a1 & a2 & !a3 & a4 & a5 q78
-q104 !a1 & a2 & a3 & !a4 & !a5 q78
-q104 !a1 & a2 & a3 & !a4 & a5 q78
-q104 !a1 & a2 & a3 & a4 & !a5 q78
-q104 !a1 & a2 & a3 & a4 & a5 q78
-q104 !a1 & a2 & a3 & !a4 & !a5 q80
-q104 !a1 & a2 & a3 & !a4 & a5 q80
-q104 !a1 & a2 & a3 & a4 & !a5 q80
-q104 !a1 & a2 & a3 & a4 & a5 q80
-q104 a1 & !a2 & a3 & !a4 & !a5 q21
-q104 a1 & !a2 & a3 & !a4 & a5 q21
-q104 a1 & !a2 & a3 & a4 & !a5 q21
-q104 a1 & !a2 & a3 & a4 & a5 q21
-q104 a1 & !a2 & !a3 & !a4 & !a5 q21
-q104 a1 & !a2 & !a3 & !a4 & a5 q21
-q104 a1 & !a2 & !a3 & a4 & !a5 q21
-q104 a1 & !a2 & !a3 & a4 & a5 q21
-q104 a1 & !a2 & !a3 & !a4 & !a5 q22
-q104 a1 & !a2 & !a3 & !a4 & a5 q22
-q104 a1 & !a2 & !a3 & a4 & !a5 q22
-q104 a1 & !a2 & !a3 & a4 & a5 q22
-q104 a1 & !a2 & a3 & !a4 & !a5 q24
-q104 a1 & !a2 & a3 & !a4 & a5 q24
-q104 a1 & !a2 & a3 & a4 & !a5 q24
-q104 a1 & !a2 & a3 & a4 & a5 q24
-q104 a1 & a2 & !a3 & !a4 & !a5 q69
-q104 a1 & a2 & !a3 & !a4 & a5 q69
-q104 a1 & a2 & !a3 & a4 & !a5 q69
-q104 a1 & a2 & !a3 & a4 & a5 q69
-q104 a1 & a2 & !a3 & !a4 & !a5 q79
-q104 a1 & a2 & !a3 & !a4 & a5 q79
-q104 a1 & a2 & !a3 & a4 & !a5 q79
-q104 a1 & a2 & !a3 & a4 & a5 q79
-q104 a1 & a2 & a3 & !a4 & !a5 q79
-q104 a1 & a2 & a3 & !a4 & a5 q79
-q104 a1 & a2 & a3 & a4 & !a5 q79
-q104 a1 & a2 & a3 & a4 & a5 q79
+q0 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q2
+q0 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q4
+q0 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q0 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q8
+q0 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q10
+q0 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q12
+q0 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q13
+q13 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q13 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q15
+q13 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q13 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q19
+q13 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q21
+q13 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q22
+q13 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q24
+q24 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q25
+q24 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q24 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q24 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q27
+q24 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q24 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q30
+q24 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q32 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q33
+q32 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q32 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q35
+q32 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q32 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q37
+q32 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q32 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q6
+q37 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q33
+q37 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q37 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q35
+q37 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q39
+q37 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q40
+q37 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q37 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q37
+q37 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q37 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q41
+q37 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q42
+q42 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q33
+q42 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q40
+q42 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q42 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q45
+q42 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q39
+q42 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q42 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q42 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q42 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q46
+q42 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q41
+q46 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q40
+q46 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q45
+q46 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q39
+q46 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q46 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q46
+q46 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q41
+q45 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q40
+q45 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q45
+q45 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q39
+q45 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q48
+q45 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q49
+q45 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q50
+q45 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q45 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q46
+q45 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q41
+q50 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q50
+q50 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q48
+q50 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q51
+q50 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q39
+q50 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q50 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q34
+q51 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q52
+q51 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q51
+q51 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q53
+q51 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q50
+q51 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q48
+q51 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q33
+q51 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q34
+q51 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q35
+q51 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q39
+q51 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q40
+q53 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q52
+q53 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q51
+q53 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q53
+q53 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q33
+q53 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q34
+q53 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q35
+q52 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q52
+q52 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q48
+q52 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q51
+q52 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q33
+q52 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q52 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q34
+q49 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q48
+q49 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q49
+q49 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q50
+q49 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q49 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q45
+q49 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q39
+q48 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q52
+q48 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q48
+q48 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q51
+q48 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q49
+q48 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q50
+q48 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q33
+q48 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q48 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q34
+q48 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q45
+q48 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q39
+q41 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q39
+q41 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q40
+q41 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q41 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q41
+q41 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q41 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q40 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q33
+q40 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q40
+q40 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q40 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q48
+q40 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q49
+q40 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q50
+q40 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q40 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q40 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q40 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q45
+q40 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q39
+q39 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q39
+q39 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q40
+q39 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q39 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q50
+q39 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q48
+q39 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q51
+q39 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q41
+q39 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q39 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q35 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q33
+q35 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q35 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q35
+q35 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q52
+q35 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q51
+q35 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q53
+q35 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q35 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q37
+q35 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q34 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q33
+q34 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q34 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q35
+q34 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q50
+q34 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q48
+q34 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q51
+q34 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q34 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q37
+q34 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q34 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q39
+q34 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q40
+q33 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q33
+q33 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q40
+q33 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q33 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q52
+q33 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q48
+q33 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q51
+q33 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q33 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q33 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q30 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q33
+q30 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q55
+q30 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q35
+q30 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q56
+q30 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q40
+q30 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q34
+q30 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q30 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q30
+q30 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q30 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q57
+q30 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q42
+q30 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q6
+q30 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q37
+q57 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q56
+q57 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q40
+q57 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q57 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q57
+q57 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q57 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q57 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q6
+q56 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q56
+q56 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q40
+q56 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q56 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q59
+q56 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q48
+q56 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q51
+q56 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q57
+q56 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q56 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q59 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q59
+q59 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q48
+q59 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q51
+q59 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q56
+q59 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q59 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q34
+q55 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q33
+q55 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q55
+q55 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q35
+q55 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q59
+q55 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q48
+q55 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q51
+q55 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q55 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q30
+q55 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q55 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q56
+q55 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q40
+q55 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q34
+q29 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q33
+q29 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q40
+q29 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q34
+q29 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q29 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q29 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q29 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q6
+q27 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q25
+q27 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q60
+q27 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q27
+q27 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q61
+q27 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q62
+q27 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q6
+q27 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q64
+q27 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q27 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q37
+q27 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q27 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q33
+q27 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q34
+q27 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q35
+q64 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q61
+q64 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q62
+q64 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q64
+q64 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q6
+q64 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q33
+q64 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q34
+q64 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q35
+q62 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q61
+q62 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q62
+q62 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q64
+q62 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q65
+q62 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q62 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q33
+q62 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q34
+q62 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q35
+q62 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q39
+q62 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q40
+q66 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q61
+q66 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q66
+q66 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q62
+q66 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q67
+q66 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q65
+q66 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q33
+q66 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q66 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q34
+q66 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q45
+q66 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q39
+q67 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q66
+q67 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q67
+q67 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q65
+q67 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q67 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q45
+q67 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q39
+q65 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q65
+q65 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q65 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q62
+q65 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q39
+q65 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q65 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q34
+q61 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q61
+q61 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q61 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q62
+q61 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q61 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q33
+q61 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q61 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q34
+q60 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q25
+q60 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q60
+q60 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q27
+q60 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q65
+q60 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q60 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q62
+q60 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q60 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q37
+q60 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q60 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q39
+q60 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q40
+q60 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q34
+q25 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q25
+q25 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q68
+q25 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q60
+q25 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q61
+q25 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q25 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q25 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q62
+q25 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q25 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q25 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q25 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q33
+q25 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q40
+q25 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q34
+q68 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q25
+q68 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q68
+q68 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q60
+q68 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q66
+q68 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q67
+q68 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q65
+q68 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q68 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q68 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q68 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q40
+q68 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q45
+q68 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q39
+q22 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q69
+q22 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q25
+q22 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q22 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q22 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q71
+q22 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q22 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q30
+q71 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q72
+q71 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q33
+q71 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q55
+q71 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q73
+q71 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q40
+q71 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q56
+q71 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q71
+q71 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q71 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q30
+q71 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q74
+q71 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q42
+q71 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q57
+q74 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q73
+q74 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q40
+q74 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q56
+q74 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q74
+q74 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q74 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q57
+q73 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q73
+q73 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q40
+q73 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q56
+q73 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q76
+q73 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q48
+q73 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q59
+q73 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q74
+q73 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q73 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q57
+q76 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q76
+q76 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q48
+q76 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q59
+q76 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q73
+q76 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q76 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q56
+q72 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q72
+q72 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q33
+q72 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q55
+q72 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q76
+q72 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q48
+q72 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q59
+q72 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q71
+q72 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q72 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q30
+q72 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q73
+q72 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q40
+q72 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q56
+q69 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q69
+q69 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q25
+q69 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q69 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q77
+q69 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q66
+q69 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q69 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q71
+q69 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q69 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q30
+q69 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q73
+q69 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q40
+q69 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q56
+q78 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q78
+q78 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q78 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q62
+q78 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q78 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q56
+q78 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q78 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q34
+q77 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q77
+q77 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q66
+q77 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q78
+q77 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q73
+q77 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q40
+q77 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q56
+q21 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q25
+q21 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q21 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q21 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q27
+q21 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q79
+q21 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q68
+q21 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q60
+q21 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q21 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q30
+q21 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q21 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q57
+q21 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q42
+q21 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q37
+q79 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q79
+q79 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q68
+q79 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q60
+q79 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q79 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q79 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q79 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q62
+q79 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q57
+q79 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q79 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q79 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q56
+q79 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q40
+q79 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q34
+q19 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q25
+q19 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q19 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q6
+q19 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q27
+q19 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q61
+q19 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q80
+q19 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q64
+q19 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q19 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q30
+q19 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q19 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q33
+q19 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q55
+q19 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q35
+q80 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q61
+q80 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q80
+q80 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q64
+q80 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q80 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q80 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q80 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q62
+q80 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q33
+q80 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q55
+q80 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q35
+q80 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q56
+q80 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q40
+q80 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q34
+q15 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q69
+q15 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q25
+q15 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q15 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q81
+q15 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q61
+q15 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q15 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q80
+q15 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q71
+q15 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q15 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q30
+q15 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q72
+q15 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q33
+q15 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q55
+q81 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q81
+q81 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q61
+q81 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q80
+q81 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q77
+q81 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q66
+q81 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q81 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q72
+q81 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q33
+q81 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q55
+q81 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q73
+q81 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q40
+q81 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q56
+q14 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q25
+q14 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q14 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q14 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q27
+q14 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q14 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q14 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q62
+q14 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q14 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q30
+q14 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q14 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q56
+q14 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q40
+q14 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q34
+q12 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q69
+q12 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q15
+q12 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q12 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q12 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q82
+q12 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q22
+q12 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q21
+q82 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q69
+q82 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q25
+q82 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q82 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q83
+q82 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q68
+q82 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q79
+q82 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q71
+q82 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q82 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q30
+q82 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q74
+q82 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q42
+q82 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q57
+q83 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q83
+q83 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q68
+q83 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q79
+q83 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q77
+q83 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q66
+q83 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q83 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q74
+q83 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q83 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q57
+q83 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q73
+q83 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q40
+q83 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q56
+q10 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q15
+q10 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q84
+q10 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q10 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q19
+q10 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q69
+q10 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q86
+q10 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q14
+q10 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q22
+q10 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q88
+q10 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q24
+q10 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q82
+q10 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q89
+q10 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q21
+q89 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q69
+q89 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q79
+q89 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q89 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q89 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q71
+q89 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q57
+q89 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q30
+q88 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q88 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q15
+q88 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q88 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q19
+q88 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q69
+q88 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q79
+q88 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q30
+q88 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q90
+q88 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q91
+q88 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q71
+q88 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q57
+q91 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q33
+q91 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q55
+q91 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q35
+q91 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q91 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q30
+q91 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q91 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q6
+q90 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q72
+q90 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q33
+q90 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q55
+q90 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q71
+q90 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q90 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q30
+q90 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q6
+q86 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q69
+q86 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q79
+q86 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q86 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q81
+q86 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q86 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q86 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q80
+q86 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q71
+q86 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q57
+q86 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q30
+q86 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q72
+q86 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q56
+q86 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q55
+q84 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q84 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q15
+q84 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q84 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q19
+q84 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q81
+q84 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q84 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q80
+q84 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q30
+q84 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q90
+q84 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q91
+q84 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q72
+q84 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q56
+q84 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q55
+q8 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q92
+q8 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q93
+q8 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q6
+q8 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q95
+q8 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q96
+q8 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q97
+q8 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q99
+q8 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q21
+q8 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q22
+q8 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q24
+q8 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q14
+q8 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q15
+q8 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q19
+q99 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q61
+q99 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q80
+q99 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q64
+q99 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q6
+q99 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q25
+q99 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q14
+q99 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q27
+q97 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q81
+q97 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q61
+q97 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q80
+q97 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q97 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q69
+q97 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q25
+q97 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q14
+q96 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q61
+q96 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q80
+q96 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q64
+q96 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q96 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q96 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q96 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q62
+q96 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q25
+q96 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q14
+q96 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q27
+q96 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q79
+q96 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q68
+q96 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q60
+q95 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q25
+q95 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q95 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q6
+q95 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q27
+q95 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q61
+q95 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q80
+q95 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q64
+q95 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q100
+q95 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q21
+q95 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q101
+q101 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q25
+q101 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q60
+q101 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q27
+q101 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q6
+q101 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q101 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q37
+q101 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q32
+q100 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q25
+q100 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q68
+q100 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q60
+q100 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q100 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q29
+q100 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q42
+q100 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q37
+q93 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q69
+q93 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q25
+q93 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q93 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q81
+q93 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q61
+q93 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q93 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q80
+q93 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q82
+q93 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q100
+q93 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q21
+q92 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q25
+q92 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q92 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q92 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q27
+q92 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q92 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q66
+q92 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q62
+q92 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q100
+q92 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q21
+q92 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q101
+q92 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q79
+q92 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q68
+q92 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q60
+q4 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q102
+q4 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q93
+q4 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q92
+q4 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q103
+q4 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q97
+q4 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q4 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q96
+q4 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q82
+q4 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q22
+q4 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q21
+q4 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q69
+q4 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q15
+q4 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q14
+q103 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q81
+q103 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q61
+q103 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q80
+q103 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q77
+q103 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q66
+q103 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q103 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q69
+q103 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q25
+q103 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q14
+q103 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q83
+q103 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q68
+q103 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q79
+q102 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q69
+q102 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q25
+q102 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q102 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q77
+q102 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q66
+q102 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q102 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q82
+q102 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q100
+q102 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q21
+q102 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q83
+q102 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q68
+q102 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q79
+q2 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q93
+q2 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q104
+q2 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q2 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q95
+q2 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q103
+q2 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q105
+q2 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q96
+q2 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q22
+q2 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q88
+q2 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q24
+q2 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q69
+q2 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q86
+q2 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q14
+q105 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q81
+q105 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q78
+q105 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q80
+q105 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q105 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q69
+q105 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q79
+q105 (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q14
+q104 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) | (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q14
+q104 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) q15
+q104 (!a1 & !a2 & !a3 & !a4 & !a5) | (!a1 & !a2 & !a3 & !a4 & a5) | (!a1 & !a2 & !a3 & a4 & !a5) | (!a1 & !a2 & !a3 & a4 & a5) | (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q6
+q104 (!a1 & !a2 & a3 & !a4 & !a5) | (!a1 & !a2 & a3 & !a4 & a5) | (!a1 & !a2 & a3 & a4 & !a5) | (!a1 & !a2 & a3 & a4 & a5) q19
+q104 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) q81
+q104 (!a1 & a2 & !a3 & !a4 & !a5) | (!a1 & a2 & !a3 & !a4 & a5) | (!a1 & a2 & !a3 & a4 & !a5) | (!a1 & a2 & !a3 & a4 & a5) | (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q78
+q104 (!a1 & a2 & a3 & !a4 & !a5) | (!a1 & a2 & a3 & !a4 & a5) | (!a1 & a2 & a3 & a4 & !a5) | (!a1 & a2 & a3 & a4 & a5) q80
+q104 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) | (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q21
+q104 (a1 & !a2 & !a3 & !a4 & !a5) | (a1 & !a2 & !a3 & !a4 & a5) | (a1 & !a2 & !a3 & a4 & !a5) | (a1 & !a2 & !a3 & a4 & a5) q22
+q104 (a1 & !a2 & a3 & !a4 & !a5) | (a1 & !a2 & a3 & !a4 & a5) | (a1 & !a2 & a3 & a4 & !a5) | (a1 & !a2 & a3 & a4 & a5) q24
+q104 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) q69
+q104 (a1 & a2 & !a3 & !a4 & !a5) | (a1 & a2 & !a3 & !a4 & a5) | (a1 & a2 & !a3 & a4 & !a5) | (a1 & a2 & !a3 & a4 & a5) | (a1 & a2 & a3 & !a4 & !a5) | (a1 & a2 & a3 & !a4 & a5) | (a1 & a2 & a3 & a4 & !a5) | (a1 & a2 & a3 & a4 & a5) q79
