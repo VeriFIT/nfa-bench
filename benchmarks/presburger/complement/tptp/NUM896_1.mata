@@ -1,85 +1,32 @@
 @NFA-bits
-%Initial q0 q5
-%Final q0 q9 q2 q4
-q0 !a1 & !a2 & !a3 q1
-q0 a1 & !a2 & a3 q1
-q0 !a1 & a2 & a3 q1
-q0 a1 & a2 & !a3 q2
-q0 a1 & !a2 & !a3 q4
-q0 !a1 & !a2 & a3 q4
-q0 a1 & a2 & a3 q4
-q0 !a1 & a2 & !a3 q4
-q2 !a1 & !a2 & a3 q0
-q2 a1 & !a2 & !a3 q3
-q2 a1 & a2 & a3 q3
-q2 !a1 & a2 & !a3 q3
-q2 a1 & !a2 & a3 q4
-q2 a1 & a2 & !a3 q4
-q2 !a1 & !a2 & !a3 q4
-q2 !a1 & a2 & a3 q4
-q3 !a1 & !a2 & a3 q0
-q3 a1 & !a2 & !a3 q3
-q3 a1 & a2 & a3 q3
-q3 !a1 & a2 & !a3 q3
-q3 a1 & !a2 & a3 q4
-q3 a1 & a2 & !a3 q4
-q3 !a1 & !a2 & !a3 q4
-q3 !a1 & a2 & a3 q4
-q1 !a1 & !a2 & !a3 q1
-q1 a1 & !a2 & a3 q1
-q1 !a1 & a2 & a3 q1
-q1 a1 & a2 & !a3 q2
-q1 a1 & !a2 & !a3 q4
-q1 !a1 & !a2 & a3 q4
-q1 a1 & a2 & a3 q4
-q1 !a1 & a2 & !a3 q4
-q4 !a1 & !a2 & !a3 q4
-q4 !a1 & !a2 & a3 q4
-q4 !a1 & a2 & !a3 q4
-q4 !a1 & a2 & a3 q4
-q4 a1 & !a2 & !a3 q4
-q4 a1 & !a2 & a3 q4
-q4 a1 & a2 & !a3 q4
-q4 a1 & a2 & a3 q4
-q5 a1 & !a2 & !a3 q5
-q5 a1 & a2 & !a3 q5
-q5 !a1 & a2 & !a3 q5
-q5 !a1 & !a2 & !a3 q5
-q5 a1 & a2 & a3 q5
-q5 !a1 & !a2 & a3 q6
-q5 !a1 & a2 & a3 q7
-q5 a1 & !a2 & a3 q8
-q5 a1 & a2 & !a3 q9
-q8 a1 & !a2 & !a3 q8
-q8 !a1 & !a2 & !a3 q8
-q8 a1 & !a2 & a3 q8
-q8 a1 & a2 & a3 q8
-q8 !a1 & !a2 & a3 q6
-q8 !a1 & a2 & a3 q6
-q8 a1 & a2 & !a3 q5
-q8 !a1 & a2 & !a3 q5
-q8 a1 & !a2 & !a3 q9
-q8 a1 & a2 & !a3 q9
-q7 !a1 & !a2 & !a3 q7
-q7 a1 & a2 & a3 q7
-q7 !a1 & a2 & !a3 q7
-q7 !a1 & a2 & a3 q7
-q7 a1 & !a2 & a3 q6
-q7 !a1 & !a2 & a3 q6
-q7 a1 & a2 & !a3 q9
-q7 !a1 & a2 & !a3 q9
-q7 a1 & !a2 & !a3 q5
-q7 a1 & a2 & !a3 q5
-q6 a1 & !a2 & a3 q6
-q6 !a1 & !a2 & !a3 q6
-q6 !a1 & !a2 & a3 q6
-q6 a1 & a2 & a3 q6
-q6 !a1 & a2 & a3 q6
-q6 a1 & !a2 & !a3 q9
-q6 a1 & a2 & !a3 q9
-q6 !a1 & a2 & !a3 q9
-q6 !a1 & !a2 & !a3 q9
-q6 a1 & a2 & a3 q9
-q6 !a1 & a2 & !a3 q7
-q6 a1 & !a2 & !a3 q8
-q6 a1 & a2 & !a3 q5
+q0 (!a1 & !a2 & !a3) | (a1 & !a2 & a3) | (!a1 & a2 & a3) q1
+q0 (a1 & a2 & !a3) q2
+q0 (a1 & !a2 & !a3) | (!a1 & !a2 & a3) | (a1 & a2 & a3) | (!a1 & a2 & !a3) q4
+q2 (!a1 & !a2 & a3) q0
+q2 (a1 & !a2 & !a3) | (a1 & a2 & a3) | (!a1 & a2 & !a3) q3
+q2 (a1 & !a2 & a3) | (a1 & a2 & !a3) | (!a1 & !a2 & !a3) | (!a1 & a2 & a3) q4
+q3 (!a1 & !a2 & a3) q0
+q3 (a1 & !a2 & !a3) | (a1 & a2 & a3) | (!a1 & a2 & !a3) q3
+q3 (a1 & !a2 & a3) | (a1 & a2 & !a3) | (!a1 & !a2 & !a3) | (!a1 & a2 & a3) q4
+q1 (!a1 & !a2 & !a3) | (a1 & !a2 & a3) | (!a1 & a2 & a3) q1
+q1 (a1 & a2 & !a3) q2
+q1 (a1 & !a2 & !a3) | (!a1 & !a2 & a3) | (a1 & a2 & a3) | (!a1 & a2 & !a3) q4
+q4 (!a1 & !a2 & !a3) | (!a1 & !a2 & a3) | (!a1 & a2 & !a3) | (!a1 & a2 & a3) | (a1 & !a2 & !a3) | (a1 & !a2 & a3) | (a1 & a2 & !a3) | (a1 & a2 & a3) q4
+q5 (a1 & !a2 & !a3) | (a1 & a2 & !a3) | (!a1 & a2 & !a3) | (!a1 & !a2 & !a3) | (a1 & a2 & a3) q5
+q5 (!a1 & !a2 & a3) q6
+q5 (!a1 & a2 & a3) q7
+q5 (a1 & !a2 & a3) q8
+q5 (a1 & a2 & !a3) q9
+q8 (a1 & !a2 & !a3) | (!a1 & !a2 & !a3) | (a1 & !a2 & a3) | (a1 & a2 & a3) q8
+q8 (!a1 & !a2 & a3) | (!a1 & a2 & a3) q6
+q8 (a1 & a2 & !a3) | (!a1 & a2 & !a3) q5
+q8 (a1 & !a2 & !a3) | (a1 & a2 & !a3) q9
+q7 (!a1 & !a2 & !a3) | (a1 & a2 & a3) | (!a1 & a2 & !a3) | (!a1 & a2 & a3) q7
+q7 (a1 & !a2 & a3) | (!a1 & !a2 & a3) q6
+q7 (a1 & a2 & !a3) | (!a1 & a2 & !a3) q9
+q7 (a1 & !a2 & !a3) | (a1 & a2 & !a3) q5
+q6 (a1 & !a2 & a3) | (!a1 & !a2 & !a3) | (!a1 & !a2 & a3) | (a1 & a2 & a3) | (!a1 & a2 & a3) q6
+q6 (a1 & !a2 & !a3) | (a1 & a2 & !a3) | (!a1 & a2 & !a3) | (!a1 & !a2 & !a3) | (a1 & a2 & a3) q9
+q6 (!a1 & a2 & !a3) q7
+q6 (a1 & !a2 & !a3) q8
+q6 (a1 & a2 & !a3) q5
