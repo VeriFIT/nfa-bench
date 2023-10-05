@@ -1,10 +1,9 @@
-@NFA-explicit
-@Alphabet-auto
+@NFA-bits
 %Initial q12
 %Final q13
-q12 0 q6
-q6 0 q3
-q3 1 q1
-q1 1 q0
-q0 0 q0
-q0 0 q13
+q12 !a1 q6
+q6 !a1 q3
+q3 a1 q1
+q1 a1 q0
+q0 !a1 q0
+q0 !a1 q13

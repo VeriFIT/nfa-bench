@@ -1,5 +1,4 @@
 @NFA-explicit
-%Alphabet-auto
 %Initial q0
 %Final q102
 q0 47 q1
@@ -2564,7 +2563,6 @@ q102 120 q102
 q102 121 q102
 q102 122 q102
 @NFA-explicit
-%Alphabet-auto
 %Initial q0
 %Final q229
 q0 47 q1
