@@ -1,4 +1,6 @@
 @NFA-bits
+%Initial q0
+%Final q9
 q0 (!a1 & !a2 & !a3 & !a4) | (a1 & !a2 & a3 & a4) q0
 q0 (!a1 & a2 & a3 & a4) q3
 q0 (a1 & a2 & !a3 & !a4) q4
