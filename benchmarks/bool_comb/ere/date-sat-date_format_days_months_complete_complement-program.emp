@@ -1,0 +1,45 @@
+load_automaton aut1
+load_automaton aut2
+load_automaton aut3
+load_automaton aut4
+load_automaton aut5
+load_automaton aut6
+aut7 = (union aut2 aut3 aut4 aut5 aut6)
+load_automaton aut8
+aut9 = (compl aut8)
+load_automaton aut10
+load_automaton aut11
+load_automaton aut12
+load_automaton aut13
+load_automaton aut14
+load_automaton aut15
+load_automaton aut16
+load_automaton aut17
+load_automaton aut18
+load_automaton aut19
+load_automaton aut20
+load_automaton aut21
+aut22 = (union aut10 aut11 aut12 aut13 aut14 aut15 aut16 aut17 aut18 aut19 aut20 aut21)
+load_automaton aut23
+aut24 = (compl aut23)
+load_automaton aut25
+aut26 = (compl aut25)
+load_automaton aut27
+aut28 = (compl aut27)
+aut29 = (inter aut26 aut28)
+aut30 = (union aut24 aut29)
+load_automaton aut31
+aut32 = (compl aut31)
+load_automaton aut33
+aut34 = (compl aut33)
+load_automaton aut35
+aut36 = (compl aut35)
+load_automaton aut37
+aut38 = (compl aut37)
+aut39 = (inter aut32 aut34 aut36 aut38)
+load_automaton aut40
+aut41 = (compl aut40)
+aut42 = (union aut39 aut41)
+aut43 = (inter aut1 aut7 aut9 aut22 aut30 aut42)
+aut44 = (compl aut43)
+is_empty aut44
