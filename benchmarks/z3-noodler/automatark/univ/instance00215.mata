@@ -1,0 +1,32 @@
+@NFA-explicit
+%Alphabet-auto
+%Initial q0
+%Final q20
+q0 47 q1
+q1 47 q2
+q2 36 q3
+q3 123 q4
+q4 35 q5
+q5 47 q6
+q5 123 q6
+q5 125 q6
+q6 47 q6
+q6 123 q6
+q6 125 q6
+q6 125 q7
+q7 46 q9
+q7 47 q15
+q7 47 q16
+q8 47 q15
+q8 47 q16
+q9 97 q10
+q10 99 q11
+q11 116 q12
+q12 105 q13
+q13 111 q14
+q14 110 q8
+q15 47 q16
+q16 109 q17
+q17 105 q18
+q18 85 q19
+q19 10 q20

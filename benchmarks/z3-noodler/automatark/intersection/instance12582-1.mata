@@ -1,0 +1,45 @@
+@NFA-explicit
+%Alphabet-auto
+%Initial q0 q2 q3 q5 q7 q11
+%Final q12
+q0 50 q1
+q1 48 q4
+q1 49 q4
+q1 50 q4
+q1 51 q4
+q2 49 q1
+q3 48 q1
+q4 58 q8
+q5 49 q6
+q6 48 q4
+q6 49 q4
+q6 50 q4
+q6 51 q4
+q6 52 q4
+q6 53 q4
+q6 54 q4
+q6 55 q4
+q6 56 q4
+q6 57 q4
+q7 48 q6
+q8 48 q9
+q8 49 q9
+q8 50 q9
+q8 51 q9
+q8 52 q9
+q8 53 q9
+q9 48 q10
+q9 49 q10
+q9 50 q10
+q9 51 q10
+q9 52 q10
+q9 53 q10
+q9 54 q10
+q9 55 q10
+q9 56 q10
+q9 57 q10
+q10 10 q12
+q10 48 q6
+q10 49 q6
+q10 50 q1
+q11 10 q12
