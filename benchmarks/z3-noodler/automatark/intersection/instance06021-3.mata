@@ -1,5 +1,4 @@
 @NFA-explicit
-%Alphabet-auto
 %Initial q0 q2 q4 q6 q7 q9 q10 q12 q13 q15 q16 q18 q19 q21 q22 q24 q25 q27 q28 q30 q31 q33 q34 q36 q37 q39 q40 q42 q43 q45 q46 q48 q50 q52 q54 q56 q58 q59
 %Final q60
 q0 119 q1
