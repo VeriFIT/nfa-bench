@@ -1,0 +1,98 @@
+(530\s+(Login|User)).*
+(ALLO[ \t][^\n]{200}).*
+(APPE[ \t][^\n]{200}).*
+(.*authorized_keys).*
+(CEL[ \t][^\n]{100}).*
+(CMD[ \t][^\n]{200}).*
+(CWD\s+~root).*
+(CWD\s+~).*
+(CWD[ \t]+~).*
+(CWD[ \t][^\n]{180}).*
+(CWD[ \t]+~root).*
+(DELE[ \t][^\n]{100}).*
+(.*\.forward).*
+(HELP[ \t][^\n]{200}).*
+(LIST[^\n]{120}).*
+(LIST\s+\x22-W\s+\d+).*
+(LIST[ \t]+\x22-W[ \t]+\d+).*
+(MDTM \d+[-+]\D).*
+(MDTM \d+[-+]\D).*
+(MDTM[ \t][^\n]{100}).*
+(MKDIR[ \t]([^\n%]*%){2}).*
+(MKD[ \t][^\n]{180}).*
+(MODE\s+[^ABSC]{1}).*
+(NLST\s+[^\n]*\x2a{10}).*
+(NLST[ \t][^\n]{200}).*
+(NLST[ \t][^\n]*\x2a\x2a\x2a\x2a\x2a\x2a\x2a\x2a\x2a\x2a).*
+(.*pass -cklaus).*
+(.*PASS ddd@\x0A).*
+(.*pass -iss@iss).*
+(.*pass -saint).*
+(.*pass -satan).*
+(PASS\s*\n).*
+(PASS[ \t][^\n]{100}).*
+(PASS[ \t]([^\n%]*%){2}).*
+(PORT).*
+(PORT).*
+(PORT[ \t][^\n]{400}).*
+(.*[pP][aA][sS][sS] [wW][hH]00[tT]).*
+(PWD\s.{190}).*
+(PWD[ \t][^\n]{190}).*
+(RENAME[ \t]([^\n%]*%){2}).*
+(.*REST\s+[0-9]+\n).*
+.*(REST[ \t]+[0-9]+\n).*
+(REST[ \t][^\n]{100}).*
+(RETR[ \t][^\n]{200}).*
+(RETR[ \t]([^\n%]*%){2}).*
+(.*\.rhosts).*
+(RMDIR[ \t][^\n]{100}).*
+(RMD[ \t][^\n]{100}).*
+RMD[ \t]+\x2f
+(RNFR\s[^\n]{200}).*
+(RNFR[ \t][^\n]{200}).*
+(rnto\s[^\s\x0d\x0a]*\x2e\x2e(\x2f|\x5c)).*
+(RNTO[ \t][^\n]{200}).*
+.*((.*[rR][eE][tT][rR].*passwd)|(.*passwd.*[rR][eE][tT][rR])).*
+.*((.*[rR][eE][tT][rR].*shadow)|(.*shadow.*[rR][eE][tT][rR])).*
+.*((.*[rR][nN][fF][rR] .* \.\/\.\/)|(.* \.\/\.\/.*[rR][nN][fF][rR] )).*
+(SITE\s+CHMOD\s[^\n]{200}).*
+(SITE\s+CHOWN\s[^\n]{100}).*
+(SITE\s+CPWD\s[^\n]{100}).*
+(SITE\s+EXEC).*
+(SITE\s+NEWER).*
+(SITE\s+NEWER\s[^\n]{100}).*
+(SITE\s*(\w+\s*)+\x7c).*
+(SITE\s+ZIPCHK\s[^\n]{100}).*
+(SITE[ \t]+CHMOD[ \t][^\n]{200}).*
+(SITE[ \t]+CHOWN[ \t][^\n]{100}).*
+(SITE[ \t]+CPWD[ \t][^\n]{100}).*
+(SITE[ \t]+EXEC[ \t]([^\n%]*%){2}).*
+(SITE[ \t]+INDEX[ \t]([^\n%]*%){2}).*
+(SITE[ \t][^\n]{100}).*
+(SITE[ \t]+NEWER[ \t][^\n]{100}).*
+(SITE[ \t]+ZIPCHK[ \t][^\n]{100}).*
+(SIZE[ \t]+[\x2F\x5C][^\x2F\x3A\x5C\n][^\n]{526}).*
+(STAT\s+[^\n]*\x2a).*
+(STAT\s+[^\n]*\x3f).*
+(STAT[ \t][^\n]{190}).*
+(STAT[ \t][^\n]*\x2a).*
+(STAT[ \t][^\n]*\x3f).*
+(STOR[ \t][^\n]{200}).*
+(STOU\s[^\n]{200}).*
+(STOU[ \t][^\n]{200}).*
+(SYST[ \t][^\n]{100}).*
+(TEST[ \t][^\n]{100,}).*
+(TEST[ \t][^\n]{100}).*
+([ \t]+[^ \t\n]([^\n%]*%){2}).*
+(USER\s+(anonymous|ftp)[^\w]*[\r\n]).*
+(USER\s+w0rm).*
+(USER[ \t][^\n]{100,}).*
+(USER[ \t][^\n]{100}).*
+(USER[ \t]([^\n%]*%){2}).*
+(USER[ \t]+w0rm).*
+(USER[ \t]+y049575046).*
+(.* --[uU][sS][eE]-[cC][oO][mM][pP][rR][eE][sS][sS]-[pP][rR][oO][gG][rR][aA][mM] ).*
+(.*We\s+got\s+this\s+GREAT\s+Daemon.*Fictional\s+Daemon).*
+(XCWD[ \t][^\n]{100}).*
+(XMD5[ \t][^\n]{200}).*
+(XMKD[ \t][^\n]{200}).*

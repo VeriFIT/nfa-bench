@@ -1,0 +1,16 @@
+.*(admin_root=(https?|ftps?|php)).*
+.*(b2inc=(https?|ftps?|php)).*
+.*(cache_lastpostdate\[[^\]]+\]=[^\x00\x3B\x3D]{30}).*
+.*(comment=[^\x26\s]*[\x2f\x5c]).*
+.*(forum=.*').*
+.*(GALLERY_BASEDIR=(https?|ftps?|php)).*
+.*(page=(https?|ftps?|php)).*
+.*(path=(https?|ftps?|php)).*
+.*(pm_path=(https?|ftps?|php)).*
+(POST\s).*
+.*(Server\x5bpath\x5d=(https?|ftps?|php)).*
+.*(systempath=(https?|ftps?|php)).*
+.*(template=(https?|ftps?|php)).*
+.*(template\s*=\s*\x7b\x24).*
+.*([\?\x20\x3b\x26]module=[a-zA-Z0-9]*[^\x3b\x26]).*
+.*(\x22method\x22\s*\x3a\s*\x22[A-Z]\w*[^\x22]).*
