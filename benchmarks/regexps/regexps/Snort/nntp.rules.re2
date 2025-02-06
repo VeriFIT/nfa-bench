@@ -1,0 +1,12 @@
+(AUTHINFO\s+USER\s[^\n]{200}).*
+(cancel\x3a[^\n]{32}).*
+(checkgroups\x3a[^\n]{21}).*
+(ihave\x3a[^\n]{21}).*
+(newgroup\x3a[^\n]{32}).*
+(rmgroup\x3a[^\n]{32}).*
+(SEARCH\s+[^\n]{1024}).*
+(sendme\x3a[^\n]{21}).*
+(sendsys\x3a[^\n]{21}).*
+(senduuname\x3a[^\n]{21}).*
+(version\x3a[^\n]{21}).*
+(X?PAT\s+[^\n]{1024}).*

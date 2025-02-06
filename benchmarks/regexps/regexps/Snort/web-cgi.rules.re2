@@ -1,0 +1,10 @@
+.*(awstats.pl?[^\r\n]*configdir=\x7C).*
+.*(awstats.pl?[^\r\n]*logfile=\x7C).*
+.*(calendar(|[-_]admin)\.pl).*
+.*(db4web_c(\.exe)?\/.*(\.\.[\#\/]|[a-z]\:)).*
+.*(evtdump\x3f.*?\x2525[^\x20]*?\x20HTTP).*
+.*(instancename=[^&\x3b\r\n]{513}).*
+.*(itemid=\d*[^\d\&\;\r\n]).*
+.*(pwd=(\!|\%21)CRYPT(\!|\%21)[A-Z0-9]{512}).*
+.*(ShellExample.cgi\?[^\n\r\&]*\x2a).*
+.*(SoftCart.exe\?[^\s]{100}).*

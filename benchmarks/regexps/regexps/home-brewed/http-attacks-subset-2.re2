@@ -1,0 +1,8 @@
+.*(calendar(|[-_]admin)\.pl).*
+.*(db4web_c(\.exe)?\/.*(\.\.[\#\/]|[a-z]\:)).*
+.*(evtdump\x3f.*?\x2525[^\x20]*?\x20HTTP).*
+.*(instancename=[^&\x3b\r\n]{513}).*
+.*(itemid=\d*[^\d\&\;\r\n]).*
+(GET\s+[^\x20]*\x2Ewm[zd]).*
+.*(mstshash\s*\x3d\s*Administr).*
+.*(SILC\x2d\d\x2e\d).*
