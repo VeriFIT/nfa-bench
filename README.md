@@ -76,6 +76,16 @@ Another four are from <a href="https://arxiv.org/abs/1708.09073">[arXiv'17]</a>.
     Reasoning 2017</a> ) folders. This includes following directories:
       * `presburger/complement`
 
+ 8. `regexps` contains regular expressions from various sources, one of them 
+    being <a href="https://www.snort.org/">Snort</a>. The README file in the directory
+    contains more information on the process of generating those automata.
+
+ 9. `ws1s` contains automata that were generated during WS1S decision making.
+    The `gaston` folder contains the automata generated from the examples used 
+    in the <a href="https://www.fit.vutbr.cz/research/groups/verifit/tools/gaston/.cs">Gaston</a> 
+    project, and the `easy` folder contains simplified versions of them. More information
+    about the origin of the automata is in the README file 
+
 
 
 ## Contributing
