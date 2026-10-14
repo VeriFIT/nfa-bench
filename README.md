@@ -17,6 +17,8 @@ either of the formats.
 
 ## Benchmark description
 
+The automata are grouped by their kind: `benchmarks/nfa/` holds the NFAs described below. The directories named
+below are relative to `benchmarks/nfa/`.
 
  1. `b-smt` contains 330 string constraints from the Norn and SyGuS-qgen, collected in
     <a href="http://smtlib.cs.uiowa.edu/">SMT-LIB benchmark</a>, that fall in BRE.
