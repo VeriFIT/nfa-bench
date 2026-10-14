@@ -1,0 +1,130 @@
+@NFT-explicit
+%Alphabet-auto
+%Initial q0
+%Final q0
+%Levels q0:0 q1:1 q2:1 q3:1 q4:1 q5:1 q6:1 q7:1 q8:1 q9:1 q10:1 q11:1 q12:1 q13:1 q14:1 q15:1 q16:1 q17:1 q18:1 q19:1 q20:1 q21:1 q22:0 q23:1 q24:0 q25:1 q26:0 q27:1 q28:0 q29:1 q30:0 q31:1 q32:0 q33:1 q34:0 q35:1 q36:0 q37:1 q38:0 q39:1 q40:0 q41:1 q42:0 q43:1 q44:0 q45:1 q46:0 q47:1 q48:0 q49:1 q50:0 q51:1 q52:0 q53:1 q54:0 q55:1 q56:0 q57:1 q58:0 q59:1 q60:0 q61:1 q62:0 q63:1 q64:0 q65:1 q66:0 q67:1 q68:0 q69:1 q70:0 q71:1 q72:0 q73:1 q74:0 q75:1
+%LevelsNum 2
+q0 0 q1
+q0 34 q2
+q0 35 q3
+q0 38 q4
+q0 39 q5
+q0 48 q6
+q0 51 q7
+q0 57 q8
+q0 59 q9
+q0 60 q10
+q0 62 q11
+q0 97 q12
+q0 103 q13
+q0 108 q14
+q0 109 q15
+q0 111 q16
+q0 112 q17
+q0 113 q18
+q0 116 q19
+q0 117 q20
+q0 196608 q21
+q1 38 q70
+q2 38 q60
+q3 35 q0
+q4 38 q52
+q5 38 q36
+q6 48 q0
+q7 51 q0
+q8 57 q0
+q9 59 q0
+q10 38 q22
+q11 62 q0
+q12 97 q0
+q13 103 q0
+q14 108 q0
+q15 109 q0
+q16 111 q0
+q17 112 q0
+q18 113 q0
+q19 116 q0
+q20 117 q0
+q21 196608 q0
+q22 <eps> q23
+q23 97 q24
+q24 <eps> q25
+q25 109 q26
+q26 <eps> q27
+q27 112 q28
+q28 <eps> q29
+q29 59 q30
+q30 <eps> q31
+q31 108 q32
+q32 <eps> q33
+q33 116 q34
+q34 <eps> q35
+q35 59 q0
+q36 <eps> q37
+q37 97 q38
+q38 <eps> q39
+q39 109 q40
+q40 <eps> q41
+q41 112 q42
+q42 <eps> q43
+q43 59 q44
+q44 <eps> q45
+q45 35 q46
+q46 <eps> q47
+q47 51 q48
+q48 <eps> q49
+q49 57 q50
+q50 <eps> q51
+q51 59 q0
+q52 <eps> q53
+q53 97 q54
+q54 <eps> q55
+q55 109 q56
+q56 <eps> q57
+q57 112 q58
+q58 <eps> q59
+q59 59 q0
+q60 <eps> q61
+q61 113 q62
+q62 <eps> q63
+q63 117 q64
+q64 <eps> q65
+q65 111 q66
+q66 <eps> q67
+q67 116 q68
+q68 <eps> q69
+q69 59 q0
+q70 <eps> q71
+q71 35 q72
+q72 <eps> q73
+q73 48 q74
+q74 <eps> q75
+q75 59 q0
+@NFT-explicit
+%Alphabet-auto
+%Initial q0
+%Final q17
+%Levels q0:0 q1:0 q2:1 q3:0 q4:1 q5:0 q6:1 q7:0 q8:1 q9:0 q10:1 q11:0 q12:1 q13:0 q14:1 q15:0 q16:1 q17:0 q18:1 q19:0 q20:1 q21:0 q22:1
+%LevelsNum 2
+q0 0 q2
+q1 60 q8
+q2 0 q3
+q3 34 q4
+q4 34 q5
+q5 38 q6
+q6 38 q1
+q7 39 q10
+q8 60 q7
+q9 60 q16
+q10 39 q11
+q11 48 q12
+q12 48 q13
+q13 51 q14
+q14 51 q9
+q15 57 q18
+q16 60 q15
+q18 57 q19
+q19 59 q20
+q20 59 q21
+q21 60 q22
+q22 60 q17

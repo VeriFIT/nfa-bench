@@ -1,0 +1,120 @@
+@NFT-explicit
+%Alphabet-auto
+%Initial q0
+%Final q17
+%Levels q0:0 q1:0 q2:1 q3:0 q4:1 q5:0 q6:1 q7:0 q8:1 q9:0 q10:1 q11:0 q12:1 q13:0 q14:1 q15:0 q16:1 q17:0 q18:1 q19:0 q20:1 q21:0 q22:1
+%LevelsNum 2
+q0 0 q2
+q1 38 q8
+q2 0 q3
+q3 32 q4
+q4 32 q5
+q5 35 q6
+q6 35 q1
+q7 38 q10
+q8 38 q7
+q9 38 q16
+q10 38 q11
+q11 39 q12
+q12 39 q13
+q13 48 q14
+q14 48 q9
+q15 51 q18
+q16 38 q15
+q18 51 q19
+q19 57 q20
+q20 57 q21
+q21 59 q22
+q22 59 q17
+@NFT-explicit
+%Alphabet-auto
+%Initial q0
+%Final q0
+%Levels q0:0 q1:1 q2:1 q3:1 q4:1 q5:1 q6:1 q7:1 q8:1 q9:1 q10:1 q11:1 q12:1 q13:1 q14:1 q15:1 q16:1 q17:1 q18:1 q19:1 q20:1 q21:1 q22:1 q23:1 q24:0 q25:1 q26:0 q27:1 q28:0 q29:1 q30:0 q31:1 q32:0 q33:1 q34:0 q35:1 q36:0 q37:1 q38:0 q39:1 q40:0 q41:1 q42:0 q43:1 q44:0 q45:1 q46:0 q47:1 q48:0 q49:1 q50:0 q51:1 q52:0 q53:1 q54:0 q55:1 q56:0 q57:1 q58:0 q59:1 q60:0 q61:1 q62:0 q63:1
+%LevelsNum 2
+q0 0 q1
+q0 32 q2
+q0 34 q3
+q0 35 q4
+q0 38 q5
+q0 39 q6
+q0 48 q7
+q0 51 q8
+q0 57 q9
+q0 59 q10
+q0 60 q11
+q0 62 q12
+q0 92 q13
+q0 97 q14
+q0 103 q15
+q0 108 q16
+q0 109 q17
+q0 111 q18
+q0 112 q19
+q0 113 q20
+q0 116 q21
+q0 117 q22
+q0 196608 q23
+q1 38 q50
+q2 32 q0
+q3 38 q32
+q4 35 q0
+q5 38 q24
+q6 39 q0
+q7 48 q0
+q8 51 q0
+q9 57 q0
+q10 59 q0
+q11 60 q0
+q12 62 q0
+q13 92 q0
+q14 97 q0
+q15 103 q0
+q16 108 q0
+q17 109 q0
+q18 111 q0
+q19 112 q0
+q20 113 q0
+q21 116 q0
+q22 117 q0
+q23 196608 q0
+q24 <eps> q25
+q25 97 q26
+q26 <eps> q27
+q27 109 q28
+q28 <eps> q29
+q29 112 q30
+q30 <eps> q31
+q31 59 q0
+q32 <eps> q33
+q33 97 q34
+q34 <eps> q35
+q35 109 q36
+q36 <eps> q37
+q37 112 q38
+q38 <eps> q39
+q39 59 q40
+q40 <eps> q41
+q41 113 q42
+q42 <eps> q43
+q43 117 q44
+q44 <eps> q45
+q45 111 q46
+q46 <eps> q47
+q47 116 q48
+q48 <eps> q49
+q49 59 q0
+q50 <eps> q51
+q51 97 q52
+q52 <eps> q53
+q53 109 q54
+q54 <eps> q55
+q55 112 q56
+q56 <eps> q57
+q57 59 q58
+q58 <eps> q59
+q59 35 q60
+q60 <eps> q61
+q61 48 q62
+q62 <eps> q63
+q63 59 q0
