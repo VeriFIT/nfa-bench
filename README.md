@@ -6,6 +6,14 @@ libraries accepting non-deterministic finite automata in .mata format.
 
 ## Usage
 
+A full clone downloads about 0.9 GiB, nearly half of it the NFTs. To get only some of the benchmarks, clone without
+blobs and check out only their directories; only the blobs of those are then downloaded (about 270 MiB for
+`benchmarks/nfa`):
+
+```shell
+git clone --filter=blob:none --sparse https://github.com/VeriFIT/nfa-bench.git
+git -C nfa-bench sparse-checkout set benchmarks/nfa
+```
 
 Similarly, to use `.mata` files you will need either some format converter or parser of
 either of the formats.
@@ -17,6 +25,8 @@ either of the formats.
 
 ## Benchmark description
 
+The automata are grouped by their kind: `benchmarks/nfa/` holds the NFAs described below, `benchmarks/nft/` the
+transducers (see [NFTs](#nfts)). The directories named below are relative to `benchmarks/nfa/`.
 
  1. `b-smt` contains 330 string constraints from the Norn and SyGuS-qgen, collected in
     <a href="http://smtlib.cs.uiowa.edu/">SMT-LIB benchmark</a>, that fall in BRE.
@@ -87,6 +97,40 @@ Another four are from <a href="https://arxiv.org/abs/1708.09073">[arXiv'17]</a>.
     project, and the `easy` folder contains simplified versions of them. More information
     about the origin of the automata is in the README file in the `ws1s` directory.
 
+## NFTs
+
+`benchmarks/nft/` contains 2-level NFTs (transducers) from
+[smt-lib-replace-transducers-benchmarks](https://github.com/Adda0/smt-lib-replace-transducers-benchmarks) (commit
+`9970d17`): the operands of the transducer operations performed when solving string constraints with `str.replace`
+and `str.replace_all`. Two families come from SMT-LIB `QF_SLIA` benchmarks; `symbol_from_end_nondet` is parametric:
+
+  * `non-incremental-QF_SLIA-20230331-transducer-plus`
+  * `non-incremental-QF_SLIA-20230403-webapp`
+  * `symbol_from_end_nondet`
+
+Each family has a directory per operation, and each file holds the operands of one operation as consecutive
+`@NFT-explicit` sections. Level 0 is the input track, level 1 the output track. A literal or a language operand is
+written as its identity NFT.
+
+  * `composition/pair`: two NFTs to compose, the output of the first with the input of the second.
+  * `composition/sequence`: two or more NFTs to compose in order.
+  * `composition/construct_replace`: two NFTs composed when constructing the NFT of a replace operation.
+  * `apply_literal`, `apply_language`: a literal (a language) and an NFT; the image of the first under the second.
+  * `apply_literal_backward`, `apply_language_backward`: an NFT and a literal (a language); the preimage of the second
+    under the first.
+  * `projection`: one NFT to project onto one of its levels.
+
+Symbols are characters, written as numbers. Two values are not characters: `196608` is one past SMT-LIB's largest
+character `0x2FFFF`, and `4294967195` is mata's `BEGIN_MARKER` of replace operations.
+
+The files are converted to the `.mata` format that mata's parser reads: `%LevelsNum` (written `%LevelsCnt` in the
+source) in every section, and `<eps>` for epsilon (written as the number `4294967295` in the source). Reading `<eps>`
+needs mata `f4adcabd` (2026-10) or newer. The source's `symbol_from_end_nondet/construct_replace` is
+`symbol_from_end_nondet/composition/construct_replace` here, as in the other families. Left out are the one empty
+file of the source, in `non-incremental-QF_SLIA-20230403-webapp/composition/sequence`, and the 76 files of the
+`apply_literal` and `apply_literal_backward` directories whose literal has symbols above `196608` other than
+`4294967195`: values such as `2768099128` (`0xa4fdd738`, like the low half of a heap address) or `1896493365` (the
+bytes of the text `51\nq`), stray memory that the source's generator wrote instead of characters.
 
 
 ## Contributing
