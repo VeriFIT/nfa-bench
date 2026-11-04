@@ -132,6 +132,15 @@ file of the source, in `non-incremental-QF_SLIA-20230403-webapp/composition/sequ
 `4294967195`: values such as `2768099128` (`0xa4fdd738`, like the low half of a heap address) or `1896493365` (the
 bytes of the text `51\nq`), stray memory that the source's generator wrote instead of characters.
 
+`non-incremental-QF_SLIA-20230331-transducer-plus/composition/length_formula` holds the compositions z3-noodler
+builds for the length constraints of the transducers of a formula (`DecisionProcedure::get_formula_for_transducers()`),
+of NFTs of one to five levels: `sync_1_0` composes level 1 of the first NFT with level 0 of the second, `sync_0_0` level
+0 with level 0. z3-noodler keeps the synchronized level (`project_out_sync_levels = false`), uses
+`JumpMode::NoJump`, and trims the result. The files were written by a temporary dump in the z3-noodler of the Mata
+devel port (2026-11, `937be1d`), run with `model=false` for 30 s on each formula of the family, keeping the
+compositions whose operands have at least 10^5 pairs of states, 604 after removing duplicates out of 974. Symbols are
+the numbers z3-noodler gives the characters, and the one letter of its length abstraction.
+
 
 ## Contributing
 
