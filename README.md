@@ -70,6 +70,9 @@ Another four are from <a href="https://arxiv.org/abs/1708.09073">[arXiv'17]</a>.
    The automata were generated during solving constraints from the `SMT Competition` and includes following directories: 
       * `automatark`: (the underlying SMT benchmark <a href="https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/QF_S/-/tree/master/20230329-automatark-lu">QF_S/20230329-automatark-lu</a>)
 
+   `z3-noodler-reduce` holds the arguments of the simulation-based reductions `mata::nfa::reduce()` that z3-noodler
+   performs, of at least 200 states, one directory per SMT-LIB family; see [Reductions](#reductions).
+
  7. `presburger` contains a subset of the NFAs from the benchmark for evaluation of deciding LIA
     using an automata-based decision procedure originally descibed in <a
     href="https://link.springer.com/chapter/10.1007/3-540-61064-2_27">CAAP'96</a> extended to
@@ -132,6 +135,46 @@ file of the source, in `non-incremental-QF_SLIA-20230403-webapp/composition/sequ
 `4294967195`: values such as `2768099128` (`0xa4fdd738`, like the low half of a heap address) or `1896493365` (the
 bytes of the text `51\nq`), stray memory that the source's generator wrote instead of characters.
 
+`non-incremental-QF_SLIA-20230331-transducer-plus/composition/length_formula` holds the compositions z3-noodler
+builds for the length constraints of the transducers of a formula (`DecisionProcedure::get_formula_for_transducers()`),
+of NFTs of one to five levels: `sync_1_0` composes level 1 of the first NFT with level 0 of the second, `sync_0_0` level
+0 with level 0. z3-noodler keeps the synchronized level (`project_out_sync_levels = false`), uses
+`JumpMode::NoJump`, and trims the result. The files were written by a temporary dump in the z3-noodler of the Mata
+devel port (2026-11, `937be1d`), run with `model=false` for 30 s on each formula of the family, keeping the
+compositions whose operands have at least 10^5 pairs of states, 604 after removing duplicates out of 974. Symbols are
+the numbers z3-noodler gives the characters, and the one letter of its length abstraction.
+
+## Reductions
+
+`benchmarks/nft/<family>/reduce` and `benchmarks/nfa/z3-noodler-reduce/<family>` hold the arguments of the
+simulation-based reductions z3-noodler performs, `mata::nft::reduce()` and `mata::nfa::reduce()`, one automaton per
+file. They were written by a temporary dump in the z3-noodler of the Mata devel port (2026-11, `bd4fea4`, Mata
+`v1.32.45-dev.188`) wrapping every call of both functions, run with `model=false` for 60 s on each formula of
+transducer-plus, webapp and omark and on a sample of the slowest formulas of the other families, keeping the arguments
+of at least 200 states. Out of 5865 distinct NFTs and 7590 distinct NFAs, 156 and 137 are kept: per call site, the
+slowest to reduce and a spread of sizes, within about 72 MB. Reducing each file gives the size z3-noodler got.
+
+The name of a file is the formula, the call site and the number of the call. NFT call sites, of NFTs of two to five
+levels:
+
+* `length_tapes`: `DecisionProcedure::get_formula_for_transducers()` after each composition of the length constraints
+  of transducers, the levels no later composition reads relabelled by the one letter of the length abstraction.
+* `length_formula`: the same composed NFT before its Parikh formula, `reduce(remove_epsilon(nft).trim())`.
+* `length_overapprox`: the one-letter abstraction of each transducer, when the formula over-approximates the lengths.
+* `replace_prefix_tree`, `replace_single`, `replace_composition`: the NFTs of a chain of `str.replace_re(_all)` built
+  by `gather_transducer_constraints()`: the prefix tree of literal finds, one replace after `remove_epsilon()` and
+  `trim()`, and the composition of two of them.
+
+NFA call sites:
+
+* `equation_product`: `DecisionProcedure::equation_product()`, the trimmed product of the automata of both sides of an
+  equation, with `4294967294` (`EPSILON - 1`) as the delimiter of the variables of the right side.
+* `apply_language`: the image of the language of a variable under a transducer, after `remove_epsilon()`.
+* `preprocess_automata`: `FormulaPreprocessor::reduce_automata()`, the automata of the variables.
+* `regex_node`, `regex_loop`, `memb_union`: automata the regex conversion and the membership heuristics reduce.
+
+Symbols are the numbers z3-noodler gives the characters; `196608` is its dummy symbol and `196609` the one letter of
+the length abstraction.
 
 ## Contributing
 
